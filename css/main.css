@@ -288,7 +288,13 @@ a.hint-link .fa {
     font-size: 75%;
 }
 
-.source-link, .wiki-link {
+.source-link{
+    text-transform: lowercase;
+    position: absolute;
+    right: 100px;
+    bottom: 15px;
+}
+.wiki-link {
     text-transform: lowercase;
     position: absolute;
     right: 15px;
@@ -583,4 +589,8 @@ table.old-new td {
     h3 {
         page-break-after: avoid;
     }
+}
+.description{
+	position:relative;
+	padding: 15px;
 }

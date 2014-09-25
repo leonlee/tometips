@@ -230,8 +230,10 @@ Handlebars.registerHelper('toTitleCase', function(context, options) {
     return toTitleCase(context);
 });
 
-Handlebars.registerHelper('toLowerCase', function(context, options) {
-    return context.toLowerCase();
+Handlebars.registerHelper('toWikiLink', function(context, options) {
+    s = context.toLowerCase();
+	s = s.replace(/ /g, "_")
+	return s.substring(0, 1).toUpperCase() + s.substring(1);
 });
 
 Handlebars.registerHelper('toDecimal', function(context, places, options) {

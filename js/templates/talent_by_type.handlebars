@@ -2,7 +2,10 @@
 {{#each this}}
 <h2><a class="anchor" id="talents/{{type}}"></a>{{chnname}}</h2>
 <div>
-    <p>{{chndescription}}</p>
+    <div class="description">
+	<p>{{chndescription}}</p>
+	<div class="wiki-link"><a href="http://te4.org/wiki/{{toWikiLink name}}_(category)" target="_blank">查看wiki</a></div>
+    </div>
     <p id="talents/{{type}}-avail"></p>
     <div>
         {{#each talents}}
@@ -17,6 +20,7 @@
                 <div id="collapse-{{toHtmlId id}}" class="talent-details panel-collapse collapse">
                     <div class="panel-body">
                         {{> talent_details}}
+						<div class="wiki-link"><a href="http://te4.org/wiki/{{toWikiLink name}}_(talent)" target="_blank">查看wiki</a></div>
                         {{#if source_code}}<div class="source-link"><a href="http://git.net-core.org/darkgod/t-engine4/blob/{{tag}}/game/modules/tome/{{source_code.[0]}}#L{{source_code.[1]}}" target="_blank">查看源代码</a></div>{{/if}}
                         </div>
                     </div>
