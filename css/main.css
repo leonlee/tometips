@@ -15,12 +15,14 @@ button,
 input,
 select,
 textarea {
-	font-family = "Helvetica","Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei","华文细黑","STHeiti", FontAwesome, freesans, clean, sans-serif;
     color: #222;
 }
 
 body {
     line-height: 1.4;
+}
+h1, h2, h3, h4, h5, h6, body{
+	font-family: "Helvetica","Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei","华文细黑","STHeiti", FontAwesome, freesans, clean, sans-serif;
 }
 
 /*
