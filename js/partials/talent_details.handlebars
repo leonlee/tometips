@@ -1,0 +1,24 @@
+<dl class='dl-table'>
+    {{#if require}}
+        <dt>技能要求</dt>
+        <dd>
+            {{#if multi_require}}
+                <span class="html-tooltip" data-toggle="tooltip" data-placement="right" title="
+                技能等级 1-{{points}} 的需求:
+                <ol>
+                {{#each require}}
+                    <li>{{this}}</li>
+                {{/each}}
+                </ol>">{{require.[0]}}</span>
+            {{else}}
+                {{require.[0]}}
+            {{/if}}
+        </dd>
+    {{/if}}
+    {{#if mode}}<dt>使用模式</dt><dd>{{mode}}</dd>{{/if}}
+    {{#if cost}}<dt>消耗</dt><dd>{{{cost}}}</dd>{{/if}}
+    {{#if range}}<dt>作用范围</dt><dd>{{{range}}}</dd>{{/if}}
+    {{#if cooldown}}<dt>冷却时间</dt><dd>{{{cooldown}}}</dd>{{/if}}
+    {{#if use_speed}}<dt>施放速度</dt><dd>{{use_speed}}</dd>{{/if}}
+    {{#if info_text}}<dt class="multiline-dd">描述</dt><dd>{{{info_text}}}</dd>{{/if}}
+</dl>

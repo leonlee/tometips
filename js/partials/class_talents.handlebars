@@ -1,0 +1,19 @@
+{{! For a class, shows the talent types that it can learn. }}
+{{! Note the duplicated format talent_classes.handlebars. }}
+{{#if talents_types}}
+    <div class="col-md-4">
+        <h4>{{title}}</h4>
+        <ul>
+        {{#eachProperty talents_types}}
+            {{#if value.[2]}}
+                <li>
+                    <a href="#talents/{{toHtmlId key}}{{currentQuery}}">{{toTitleCase value.[2]}}</a>
+                    {{> talent_mastery value}}
+                    <br>
+                    <div data-talent-type="{{toHtmlId key}}" class="class-talents-detail {{#unless value.[0]}}locked{{/unless}}"></div>
+                </li>
+            {{/if}}
+        {{/eachProperty}}
+        </ul>
+    </div>
+{{/if}}
