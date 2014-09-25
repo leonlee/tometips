@@ -22,21 +22,21 @@
         </div>
         <div class="class-detail-container container-fluid">
             <div class="col-md-4">
-                <h4>Stats</h4>
+                <h4>属性值</h4>
                 <dl class="dl-horizontal stats">
-                    {{stat "Strength" stats.str}}
-                    {{stat "Dexterity" stats.dex}}
-                    {{stat "Constitution" stats.con}}
-                    {{stat "Magic" stats.mag}}
-                    {{stat "Willpower" stats.wil}}
-                    {{stat "Cunning" stats.cun}}
-                    {{stat "Life per level" copy_add.life_rating}}
+                    {{stat "力量" stats.str}}
+                    {{stat "敏捷" stats.dex}}
+                    {{stat "体质" stats.con}}
+                    {{stat "魔法" stats.mag}}
+                    {{stat "意志" stats.wil}}
+                    {{stat "灵巧" stats.cun}}
+                    {{stat "每等级生命加值" copy_add.life_rating}}
                 </dl>
             </div>
         </div>
         <div class="class-detail-container container-fluid">
-            {{$ 'class_talents' talents_types=talents_types_class title='Class Talents' css_class='class-talents' }}
-            {{$ 'class_talents' talents_types=talents_types_generic title='Generic Talents' css_class='generic-talents' }}
+            {{$ 'class_talents' talents_types=talents_types_class title='职业技能' css_class='class-talents' }}
+            {{$ 'class_talents' talents_types=talents_types_generic title='通用技能' css_class='generic-talents' }}
         </div>
     {{/each}}
 </div>
