@@ -1,1 +1,365 @@
-[{"type":"golem/arcane","is_spell":true,"talents":[{"cost":"10 mana","mana":10,"range":"7.0","image":"golem_beam.png","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"source_code":["data/talents/spells/golem.lua",295],"type":["golem/arcane",1],"is_spell":true,"short_name":"GOLEM_BEAM","id":"T_GOLEM_BEAM","no_silence":true,"multi_require":true,"use_speed":"Spell","info_text":"<p>Your golem fires a beam from his eyes, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">220, 298, 359, 411, 456</acronym> fire damage, <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">220, 298, 359, 411, 456</acronym> cold damage or <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">220, 298, 359, 411, 456</acronym> lightning damage.</p><p>The damage will increase with your golem's Spellpower.</p>","name":"Eye Beam","requires_target":true,"mode":"activated","cooldown":3},{"multi_require":true,"range":"10.0","image":"golem_reflective_skin.png","source_code":["data/talents/spells/golem.lua",361],"mode":"sustained","require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"cost":"30 mana","sustain_mana":30,"type":["golem/arcane",2],"is_spell":true,"points":5,"id":"T_GOLEM_REFLECTIVE_SKIN","no_silence":true,"use_speed":"Spell","info_text":"<p>Your golem's skin shimmers with eldritch energies.</p><p>Any damage it takes is partly reflected (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45%, 51%, 54%, 57%, 59%</acronym>) to the attacker.</p><p>The golem still takes full damage.</p><p>Damage returned will increase with your golem's Spellpower.</p>","name":"Reflective Skin","requires_target":true,"short_name":"GOLEM_REFLECTIVE_SKIN","cooldown":70},{"cost":"20 mana","mana":20,"range":"0.0","image":"golem_arcane_pull.png","source_code":["data/talents/spells/golem.lua",395],"points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"multi_require":true,"is_spell":true,"short_name":"GOLEM_ARCANE_PULL","id":"T_GOLEM_ARCANE_PULL","no_silence":true,"use_speed":"Spell","info_text":"<p>Your golem pulls all foes within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 5, 5, 6</acronym> toward itself while dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">79, 108, 129, 148, 164</acronym> arcane damage.</p>","mode":"activated","name":"Arcane Pull","requires_target":true,"type":["golem/arcane",3],"cooldown":15},{"cost":"60 mana","mana":60,"short_name":"GOLEM_MOLTEN_SKIN","image":"golem_molten_skin.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"source_code":["data/talents/spells/golem.lua",437],"radius":3,"is_spell":true,"id":"T_GOLEM_MOLTEN_SKIN","no_silence":true,"multi_require":true,"use_speed":"Spell","info_text":"<p>Turns the golem's skin into molten rock. The heat generated sets ablaze everything inside a radius of 3, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">79, 108, 129, 148, 164</acronym> fire damage in 3 turns for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 8, 10, 11</acronym> turns.</p><p>Burning is cumulative; the longer they stay within range, they higher the fire damage they take.</p><p>In addition the golem gains <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">68%, 82%, 92%, 101%, 109%</acronym> fire resistance.</p><p>Molten Skin damage will not affect the golem's master.</p><p>The damage and resistance will increase with your Spellpower.</p>","name":"Molten Skin","mode":"activated","range":"0.0","type":["golem/arcane",4],"cooldown":15}],"description":"Golem arcane capacity.","points":1,"no_silence":true,"name":"arcane"},{"type":"golem/drolem","description":"Drolem basic capacity.","points":1,"talents":[{"cost":"25 mana","mana":25,"short_name":"DROLEM_POISON_BREATH","image":"poison_breath.png","points":5,"require":["Level 10, Mag 22","Level 11, Mag 24","Level 12, Mag 26","Level 13, Mag 28","Level 14, Mag 30"],"source_code":["data/talents/spells/golem.lua",531],"radius":5,"multi_require":true,"range":"0.0","id":"T_DROLEM_POISON_BREATH","use_speed":"Standard","info_text":"<p>Breathe poison on your foes, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">157, 204, 240, 269, 294</acronym> damage over a few turns.</p><p>The damage will increase with your Magic.</p>","message":"@Source@ breathes poison!","mode":"activated","name":"Poison Breath","requires_target":true,"type":["golem/drolem",1],"cooldown":8}],"name":"drolem"},{"type":"golem/fighting","description":"Golem melee capacity.","points":1,"talents":[{"cost":"5 stamina","multi_require":true,"short_name":"GOLEM_KNOCKBACK","image":"golem_knockback.png","points":5,"require":["Level 0, Str 12","Level 1, Str 14","Level 2, Str 16","Level 3, Str 18","Level 4, Str 20"],"type":["golem/fighting",1],"source_code":["data/talents/spells/golem.lua",24],"id":"T_GOLEM_KNOCKBACK","use_speed":"Standard","info_text":"<p>Your golem rushes to the target, knocking it back and doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">120%, 137%, 150%, 161%, 171%</acronym> damage.</p><p>Knockback chance will increase with talent level.</p>","mode":"activated","name":"Knockback","requires_target":true,"stamina":5,"range":"5.0","cooldown":10},{"cost":"5 stamina","multi_require":true,"short_name":"GOLEM_TAUNT","image":"golem_taunt.png","points":5,"require":["Level 4, Str 20","Level 5, Str 22","Level 6, Str 24","Level 7, Str 26","Level 8, Str 28"],"source_code":["data/talents/spells/golem.lua",98],"id":"T_GOLEM_TAUNT","use_speed":"Standard","info_text":"<p>The golem taunts targets in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">0, 1, 2, 2, 3,</acronym> forcing them to attack it.</p>","mode":"activated","type":["golem/fighting",2],"name":"Taunt","requires_target":true,"stamina":5,"range":"10.0","cooldown":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">18, 15, 13, 12, 10</acronym>"},{"cost":"5 stamina","multi_require":true,"short_name":"GOLEM_CRUSH","image":"golem_crush.png","points":5,"require":["Level 8, Str 28","Level 9, Str 30","Level 10, Str 32","Level 11, Str 34","Level 12, Str 36"],"type":["golem/fighting",3],"source_code":["data/talents/spells/golem.lua",137],"use_speed":"Standard","info_text":"<p>Your golem rushes to the target, crushing it into the ground for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns and doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">120%, 137%, 150%, 161%, 171%</acronym> damage.</p><p>Pinning chance will increase with talent level.</p>","id":"T_GOLEM_CRUSH","mode":"activated","name":"Crush","requires_target":true,"stamina":5,"range":"5.0","cooldown":10},{"cost":"5 stamina","multi_require":true,"short_name":"GOLEM_POUND","image":"golem_pound.png","points":5,"require":["Level 12, Str 36","Level 13, Str 38","Level 14, Str 40","Level 15, Str 42","Level 16, Str 44"],"source_code":["data/talents/spells/golem.lua",210],"info_text":"<p>Your golem rushes to the target and creates a shockwave with radius 2, dazing all foes for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns and doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">75%, 90%, 101%, 111%, 119%</acronym> damage.</p><p>Daze chance increases with talent level.</p>","radius":2,"use_speed":"Standard","id":"T_GOLEM_POUND","mode":"activated","type":["golem/fighting",4],"name":"Pound","requires_target":true,"stamina":5,"range":"5.0","cooldown":15}],"name":"fighting"},{"type":"golem/golem","description":"Golem basic capacity.","points":1,"talents":[{"short_name":"GOLEM_DESTRUCT","image":"golem_destruct.png","points":1,"no_unlearn_last":true,"radius":4,"id":"T_GOLEM_DESTRUCT","source_code":["data/talents/spells/golem.lua",480],"use_speed":"Standard","name":"Self-destruction","range":"0.0","type":["golem/golem",1],"mode":"activated","info_text":"<p>The golem self-destructs, destroying itself and generating a blast of fire in a radius of 4, doing 60.00 fire damage.</p><p>This spell is only usable when the golem's master is dead.</p>"},{"no_unlearn_last":true,"type":["golem/golem",1],"source_code":["data/talents/spells/golem.lua",511],"id":"T_GOLEM_ARMOUR","short_name":"GOLEM_ARMOUR","info_text":"<p>The golem automatically reconfigures heavy mail and massive armours designed for living creatures to protect its own vital areas.</p><p><acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">Decreases, Decreases, Increases, Increases, Increases</acronym> armour value by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">-2, -1, 0, 1, 2,</acronym> armour hardiness by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">-10%, -5%, 0%, 5%, 10%,</acronym> and provides <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">-3%, -1%, 0%, 1%, 3%</acronym> critical hit reduction when wearing heavy mail or massive armour.</p>","image":"golem_armour.png","name":"Armour Configuration","points":6,"mode":"passive"}],"name":"golem"}]
+[
+    {
+        "description": "Golem arcane capacity.",
+        "is_spell": true,
+        "name": "arcane",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 3,
+                "cost": "10 mana",
+                "id": "T_GOLEM_BEAM",
+                "image": "golem_beam.png",
+                "info_text": "<p>Your golem fires a beam from his eyes, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">220, 298, 359, 411, 456</acronym> fire damage, <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">220, 298, 359, 411, 456</acronym> cold damage or <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">220, 298, 359, 411, 456</acronym> lightning damage.</p><p>The damage will increase with your golem's Spellpower.</p>",
+                "is_spell": true,
+                "mana": 10,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Eye Beam",
+                "no_silence": true,
+                "points": 5,
+                "range": "7.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "GOLEM_BEAM",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    295
+                ],
+                "type": [
+                    "golem/arcane",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 70,
+                "cost": "30 mana",
+                "id": "T_GOLEM_REFLECTIVE_SKIN",
+                "image": "golem_reflective_skin.png",
+                "info_text": "<p>Your golem's skin shimmers with eldritch energies.</p><p>Any damage it takes is partly reflected (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45%, 51%, 54%, 57%, 59%</acronym>) to the attacker.</p><p>The golem still takes full damage.</p><p>Damage returned will increase with your golem's Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Reflective Skin",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "GOLEM_REFLECTIVE_SKIN",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    361
+                ],
+                "sustain_mana": 30,
+                "type": [
+                    "golem/arcane",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 15,
+                "cost": "20 mana",
+                "id": "T_GOLEM_ARCANE_PULL",
+                "image": "golem_arcane_pull.png",
+                "info_text": "<p>Your golem pulls all foes within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 5, 5, 6</acronym> toward itself while dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">79, 108, 129, 148, 164</acronym> arcane damage.</p>",
+                "is_spell": true,
+                "mana": 20,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Arcane Pull",
+                "no_silence": true,
+                "points": 5,
+                "range": "0.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "GOLEM_ARCANE_PULL",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    395
+                ],
+                "type": [
+                    "golem/arcane",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 15,
+                "cost": "60 mana",
+                "id": "T_GOLEM_MOLTEN_SKIN",
+                "image": "golem_molten_skin.png",
+                "info_text": "<p>Turns the golem's skin into molten rock. The heat generated sets ablaze everything inside a radius of 3, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">79, 108, 129, 148, 164</acronym> fire damage in 3 turns for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 8, 10, 11</acronym> turns.</p><p>Burning is cumulative; the longer they stay within range, they higher the fire damage they take.</p><p>In addition the golem gains <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">68%, 82%, 92%, 101%, 109%</acronym> fire resistance.</p><p>Molten Skin damage will not affect the golem's master.</p><p>The damage and resistance will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mana": 60,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Molten Skin",
+                "no_silence": true,
+                "points": 5,
+                "radius": 3,
+                "range": "0.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "GOLEM_MOLTEN_SKIN",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    437
+                ],
+                "type": [
+                    "golem/arcane",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "golem/arcane"
+    },
+    {
+        "description": "Drolem basic capacity.",
+        "name": "drolem",
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 8,
+                "cost": "25 mana",
+                "id": "T_DROLEM_POISON_BREATH",
+                "image": "poison_breath.png",
+                "info_text": "<p>Breathe poison on your foes, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">157, 204, 240, 269, 294</acronym> damage over a few turns.</p><p>The damage will increase with your Magic.</p>",
+                "mana": 25,
+                "message": "@Source@ breathes poison!",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Poison Breath",
+                "points": 5,
+                "radius": 5,
+                "range": "0.0",
+                "require": [
+                    "Level 10, Mag 22",
+                    "Level 11, Mag 24",
+                    "Level 12, Mag 26",
+                    "Level 13, Mag 28",
+                    "Level 14, Mag 30"
+                ],
+                "requires_target": true,
+                "short_name": "DROLEM_POISON_BREATH",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    531
+                ],
+                "type": [
+                    "golem/drolem",
+                    1
+                ],
+                "use_speed": "Standard"
+            }
+        ],
+        "type": "golem/drolem"
+    },
+    {
+        "description": "Golem melee capacity.",
+        "name": "fighting",
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 10,
+                "cost": "5 stamina",
+                "id": "T_GOLEM_KNOCKBACK",
+                "image": "golem_knockback.png",
+                "info_text": "<p>Your golem rushes to the target, knocking it back and doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">120%, 137%, 150%, 161%, 171%</acronym> damage.</p><p>Knockback chance will increase with talent level.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Knockback",
+                "points": 5,
+                "range": "5.0",
+                "require": [
+                    "Level 0, Str 12",
+                    "Level 1, Str 14",
+                    "Level 2, Str 16",
+                    "Level 3, Str 18",
+                    "Level 4, Str 20"
+                ],
+                "requires_target": true,
+                "short_name": "GOLEM_KNOCKBACK",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    24
+                ],
+                "stamina": 5,
+                "type": [
+                    "golem/fighting",
+                    1
+                ],
+                "use_speed": "Standard"
+            },
+            {
+                "cooldown": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">18, 15, 13, 12, 10</acronym>",
+                "cost": "5 stamina",
+                "id": "T_GOLEM_TAUNT",
+                "image": "golem_taunt.png",
+                "info_text": "<p>The golem taunts targets in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">0, 1, 2, 2, 3,</acronym> forcing them to attack it.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Taunt",
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Str 20",
+                    "Level 5, Str 22",
+                    "Level 6, Str 24",
+                    "Level 7, Str 26",
+                    "Level 8, Str 28"
+                ],
+                "requires_target": true,
+                "short_name": "GOLEM_TAUNT",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    98
+                ],
+                "stamina": 5,
+                "type": [
+                    "golem/fighting",
+                    2
+                ],
+                "use_speed": "Standard"
+            },
+            {
+                "cooldown": 10,
+                "cost": "5 stamina",
+                "id": "T_GOLEM_CRUSH",
+                "image": "golem_crush.png",
+                "info_text": "<p>Your golem rushes to the target, crushing it into the ground for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns and doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">120%, 137%, 150%, 161%, 171%</acronym> damage.</p><p>Pinning chance will increase with talent level.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Crush",
+                "points": 5,
+                "range": "5.0",
+                "require": [
+                    "Level 8, Str 28",
+                    "Level 9, Str 30",
+                    "Level 10, Str 32",
+                    "Level 11, Str 34",
+                    "Level 12, Str 36"
+                ],
+                "requires_target": true,
+                "short_name": "GOLEM_CRUSH",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    137
+                ],
+                "stamina": 5,
+                "type": [
+                    "golem/fighting",
+                    3
+                ],
+                "use_speed": "Standard"
+            },
+            {
+                "cooldown": 15,
+                "cost": "5 stamina",
+                "id": "T_GOLEM_POUND",
+                "image": "golem_pound.png",
+                "info_text": "<p>Your golem rushes to the target and creates a shockwave with radius 2, dazing all foes for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns and doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">75%, 90%, 101%, 111%, 119%</acronym> damage.</p><p>Daze chance increases with talent level.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Pound",
+                "points": 5,
+                "radius": 2,
+                "range": "5.0",
+                "require": [
+                    "Level 12, Str 36",
+                    "Level 13, Str 38",
+                    "Level 14, Str 40",
+                    "Level 15, Str 42",
+                    "Level 16, Str 44"
+                ],
+                "requires_target": true,
+                "short_name": "GOLEM_POUND",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    210
+                ],
+                "stamina": 5,
+                "type": [
+                    "golem/fighting",
+                    4
+                ],
+                "use_speed": "Standard"
+            }
+        ],
+        "type": "golem/fighting"
+    },
+    {
+        "description": "Golem basic capacity.",
+        "name": "golem",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_GOLEM_DESTRUCT",
+                "image": "golem_destruct.png",
+                "info_text": "<p>The golem self-destructs, destroying itself and generating a blast of fire in a radius of 4, doing 60.00 fire damage.</p><p>This spell is only usable when the golem's master is dead.</p>",
+                "mode": "activated",
+                "name": "Self-destruction",
+                "no_unlearn_last": true,
+                "points": 1,
+                "radius": 4,
+                "range": "0.0",
+                "short_name": "GOLEM_DESTRUCT",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    480
+                ],
+                "type": [
+                    "golem/golem",
+                    1
+                ],
+                "use_speed": "Standard"
+            },
+            {
+                "id": "T_GOLEM_ARMOUR",
+                "image": "golem_armour.png",
+                "info_text": "<p>The golem automatically reconfigures heavy mail and massive armours designed for living creatures to protect its own vital areas.</p><p><acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">Decreases, Decreases, Increases, Increases, Increases</acronym> armour value by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">-2, -1, 0, 1, 2,</acronym> armour hardiness by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">-10%, -5%, 0%, 5%, 10%,</acronym> and provides <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5\">-3%, -1%, 0%, 1%, 3%</acronym> critical hit reduction when wearing heavy mail or massive armour.</p>",
+                "mode": "passive",
+                "name": "Armour Configuration",
+                "no_unlearn_last": true,
+                "points": 6,
+                "short_name": "GOLEM_ARMOUR",
+                "source_code": [
+                    "data/talents/spells/golem.lua",
+                    511
+                ],
+                "type": [
+                    "golem/golem",
+                    1
+                ]
+            }
+        ],
+        "type": "golem/golem"
+    }
+]

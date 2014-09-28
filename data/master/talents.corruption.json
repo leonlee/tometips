@@ -1,1 +1,1947 @@
-[{"talents":[{"cost":"20 vim","multi_require":true,"short_name":"DARK_RITUAL","image":"dark_ritual.png","mode":"sustained","require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"sustain_vim":20,"type":["corruption/blight",1],"is_spell":true,"source_code":["data/talents/corruptions/blight.lua",20],"id":"T_DARK_RITUAL","no_silence":true,"points":5,"use_speed":"Spell","range":"1.0","name":"Dark Ritual","info_text":"<p>Increases your spell critical damage multiplier by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">38%, 52%, 62%, 71%, 79%.</acronym></p><p>The multiplier will increase with your Spellpower.</p>","cooldown":30},{"cost":"30 vim","multi_require":true,"range":"10.0","image":"corrupted_negation.png","source_code":["data/talents/corruptions/blight.lua",47],"points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"info_text":"<p>Project a corrupted blast of power that deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">79, 108, 129, 148, 164</acronym> blight damage and removes up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 3, 4, 5, 5</acronym> magical or physical effect(s) from any creatures caught in the radius 3 ball.</p><p>For each effect, the creature has a chance to resist based on its spell save.</p><p>The damage will increase with your Spellpower.</p>","vim":30,"radius":3,"is_spell":true,"use_speed":"Spell","id":"T_CORRUPTED_NEGATION","mode":"activated","short_name":"CORRUPTED_NEGATION","type":["corruption/blight",2],"name":"Corrupted Negation","requires_target":true,"no_silence":true,"cooldown":10},{"cost":"12 vim","multi_require":true,"range":"10.0","image":"corrosive_worm.png","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"source_code":["data/talents/corruptions/blight.lua",117],"type":["corruption/blight",3],"is_spell":true,"vim":12,"id":"T_CORROSIVE_WORM","no_silence":true,"use_speed":"Spell","info_text":"<p>Infect your target with a corrosive worm that deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">39, 52, 63, 72, 80</acronym> acid damage per turn for 10 turns.</p><p>If the target dies while the worm is inside, it will explode, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">156, 212, 255, 291, 323</acronym> acid damage in a radius of 4.</p><p>The damage will increase with your Spellpower, and can critical.</p>","mode":"activated","name":"Corrosive Worm","requires_target":true,"short_name":"CORROSIVE_WORM","cooldown":10},{"cost":"36 vim","multi_require":true,"range":"0.0","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"source_code":["data/talents/corruptions/blight.lua",147],"use_speed":"Spell","radius":4,"is_spell":true,"vim":36,"id":"T_POISON_STORM","no_silence":true,"info_text":"<p>A furious poison storm rages around the caster in a radius of 4 for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.  Each creature hit by the storm is poisoned for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">86, 117, 141, 161, 179</acronym> nature damage over 6 turns.</p><p>Poisoning is cumulative; the longer they stay in the storm, the higher the poison damage they take.</p><p>The damage will increase with your Spellpower, and can critical.</p>","mode":"activated","short_name":"POISON_STORM","name":"Poison Storm","image":"poison_storm.png","type":["corruption/blight",4],"cooldown":30}],"type":"corruption/blight","is_spell":true,"name":"blight","description":"Bring corruption and decay to all who oppose you.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"cost":"24 vim","multi_require":true,"range":"0.0","vim":24,"image":"blood_spray.png","source_code":["data/talents/corruptions/blood.lua",20],"points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"info_text":"<p>You extract corrupted blood from your own body, hitting everything in a frontal cone of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">128, 174, 209, 239, 265</acronym> blight damage.</p><p>Each creature hit has a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">36%, 54%, 64%, 70%, 75%</acronym> chance of being infected by a random disease, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">149, 202, 243, 278, 309</acronym> blight damage and weakening either Constitution, Strength or Dexterity for 6 turns.</p><p>The damage will increase with your Spellpower.</p>","is_spell":true,"use_speed":"Spell","id":"T_BLOOD_SPRAY","no_silence":true,"mode":"activated","short_name":"BLOOD_SPRAY","type":["corruption/blood",1],"name":"Blood Spray","requires_target":true,"cooldown":7,"direct_hit":true},{"cost":"20 vim","multi_require":true,"range":"10.0","vim":20,"image":"blood_grasp.png","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"source_code":["data/talents/corruptions/blood.lua",59],"use_speed":"Spell","proj_speed":20,"is_spell":true,"id":"T_BLOOD_GRASP","no_silence":true,"info_text":"<p>Project a bolt of corrupted blood, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">199, 269, 324, 371, 412</acronym> blight damage and healing you for half the damage done.</p><p>The damage will increase with your Spellpower.</p>","mode":"activated","short_name":"BLOOD_GRASP","name":"Blood Grasp","requires_target":true,"type":["corruption/blood",2],"cooldown":5},{"cost":"30 vim","multi_require":true,"range":"0.0","vim":30,"image":"blood_boil.png","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"source_code":["data/talents/corruptions/blood.lua",87],"type":["corruption/blood",3],"is_spell":true,"use_speed":"Spell","id":"T_BLOOD_BOIL","no_silence":true,"info_text":"<p>Make the blood of all creatures around you in radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> boil, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">128, 174, 209, 239, 265</acronym> blight damage and slowing them by 20%.</p><p>The damage will increase with your Spellpower.</p>","mode":"activated","short_name":"BLOOD_BOIL","name":"Blood Boil","requires_target":true,"cooldown":12},{"cost":"60 vim","multi_require":true,"short_name":"BLOOD_FURY","image":"blood_fury.png","mode":"sustained","require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"sustain_vim":60,"source_code":["data/talents/corruptions/blood.lua",114],"type":["corruption/blood",4],"is_spell":true,"points":5,"id":"T_BLOOD_FURY","no_silence":true,"use_speed":"Spell","range":"1.0","info_text":"<p>Concentrate on the corruption you bring, increasing your spell critical chance by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">8%, 11%, 13%, 15%, 17%.</acronym></p><p>Each time your spells go critical, you enter a blood rage for 5 turns, increasing your blight and acid damage by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">18%, 25%, 30%, 35%, 38%.</acronym></p><p>The critical chance and damage increase will improve with your Spellpower.</p>","name":"Blood Fury","cooldown":30}],"type":"corruption/blood","is_spell":true,"name":"blood","description":"Harness the power of blood, both your own and your foes'.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"cost":"13 vim","multi_require":true,"range":"10.0","vim":13,"image":"bone_spear.png","source_code":["data/talents/corruptions/bone.lua",20],"points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"info_text":"<p>Conjures up a spear of bones, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">135, 183, 220, 252, 280</acronym> physical damage to all targets in line.</p><p>The damage will increase with your Spellpower.</p>","type":["corruption/bone",1],"is_spell":true,"use_speed":"Spell","id":"T_BONE_SPEAR","no_silence":true,"mode":"activated","short_name":"BONE_SPEAR","random_ego":"attack","name":"Bone Spear","requires_target":true,"cooldown":4,"direct_hit":true},{"cost":"28 vim","multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5.0, 8.0, 8.0, 9.0, 9.0</acronym>","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"source_code":["data/talents/corruptions/bone.lua",51],"use_speed":"Spell","type":["corruption/bone",2],"is_spell":true,"vim":28,"id":"T_BONE_GRAB","no_silence":true,"info_text":"<p>Grab a target and teleport it to your side, pinning it there with a bone rising from the ground for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The bone will also deal <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">93, 126, 152, 174, 193</acronym> physical damage.</p><p>The damage will increase with your Spellpower.</p>","mode":"activated","short_name":"BONE_GRAB","name":"Bone Grab","requires_target":true,"image":"bone_grab.png","cooldown":15},{"cost":"25 vim","multi_require":true,"short_name":"BONE_NOVA","vim":25,"image":"bone_nova.png","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"source_code":["data/talents/corruptions/bone.lua",94],"use_speed":"Spell","type":["corruption/bone",3],"is_spell":true,"id":"T_BONE_NOVA","no_silence":true,"range":"1.0","info_text":"<p>Fire bone spears in all directions, hitting all foes within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">121, 164, 197, 226, 251</acronym> physical damage.</p><p>The damage will increase with your Spellpower.</p>","mode":"activated","name":"Bone Nova","random_ego":"attack","cooldown":12},{"no_sustain_autoreset":true,"source_code":["data/talents/corruptions/bone.lua",120],"cost":"50 vim","info_text":"<p>Bone shields start circling around you. They will each fully absorb one attack.</p><p><acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> shield(s) will be generated when first activated.</p><p>Then every <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">30, 15, 7, 6, 5</acronym> turns a new one will be created if not full.</p>","multi_require":true,"short_name":"BONE_SHIELD","image":"bone_shield.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"sustain_vim":50,"use_speed":"Spell","type":["corruption/bone",4],"is_spell":true,"range":"1.0","id":"T_BONE_SHIELD","no_silence":true,"name":"Bone Shield","mode":"sustained","cooldown":30,"direct_hit":true}],"type":"corruption/bone","is_spell":true,"name":"bone","description":"Harness the power of bones.","points":1,"no_silence":true,"allow_random":true},{"type":"corruption/curses","description":"Curse your foes, hindering and crippling them.","no_silence":true,"generic":true,"name":"curses","talents":[{"cost":"20 vim","multi_require":true,"range":"10.0","image":"curse_of_defenselessness.png","source_code":["data/talents/corruptions/curses.lua",20],"points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"info_text":"<p>Curses your target, decreasing its Defense and all saves by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">38, 52, 62, 71, 79</acronym> for 10 turns.</p><p>The effects will improve with your Spellpower.</p>","type":["corruption/curses",1],"is_spell":true,"use_speed":"Spell","id":"T_CURSE_OF_DEFENSELESSNESS","no_silence":true,"mode":"activated","short_name":"CURSE_OF_DEFENSELESSNESS","generic":true,"name":"Curse of Defenselessness","requires_target":true,"vim":20,"cooldown":20,"direct_hit":true},{"cost":"20 vim","range":"10.0","image":"curse_of_impotence.png","source_code":["data/talents/corruptions/curses.lua",50],"info_text":"<p>Curses your target, decreasing all damage they do by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">18%, 23%, 27%, 30%, 32%</acronym> for 10 turns.</p><p>The effects will improve with your Spellpower.</p>","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"multi_require":true,"type":["corruption/curses",2],"is_spell":true,"use_speed":"Spell","id":"T_CURSE_OF_IMPOTENCE","no_silence":true,"mode":"activated","short_name":"CURSE_OF_IMPOTENCE","generic":true,"name":"Curse of Impotence","requires_target":true,"vim":20,"cooldown":20,"direct_hit":true},{"cost":"20 vim","multi_require":true,"range":"10.0","image":"curse_of_death.png","source_code":["data/talents/corruptions/curses.lua",81],"points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"info_text":"<p>Curses your target, stopping any natural healing and dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 74, 85, 94</acronym> darkness damage each turn for 10 turns.</p><p>The damage will increase with your Spellpower.</p>","type":["corruption/curses",3],"is_spell":true,"use_speed":"Spell","id":"T_CURSE_OF_DEATH","no_silence":true,"mode":"activated","short_name":"CURSE_OF_DEATH","generic":true,"name":"Curse of Death","requires_target":true,"vim":20,"cooldown":20,"direct_hit":true},{"cost":"20 vim","multi_require":true,"range":"10.0","image":"curse_of_vulnerability.png","source_code":["data/talents/corruptions/curses.lua",111],"points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"info_text":"<p>Curses your target, decreasing all its resistances by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25%, 34%, 41%, 47%, 52%</acronym> for 7 turns.</p><p>The effect will improve with your Spellpower.</p>","type":["corruption/curses",4],"is_spell":true,"use_speed":"Spell","id":"T_CURSE_OF_VULNERABILITY","no_silence":true,"mode":"activated","short_name":"CURSE_OF_VULNERABILITY","generic":true,"name":"Curse of Vulnerability","requires_target":true,"vim":20,"cooldown":20,"direct_hit":true}],"points":1,"is_spell":true,"allow_random":true},{"type":"corruption/hexes","description":"Hex your foes, hindering and crippling them.","no_silence":true,"generic":true,"name":"hexes","talents":[{"source_code":["data/talents/corruptions/hexes.lua",20],"multi_require":true,"range":"10.0","mode":"activated","vim":30,"image":"pacification_hex.png","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"cost":"30 vim","use_speed":"Spell","radius":2,"is_spell":true,"info_text":"<p>Hexes your target, dazing it and everything in a 2 radius ball around it for 3 turns, and giving <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">33%, 40%, 45%, 48%, 51%</acronym> chance to daze affected targets again each turn for 20 turns.</p><p>The chance will increase with your Spellpower.</p>","id":"T_PACIFICATION_HEX","no_silence":true,"short_name":"PACIFICATION_HEX","generic":true,"name":"Pacification Hex","requires_target":true,"type":["corruption/hexes",1],"cooldown":20,"direct_hit":true},{"cost":"30 vim","source_code":["data/talents/corruptions/hexes.lua",58],"multi_require":true,"range":"10.0","short_name":"BURNING_HEX","vim":30,"image":"burning_hex.png","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"use_speed":"Spell","info_text":"<p>Hexes your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a resource (stamina, mana, vim, &hellip;), it takes <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">59, 80, 96, 110, 122</acronym> fire damage.</p><p>In addition, the cooldown of any talent used while so hexed is increased by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">18%, 32%, 42%, 51%, 58%</acronym> + 1 turn.</p><p>The damage will increase with your Spellpower.</p>","radius":2,"is_spell":true,"mode":"activated","id":"T_BURNING_HEX","no_silence":true,"type":["corruption/hexes",2],"generic":true,"name":"Burning Hex","requires_target":true,"cooldown":20,"direct_hit":true},{"cost":"30 vim","source_code":["data/talents/corruptions/hexes.lua",96],"multi_require":true,"range":"10.0","short_name":"EMPATHIC_HEX","vim":30,"image":"empathic_hex.png","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"use_speed":"Spell","info_text":"<p>Hexes your target and everything within a radius 2 ball around it. Each time they do damage, they take <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">12%, 15%, 18%, 20%, 22%</acronym> of the same damage for 20 turns.</p><p>The damage will increase with your Spellpower.</p>","radius":2,"is_spell":true,"mode":"activated","id":"T_EMPATHIC_HEX","no_silence":true,"type":["corruption/hexes",3],"generic":true,"name":"Empathic Hex","requires_target":true,"cooldown":20,"direct_hit":true},{"cost":"30 vim","multi_require":true,"range":"10.0","source_code":["data/talents/corruptions/hexes.lua",132],"vim":30,"points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"use_speed":"Spell","type":["corruption/hexes",4],"is_spell":true,"info_text":"<p>Hexes your target, forcing it to be your thrall for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns.</p><p>If you damage the target, it will be freed from the hex.</p>","id":"T_DOMINATION_HEX","no_silence":true,"mode":"activated","short_name":"DOMINATION_HEX","generic":true,"name":"Domination Hex","requires_target":true,"image":"domination_hex.png","cooldown":20,"direct_hit":true}],"points":1,"is_spell":true,"allow_random":true},{"talents":[{"cost":"10 vim","range":"6.0","source_code":["data/talents/misc/horrors.lua",353],"vim":10,"image":"worm_rot.png","use_speed":"Spell","points":5,"info_text":"<p>Infects the target with parasitic carrion worm larvae for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 8, 9, 10</acronym> turns.  Each turn the disease will remove a beneficial physical effect and deal <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 22, 26, 30, 33</acronym> acid and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 22, 26, 30, 33</acronym> blight damage.</p><p>If not cleared after five turns it will inflict <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">206, 279, 336, 384, 426</acronym> acid damage as the larvae hatch, removing the effect but spawning a full grown carrion worm mass near the target's location.</p>","short_name":"WORM_ROT","proj_speed":6,"is_spell":true,"mode":"activated","id":"T_WORM_ROT","no_silence":true,"hide":true,"type":["corruption/horror",1],"name":"Worm Rot","requires_target":true,"cooldown":8}],"type":"corruption/horror","is_spell":true,"name":"horror spells","description":"Spell talents of the various horrors of the world.","points":1,"no_silence":true,"hide":true},{"talents":[{"cost":"27 vim","range":"10.0","source_code":["data/talents/misc/npcs.lua",1279],"vim":27,"mode":"activated","points":5,"hide":true,"use_speed":"Spell","radius":4,"is_spell":true,"info_text":"<p>Corrupted vapour rises at the target location (radius 4) doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">42, 57, 68, 78, 87</acronym> blight damage every turn for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns.</p><p>The damage will increase with Magic stat.</p>","id":"T_BLIGHTZONE","no_silence":true,"short_name":"BLIGHTZONE","image":"blightzone.png","type":["corruption/other",1],"name":"Blightzone","requires_target":true,"cooldown":13,"direct_hit":true}],"type":"corruption/other","is_spell":true,"name":"other","description":"Talents of the various entities of the world.","points":1,"no_silence":true,"hide":true},{"talents":[{"cost":"8 vim","multi_require":true,"range":"5.0","vim":8,"image":"virulent_disease.png","source_code":["data/talents/corruptions/plague.lua",20],"points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"info_text":"<p>Fires a bolt of pure filth, diseasing your target with a disease doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">49, 64, 75, 85, 94</acronym> blight damage per turn for 6 turns, and reducing one of its physical stats (strength, constitution, dexterity) by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">22, 29, 35, 41, 45.</acronym> The three diseases can stack.</p><p>Virulent Disease will always try to apply a disease the target does not currently have, and also one that will have the most debilitating effect for the target.</p><p>The effect will increase with your Spellpower.</p>","type":["corruption/plague",1],"is_spell":true,"use_speed":"Instant","id":"T_VIRULENT_DISEASE","no_silence":true,"mode":"activated","short_name":"VIRULENT_DISEASE","name":"Virulent Disease","requires_target":true,"no_energy":true,"random_ego":"attack","cooldown":3},{"cost":"18 vim","multi_require":true,"range":"8.0","vim":18,"image":"cyst_burst.png","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"source_code":["data/talents/corruptions/plague.lua",73],"use_speed":"Spell","is_spell":true,"id":"T_CYST_BURST","no_silence":true,"info_text":"<p>Make your target's diseases burst, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">55, 75, 90, 103, 115</acronym> blight damage for each disease it is infected with.</p><p>This will also spread any decrepitude, weakness, rotting or epidemic diseases to any nearby foes in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 3, 3, 4.</acronym></p><p>The damage will increase with your Spellpower.</p>","mode":"activated","short_name":"CYST_BURST","name":"Cyst Burst","requires_target":true,"type":["corruption/plague",2],"cooldown":9},{"cost":"20 vim","source_code":["data/talents/corruptions/plague.lua",151],"multi_require":true,"range":"8.0","mode":"activated","vim":20,"points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"use_speed":"Spell","type":["corruption/plague",3],"info_text":"<p>All your foes within a radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 2, 3, 3, 4</acronym> ball infected with a disease enter a cataleptic state, stunning them for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> turns and dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">131%, 143%, 152%, 159%, 166%</acronym> of all remaining disease damage instantly.</p>","id":"T_CATALEPSY","no_silence":true,"short_name":"CATALEPSY","image":"catalepsy.png","is_spell":true,"name":"Catalepsy","requires_target":true,"cooldown":15,"direct_hit":true},{"cost":"20 vim","source_code":["data/talents/corruptions/plague.lua",220],"multi_require":true,"range":"8.0","mode":"activated","image":"epidemic.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"use_speed":"Spell","radius":2,"info_text":"<p>Infects the target with a very contagious disease, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 74, 85, 94</acronym> damage per turn for 6 turns.</p><p>If any blight damage from non-diseases hits the target, the epidemic may activate and spread a random disease to nearby targets within a radius 2 ball.</p><p>The chance to spread increases with the blight damage dealt and is 100% if it is at least <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">31%, 23%, 19%, 16%, 14%</acronym> of the target's maximum life.</p><p>Creatures suffering from that disease will also suffer healing reduction (<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">45%, 51%, 56%, 60%, 63%</acronym>) and diseases immunity reduction (<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">38%, 48%, 55%, 60%, 64%</acronym>).</p><p>Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.</p><p>The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.</p>","id":"T_EPIDEMIC","no_silence":true,"short_name":"EPIDEMIC","is_spell":true,"type":["corruption/plague",4],"name":"Epidemic","requires_target":true,"vim":20,"cooldown":13}],"type":"corruption/plague","is_spell":true,"name":"plague","description":"Spread diseases to your foes.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"cost":"8 vim","multi_require":true,"short_name":"CORRUPTED_STRENGTH","vim":8,"image":"corrupted_strength.png","points":5,"require":["Level 0, Str 12","Level 1, Str 14","Level 2, Str 16","Level 3, Str 18","Level 4, Str 20"],"is_spell":true,"source_code":["data/talents/corruptions/reaving-combat.lua",20],"id":"T_CORRUPTED_STRENGTH","no_silence":true,"mode":"passive","name":"Corrupted Strength","type":["corruption/reaving-combat",1],"info_text":"<p>Allows you to dual wield any type of one handed weapons, and increases the damage of the off-hand weapon to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">54%, 61%, 65%, 69%, 72%.</acronym></p><p>Also, casting a spell (which uses a turn) will give a free melee attack at a random target in melee range for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">80%, 93%, 102%, 111%, 118%</acronym> blight damage.</p>"},{"source_code":["data/talents/corruptions/reaving-combat.lua",46],"type":["corruption/reaving-combat",2],"is_spell":true,"id":"T_BLOODLUST","multi_require":true,"short_name":"BLOODLUST","points":5,"image":"bloodlust.png","no_silence":true,"info_text":"<p>Each time you deal damage to one of your foes, you enter a bloodlust-infused frenzy, increasing your Spellpower by 1 (maximum <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> Spellpower per turn, <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">8, 16, 24, 31, 37</acronym> Spellpower overall), and extending any current frenzy for an additional turn.</p><p>The frenzy lasts up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> turns, and the bonus decreases by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">50%, 33%, 20%, 17%, 14%</acronym> of its current value each turn you don't deal damage.</p>","mode":"passive","require":["Level 4, Str 20","Level 5, Str 22","Level 6, Str 24","Level 7, Str 26","Level 8, Str 28"],"name":"Bloodlust"},{"short_name":"CARRIER","image":"carrier.png","points":5,"require":["Level 8, Str 28","Level 9, Str 30","Level 10, Str 32","Level 11, Str 34","Level 12, Str 36"],"type":["corruption/reaving-combat",3],"is_spell":true,"id":"T_CARRIER","no_silence":true,"source_code":["data/talents/corruptions/reaving-combat.lua",66],"mode":"passive","multi_require":true,"name":"Carrier","info_text":"<p>You gain a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">31%, 57%, 69%, 75%, 80%</acronym> resistance to diseases, and each of your melee attacks have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6%, 11%, 16%, 20%, 24%</acronym> chance to spread any diseases on your target.</p><p>(As the Epidemic talent with the melee attack treated like blight damage.)</p>"},{"source_code":["data/talents/corruptions/reaving-combat.lua",85],"type":["corruption/reaving-combat",4],"is_spell":true,"id":"T_ACID_BLOOD","multi_require":true,"no_silence":true,"points":5,"image":"acid_blood.png","short_name":"ACID_BLOOD","info_text":"<p>Your blood turns into an acidic mixture. When you get hit, the attacker is splashed with acid.</p><p>This deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">19, 25, 31, 35, 39</acronym> acid damage each turn for 5 turns, and reduces the attacker's Accuracy by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">22, 29, 35, 41, 45.</acronym></p><p>At level 3, it will also reduce Armour by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> for 5 turns.</p><p>The damage will increase with your Spellpower.</p>","mode":"passive","require":["Level 12, Str 36","Level 13, Str 38","Level 14, Str 40","Level 15, Str 42","Level 16, Str 44"],"name":"Acid Blood"}],"type":"corruption/reaving-combat","is_spell":true,"name":"reaving combat","description":"Enhanced melee combat through the dark arts.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"cost":"0 vim","multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5.0, 6.0, 8.0, 9.0, 10.0</acronym>","vim":0,"image":"drain.png","source_code":["data/talents/corruptions/sanguisuge.lua",20],"points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"info_text":"<p>Fires a bolt of blight, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">135, 183, 220, 252, 280</acronym> blight damage and replenishing 20% of it as vim energy.</p><p>The amount of vim regained depends on the target's rank (higher ranks give more vim).</p><p>The effect will increase with your Spellpower.</p>","proj_speed":15,"is_spell":true,"use_speed":"Spell","id":"T_DRAIN","no_silence":true,"mode":"activated","short_name":"DRAIN","name":"Drain","requires_target":true,"type":["corruption/sanguisuge",1],"reflectable":true,"cooldown":9},{"cost":"0 vim","multi_require":true,"range":"10.0","vim":0,"points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"source_code":["data/talents/corruptions/sanguisuge.lua",91],"image":"bloodcasting.png","type":["corruption/sanguisuge",2],"is_spell":true,"id":"T_BLOODCASTING","no_silence":true,"use_speed":"Instant","info_text":"<p>For <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns, your corruption spells will consume health instead of vim if their cost is higher than your vim.</p>","mode":"activated","name":"Bloodcasting","short_name":"BLOODCASTING","no_energy":true,"cooldown":18},{"cost":"5 vim","multi_require":true,"range":"10.0","image":"absorb_life.png","mode":"sustained","require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"sustain_vim":5,"source_code":["data/talents/corruptions/sanguisuge.lua",113],"type":["corruption/sanguisuge",3],"is_spell":true,"points":5,"no_silence":true,"use_speed":"Spell","info_text":"<p>Absorbs the life force of your foes as you kill them.</p><p>As long as this talent is active, vim will decrease by 0.5 per turn and increase by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7.1, 11, 14, 16, 19</acronym> for each kill of a non-undead creature (in addition to the usual increase based on Willpower).</p>","id":"T_ABSORB_LIFE","name":"Absorb Life","short_name":"ABSORB_LIFE","cooldown":30},{"cost":"40 vim","multi_require":true,"range":"10.0","vim":40,"image":"life_tap.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"source_code":["data/talents/corruptions/sanguisuge.lua",144],"use_speed":"Instant","type":["corruption/sanguisuge",4],"is_spell":true,"id":"T_LIFE_TAP","no_silence":true,"info_text":"<p>Tap your life force to provide a furious boost, increasing all damage you deal by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">8.9%, 12%, 14%, 16%, 18%</acronym> for 7 turns.</p>","mode":"activated","short_name":"LIFE_TAP","name":"Life Tap","no_energy":true,"cooldown":20}],"type":"corruption/sanguisuge","is_spell":true,"name":"sanguisuge","description":"Manipulate life force to feed your own dark powers.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"cost":"9 vim","multi_require":true,"range":"1.0","image":"rend.png","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"source_code":["data/talents/corruptions/scourge.lua",22],"type":["corruption/scourge",1],"is_spell":true,"vim":9,"id":"T_REND","no_silence":true,"use_speed":"Spell","info_text":"<p>Hit the target with both weapons, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">120%, 137%, 150%, 161%, 171%</acronym> damage with each hit. For each hit, the target will bleed for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> damage each turn for 5 turns.</p><p>The bleeding effect will increase with your Spellpower.</p>","mode":"activated","name":"Rend","requires_target":true,"short_name":"REND","cooldown":6},{"cost":"40 vim","multi_require":true,"short_name":"RUIN","image":"ruin.png","mode":"sustained","require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"sustain_vim":40,"source_code":["data/talents/corruptions/scourge.lua",74],"type":["corruption/scourge",2],"is_spell":true,"points":5,"id":"T_RUIN","no_silence":true,"use_speed":"Spell","range":"1.0","info_text":"<p>Concentrate on the corruption you bring, enhancing each of your melee strikes with <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> blight damage (which also heals you for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">10, 14, 17, 19, 21</acronym> each hit).</p><p>The damage will increase with your Spellpower.</p>","name":"Ruin","cooldown":30},{"cost":"18 vim","multi_require":true,"range":"1.0","vim":18,"image":"acid_strike.png","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"source_code":["data/talents/corruptions/scourge.lua",100],"use_speed":"Spell","radius":1,"is_spell":true,"id":"T_ACID_STRIKE","no_silence":true,"info_text":"<p>Strike with each of your weapons, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">120%, 137%, 150%, 161%, 171%</acronym> acid weapon damage with each hit. </p><p>If at least one of the strikes hits, an acid splash is generated, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">86, 117, 141, 161, 179</acronym> acid damage to all targets other than yourself adjacent to the foe you struck.</p><p>The splash damage will increase with your Spellpower.</p>","mode":"activated","short_name":"ACID_STRIKE","name":"Acid Strike","requires_target":true,"type":["corruption/scourge",3],"cooldown":12},{"cost":"14 vim","multi_require":true,"range":"1.0","image":"dark_surprise.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"source_code":["data/talents/corruptions/scourge.lua",150],"type":["corruption/scourge",4],"is_spell":true,"vim":14,"id":"T_DARK_SURPRISE","no_silence":true,"use_speed":"Spell","info_text":"<p>Hits the target with your main weapon, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">100%, 117%, 130%, 141%, 151%</acronym> darkness weapon damage. If the attack hits you attack with your second weapon, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">100%, 117%, 130%, 141%, 151%</acronym> blight weapon damage and granting an automatic critical. If the second attack hits, the target is blinded for 4 turns.</p>","mode":"activated","name":"Dark Surprise","requires_target":true,"short_name":"DARK_SURPRISE","cooldown":8}],"type":"corruption/scourge","is_spell":true,"name":"scourge","description":"Bring pain and destruction to the world.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"cost":"20 vim","multi_require":true,"short_name":"WRAITHFORM","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"source_code":["data/talents/corruptions/shadowflame.lua",20],"type":["corruption/shadowflame",1],"is_spell":true,"vim":20,"id":"T_WRAITHFORM","no_silence":true,"use_speed":"Spell","range":"1.0","info_text":"<p>Turn into a wraith, allowing you to walk through walls (but not preventing suffocation) for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 8, 9, 10</acronym> turns.</p><p>Also increases your Defense and Armour by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">11, 15, 19, 21, 24</acronym> and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">9, 12, 14, 17, 18,</acronym> respectively.</p><p>If you are still in a wall when the effect ends you will randomly teleport.</p><p>The bonuses will increase with your Spellpower.</p>","name":"Wraithform","mode":"activated","image":"wraithform.png","cooldown":30},{"cost":"15 vim","multi_require":true,"range":"6.0","source_code":["data/talents/corruptions/shadowflame.lua",42],"vim":15,"image":"darkfire.png","mode":"activated","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"use_speed":"Spell","proj_speed":4,"is_spell":true,"info_text":"<p>Conjures up a bolt of shadowflame that moves toward the target and explodes into a flash of darkness and fire, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">75, 101, 122, 139, 154</acronym> fire damage and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">75, 101, 122, 139, 154</acronym> darkness damage in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7.</acronym></p><p>The damage will increase with your Spellpower.</p>","id":"T_DARKFIRE","no_silence":true,"short_name":"DARKFIRE","type":["corruption/shadowflame",2],"name":"Darkfire","requires_target":true,"cooldown":8,"direct_hit":true},{"cost":"90 vim","multi_require":true,"short_name":"FLAME_OF_URH_ROK","image":"flame_of_urh_rok.png","mode":"sustained","require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"sustain_vim":90,"source_code":["data/talents/corruptions/shadowflame.lua",81],"type":["corruption/shadowflame",3],"is_spell":true,"points":5,"id":"T_FLAME_OF_URH_ROK","no_silence":true,"use_speed":"Spell","range":"1.0","info_text":"<p>Call upon the essence of the supreme demon overlord Urh'Rok to turn into a demon.</p><p>While in demon form, you gain <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">18%, 25%, 30%, 35%, 38%</acronym> fire resistance, <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">22%, 29%, 35%, 41%, 45%</acronym> darkness resistance, and your global speed is increased by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4%, 8%, 12%, 15%, 18%.</acronym></p><p>The flames of the Fearscape will heal you while in demon form.</p><p>The resistances and heal will increase with your Spellpower.</p>","name":"Flame of Urh'Rok","cooldown":30},{"no_sustain_autoreset":true,"random_boss_rarity":10,"multi_require":true,"short_name":"DEMON_PLANE","source_code":["data/talents/corruptions/shadowflame.lua",121],"image":"demon_plane.png","drain_vim":5,"use_speed":"Spell","mode":"sustained","require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"sustain_vim":90,"points":5,"type":["corruption/shadowflame",4],"is_spell":true,"cost":"90 vim, 5 drain vim","id":"T_DEMON_PLANE","no_silence":true,"info_text":"<p>Summon a part of the Fearscape to intersect with the current level.</p><p>Your target and yourself are taken to the Fearscape, trapped there until you end the spell or until your target dies.</p><p>While inside, a constant aura of flames will burn both of you (and heal demons) for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">93, 126, 152, 174, 193</acronym> fire damage.</p><p>When the spell ends, only you and the target (if still alive) are taken back to your home plane; all summons are left in the Fearscape.</p><p>Objects will be moved as well.</p><p>This spell has no effect if cast when already inside the Fearscape.</p><p>This powerful spell drains 5 vim per turn, ending when it reaches 0.</p><p>The damage will increase with your Spellpower.</p>","name":"Fearscape","range":"5.0","remove_on_zero":true,"cooldown":60}],"type":"corruption/shadowflame","is_spell":true,"name":"Shadowflame","description":"Harness the power of the demonic shadowflame.","points":1,"no_silence":true,"allow_random":true},{"type":"corruption/torment","description":"All the tools to torment your foes.","no_silence":true,"generic":true,"name":"torment","talents":[{"multi_require":true,"short_name":"WILLFUL_TORMENTER","image":"willful_tormenter.png","mode":"sustained","require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"source_code":["data/talents/corruptions/torment.lua",20],"use_speed":"Spell","type":["corruption/torment",1],"is_spell":true,"id":"T_WILLFUL_TORMENTER","no_silence":true,"range":"1.0","info_text":"<p>You set your mind toward a single goal: the destruction of all your foes.</p><p>Increases the maximum amount of vim you can store by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">25, 44, 61, 77, 92.</acronym></p>","generic":true,"name":"Willful Tormenter","points":5,"cooldown":20},{"source_code":["data/talents/corruptions/torment.lua",57],"cost":"12 vim","image":"blood_lock.png","multi_require":true,"range":"10.0","vim":12,"use_speed":"Instant","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"info_text":"<p>Reach out and touch the blood and health of your foes. Any creatures caught in the radius 2 ball will be unable to heal above their current life value (at the time of the casting) for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 7, 10, 12, 14</acronym> turns.</p>","short_name":"BLOOD_LOCK","radius":2,"is_spell":true,"mode":"activated","id":"T_BLOOD_LOCK","no_silence":true,"type":["corruption/torment",2],"generic":true,"name":"Blood Lock","requires_target":true,"no_energy":true,"cooldown":16,"direct_hit":true},{"cost":"18 vim","multi_require":true,"short_name":"OVERKILL","image":"overkill.png","source_code":["data/talents/corruptions/torment.lua",92],"points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"sustain_vim":18,"use_speed":"Spell","type":["corruption/torment",3],"is_spell":true,"mode":"sustained","no_silence":true,"range":"1.0","info_text":"<p>When you kill a creature, the remainder of the damage done will not be lost. Instead, <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">66%, 71%, 75%, 77%, 79%</acronym> of it will splash in a radius 2 as blight damage.</p><p>The splash damage will increase with your Spellpower.</p>","generic":true,"name":"Overkill","id":"T_OVERKILL","cooldown":20},{"cost":"22 vim","multi_require":true,"short_name":"BLOOD_VENGEANCE","image":"blood_vengeance.png","source_code":["data/talents/corruptions/torment.lua",116],"points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"sustain_vim":22,"use_speed":"Spell","type":["corruption/torment",4],"is_spell":true,"mode":"sustained","id":"T_BLOOD_VENGEANCE","no_silence":true,"range":"1.0","generic":true,"name":"Blood Vengeance","info_text":"<p>When you are dealt a blow that reduces your life by at least <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">14%, 12%, 10%, 9%, 9%,</acronym> you have a <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">49%, 55%, 58%, 61%, 63%</acronym> chance to reduce the remaining cooldown of all your spells by 1.</p><p>The chance will increase with your Spellpower.</p>","cooldown":20}],"points":1,"is_spell":true,"allow_random":true},{"type":"corruption/vile-life","description":"Manipulate life for your vile needs.","no_silence":true,"generic":true,"name":"vile life","talents":[{"multi_require":true,"short_name":"BLOOD_SPLASH","image":"blood_splash.png","mode":"passive","require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"type":["corruption/vile-life",1],"is_spell":true,"source_code":["data/talents/corruptions/vile-life.lua",20],"id":"T_BLOOD_SPLASH","no_silence":true,"points":5,"name":"Blood Splash","info_text":"<p>Inflicting pain and death invogorates you.</p><p>Each time you deal a critical strike you gain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">14, 29, 41, 51, 60</acronym> life (this effect can only happen once per turn).</p><p>Each time you kill a creature you gain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">14, 29, 41, 51, 60</acronym> life (this effect can only happen once per turn).</p>","generic":true},{"source_code":["data/talents/corruptions/vile-life.lua",55],"mode":"sustained","multi_require":true,"short_name":"ELEMENTAL_DISCORD","cost":"30 vim","vim":30,"image":"elemental_discord.png","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"use_speed":"Spell","range":"1.0","type":["corruption/vile-life",2],"is_spell":true,"info_text":"<p>Use elemental damage deal to you to trigger terrible effects on the source:</p><ul><li> Fire: burn for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">278, 376, 453, 518, 575</acronym> fire damage over 5 turns</li><li> Cold: freeze for 3 turns with <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">350, 474, 571, 652, 725</acronym> iceblock power</li><li> Acid: blind for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 5, 5</acronym> turns</li><li> Lightning: daze for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 4, 5, 5</acronym> turns</li><li> Nature: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">20%, 35%, 41%, 45%, 48%</acronym> slow for 4 turns</li></ul><p>This effect can only happen once every 10 turns per damage type.</p><p>The damage will increase with your Spellpower.</p>","id":"T_ELEMENTAL_DISCORD","no_silence":true,"generic":true,"name":"Elemental Discord","cooldown":20},{"cost":"16 vim","multi_require":true,"range":"5.0","source_code":["data/talents/corruptions/vile-life.lua",122],"vim":16,"image":"healing_inversion.png","mode":"activated","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"use_speed":"Spell","type":["corruption/vile-life",3],"is_spell":true,"info_text":"<p>You manipulate the vim of your target to temporarily invert all healing done to it (but not regeneration).</p><p>For 5 turns all healing will instead damage them for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">44%, 52%, 56%, 59%, 62%</acronym> of the healing done as blight.</p><p>The effect will increase with your Spellpower.</p>","id":"T_HEALING_INVERSION","no_silence":true,"short_name":"HEALING_INVERSION","generic":true,"name":"Healing Inversion","requires_target":true,"cooldown":15,"direct_hit":true},{"cost":"18 vim","source_code":["data/talents/corruptions/vile-life.lua",154],"multi_require":true,"range":"1.0","mode":"activated","vim":18,"image":"vile_transplant.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"use_speed":"Spell","type":["corruption/vile-life",4],"is_spell":true,"info_text":"<p>You transfer up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 3, 4, 4</acronym> physical or magical detrimental effects currently affecting you to a nearby creature by touching it.</p><p>The transfer takes <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9.1%, 6.8%, 5.6%, 4.9%, 4.4%</acronym> of your remaining life for each effect transferred and heals the target for the same amount.</p><p>The chance to transfer each effect increases with your Spellpower.</p>","id":"T_VILE_TRANSPLANT","no_silence":true,"short_name":"VILE_TRANSPLANT","generic":true,"name":"Vile Transplant","requires_target":true,"cooldown":10,"direct_hit":true}],"points":1,"is_spell":true,"allow_random":true},{"talents":[{"cost":"10 vim","multi_require":true,"range":"10.0","vim":10,"image":"soul_rot.png","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"source_code":["data/talents/corruptions/vim.lua",20],"use_speed":"Spell","proj_speed":10,"is_spell":true,"id":"T_SOUL_ROT","no_silence":true,"info_text":"<p>Projects a bolt of pure blight, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">170, 231, 278, 318, 353</acronym> blight damage.</p><p>This spell has an improved critical strike chance of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">+8.67%, +15%, +21%, +26%, +31%.</acronym></p><p>The damage will increase with your Spellpower.</p>","mode":"activated","short_name":"SOUL_ROT","name":"Soul Rot","requires_target":true,"type":["corruption/vim",1],"cooldown":4},{"cost":"25 vim","multi_require":true,"short_name":"VIMSENSE","vim":25,"source_code":["data/talents/corruptions/vim.lua",48],"points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"type":["corruption/vim",2],"is_spell":true,"use_speed":"Spell","id":"T_VIMSENSE","no_silence":true,"range":"1.0","info_text":"<p>Feel the very existence of creatures around you for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns, in a radius of 10.</p><p>The evil touch will reduce their blight resistance by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">28%, 38%, 46%, 53%, 59%,</acronym> but also make them aware of you.</p><p>The resistance reduction will improve with your Spellpower.</p>","mode":"activated","name":"Vimsense","requires_target":true,"image":"vimsense.png","cooldown":25},{"source_code":["data/talents/corruptions/vim.lua",83],"type":["corruption/vim",3],"is_spell":true,"short_name":"LEECH","id":"T_LEECH","no_silence":true,"multi_require":true,"info_text":"<p>Each time a creature affected by vimsense hurts you, you regain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3.96, 4.95, 5.82, 6.62, 7.37</acronym> vim and <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9.11, 13, 17, 21, 24</acronym> health.</p>","image":"leech.png","name":"Leech","points":5,"mode":"passive","require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"]},{"cost":"30 vim","multi_require":true,"range":"7.0","image":"dark_portal.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"source_code":["data/talents/corruptions/vim.lua",98],"radius":3,"is_spell":true,"vim":30,"id":"T_DARK_PORTAL","no_silence":true,"use_speed":"Spell","info_text":"<p>Open a dark portal (radius 3) to the target zone. All creatures caught inside will be teleported to your location, and you to theirs.</p><p>All creatures (except you) traversing the portal will catch a random disease, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> blight damage per turn for 6 turns and reducing one of its physical stats (strength, constitution, dexterity) by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">15, 21, 25, 28, 32.</acronym></p><p>The damage will increase with your Spellpower.</p>","mode":"activated","name":"Dark Portal","short_name":"DARK_PORTAL","type":["corruption/vim",4],"cooldown":15}],"type":"corruption/vim","is_spell":true,"name":"vim","description":"Touch the very essence of your victims.","points":1,"no_silence":true,"allow_random":true}]
+[
+    {
+        "allow_random": true,
+        "description": "Bring corruption and decay to all who oppose you.",
+        "is_spell": true,
+        "name": "blight",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 30,
+                "cost": "20 vim",
+                "id": "T_DARK_RITUAL",
+                "image": "dark_ritual.png",
+                "info_text": "<p>Increases your spell critical damage multiplier by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">38%, 52%, 62%, 71%, 79%.</acronym></p><p>The multiplier will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Dark Ritual",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "DARK_RITUAL",
+                "source_code": [
+                    "data/talents/corruptions/blight.lua",
+                    20
+                ],
+                "sustain_vim": 20,
+                "type": [
+                    "corruption/blight",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 10,
+                "cost": "30 vim",
+                "id": "T_CORRUPTED_NEGATION",
+                "image": "corrupted_negation.png",
+                "info_text": "<p>Project a corrupted blast of power that deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">79, 108, 129, 148, 164</acronym> blight damage and removes up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 3, 4, 5, 5</acronym> magical or physical effect(s) from any creatures caught in the radius 3 ball.</p><p>For each effect, the creature has a chance to resist based on its spell save.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Corrupted Negation",
+                "no_silence": true,
+                "points": 5,
+                "radius": 3,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "CORRUPTED_NEGATION",
+                "source_code": [
+                    "data/talents/corruptions/blight.lua",
+                    47
+                ],
+                "type": [
+                    "corruption/blight",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 30
+            },
+            {
+                "cooldown": 10,
+                "cost": "12 vim",
+                "id": "T_CORROSIVE_WORM",
+                "image": "corrosive_worm.png",
+                "info_text": "<p>Infect your target with a corrosive worm that deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">39, 52, 63, 72, 80</acronym> acid damage per turn for 10 turns.</p><p>If the target dies while the worm is inside, it will explode, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">156, 212, 255, 291, 323</acronym> acid damage in a radius of 4.</p><p>The damage will increase with your Spellpower, and can critical.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Corrosive Worm",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "CORROSIVE_WORM",
+                "source_code": [
+                    "data/talents/corruptions/blight.lua",
+                    117
+                ],
+                "type": [
+                    "corruption/blight",
+                    3
+                ],
+                "use_speed": "Spell",
+                "vim": 12
+            },
+            {
+                "cooldown": 30,
+                "cost": "36 vim",
+                "id": "T_POISON_STORM",
+                "image": "poison_storm.png",
+                "info_text": "<p>A furious poison storm rages around the caster in a radius of 4 for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.  Each creature hit by the storm is poisoned for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">86, 117, 141, 161, 179</acronym> nature damage over 6 turns.</p><p>Poisoning is cumulative; the longer they stay in the storm, the higher the poison damage they take.</p><p>The damage will increase with your Spellpower, and can critical.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Poison Storm",
+                "no_silence": true,
+                "points": 5,
+                "radius": 4,
+                "range": "0.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "POISON_STORM",
+                "source_code": [
+                    "data/talents/corruptions/blight.lua",
+                    147
+                ],
+                "type": [
+                    "corruption/blight",
+                    4
+                ],
+                "use_speed": "Spell",
+                "vim": 36
+            }
+        ],
+        "type": "corruption/blight"
+    },
+    {
+        "allow_random": true,
+        "description": "Harness the power of blood, both your own and your foes'.",
+        "is_spell": true,
+        "name": "blood",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 7,
+                "cost": "24 vim",
+                "direct_hit": true,
+                "id": "T_BLOOD_SPRAY",
+                "image": "blood_spray.png",
+                "info_text": "<p>You extract corrupted blood from your own body, hitting everything in a frontal cone of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">128, 174, 209, 239, 265</acronym> blight damage.</p><p>Each creature hit has a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">36%, 54%, 64%, 70%, 75%</acronym> chance of being infected by a random disease, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">149, 202, 243, 278, 309</acronym> blight damage and weakening either Constitution, Strength or Dexterity for 6 turns.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Blood Spray",
+                "no_silence": true,
+                "points": 5,
+                "range": "0.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "BLOOD_SPRAY",
+                "source_code": [
+                    "data/talents/corruptions/blood.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/blood",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 24
+            },
+            {
+                "cooldown": 5,
+                "cost": "20 vim",
+                "id": "T_BLOOD_GRASP",
+                "image": "blood_grasp.png",
+                "info_text": "<p>Project a bolt of corrupted blood, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">199, 269, 324, 371, 412</acronym> blight damage and healing you for half the damage done.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Blood Grasp",
+                "no_silence": true,
+                "points": 5,
+                "proj_speed": 20,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "BLOOD_GRASP",
+                "source_code": [
+                    "data/talents/corruptions/blood.lua",
+                    59
+                ],
+                "type": [
+                    "corruption/blood",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 20
+            },
+            {
+                "cooldown": 12,
+                "cost": "30 vim",
+                "id": "T_BLOOD_BOIL",
+                "image": "blood_boil.png",
+                "info_text": "<p>Make the blood of all creatures around you in radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> boil, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">128, 174, 209, 239, 265</acronym> blight damage and slowing them by 20%.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Blood Boil",
+                "no_silence": true,
+                "points": 5,
+                "range": "0.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "BLOOD_BOIL",
+                "source_code": [
+                    "data/talents/corruptions/blood.lua",
+                    87
+                ],
+                "type": [
+                    "corruption/blood",
+                    3
+                ],
+                "use_speed": "Spell",
+                "vim": 30
+            },
+            {
+                "cooldown": 30,
+                "cost": "60 vim",
+                "id": "T_BLOOD_FURY",
+                "image": "blood_fury.png",
+                "info_text": "<p>Concentrate on the corruption you bring, increasing your spell critical chance by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">8%, 11%, 13%, 15%, 17%.</acronym></p><p>Each time your spells go critical, you enter a blood rage for 5 turns, increasing your blight and acid damage by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">18%, 25%, 30%, 35%, 38%.</acronym></p><p>The critical chance and damage increase will improve with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Blood Fury",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "BLOOD_FURY",
+                "source_code": [
+                    "data/talents/corruptions/blood.lua",
+                    114
+                ],
+                "sustain_vim": 60,
+                "type": [
+                    "corruption/blood",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "corruption/blood"
+    },
+    {
+        "allow_random": true,
+        "description": "Harness the power of bones.",
+        "is_spell": true,
+        "name": "bone",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 4,
+                "cost": "13 vim",
+                "direct_hit": true,
+                "id": "T_BONE_SPEAR",
+                "image": "bone_spear.png",
+                "info_text": "<p>Conjures up a spear of bones, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">135, 183, 220, 252, 280</acronym> physical damage to all targets in line.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Bone Spear",
+                "no_silence": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "10.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "BONE_SPEAR",
+                "source_code": [
+                    "data/talents/corruptions/bone.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/bone",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 13
+            },
+            {
+                "cooldown": 15,
+                "cost": "28 vim",
+                "id": "T_BONE_GRAB",
+                "image": "bone_grab.png",
+                "info_text": "<p>Grab a target and teleport it to your side, pinning it there with a bone rising from the ground for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The bone will also deal <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">93, 126, 152, 174, 193</acronym> physical damage.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Bone Grab",
+                "no_silence": true,
+                "points": 5,
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5.0, 8.0, 8.0, 9.0, 9.0</acronym>",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "BONE_GRAB",
+                "source_code": [
+                    "data/talents/corruptions/bone.lua",
+                    51
+                ],
+                "type": [
+                    "corruption/bone",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 28
+            },
+            {
+                "cooldown": 12,
+                "cost": "25 vim",
+                "id": "T_BONE_NOVA",
+                "image": "bone_nova.png",
+                "info_text": "<p>Fire bone spears in all directions, hitting all foes within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">121, 164, 197, 226, 251</acronym> physical damage.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Bone Nova",
+                "no_silence": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "BONE_NOVA",
+                "source_code": [
+                    "data/talents/corruptions/bone.lua",
+                    94
+                ],
+                "type": [
+                    "corruption/bone",
+                    3
+                ],
+                "use_speed": "Spell",
+                "vim": 25
+            },
+            {
+                "cooldown": 30,
+                "cost": "50 vim",
+                "direct_hit": true,
+                "id": "T_BONE_SHIELD",
+                "image": "bone_shield.png",
+                "info_text": "<p>Bone shields start circling around you. They will each fully absorb one attack.</p><p><acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> shield(s) will be generated when first activated.</p><p>Then every <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">30, 15, 7, 6, 5</acronym> turns a new one will be created if not full.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Bone Shield",
+                "no_silence": true,
+                "no_sustain_autoreset": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "BONE_SHIELD",
+                "source_code": [
+                    "data/talents/corruptions/bone.lua",
+                    120
+                ],
+                "sustain_vim": 50,
+                "type": [
+                    "corruption/bone",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "corruption/bone"
+    },
+    {
+        "allow_random": true,
+        "description": "Curse your foes, hindering and crippling them.",
+        "generic": true,
+        "is_spell": true,
+        "name": "curses",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 20,
+                "cost": "20 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_CURSE_OF_DEFENSELESSNESS",
+                "image": "curse_of_defenselessness.png",
+                "info_text": "<p>Curses your target, decreasing its Defense and all saves by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">38, 52, 62, 71, 79</acronym> for 10 turns.</p><p>The effects will improve with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Curse of Defenselessness",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "CURSE_OF_DEFENSELESSNESS",
+                "source_code": [
+                    "data/talents/corruptions/curses.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/curses",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 20
+            },
+            {
+                "cooldown": 20,
+                "cost": "20 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_CURSE_OF_IMPOTENCE",
+                "image": "curse_of_impotence.png",
+                "info_text": "<p>Curses your target, decreasing all damage they do by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">18%, 23%, 27%, 30%, 32%</acronym> for 10 turns.</p><p>The effects will improve with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Curse of Impotence",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "CURSE_OF_IMPOTENCE",
+                "source_code": [
+                    "data/talents/corruptions/curses.lua",
+                    50
+                ],
+                "type": [
+                    "corruption/curses",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 20
+            },
+            {
+                "cooldown": 20,
+                "cost": "20 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_CURSE_OF_DEATH",
+                "image": "curse_of_death.png",
+                "info_text": "<p>Curses your target, stopping any natural healing and dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 74, 85, 94</acronym> darkness damage each turn for 10 turns.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Curse of Death",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "CURSE_OF_DEATH",
+                "source_code": [
+                    "data/talents/corruptions/curses.lua",
+                    81
+                ],
+                "type": [
+                    "corruption/curses",
+                    3
+                ],
+                "use_speed": "Spell",
+                "vim": 20
+            },
+            {
+                "cooldown": 20,
+                "cost": "20 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_CURSE_OF_VULNERABILITY",
+                "image": "curse_of_vulnerability.png",
+                "info_text": "<p>Curses your target, decreasing all its resistances by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25%, 34%, 41%, 47%, 52%</acronym> for 7 turns.</p><p>The effect will improve with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Curse of Vulnerability",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "requires_target": true,
+                "short_name": "CURSE_OF_VULNERABILITY",
+                "source_code": [
+                    "data/talents/corruptions/curses.lua",
+                    111
+                ],
+                "type": [
+                    "corruption/curses",
+                    4
+                ],
+                "use_speed": "Spell",
+                "vim": 20
+            }
+        ],
+        "type": "corruption/curses"
+    },
+    {
+        "allow_random": true,
+        "description": "Hex your foes, hindering and crippling them.",
+        "generic": true,
+        "is_spell": true,
+        "name": "hexes",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 20,
+                "cost": "30 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_PACIFICATION_HEX",
+                "image": "pacification_hex.png",
+                "info_text": "<p>Hexes your target, dazing it and everything in a 2 radius ball around it for 3 turns, and giving <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">33%, 40%, 45%, 48%, 51%</acronym> chance to daze affected targets again each turn for 20 turns.</p><p>The chance will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Pacification Hex",
+                "no_silence": true,
+                "points": 5,
+                "radius": 2,
+                "range": "10.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "PACIFICATION_HEX",
+                "source_code": [
+                    "data/talents/corruptions/hexes.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/hexes",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 30
+            },
+            {
+                "cooldown": 20,
+                "cost": "30 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_BURNING_HEX",
+                "image": "burning_hex.png",
+                "info_text": "<p>Hexes your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a resource (stamina, mana, vim, &hellip;), it takes <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">59, 80, 96, 110, 122</acronym> fire damage.</p><p>In addition, the cooldown of any talent used while so hexed is increased by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">18%, 32%, 42%, 51%, 58%</acronym> + 1 turn.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Burning Hex",
+                "no_silence": true,
+                "points": 5,
+                "radius": 2,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "BURNING_HEX",
+                "source_code": [
+                    "data/talents/corruptions/hexes.lua",
+                    58
+                ],
+                "type": [
+                    "corruption/hexes",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 30
+            },
+            {
+                "cooldown": 20,
+                "cost": "30 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_EMPATHIC_HEX",
+                "image": "empathic_hex.png",
+                "info_text": "<p>Hexes your target and everything within a radius 2 ball around it. Each time they do damage, they take <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">12%, 15%, 18%, 20%, 22%</acronym> of the same damage for 20 turns.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Empathic Hex",
+                "no_silence": true,
+                "points": 5,
+                "radius": 2,
+                "range": "10.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "EMPATHIC_HEX",
+                "source_code": [
+                    "data/talents/corruptions/hexes.lua",
+                    96
+                ],
+                "type": [
+                    "corruption/hexes",
+                    3
+                ],
+                "use_speed": "Spell",
+                "vim": 30
+            },
+            {
+                "cooldown": 20,
+                "cost": "30 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_DOMINATION_HEX",
+                "image": "domination_hex.png",
+                "info_text": "<p>Hexes your target, forcing it to be your thrall for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns.</p><p>If you damage the target, it will be freed from the hex.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Domination Hex",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "requires_target": true,
+                "short_name": "DOMINATION_HEX",
+                "source_code": [
+                    "data/talents/corruptions/hexes.lua",
+                    132
+                ],
+                "type": [
+                    "corruption/hexes",
+                    4
+                ],
+                "use_speed": "Spell",
+                "vim": 30
+            }
+        ],
+        "type": "corruption/hexes"
+    },
+    {
+        "description": "Spell talents of the various horrors of the world.",
+        "hide": true,
+        "is_spell": true,
+        "name": "horror spells",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 8,
+                "cost": "10 vim",
+                "hide": true,
+                "id": "T_WORM_ROT",
+                "image": "worm_rot.png",
+                "info_text": "<p>Infects the target with parasitic carrion worm larvae for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 8, 9, 10</acronym> turns.  Each turn the disease will remove a beneficial physical effect and deal <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 22, 26, 30, 33</acronym> acid and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 22, 26, 30, 33</acronym> blight damage.</p><p>If not cleared after five turns it will inflict <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">206, 279, 336, 384, 426</acronym> acid damage as the larvae hatch, removing the effect but spawning a full grown carrion worm mass near the target's location.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "name": "Worm Rot",
+                "no_silence": true,
+                "points": 5,
+                "proj_speed": 6,
+                "range": "6.0",
+                "requires_target": true,
+                "short_name": "WORM_ROT",
+                "source_code": [
+                    "data/talents/misc/horrors.lua",
+                    353
+                ],
+                "type": [
+                    "corruption/horror",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 10
+            }
+        ],
+        "type": "corruption/horror"
+    },
+    {
+        "description": "Talents of the various entities of the world.",
+        "hide": true,
+        "is_spell": true,
+        "name": "other",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 13,
+                "cost": "27 vim",
+                "direct_hit": true,
+                "hide": true,
+                "id": "T_BLIGHTZONE",
+                "image": "blightzone.png",
+                "info_text": "<p>Corrupted vapour rises at the target location (radius 4) doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">42, 57, 68, 78, 87</acronym> blight damage every turn for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns.</p><p>The damage will increase with Magic stat.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "name": "Blightzone",
+                "no_silence": true,
+                "points": 5,
+                "radius": 4,
+                "range": "10.0",
+                "requires_target": true,
+                "short_name": "BLIGHTZONE",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    1279
+                ],
+                "type": [
+                    "corruption/other",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 27
+            }
+        ],
+        "type": "corruption/other"
+    },
+    {
+        "allow_random": true,
+        "description": "Spread diseases to your foes.",
+        "is_spell": true,
+        "name": "plague",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 3,
+                "cost": "8 vim",
+                "id": "T_VIRULENT_DISEASE",
+                "image": "virulent_disease.png",
+                "info_text": "<p>Fires a bolt of pure filth, diseasing your target with a disease doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">49, 64, 75, 85, 94</acronym> blight damage per turn for 6 turns, and reducing one of its physical stats (strength, constitution, dexterity) by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">22, 29, 35, 41, 45.</acronym> The three diseases can stack.</p><p>Virulent Disease will always try to apply a disease the target does not currently have, and also one that will have the most debilitating effect for the target.</p><p>The effect will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Virulent Disease",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "5.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "VIRULENT_DISEASE",
+                "source_code": [
+                    "data/talents/corruptions/plague.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/plague",
+                    1
+                ],
+                "use_speed": "Instant",
+                "vim": 8
+            },
+            {
+                "cooldown": 9,
+                "cost": "18 vim",
+                "id": "T_CYST_BURST",
+                "image": "cyst_burst.png",
+                "info_text": "<p>Make your target's diseases burst, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">55, 75, 90, 103, 115</acronym> blight damage for each disease it is infected with.</p><p>This will also spread any decrepitude, weakness, rotting or epidemic diseases to any nearby foes in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 3, 3, 4.</acronym></p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Cyst Burst",
+                "no_silence": true,
+                "points": 5,
+                "range": "8.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "CYST_BURST",
+                "source_code": [
+                    "data/talents/corruptions/plague.lua",
+                    73
+                ],
+                "type": [
+                    "corruption/plague",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 18
+            },
+            {
+                "cooldown": 15,
+                "cost": "20 vim",
+                "direct_hit": true,
+                "id": "T_CATALEPSY",
+                "image": "catalepsy.png",
+                "info_text": "<p>All your foes within a radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 2, 3, 3, 4</acronym> ball infected with a disease enter a cataleptic state, stunning them for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> turns and dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">131%, 143%, 152%, 159%, 166%</acronym> of all remaining disease damage instantly.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Catalepsy",
+                "no_silence": true,
+                "points": 5,
+                "range": "8.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "CATALEPSY",
+                "source_code": [
+                    "data/talents/corruptions/plague.lua",
+                    151
+                ],
+                "type": [
+                    "corruption/plague",
+                    3
+                ],
+                "use_speed": "Spell",
+                "vim": 20
+            },
+            {
+                "cooldown": 13,
+                "cost": "20 vim",
+                "id": "T_EPIDEMIC",
+                "image": "epidemic.png",
+                "info_text": "<p>Infects the target with a very contagious disease, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 74, 85, 94</acronym> damage per turn for 6 turns.</p><p>If any blight damage from non-diseases hits the target, the epidemic may activate and spread a random disease to nearby targets within a radius 2 ball.</p><p>The chance to spread increases with the blight damage dealt and is 100% if it is at least <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">31%, 23%, 19%, 16%, 14%</acronym> of the target's maximum life.</p><p>Creatures suffering from that disease will also suffer healing reduction (<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">45%, 51%, 56%, 60%, 63%</acronym>) and diseases immunity reduction (<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">38%, 48%, 55%, 60%, 64%</acronym>).</p><p>Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.</p><p>The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Epidemic",
+                "no_silence": true,
+                "points": 5,
+                "radius": 2,
+                "range": "8.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "requires_target": true,
+                "short_name": "EPIDEMIC",
+                "source_code": [
+                    "data/talents/corruptions/plague.lua",
+                    220
+                ],
+                "type": [
+                    "corruption/plague",
+                    4
+                ],
+                "use_speed": "Spell",
+                "vim": 20
+            }
+        ],
+        "type": "corruption/plague"
+    },
+    {
+        "allow_random": true,
+        "description": "Enhanced melee combat through the dark arts.",
+        "is_spell": true,
+        "name": "reaving combat",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cost": "8 vim",
+                "id": "T_CORRUPTED_STRENGTH",
+                "image": "corrupted_strength.png",
+                "info_text": "<p>Allows you to dual wield any type of one handed weapons, and increases the damage of the off-hand weapon to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">54%, 61%, 65%, 69%, 72%.</acronym></p><p>Also, casting a spell (which uses a turn) will give a free melee attack at a random target in melee range for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">80%, 93%, 102%, 111%, 118%</acronym> blight damage.</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Corrupted Strength",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 0, Str 12",
+                    "Level 1, Str 14",
+                    "Level 2, Str 16",
+                    "Level 3, Str 18",
+                    "Level 4, Str 20"
+                ],
+                "short_name": "CORRUPTED_STRENGTH",
+                "source_code": [
+                    "data/talents/corruptions/reaving-combat.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/reaving-combat",
+                    1
+                ],
+                "vim": 8
+            },
+            {
+                "id": "T_BLOODLUST",
+                "image": "bloodlust.png",
+                "info_text": "<p>Each time you deal damage to one of your foes, you enter a bloodlust-infused frenzy, increasing your Spellpower by 1 (maximum <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> Spellpower per turn, <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">8, 16, 24, 31, 37</acronym> Spellpower overall), and extending any current frenzy for an additional turn.</p><p>The frenzy lasts up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> turns, and the bonus decreases by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">50%, 33%, 20%, 17%, 14%</acronym> of its current value each turn you don't deal damage.</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Bloodlust",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 4, Str 20",
+                    "Level 5, Str 22",
+                    "Level 6, Str 24",
+                    "Level 7, Str 26",
+                    "Level 8, Str 28"
+                ],
+                "short_name": "BLOODLUST",
+                "source_code": [
+                    "data/talents/corruptions/reaving-combat.lua",
+                    46
+                ],
+                "type": [
+                    "corruption/reaving-combat",
+                    2
+                ]
+            },
+            {
+                "id": "T_CARRIER",
+                "image": "carrier.png",
+                "info_text": "<p>You gain a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">31%, 57%, 69%, 75%, 80%</acronym> resistance to diseases, and each of your melee attacks have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6%, 11%, 16%, 20%, 24%</acronym> chance to spread any diseases on your target.</p><p>(As the Epidemic talent with the melee attack treated like blight damage.)</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Carrier",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 8, Str 28",
+                    "Level 9, Str 30",
+                    "Level 10, Str 32",
+                    "Level 11, Str 34",
+                    "Level 12, Str 36"
+                ],
+                "short_name": "CARRIER",
+                "source_code": [
+                    "data/talents/corruptions/reaving-combat.lua",
+                    66
+                ],
+                "type": [
+                    "corruption/reaving-combat",
+                    3
+                ]
+            },
+            {
+                "id": "T_ACID_BLOOD",
+                "image": "acid_blood.png",
+                "info_text": "<p>Your blood turns into an acidic mixture. When you get hit, the attacker is splashed with acid.</p><p>This deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">19, 25, 31, 35, 39</acronym> acid damage each turn for 5 turns, and reduces the attacker's Accuracy by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">22, 29, 35, 41, 45.</acronym></p><p>At level 3, it will also reduce Armour by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> for 5 turns.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Acid Blood",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 12, Str 36",
+                    "Level 13, Str 38",
+                    "Level 14, Str 40",
+                    "Level 15, Str 42",
+                    "Level 16, Str 44"
+                ],
+                "short_name": "ACID_BLOOD",
+                "source_code": [
+                    "data/talents/corruptions/reaving-combat.lua",
+                    85
+                ],
+                "type": [
+                    "corruption/reaving-combat",
+                    4
+                ]
+            }
+        ],
+        "type": "corruption/reaving-combat"
+    },
+    {
+        "allow_random": true,
+        "description": "Manipulate life force to feed your own dark powers.",
+        "is_spell": true,
+        "name": "sanguisuge",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 9,
+                "cost": "0 vim",
+                "id": "T_DRAIN",
+                "image": "drain.png",
+                "info_text": "<p>Fires a bolt of blight, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">135, 183, 220, 252, 280</acronym> blight damage and replenishing 20% of it as vim energy.</p><p>The amount of vim regained depends on the target's rank (higher ranks give more vim).</p><p>The effect will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Drain",
+                "no_silence": true,
+                "points": 5,
+                "proj_speed": 15,
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5.0, 6.0, 8.0, 9.0, 10.0</acronym>",
+                "reflectable": true,
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "DRAIN",
+                "source_code": [
+                    "data/talents/corruptions/sanguisuge.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/sanguisuge",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 0
+            },
+            {
+                "cooldown": 18,
+                "cost": "0 vim",
+                "id": "T_BLOODCASTING",
+                "image": "bloodcasting.png",
+                "info_text": "<p>For <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns, your corruption spells will consume health instead of vim if their cost is higher than your vim.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Bloodcasting",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "BLOODCASTING",
+                "source_code": [
+                    "data/talents/corruptions/sanguisuge.lua",
+                    91
+                ],
+                "type": [
+                    "corruption/sanguisuge",
+                    2
+                ],
+                "use_speed": "Instant",
+                "vim": 0
+            },
+            {
+                "cooldown": 30,
+                "cost": "5 vim",
+                "id": "T_ABSORB_LIFE",
+                "image": "absorb_life.png",
+                "info_text": "<p>Absorbs the life force of your foes as you kill them.</p><p>As long as this talent is active, vim will decrease by 0.5 per turn and increase by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7.1, 11, 14, 16, 19</acronym> for each kill of a non-undead creature (in addition to the usual increase based on Willpower).</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Absorb Life",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "ABSORB_LIFE",
+                "source_code": [
+                    "data/talents/corruptions/sanguisuge.lua",
+                    113
+                ],
+                "sustain_vim": 5,
+                "type": [
+                    "corruption/sanguisuge",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 20,
+                "cost": "40 vim",
+                "id": "T_LIFE_TAP",
+                "image": "life_tap.png",
+                "info_text": "<p>Tap your life force to provide a furious boost, increasing all damage you deal by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">8.9%, 12%, 14%, 16%, 18%</acronym> for 7 turns.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Life Tap",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "LIFE_TAP",
+                "source_code": [
+                    "data/talents/corruptions/sanguisuge.lua",
+                    144
+                ],
+                "type": [
+                    "corruption/sanguisuge",
+                    4
+                ],
+                "use_speed": "Instant",
+                "vim": 40
+            }
+        ],
+        "type": "corruption/sanguisuge"
+    },
+    {
+        "allow_random": true,
+        "description": "Bring pain and destruction to the world.",
+        "is_spell": true,
+        "name": "scourge",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 6,
+                "cost": "9 vim",
+                "id": "T_REND",
+                "image": "rend.png",
+                "info_text": "<p>Hit the target with both weapons, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">120%, 137%, 150%, 161%, 171%</acronym> damage with each hit. For each hit, the target will bleed for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> damage each turn for 5 turns.</p><p>The bleeding effect will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Rend",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "REND",
+                "source_code": [
+                    "data/talents/corruptions/scourge.lua",
+                    22
+                ],
+                "type": [
+                    "corruption/scourge",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 9
+            },
+            {
+                "cooldown": 30,
+                "cost": "40 vim",
+                "id": "T_RUIN",
+                "image": "ruin.png",
+                "info_text": "<p>Concentrate on the corruption you bring, enhancing each of your melee strikes with <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> blight damage (which also heals you for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">10, 14, 17, 19, 21</acronym> each hit).</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Ruin",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "RUIN",
+                "source_code": [
+                    "data/talents/corruptions/scourge.lua",
+                    74
+                ],
+                "sustain_vim": 40,
+                "type": [
+                    "corruption/scourge",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 12,
+                "cost": "18 vim",
+                "id": "T_ACID_STRIKE",
+                "image": "acid_strike.png",
+                "info_text": "<p>Strike with each of your weapons, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">120%, 137%, 150%, 161%, 171%</acronym> acid weapon damage with each hit. </p><p>If at least one of the strikes hits, an acid splash is generated, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">86, 117, 141, 161, 179</acronym> acid damage to all targets other than yourself adjacent to the foe you struck.</p><p>The splash damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Acid Strike",
+                "no_silence": true,
+                "points": 5,
+                "radius": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "ACID_STRIKE",
+                "source_code": [
+                    "data/talents/corruptions/scourge.lua",
+                    100
+                ],
+                "type": [
+                    "corruption/scourge",
+                    3
+                ],
+                "use_speed": "Spell",
+                "vim": 18
+            },
+            {
+                "cooldown": 8,
+                "cost": "14 vim",
+                "id": "T_DARK_SURPRISE",
+                "image": "dark_surprise.png",
+                "info_text": "<p>Hits the target with your main weapon, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">100%, 117%, 130%, 141%, 151%</acronym> darkness weapon damage. If the attack hits you attack with your second weapon, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">100%, 117%, 130%, 141%, 151%</acronym> blight weapon damage and granting an automatic critical. If the second attack hits, the target is blinded for 4 turns.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Dark Surprise",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "requires_target": true,
+                "short_name": "DARK_SURPRISE",
+                "source_code": [
+                    "data/talents/corruptions/scourge.lua",
+                    150
+                ],
+                "type": [
+                    "corruption/scourge",
+                    4
+                ],
+                "use_speed": "Spell",
+                "vim": 14
+            }
+        ],
+        "type": "corruption/scourge"
+    },
+    {
+        "allow_random": true,
+        "description": "Harness the power of the demonic shadowflame.",
+        "is_spell": true,
+        "name": "Shadowflame",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 30,
+                "cost": "20 vim",
+                "id": "T_WRAITHFORM",
+                "image": "wraithform.png",
+                "info_text": "<p>Turn into a wraith, allowing you to walk through walls (but not preventing suffocation) for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 8, 9, 10</acronym> turns.</p><p>Also increases your Defense and Armour by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">11, 15, 19, 21, 24</acronym> and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">9, 12, 14, 17, 18,</acronym> respectively.</p><p>If you are still in a wall when the effect ends you will randomly teleport.</p><p>The bonuses will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Wraithform",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "WRAITHFORM",
+                "source_code": [
+                    "data/talents/corruptions/shadowflame.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/shadowflame",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 20
+            },
+            {
+                "cooldown": 8,
+                "cost": "15 vim",
+                "direct_hit": true,
+                "id": "T_DARKFIRE",
+                "image": "darkfire.png",
+                "info_text": "<p>Conjures up a bolt of shadowflame that moves toward the target and explodes into a flash of darkness and fire, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">75, 101, 122, 139, 154</acronym> fire damage and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">75, 101, 122, 139, 154</acronym> darkness damage in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7.</acronym></p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Darkfire",
+                "no_silence": true,
+                "points": 5,
+                "proj_speed": 4,
+                "range": "6.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "DARKFIRE",
+                "source_code": [
+                    "data/talents/corruptions/shadowflame.lua",
+                    42
+                ],
+                "type": [
+                    "corruption/shadowflame",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 15
+            },
+            {
+                "cooldown": 30,
+                "cost": "90 vim",
+                "id": "T_FLAME_OF_URH_ROK",
+                "image": "flame_of_urh_rok.png",
+                "info_text": "<p>Call upon the essence of the supreme demon overlord Urh'Rok to turn into a demon.</p><p>While in demon form, you gain <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">18%, 25%, 30%, 35%, 38%</acronym> fire resistance, <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">22%, 29%, 35%, 41%, 45%</acronym> darkness resistance, and your global speed is increased by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4%, 8%, 12%, 15%, 18%.</acronym></p><p>The flames of the Fearscape will heal you while in demon form.</p><p>The resistances and heal will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Flame of Urh'Rok",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "FLAME_OF_URH_ROK",
+                "source_code": [
+                    "data/talents/corruptions/shadowflame.lua",
+                    81
+                ],
+                "sustain_vim": 90,
+                "type": [
+                    "corruption/shadowflame",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 60,
+                "cost": "90 vim, 5 drain vim",
+                "drain_vim": 5,
+                "id": "T_DEMON_PLANE",
+                "image": "demon_plane.png",
+                "info_text": "<p>Summon a part of the Fearscape to intersect with the current level.</p><p>Your target and yourself are taken to the Fearscape, trapped there until you end the spell or until your target dies.</p><p>While inside, a constant aura of flames will burn both of you (and heal demons) for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">93, 126, 152, 174, 193</acronym> fire damage.</p><p>When the spell ends, only you and the target (if still alive) are taken back to your home plane; all summons are left in the Fearscape.</p><p>Objects will be moved as well.</p><p>This spell has no effect if cast when already inside the Fearscape.</p><p>This powerful spell drains 5 vim per turn, ending when it reaches 0.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Fearscape",
+                "no_silence": true,
+                "no_sustain_autoreset": true,
+                "points": 5,
+                "random_boss_rarity": 10,
+                "range": "5.0",
+                "remove_on_zero": true,
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "DEMON_PLANE",
+                "source_code": [
+                    "data/talents/corruptions/shadowflame.lua",
+                    121
+                ],
+                "sustain_vim": 90,
+                "type": [
+                    "corruption/shadowflame",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "corruption/shadowflame"
+    },
+    {
+        "allow_random": true,
+        "description": "All the tools to torment your foes.",
+        "generic": true,
+        "is_spell": true,
+        "name": "torment",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 20,
+                "generic": true,
+                "id": "T_WILLFUL_TORMENTER",
+                "image": "willful_tormenter.png",
+                "info_text": "<p>You set your mind toward a single goal: the destruction of all your foes.</p><p>Increases the maximum amount of vim you can store by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">25, 44, 61, 77, 92.</acronym></p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Willful Tormenter",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "WILLFUL_TORMENTER",
+                "source_code": [
+                    "data/talents/corruptions/torment.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/torment",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 16,
+                "cost": "12 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_BLOOD_LOCK",
+                "image": "blood_lock.png",
+                "info_text": "<p>Reach out and touch the blood and health of your foes. Any creatures caught in the radius 2 ball will be unable to heal above their current life value (at the time of the casting) for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 7, 10, 12, 14</acronym> turns.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Blood Lock",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "radius": 2,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "BLOOD_LOCK",
+                "source_code": [
+                    "data/talents/corruptions/torment.lua",
+                    57
+                ],
+                "type": [
+                    "corruption/torment",
+                    2
+                ],
+                "use_speed": "Instant",
+                "vim": 12
+            },
+            {
+                "cooldown": 20,
+                "cost": "18 vim",
+                "generic": true,
+                "id": "T_OVERKILL",
+                "image": "overkill.png",
+                "info_text": "<p>When you kill a creature, the remainder of the damage done will not be lost. Instead, <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">66%, 71%, 75%, 77%, 79%</acronym> of it will splash in a radius 2 as blight damage.</p><p>The splash damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Overkill",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "OVERKILL",
+                "source_code": [
+                    "data/talents/corruptions/torment.lua",
+                    92
+                ],
+                "sustain_vim": 18,
+                "type": [
+                    "corruption/torment",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 20,
+                "cost": "22 vim",
+                "generic": true,
+                "id": "T_BLOOD_VENGEANCE",
+                "image": "blood_vengeance.png",
+                "info_text": "<p>When you are dealt a blow that reduces your life by at least <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">14%, 12%, 10%, 9%, 9%,</acronym> you have a <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">49%, 55%, 58%, 61%, 63%</acronym> chance to reduce the remaining cooldown of all your spells by 1.</p><p>The chance will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Blood Vengeance",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "BLOOD_VENGEANCE",
+                "source_code": [
+                    "data/talents/corruptions/torment.lua",
+                    116
+                ],
+                "sustain_vim": 22,
+                "type": [
+                    "corruption/torment",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "corruption/torment"
+    },
+    {
+        "allow_random": true,
+        "description": "Manipulate life for your vile needs.",
+        "generic": true,
+        "is_spell": true,
+        "name": "vile life",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "generic": true,
+                "id": "T_BLOOD_SPLASH",
+                "image": "blood_splash.png",
+                "info_text": "<p>Inflicting pain and death invogorates you.</p><p>Each time you deal a critical strike you gain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">14, 29, 41, 51, 60</acronym> life (this effect can only happen once per turn).</p><p>Each time you kill a creature you gain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">14, 29, 41, 51, 60</acronym> life (this effect can only happen once per turn).</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Blood Splash",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "BLOOD_SPLASH",
+                "source_code": [
+                    "data/talents/corruptions/vile-life.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/vile-life",
+                    1
+                ]
+            },
+            {
+                "cooldown": 20,
+                "cost": "30 vim",
+                "generic": true,
+                "id": "T_ELEMENTAL_DISCORD",
+                "image": "elemental_discord.png",
+                "info_text": "<p>Use elemental damage deal to you to trigger terrible effects on the source:</p><ul><li> Fire: burn for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">278, 376, 453, 518, 575</acronym> fire damage over 5 turns</li><li> Cold: freeze for 3 turns with <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">350, 474, 571, 652, 725</acronym> iceblock power</li><li> Acid: blind for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 5, 5</acronym> turns</li><li> Lightning: daze for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 4, 5, 5</acronym> turns</li><li> Nature: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">20%, 35%, 41%, 45%, 48%</acronym> slow for 4 turns</li></ul><p>This effect can only happen once every 10 turns per damage type.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Elemental Discord",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "ELEMENTAL_DISCORD",
+                "source_code": [
+                    "data/talents/corruptions/vile-life.lua",
+                    55
+                ],
+                "type": [
+                    "corruption/vile-life",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 30
+            },
+            {
+                "cooldown": 15,
+                "cost": "16 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_HEALING_INVERSION",
+                "image": "healing_inversion.png",
+                "info_text": "<p>You manipulate the vim of your target to temporarily invert all healing done to it (but not regeneration).</p><p>For 5 turns all healing will instead damage them for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">44%, 52%, 56%, 59%, 62%</acronym> of the healing done as blight.</p><p>The effect will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Healing Inversion",
+                "no_silence": true,
+                "points": 5,
+                "range": "5.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "HEALING_INVERSION",
+                "source_code": [
+                    "data/talents/corruptions/vile-life.lua",
+                    122
+                ],
+                "type": [
+                    "corruption/vile-life",
+                    3
+                ],
+                "use_speed": "Spell",
+                "vim": 16
+            },
+            {
+                "cooldown": 10,
+                "cost": "18 vim",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_VILE_TRANSPLANT",
+                "image": "vile_transplant.png",
+                "info_text": "<p>You transfer up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 3, 4, 4</acronym> physical or magical detrimental effects currently affecting you to a nearby creature by touching it.</p><p>The transfer takes <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9.1%, 6.8%, 5.6%, 4.9%, 4.4%</acronym> of your remaining life for each effect transferred and heals the target for the same amount.</p><p>The chance to transfer each effect increases with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Vile Transplant",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "requires_target": true,
+                "short_name": "VILE_TRANSPLANT",
+                "source_code": [
+                    "data/talents/corruptions/vile-life.lua",
+                    154
+                ],
+                "type": [
+                    "corruption/vile-life",
+                    4
+                ],
+                "use_speed": "Spell",
+                "vim": 18
+            }
+        ],
+        "type": "corruption/vile-life"
+    },
+    {
+        "allow_random": true,
+        "description": "Touch the very essence of your victims.",
+        "is_spell": true,
+        "name": "vim",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 4,
+                "cost": "10 vim",
+                "id": "T_SOUL_ROT",
+                "image": "soul_rot.png",
+                "info_text": "<p>Projects a bolt of pure blight, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">170, 231, 278, 318, 353</acronym> blight damage.</p><p>This spell has an improved critical strike chance of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">+8.67%, +15%, +21%, +26%, +31%.</acronym></p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Soul Rot",
+                "no_silence": true,
+                "points": 5,
+                "proj_speed": 10,
+                "range": "10.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "SOUL_ROT",
+                "source_code": [
+                    "data/talents/corruptions/vim.lua",
+                    20
+                ],
+                "type": [
+                    "corruption/vim",
+                    1
+                ],
+                "use_speed": "Spell",
+                "vim": 10
+            },
+            {
+                "cooldown": 25,
+                "cost": "25 vim",
+                "id": "T_VIMSENSE",
+                "image": "vimsense.png",
+                "info_text": "<p>Feel the very existence of creatures around you for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns, in a radius of 10.</p><p>The evil touch will reduce their blight resistance by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">28%, 38%, 46%, 53%, 59%,</acronym> but also make them aware of you.</p><p>The resistance reduction will improve with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Vimsense",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "VIMSENSE",
+                "source_code": [
+                    "data/talents/corruptions/vim.lua",
+                    48
+                ],
+                "type": [
+                    "corruption/vim",
+                    2
+                ],
+                "use_speed": "Spell",
+                "vim": 25
+            },
+            {
+                "id": "T_LEECH",
+                "image": "leech.png",
+                "info_text": "<p>Each time a creature affected by vimsense hurts you, you regain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3.96, 4.95, 5.82, 6.62, 7.37</acronym> vim and <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9.11, 13, 17, 21, 24</acronym> health.</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Leech",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "LEECH",
+                "source_code": [
+                    "data/talents/corruptions/vim.lua",
+                    83
+                ],
+                "type": [
+                    "corruption/vim",
+                    3
+                ]
+            },
+            {
+                "cooldown": 15,
+                "cost": "30 vim",
+                "id": "T_DARK_PORTAL",
+                "image": "dark_portal.png",
+                "info_text": "<p>Open a dark portal (radius 3) to the target zone. All creatures caught inside will be teleported to your location, and you to theirs.</p><p>All creatures (except you) traversing the portal will catch a random disease, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> blight damage per turn for 6 turns and reducing one of its physical stats (strength, constitution, dexterity) by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">15, 21, 25, 28, 32.</acronym></p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Dark Portal",
+                "no_silence": true,
+                "points": 5,
+                "radius": 3,
+                "range": "7.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "DARK_PORTAL",
+                "source_code": [
+                    "data/talents/corruptions/vim.lua",
+                    98
+                ],
+                "type": [
+                    "corruption/vim",
+                    4
+                ],
+                "use_speed": "Spell",
+                "vim": 30
+            }
+        ],
+        "type": "corruption/vim"
+    }
+]

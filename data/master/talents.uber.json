@@ -1,1 +1,1212 @@
-[{"type":"uber/constitution","name":"constitution","talents":[{"type":["uber/constitution",1],"source_code":["data/talents/uber/const.lua",20],"require":["Level 30, Con 50; Be close to the draconic world"],"multi_require":false,"short_name":"DRACONIC_BODY","points":1,"id":"T_DRACONIC_BODY","image":"draconic_body.png","uber":true,"info_text":"<p>Your body hardens and recovers quickly. When pushed below 30% life, you are healed for 40% of your total life.</p>","mode":"passive","cooldown":20,"name":"Draconic Body"},{"type":["uber/constitution",1],"source_code":["data/talents/uber/const.lua",38],"require":["Level 30, Con 50; Have let Melinda be sacrificed"],"multi_require":false,"short_name":"BLOODSPRING","points":1,"id":"T_BLOODSPRING","image":"bloodspring.png","uber":true,"info_text":"<p>When a single blow deals more than 15% of your total life, a torrent of blood gushes from your body, creating a bloody tidal wave for 4 turns that deals <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100\">130, 175, 250, 325, 400</acronym> blight damage, heals you for 50% of the damage done, and knocks foes back.</p><p>The damage increases with your Constitution.</p>","mode":"passive","cooldown":12,"name":"Bloodspring"},{"type":["uber/constitution",1],"source_code":["data/talents/uber/const.lua",67],"id":"T_ETERNAL_GUARD","uber":true,"short_name":"ETERNAL_GUARD","name":"Eternal Guard","image":"eternal_guard.png","info_text":"<p>Your block now lasts 1 more turn and does not end when hit.</p>","multi_require":false,"mode":"passive","require":["Level 30, Con 50; Know the Block talent"],"points":1},{"multi_require":false,"short_name":"NEVER_STOP_RUNNING","image":"never_stop_running.png","mode":"sustained","require":["Level 30, Con 50; Know at least 20 levels of stamina-using talents"],"source_code":["data/talents/uber/const.lua",77],"type":["uber/constitution",1],"sustain_stamina":10,"id":"T_NEVER_STOP_RUNNING","uber":true,"use_speed":"Instant","range":"1.0","info_text":"<p>While this talent is active, you dig deep into your stamina reserves, allowing you to move without taking a turn. However, this costs 12 stamina for each tile that you cross.</p>","name":"Never Stop Running","points":1,"no_energy":true,"cooldown":20},{"source_code":["data/talents/uber/const.lua",98],"type":["uber/constitution",1],"multi_require":false,"short_name":"ARMOUR_OF_SHADOWS","id":"T_ARMOUR_OF_SHADOWS","uber":true,"image":"armour_of_shadows.png","name":"Armour of Shadows","mode":"passive","points":1,"info_text":"<p>You know how to protect yourself with the deepest shadows. As long as you stand on an unlit tile you gain <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100\">30, 30, 30, 37, 50</acronym> armour and 50% armour hardiness.</p><p>Any time you deal darkness damage, you will unlight both the target tile and yours.</p><p>The armor bonus scales with your Constitution.</p>","require":["Level 30, Con 50; Have dealt over 50000 darkness damage"]},{"source_code":["data/talents/uber/const.lua",122],"type":["uber/constitution",1],"points":1,"uber":true,"short_name":"SPINE_OF_THE_WORLD","id":"T_SPINE_OF_THE_WORLD","multi_require":false,"image":"spine_of_the_world.png","info_text":"<p>Your back is as hard as stone. Each time that you are affected by a physical effect, your body hardens, making you immune to all other physical effects for 5 turns.</p>","name":"Spine of the World","mode":"passive","require":["Level 30, Con 50"]},{"multi_require":false,"short_name":"FUNGAL_BLOOD","image":"fungal_blood.png","mode":"activated","require":["Level 30, Con 50; Be able to use infusions"],"source_code":["data/talents/uber/const.lua",135],"type":["uber/constitution",1],"uber":true,"use_speed":"Instant","range":"1.0","name":"Fungal Blood","id":"T_FUNGAL_BLOOD","no_energy":true,"points":1,"info_text":"<p>Fungal spores have colonized your blood, so that each time you use an infusion you store <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100,<br>Constitution 10, 25, 50, 75, 100\">20, 50, 100, 150, 201</acronym> fungal power.</p><p>You may use this prodigy to release the power as a heal (never more than than <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100,<br>Constitution 10, 25, 50, 75, 100\">10, 13, 18, 22, 25</acronym> life) and remove up to 10 detrimental magical effects.</p><p>Fungal power lasts for up to 6 turns, losing the greater of 10 potency or 10% of its power each turn.</p><p>The amount of fungal power produced and the maximum heal possible increase with your Constitution and maximum life.</p>"},{"source_code":["data/talents/uber/const.lua",170],"id":"T_CORRUPTED_SHELL","uber":true,"short_name":"CORRUPTED_SHELL","points":1,"type":["uber/constitution",1],"image":"corrupted_shell.png","name":"Corrupted Shell","multi_require":false,"info_text":"<p>Thanks to your newfound knowledge of corruption, you've learned some tricks for toughening your body&hellip; but only if you are healthy enough to withstand the strain from the changes.</p><p>Improves your life by 250, your Defense by <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100\">3, 8, 16, 25, 33,</acronym> your Armour Hardiness by 20% and your saves by <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100\">3, 8, 16, 25, 33</acronym> as your natural toughness and reflexes are pushed beyond their normal limits.</p><p>Your saves and Defense will improve with your Constitution.</p>","mode":"passive","require":["Level 30, Con 50; Have received at least 7500 blight damage and destroyed Zigur with the Grand Corruptor."]}],"points":1,"description":"Ultimate talents you may only know one.","hide":true},{"type":"uber/cunning","name":"cunning","talents":[{"source_code":["data/talents/uber/cun.lua",20],"type":["uber/cunning",1],"points":1,"uber":true,"short_name":"FAST_AS_LIGHTNING","id":"T_FAST_AS_LIGHTNING","multi_require":false,"image":"fast_as_lightning.png","info_text":"<p>When moving over 800% speed for at least 3 turns in the same direction, you become so fast you can blink through obstacles as if they were not there.</p><p>Changing direction will break the effect.</p>","name":"Fast As Lightning","mode":"passive","require":["Level 30, Cun 50"]},{"source_code":["data/talents/uber/cun.lua",70],"type":["uber/cunning",1],"id":"T_TRICKY_DEFENSES","uber":true,"short_name":"TRICKY_DEFENSES","points":1,"multi_require":false,"image":"tricky_defenses.png","name":"Tricky Defenses","info_text":"<p>You are full of tricks and surprises; your Antimagic Shield can absorb <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100\">10%, 20%, 32%, 42%, 50%</acronym> more damage.</p><p>The increase scales with your Cunning.</p>","mode":"passive","require":["Level 30, Cun 50; Antimagic"]},{"source_code":["data/talents/uber/cun.lua",83],"type":["uber/cunning",1],"points":1,"uber":true,"short_name":"ENDLESS_WOES","multi_require":false,"image":"endless_woes.png","id":"T_ENDLESS_WOES","info_text":"<p>Surround yourself with a malevolent aura.</p><p>Any acid damage you do has a 20% chance to apply a lasting acid that deals <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">6%, 15%, 25%, 33%, 39%</acronym> of the initial damage for 5 turns and reduces accuracy by <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">5, 12, 25, 37, 50.</acronym></p><p>Any blight damage you do has a 20% chance to cause a random disease that deals <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">6%, 15%, 25%, 33%, 39%</acronym> of the initial damage for 5 turns and reduces a stat by <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">3, 8, 16, 25, 33.</acronym></p><p>Any darkness damage you do has a 20% chance to blind the target for 5 turns.</p><p>Any temporal damage you do has a 20% chance to slow (30%) the target for 5 turns.</p><p>Any mind damage you do has a 20% chance to confuse (20%) the target for 5 turns.</p><p>This only triggers for hits over 150 damage.</p><p>The damage values increase with your Cunning.</p>","mode":"passive","require":["Level 30, Cun 50; Have dealt over 50000 acid, blight, darkness, mind or temporal damage"],"name":"Endless Woes"},{"source_code":["data/talents/uber/cun.lua",125],"id":"T_SECRETS_OF_TELOS","uber":true,"short_name":"SECRETS_OF_TELOS","points":1,"type":["uber/cunning",1],"image":"secrets_of_telos.png","name":"Secrets of Telos","multi_require":false,"info_text":"<p>You have obtained the three parts of the Staff of Telos and studied them carefully. You believe that you can merge them back into a single highly potent staff.</p>","mode":"passive","require":["Level 30, Cun 50; Possess Telos Top Half, Telos Bottom Half, and Telos Staff Crystal"]},{"multi_require":false,"short_name":"ELEMENTAL_SURGE","image":"elemental_surge.png","mode":"passive","require":["Level 30, Cun 50; Have dealt over 50000 arcane, fire, cold, lightning, light or nature damage"],"type":["uber/cunning",1],"source_code":["data/talents/uber/cun.lua",159],"uber":true,"info_text":"<p>Surround yourself with an elemental aura. When you deal a critical hit with an element, you have a chance to trigger a special effect.</p><p>Arcane damage has a 30% chance to increase your spellcasting speed by 20% for 5 turns.</p><p>Fire damage has a 30% chance to cleanse all physical or magical detrimental effects on you.</p><p>Cold damage has a 30% chance to turn your skin into ice for 5 turns, reducing physical damage taken by 30%, increasing armor by <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">20, 26, 35, 42, 50,</acronym> and dealing 100 ice damage to attackers.</p><p>Lightning damage has a 30% chance to transform you into pure lightning for 5 turns; any damage will teleport you to an adjacent tile and ignore the damage (can only happen once per turn).</p><p>Light damage has a 30% chance to create a barrier around you, absorbing <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">120, 150, 200, 250, 300</acronym> damage for 5 turns.</p><p>Nature damage has a 30% chance to harden your skin, preventing the application of any magical detrimental effects for 5 turns.</p><p>The Cold and Light effects scale with your Cunning.</p><p>These effects only trigger for hits over 4 damage (based on your level).</p>","id":"T_ELEMENTAL_SURGE","name":"Elemental Surge","points":1,"cooldown":12},{"source_code":["data/talents/uber/cun.lua",215],"type":["uber/cunning",1],"points":1,"uber":true,"short_name":"EYE_OF_THE_TIGER","id":"T_EYE_OF_THE_TIGER","multi_require":false,"image":"eye_of_the_tiger.png","info_text":"<p>All physical criticals reduce the remaining cooldown of a random technique or cunning talent by 2.</p><p>All spell criticals reduce the remaining cooldown of a random spell talent by 1.</p><p>All mind criticals reduce the remaining cooldown of a random wild gift/psionic/afflicted talent by 2.</p><p>This can only happen once per turn, and cannot affect the talent that triggers it.</p>","name":"Eye of the Tiger","mode":"passive","require":["Level 30, Cun 50"]},{"source_code":["data/talents/uber/cun.lua",269],"id":"T_WORLDLY_KNOWLEDGE","uber":true,"short_name":"WORLDLY_KNOWLEDGE","points":1,"type":["uber/cunning",1],"image":"worldly_knowledge.png","name":"Worldly Knowledge","multi_require":false,"info_text":"<p>Learn a new talent category from one of the below at 0.9 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are available only to people without any spells or runes, and Group 3 are not available to followers of Zigur.</p><p>GROUP 1:</p><ul><li> Technique / Conditioning</li><li> Cunning / Survival</li></ul><p>GROUP 2:</p><ul><li> Technique / Mobility</li><li> Technique / Field Control</li><li> Wild Gift / Call of the Wild</li><li> Wild Gift / Mindstar Mastery</li><li> Psionic / Dreaming</li></ul><p>GROUP 3:</p><ul><li> Spell / Divination</li><li> Spell / Staff Combat</li><li> Spell / Stone Alchemy</li><li> Celestial / Chants</li><li> Celestial / Light</li><li> Chronomancy / Chronomancy</li></ul>","mode":"passive","require":["Level 30, Cun 50"]},{"source_code":["data/talents/uber/cun.lua",299],"id":"T_TRICKS_OF_THE_TRADE","uber":true,"short_name":"TRICKS_OF_THE_TRADE","points":1,"type":["uber/cunning",1],"image":"tricks_of_the_trade.png","name":"Tricks of the Trade","multi_require":false,"info_text":"<p>You have friends in low places and have learned some underhanded tricks.</p><p>Gain 0.2 Category Mastery to the Cunning/Stealth Category (or unlock it, if locked), and either gain +0.1 to the Cunning/Scoundrel category or learn and unlock the category at 0.9 if you lack it.</p><p>Additionally, all of your damage penalties from invisibility are permanently halved.</p>","mode":"passive","require":["Level 30, Cun 50; Have sided with the Assassin Lord"]}],"points":1,"description":"Ultimate talents you may only know one.","hide":true},{"type":"uber/dexterity","name":"dexterity","talents":[{"multi_require":false,"short_name":"THROUGH_THE_CROWD","image":"through_the_crowd.png","mode":"sustained","source_code":["data/talents/uber/dex.lua",20],"type":["uber/dexterity",1],"require":["Level 30, Dex 50; Have had at least 6 party members at the same time"],"id":"T_THROUGH_THE_CROWD","uber":true,"use_speed":"Standard","range":"1.0","name":"Through The Crowd","points":1,"info_text":"<p>You are used to a crowded party:</p><ul><li> you can swap places with friendly creatures in just one tenth of a turn as a passive effect.</li><li> you can never damage your friends or neutral creatures while this talent is active.</li><li> you love being surrounded by friends; for each friendly creature in sight you gain +10 to all saves</li></ul>"},{"type":["uber/dexterity",1],"source_code":["data/talents/uber/dex.lua",61],"id":"T_SWIFT_HANDS","uber":true,"short_name":"SWIFT_HANDS","image":"swift_hands.png","name":"Swift Hands","multi_require":false,"info_text":"<p>You have very agile hands; swapping equipment sets (default q key) takes no time, nor does equipping/unequipping items.</p><p>The free item switch may only happen once per turn.</p><p>The cooldown for equipping activatable equipment is removed.</p>","mode":"passive","require":["Level 30, Dex 50"],"points":1},{"multi_require":false,"range":"1.0","image":"windblade.png","mode":"activated","require":["Level 30, Dex 50; Have dealt over 50000 damage with dual wielded weapons"],"type":["uber/dexterity",1],"source_code":["data/talents/uber/dex.lua",82],"id":"T_WINDBLADE","uber":true,"use_speed":"Standard","info_text":"<p>You spin madly, generating a sharp gust of wind with your weapons that deals 320% weapon damage to all foes within radius 4 and disarms them for 4 turns.</p>","name":"Windblade","points":1,"radius":4,"short_name":"WINDBLADE","cooldown":12},{"type":["uber/dexterity",1],"source_code":["data/talents/uber/dex.lua",114],"id":"T_WINDTOUCHED_SPEED","uber":true,"short_name":"WINDTOUCHED_SPEED","image":"windtouched_speed.png","name":"Windtouched Speed","multi_require":false,"info_text":"<p>You are attuned with Nature, and she helps you in your fight against the arcane forces.</p><p>You gain 20% permanent global speed and do not trigger pressure traps.</p>","mode":"passive","require":["Level 30, Dex 50; Know at least 20 talent levels of equilibrium-using talents"],"points":1},{"multi_require":false,"range":"10.0","image":"giant_leap.png","mode":"activated","require":["Level 30, Dex 50; Have dealt over 50000 damage with any weapon or unarmed"],"type":["uber/dexterity",1],"source_code":["data/talents/uber/dex.lua",135],"id":"T_GIANT_LEAP","uber":true,"use_speed":"Standard","info_text":"<p>You accurately jump to the target and deal 200% weapon damage to all foes within radius 1 on impact as well as dazing them for 3 turns.</p>","name":"Giant Leap","points":1,"radius":1,"short_name":"GIANT_LEAP","cooldown":20},{"type":["uber/dexterity",1],"source_code":["data/talents/uber/dex.lua",191],"id":"T_CRAFTY_HANDS","uber":true,"short_name":"CRAFTY_HANDS","name":"Crafty Hands","image":"crafty_hands.png","info_text":"<p>You are very crafty. You can now also embed gems into helms and belts.</p>","multi_require":false,"mode":"passive","require":["Level 30, Dex 50; Know Imbue Item to level 5"],"points":1},{"multi_require":false,"short_name":"ROLL_WITH_IT","image":"roll_with_it.png","mode":"sustained","require":["Level 30, Dex 50; Have been knocked around at least 50 times"],"type":["uber/dexterity",1],"source_code":["data/talents/uber/dex.lua",203],"id":"T_ROLL_WITH_IT","uber":true,"use_speed":"Standard","range":"1.0","info_text":"<p>You have learned to take a few hits when needed and can flow with the tide of battle.</p><p>So long as you can move, you find a way to dodge, evade, deflect or otherwise reduce physical damage against you by <acronym class=\"stat-variable\" title=\"Values for<br>Dexterity 10, 25, 50, 75, 100\">2%, 6%, 10%, 12%, 15%.</acronym></p><p>Once per turn, when you get hit by a melee or archery attack you move back one tile for free and gain 200% movement speed for a turn.</p><p>The damage avoidance scales with your Dexterity and applies after resistances.</p>","name":"Roll With It","points":1,"cooldown":10},{"multi_require":false,"range":"archery","image":"vital_shot.png","mode":"activated","require":["Level 30, Dex 50; Have dealt over 50000 damage with ranged weapons"],"type":["uber/dexterity",1],"source_code":["data/talents/uber/dex.lua",229],"id":"T_VITAL_SHOT","uber":true,"use_speed":"Standard","info_text":"<p>You fire a shot straight at your enemy's vital areas, wounding them terribly.</p><p>Enemies hit by this shot will take 450% weapon damage and will be stunned and crippled (losing 50% physical, magical and mental attack speeds) for five turns due to the devastating impact of the shot.</p><p>The stun and cripple chances increase with your Accuracy.</p>","points":1,"name":"Vital Shot","requires_target":true,"no_energy":"fake","short_name":"VITAL_SHOT","cooldown":10}],"points":1,"description":"Ultimate talents you may only know one.","hide":true},{"type":"uber/magic","name":"magic","talents":[{"type":["uber/magic",1],"source_code":["data/talents/uber/mag.lua",20],"id":"T_SPECTRAL_SHIELD","uber":true,"short_name":"SPECTRAL_SHIELD","image":"spectral_shield.png","name":"Spectral Shield","multi_require":false,"info_text":"<p>By infusing your shield with raw magic, your block can now block any damage type.</p>","mode":"passive","require":["Level 30, Mag 50; Know the Block talent, have cast 100 spells, and have a block value over 200"],"points":1},{"type":["uber/magic",1],"source_code":["data/talents/uber/mag.lua",38],"id":"T_AETHER_PERMEATION","uber":true,"short_name":"AETHER_PERMEATION","image":"aether_permeation.png","name":"Aether Permeation","multi_require":false,"info_text":"<p>You manifest a thin layer of aether all around you. Any attack passing through it will check arcane resistance instead of the incoming damage resistance.</p><p>In effect, all of your resistances are equal to 66% of your arcane resistance.</p>","mode":"passive","require":["Level 30, Mag 50; Have at least 25% arcane damage reduction and have been exposed to the void of space"],"points":1},{"source_code":["data/talents/uber/mag.lua",59],"id":"T_MYSTICAL_CUNNING","uber":true,"short_name":"MYSTICAL_CUNNING","type":["uber/magic",1],"image":"vulnerability_poison.png","name":"Mystical Cunning","multi_require":false,"info_text":"<p>Your study of arcane forces has let you develop new traps and poisons (depending on which you know when learning this prodigy).</p><p>You can learn:</p><ul><li> Vulnerability Poison: reduces all resistances and deals arcane damage.</li><li> Gravitic Trap: each turn, all foes in a radius 5 around it are pulled in and take temporal damage.</li></ul><p>You also permanently gain 20 Spell Save.</p>","mode":"passive","require":["Level 30, Mag 50; Know either traps or poisons"],"points":1},{"type":["uber/magic",1],"source_code":["data/talents/uber/mag.lua",83],"id":"T_ARCANE_MIGHT","uber":true,"short_name":"ARCANE_MIGHT","image":"arcane_might.png","name":"Arcane Might","info_text":"<p>You have learned to harness your latent arcane powers, channeling them through your weapon.</p><p>Equipped weapons are treated as having an additional 50% Magic modifier.</p>","multi_require":false,"mode":"passive","require":["Level 30, Mag 50"],"points":1},{"multi_require":false,"range":"10.0","image":"temporal_form.png","mode":"activated","require":["Level 30, Mag 50; Have cast over 1000 spells and visited a zone outside of time"],"source_code":["data/talents/uber/mag.lua",93],"type":["uber/magic",1],"is_spell":true,"id":"T_TEMPORAL_FORM","uber":true,"use_speed":"Instant","info_text":"<p>You can wrap temporal threads around you, assuming the form of a telugoroth for 10 turns.</p><p>While in this form you gain pinning, bleeding, blindness and stun immunity, 30% temporal resistance, your temporal damage bonus is set to your current highest damage bonus + 30%, 50% of the damage you deal becomes temporal, and you gain 20% temporal resistance penetration.</p><p>You also are able to cast two anomalies: Anomaly Rearrange and Anomaly Temporal Storm.</p>","points":1,"name":"Temporal Form","requires_target":true,"no_energy":true,"short_name":"TEMPORAL_FORM","cooldown":30},{"source_code":["data/talents/uber/mag.lua",116],"type":["uber/magic",1],"id":"T_BLIGHTED_SUMMONING","uber":true,"short_name":"BLIGHTED_SUMMONING","multi_require":false,"points":1,"image":"blighted_summoning.png","name":"Blighted Summoning","mode":"passive","require":["Level 30, Mag 50; Have summoned at least 100 creatures affected by this talent. The alchemist golem counts as 100."],"info_text":"<p>You infuse blighted energies into all of your summons, granting them a new talent (at talent level 1):</p><ul><li> War Hound: Curse of Defenselessness</li><li> Jelly: Vimsense</li><li> Minotaur: Life Tap</li><li> Golem: Bone Spear</li><li> Alchemy Golems: Corrupted Strength (level 3) and the Reaving Combat tree</li><li> Ritch: Drain</li><li> Hydra: Blood Spray</li><li> Rimebark: Poison Storm</li><li> Fire Drake: Darkfire</li><li> Turtle: Curse of Impotence</li><li> Spider: Corrosive Worm</li><li> Skeletons: Bone Grab or Bone Spear</li><li> Bone Giants: Bone Shield</li><li> Ghouls: Blood Lock</li><li> Ghoul Rot ghoul: Rend</li><li> Vampires / Liches: Darkfire</li><li> Ghosts / Wights: Blood Boil</li><li> Shadows: Empathic Hex</li><li> Thought-Forms: Flame of Urh'Rok</li><li> Treants: Corrosive Worm</li><li> Yeek Wayists: Dark Portal</li><li> Bloated Oozes: Bone Shield (level 1)</li><li> Mucus Oozes: Virulent Disease</li><li> Temporal Hounds: Elemental Discord</li></ul><p>Your necrotic minions and wild-summons get a bonus to Magic equal to yours.</p><p>The talent levels increase with your level, and other race- or object-based summons may also be affected.</p><p></p>"},{"multi_require":false,"short_name":"REVISIONIST_HISTORY","image":"revisionist_history.png","mode":"activated","require":["Level 30, Mag 50; Have time-travelled at least once"],"type":["uber/magic",1],"is_spell":true,"source_code":["data/talents/uber/mag.lua",227],"id":"T_REVISIONIST_HISTORY","uber":true,"use_speed":"Instant","range":"1.0","info_text":"<p>You can now control the recent past. Upon using this prodigy you gain a temporal effect for 20 turns.</p><p>While this effect holds you can use the prodigy again to rewrite history.</p><p>This prodigy splits the timeline. Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.</p>","name":"Revisionist History","points":1,"no_energy":true,"cooldown":30},{"type":["uber/magic",1],"source_code":["data/talents/uber/mag.lua",277],"require":["Level 30, Mag 50; Have received at least 7500 fire damage and have cast at least 1000 spells"],"multi_require":false,"short_name":"CAUTERIZE","points":1,"id":"T_CAUTERIZE","image":"cauterize.png","uber":true,"info_text":"<p>Your inner flame is strong. Each time that you receive a blow that would kill you, your body is wreathed in flames.</p><p>The flames will cauterize the wound, fully absorbing all damage done this turn, but they will continue to burn for 8 turns.</p><p>Each turn 10% of the damage absorbed will be dealt by the flames. This will bypass resistance and affinity.</p><p>Warning: this has a cooldown.</p>","mode":"passive","cooldown":12,"name":"Cauterize"}],"points":1,"description":"Ultimate talents you may only know one.","hide":true},{"type":"uber/other","name":"other","talents":[{"short_name":"REVISIONIST_HISTORY_BACK","image":"revisionist_history_back.png","mode":"activated","type":["uber/other",1],"is_spell":true,"id":"T_REVISIONIST_HISTORY_BACK","source_code":["data/talents/uber/mag.lua",256],"use_speed":"Instant","range":"1.0","name":"Unfold History","info_text":"<p>Rewrite the recent past to go back to when you cast Revisionist History.</p>","no_energy":true,"points":1,"cooldown":30}],"points":1,"description":"Ultimate talents you may only know one.","hide":true},{"type":"uber/strength","name":"strength","talents":[{"type":["uber/strength",1],"source_code":["data/talents/uber/str.lua",20],"id":"T_FLEXIBLE_COMBAT","uber":true,"short_name":"FLEXIBLE_COMBAT","image":"flexible_combat.png","name":"Flexible Combat","multi_require":false,"info_text":"<p>Each time that you make a melee attack you have a 60% chance to execute an additional unarmed strike.</p>","mode":"passive","require":["Level 30, Str 50"],"points":1},{"multi_require":false,"short_name":"TITAN_S_SMASH","image":"titan_s_smash.png","mode":"activated","require":["Level 30, Str 50; Be of size category 'big' or larger. This is also required to use it."],"type":["uber/strength",1],"source_code":["data/talents/uber/str.lua",37],"id":"T_TITAN_S_SMASH","uber":true,"use_speed":"Standard","range":"1.0","name":"You Shall Be My Weapon!","requires_target":true,"info_text":"<p>You deal a massive blow to your foe, smashing it for 350% weapon damage and knocking it back 6 tiles.</p><p>All foes in its path will be knocked to the side and stunned for 3 turns.</p><p>For each size category over 'big' you gain an additional +80% weapon damage.</p>","points":1,"cooldown":10},{"multi_require":false,"short_name":"MASSIVE_BLOW","image":"massive_blow.png","mode":"activated","require":["Level 30, Str 50; Have dug at least 30 walls/trees/etc. and have dealt over 50000 damage with two-handed weapons"],"type":["uber/strength",1],"source_code":["data/talents/uber/str.lua",77],"id":"T_MASSIVE_BLOW","uber":true,"name":"Massive Blow","use_speed":"Standard","range":"1.0","requires_target":true,"info_text":"<p>You deal a massive blow to your foe, smashing it for 150% weapon damage and knocking it back 4 tiles.</p><p>If the knockback makes it hit a wall, it will smash down the wall and deal an additional 350% weapon damage.</p>","points":1,"cooldown":10},{"type":["uber/strength",1],"source_code":["data/talents/uber/str.lua",111],"id":"T_STEAMROLLER","uber":true,"short_name":"STEAMROLLER","name":"Steamroller","image":"steamroller.png","info_text":"<p>When you rush, the creature you rush to is marked. If you kill it in the next two turns then your rush cooldown is reset.</p><p>Each time that this effect triggers you gain a stacking +20% damage buff, up to 100%.</p><p>Rush now only costs 2 stamina.</p>","multi_require":false,"mode":"passive","require":["Level 30, Str 50; Know the Rush talent"],"points":1},{"multi_require":false,"short_name":"IRRESISTIBLE_SUN","image":"irresistible_sun.png","mode":"activated","require":["Level 30, Str 50; Have dealt over 50000 light or fire damage"],"type":["uber/strength",1],"source_code":["data/talents/uber/str.lua",123],"id":"T_IRRESISTIBLE_SUN","uber":true,"range":"5.0","use_speed":"Standard","info_text":"<p>For 6 turns you gain the mass and power of a star, drawing all creatures within radius 5 toward you and dealing <acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">22, 31, 45, 59, 73</acronym> fire, <acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">22, 31, 45, 59, 73</acronym> light and <acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">22, 31, 45, 59, 73</acronym> physical damage to all foes.</p><p>Foes closer to you take up to 150% more damage.</p><p>The damage will increase with your Strength.</p>","name":"Irresistible Sun","requires_target":true,"points":1,"cooldown":25},{"source_code":["data/talents/uber/str.lua",148],"id":"T_NO_FATIGUE","uber":true,"short_name":"NO_FATIGUE","points":1,"type":["uber/strength",1],"image":"no_fatigue.png","name":"I Can Carry The World!","multi_require":false,"info_text":"<p>Your strength is legendary; fatigue and physical exertion mean nothing to you.</p><p>Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 40.</p>","mode":"passive","require":["Level 30, Str 50; Be able to use massive armours"]},{"short_name":"LEGACY_OF_THE_NALOREN","image":"legacy_of_the_naloren.png","mode":"passive","require":["Level 30, Str 50; Have sided with Slasul and killed Ukllmswwik"],"type":["uber/strength",1],"source_code":["data/talents/uber/str.lua",164],"id":"T_LEGACY_OF_THE_NALOREN","uber":true,"multi_require":false,"name":"Legacy of the Naloren","points":1,"info_text":"<p>You have sided with Slasul and helped him vanquish Ukllmswwik. You are now able to breathe underwater with ease.</p><p>You have also learned to use tridents and other exotic weapons easily (talent level 1 of Exotic Weapon Mastery), and can Spit Poison (talent level 1) as nagas do. These are bonus talent levels that increase with your character level. In addition, should Slasul still live, he may have a further reward for you as thanks&hellip;</p>"},{"type":["uber/strength",1],"source_code":["data/talents/uber/str.lua",205],"id":"T_SUPERPOWER","uber":true,"short_name":"SUPERPOWER","image":"superpower.png","name":"Superpower","info_text":"<p>A strong body is key to a strong mind, and a strong mind can be powerful enough to make a strong body.</p><p>This prodigy grants a Mindpower bonus equal to 50% of your Strength.</p><p>Additionally, you treat all weapons as having an additional 30% Willpower modifier.</p>","multi_require":false,"mode":"passive","require":["Level 30, Str 50"],"points":1}],"points":1,"description":"Ultimate talents you may only know one.","hide":true},{"type":"uber/willpower","name":"willpower","talents":[{"multi_require":false,"range":"10.0","image":"draconic_will.png","mode":"activated","require":["Level 30, Wil 50; Be close to the draconic world"],"source_code":["data/talents/uber/wil.lua",20],"type":["uber/willpower",1],"fixed_cooldown":true,"id":"T_DRACONIC_WILL","uber":true,"use_speed":"Instant","info_text":"<p>Your body is like that of a drake, easily resisting detrimental effects.</p><p>For 5 turns, no detrimental effects may target you.</p>","points":1,"name":"Draconic Will","requires_target":true,"no_energy":true,"short_name":"DRACONIC_WILL","cooldown":15},{"source_code":["data/talents/uber/wil.lua",40],"type":["uber/willpower",1],"points":1,"multi_require":false,"id":"T_METEORIC_CRASH","uber":true,"short_name":"METEORIC_CRASH","info_text":"<p>When casting damaging spells or mind attacks, the release of your willpower can call forth a meteor to crash down near your foes.</p><p>The affected area is turned into lava for 8 turns, and the crash itself will deal <acronym class=\"stat-variable\" title=\"Values for<br>spellpower 10, 25, 50, 75, 100,<br>mindpower 10, 25, 50, 75, 100\">75, 113, 175, 238, 300</acronym> fire and <acronym class=\"stat-variable\" title=\"Values for<br>spellpower 10, 25, 50, 75, 100,<br>mindpower 10, 25, 50, 75, 100\">75, 113, 175, 238, 300</acronym> physical damage.</p><p>The meteor also stuns affected creatures for 3 turns. The damage scales with your Spellpower or Mindpower.</p>","image":"meteoric_crash.png","name":"Meteoric Crash","require":["Level 30, Wil 50; Have witnessed a meteoric crash"],"mode":"passive","cooldown":15},{"type":["uber/willpower",1],"source_code":["data/talents/uber/wil.lua",126],"id":"T_GARKUL_S_REVENGE","uber":true,"short_name":"GARKUL_S_REVENGE","image":"garkul_s_revenge.png","name":"Garkul's Revenge","multi_require":false,"info_text":"<p>Garkul's spirit is with you. You now deal 1000% more damage to constructs and 20% more damage to humanoids.</p>","mode":"passive","require":["Level 30, Wil 50; Possess and wear two of Garkul's artifacts and know all about Garkul's life"],"points":1},{"multi_require":false,"short_name":"HIDDEN_RESOURCES","image":"hidden_resources.png","mode":"activated","require":["Level 30, Wil 50; Have been close to death(killed a foe while below 1 HP)"],"type":["uber/willpower",1],"source_code":["data/talents/uber/wil.lua",155],"id":"T_HIDDEN_RESOURCES","uber":true,"name":"Hidden Resources","use_speed":"Instant","range":"1.0","info_text":"<p>You focus your mind on the task at hand, regardless of how dire the situation is.</p><p>For 5 turns, none of your talents use any resources.</p>","no_energy":true,"points":1,"cooldown":15},{"type":["uber/willpower",1],"source_code":["data/talents/uber/wil.lua",173],"id":"T_LUCKY_DAY","uber":true,"short_name":"LUCKY_DAY","image":"lucky_day.png","name":"Lucky Day","multi_require":false,"info_text":"<p>Every day is your lucky day! You gain a permanent +40 luck bonus.</p>","mode":"passive","require":["Level 30, Wil 50; Be lucky already (at least +5 luck)"],"points":1},{"type":["uber/willpower",1],"source_code":["data/talents/uber/wil.lua",191],"require":["Level 30, Wil 50"],"multi_require":false,"short_name":"UNBREAKABLE_WILL","points":1,"id":"T_UNBREAKABLE_WILL","image":"unbreakable_will.png","uber":true,"info_text":"<p>Your will is so strong that you simply ignore mental effects used against you.</p><p>Warning: this has a cooldown.</p>","mode":"passive","cooldown":7,"name":"Unbreakable Will"},{"type":["uber/willpower",1],"source_code":["data/talents/uber/wil.lua",207],"require":["Level 30, Wil 50; Antimagic"],"multi_require":false,"short_name":"SPELL_FEEDBACK","points":1,"id":"T_SPELL_FEEDBACK","image":"spell_feedback.png","uber":true,"info_text":"<p>Your will is a shield against assaults from crazed arcane users.</p><p>Each time that you take damage from a spell, you punish the spellcaster with <acronym class=\"stat-variable\" title=\"Values for<br>Willpower 10, 25, 50, 75, 100\">40, 70, 120, 170, 220</acronym> mind damage.</p><p>Also, they will suffer a 35% spell failure chance (with duration equal to the cooldown of the spell they used on you).</p><p>Note: this talent has a cooldown.</p>","mode":"passive","cooldown":9,"name":"Spell Feedback"},{"multi_require":false,"short_name":"MENTAL_TYRANNY","image":"mental_tyranny.png","mode":"sustained","require":["Level 30, Wil 50; Have dealt over 50000 mind damage"],"type":["uber/willpower",1],"id":"T_MENTAL_TYRANNY","uber":true,"source_code":["data/talents/uber/wil.lua",232],"use_speed":"Standard","range":"1.0","name":"Mental Tyranny","info_text":"<p>Transcend the physical and rule over all with an iron will!</p><p>While this sustain is active, 33% of your damage is converted into mind damage.</p><p>Additionally, you gain +30% mind resistance penetration, and +10% mind damage.</p>","points":1,"cooldown":20}],"points":1,"description":"Ultimate talents you may only know one.","hide":true}]
+[
+    {
+        "description": "Ultimate talents you may only know one.",
+        "hide": true,
+        "name": "constitution",
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 20,
+                "id": "T_DRACONIC_BODY",
+                "image": "draconic_body.png",
+                "info_text": "<p>Your body hardens and recovers quickly. When pushed below 30% life, you are healed for 40% of your total life.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Draconic Body",
+                "points": 1,
+                "require": [
+                    "Level 30, Con 50; Be close to the draconic world"
+                ],
+                "short_name": "DRACONIC_BODY",
+                "source_code": [
+                    "data/talents/uber/const.lua",
+                    20
+                ],
+                "type": [
+                    "uber/constitution",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 12,
+                "id": "T_BLOODSPRING",
+                "image": "bloodspring.png",
+                "info_text": "<p>When a single blow deals more than 15% of your total life, a torrent of blood gushes from your body, creating a bloody tidal wave for 4 turns that deals <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100\">130, 175, 250, 325, 400</acronym> blight damage, heals you for 50% of the damage done, and knocks foes back.</p><p>The damage increases with your Constitution.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Bloodspring",
+                "points": 1,
+                "require": [
+                    "Level 30, Con 50; Have let Melinda be sacrificed"
+                ],
+                "short_name": "BLOODSPRING",
+                "source_code": [
+                    "data/talents/uber/const.lua",
+                    38
+                ],
+                "type": [
+                    "uber/constitution",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_ETERNAL_GUARD",
+                "image": "eternal_guard.png",
+                "info_text": "<p>Your block now lasts 1 more turn and does not end when hit.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Eternal Guard",
+                "points": 1,
+                "require": [
+                    "Level 30, Con 50; Know the Block talent"
+                ],
+                "short_name": "ETERNAL_GUARD",
+                "source_code": [
+                    "data/talents/uber/const.lua",
+                    67
+                ],
+                "type": [
+                    "uber/constitution",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 20,
+                "id": "T_NEVER_STOP_RUNNING",
+                "image": "never_stop_running.png",
+                "info_text": "<p>While this talent is active, you dig deep into your stamina reserves, allowing you to move without taking a turn. However, this costs 12 stamina for each tile that you cross.</p>",
+                "mode": "sustained",
+                "multi_require": false,
+                "name": "Never Stop Running",
+                "no_energy": true,
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Con 50; Know at least 20 levels of stamina-using talents"
+                ],
+                "short_name": "NEVER_STOP_RUNNING",
+                "source_code": [
+                    "data/talents/uber/const.lua",
+                    77
+                ],
+                "sustain_stamina": 10,
+                "type": [
+                    "uber/constitution",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Instant"
+            },
+            {
+                "id": "T_ARMOUR_OF_SHADOWS",
+                "image": "armour_of_shadows.png",
+                "info_text": "<p>You know how to protect yourself with the deepest shadows. As long as you stand on an unlit tile you gain <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100\">30, 30, 30, 37, 50</acronym> armour and 50% armour hardiness.</p><p>Any time you deal darkness damage, you will unlight both the target tile and yours.</p><p>The armor bonus scales with your Constitution.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Armour of Shadows",
+                "points": 1,
+                "require": [
+                    "Level 30, Con 50; Have dealt over 50000 darkness damage"
+                ],
+                "short_name": "ARMOUR_OF_SHADOWS",
+                "source_code": [
+                    "data/talents/uber/const.lua",
+                    98
+                ],
+                "type": [
+                    "uber/constitution",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_SPINE_OF_THE_WORLD",
+                "image": "spine_of_the_world.png",
+                "info_text": "<p>Your back is as hard as stone. Each time that you are affected by a physical effect, your body hardens, making you immune to all other physical effects for 5 turns.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Spine of the World",
+                "points": 1,
+                "require": [
+                    "Level 30, Con 50"
+                ],
+                "short_name": "SPINE_OF_THE_WORLD",
+                "source_code": [
+                    "data/talents/uber/const.lua",
+                    122
+                ],
+                "type": [
+                    "uber/constitution",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_FUNGAL_BLOOD",
+                "image": "fungal_blood.png",
+                "info_text": "<p>Fungal spores have colonized your blood, so that each time you use an infusion you store <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100,<br>Constitution 10, 25, 50, 75, 100\">20, 50, 100, 150, 201</acronym> fungal power.</p><p>You may use this prodigy to release the power as a heal (never more than than <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100,<br>Constitution 10, 25, 50, 75, 100\">10, 13, 18, 22, 25</acronym> life) and remove up to 10 detrimental magical effects.</p><p>Fungal power lasts for up to 6 turns, losing the greater of 10 potency or 10% of its power each turn.</p><p>The amount of fungal power produced and the maximum heal possible increase with your Constitution and maximum life.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Fungal Blood",
+                "no_energy": true,
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Con 50; Be able to use infusions"
+                ],
+                "short_name": "FUNGAL_BLOOD",
+                "source_code": [
+                    "data/talents/uber/const.lua",
+                    135
+                ],
+                "type": [
+                    "uber/constitution",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Instant"
+            },
+            {
+                "id": "T_CORRUPTED_SHELL",
+                "image": "corrupted_shell.png",
+                "info_text": "<p>Thanks to your newfound knowledge of corruption, you've learned some tricks for toughening your body&hellip; but only if you are healthy enough to withstand the strain from the changes.</p><p>Improves your life by 250, your Defense by <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100\">3, 8, 16, 25, 33,</acronym> your Armour Hardiness by 20% and your saves by <acronym class=\"stat-variable\" title=\"Values for<br>Constitution 10, 25, 50, 75, 100\">3, 8, 16, 25, 33</acronym> as your natural toughness and reflexes are pushed beyond their normal limits.</p><p>Your saves and Defense will improve with your Constitution.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Corrupted Shell",
+                "points": 1,
+                "require": [
+                    "Level 30, Con 50; Have received at least 7500 blight damage and destroyed Zigur with the Grand Corruptor."
+                ],
+                "short_name": "CORRUPTED_SHELL",
+                "source_code": [
+                    "data/talents/uber/const.lua",
+                    170
+                ],
+                "type": [
+                    "uber/constitution",
+                    1
+                ],
+                "uber": true
+            }
+        ],
+        "type": "uber/constitution"
+    },
+    {
+        "description": "Ultimate talents you may only know one.",
+        "hide": true,
+        "name": "cunning",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_FAST_AS_LIGHTNING",
+                "image": "fast_as_lightning.png",
+                "info_text": "<p>When moving over 800% speed for at least 3 turns in the same direction, you become so fast you can blink through obstacles as if they were not there.</p><p>Changing direction will break the effect.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Fast As Lightning",
+                "points": 1,
+                "require": [
+                    "Level 30, Cun 50"
+                ],
+                "short_name": "FAST_AS_LIGHTNING",
+                "source_code": [
+                    "data/talents/uber/cun.lua",
+                    20
+                ],
+                "type": [
+                    "uber/cunning",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_TRICKY_DEFENSES",
+                "image": "tricky_defenses.png",
+                "info_text": "<p>You are full of tricks and surprises; your Antimagic Shield can absorb <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100\">10%, 20%, 32%, 42%, 50%</acronym> more damage.</p><p>The increase scales with your Cunning.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Tricky Defenses",
+                "points": 1,
+                "require": [
+                    "Level 30, Cun 50; Antimagic"
+                ],
+                "short_name": "TRICKY_DEFENSES",
+                "source_code": [
+                    "data/talents/uber/cun.lua",
+                    70
+                ],
+                "type": [
+                    "uber/cunning",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_ENDLESS_WOES",
+                "image": "endless_woes.png",
+                "info_text": "<p>Surround yourself with a malevolent aura.</p><p>Any acid damage you do has a 20% chance to apply a lasting acid that deals <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">6%, 15%, 25%, 33%, 39%</acronym> of the initial damage for 5 turns and reduces accuracy by <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">5, 12, 25, 37, 50.</acronym></p><p>Any blight damage you do has a 20% chance to cause a random disease that deals <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">6%, 15%, 25%, 33%, 39%</acronym> of the initial damage for 5 turns and reduces a stat by <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">3, 8, 16, 25, 33.</acronym></p><p>Any darkness damage you do has a 20% chance to blind the target for 5 turns.</p><p>Any temporal damage you do has a 20% chance to slow (30%) the target for 5 turns.</p><p>Any mind damage you do has a 20% chance to confuse (20%) the target for 5 turns.</p><p>This only triggers for hits over 150 damage.</p><p>The damage values increase with your Cunning.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Endless Woes",
+                "points": 1,
+                "require": [
+                    "Level 30, Cun 50; Have dealt over 50000 acid, blight, darkness, mind or temporal damage"
+                ],
+                "short_name": "ENDLESS_WOES",
+                "source_code": [
+                    "data/talents/uber/cun.lua",
+                    83
+                ],
+                "type": [
+                    "uber/cunning",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_SECRETS_OF_TELOS",
+                "image": "secrets_of_telos.png",
+                "info_text": "<p>You have obtained the three parts of the Staff of Telos and studied them carefully. You believe that you can merge them back into a single highly potent staff.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Secrets of Telos",
+                "points": 1,
+                "require": [
+                    "Level 30, Cun 50; Possess Telos Top Half, Telos Bottom Half, and Telos Staff Crystal"
+                ],
+                "short_name": "SECRETS_OF_TELOS",
+                "source_code": [
+                    "data/talents/uber/cun.lua",
+                    125
+                ],
+                "type": [
+                    "uber/cunning",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 12,
+                "id": "T_ELEMENTAL_SURGE",
+                "image": "elemental_surge.png",
+                "info_text": "<p>Surround yourself with an elemental aura. When you deal a critical hit with an element, you have a chance to trigger a special effect.</p><p>Arcane damage has a 30% chance to increase your spellcasting speed by 20% for 5 turns.</p><p>Fire damage has a 30% chance to cleanse all physical or magical detrimental effects on you.</p><p>Cold damage has a 30% chance to turn your skin into ice for 5 turns, reducing physical damage taken by 30%, increasing armor by <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">20, 26, 35, 42, 50,</acronym> and dealing 100 ice damage to attackers.</p><p>Lightning damage has a 30% chance to transform you into pure lightning for 5 turns; any damage will teleport you to an adjacent tile and ignore the damage (can only happen once per turn).</p><p>Light damage has a 30% chance to create a barrier around you, absorbing <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">120, 150, 200, 250, 300</acronym> damage for 5 turns.</p><p>Nature damage has a 30% chance to harden your skin, preventing the application of any magical detrimental effects for 5 turns.</p><p>The Cold and Light effects scale with your Cunning.</p><p>These effects only trigger for hits over 4 damage (based on your level).</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Elemental Surge",
+                "points": 1,
+                "require": [
+                    "Level 30, Cun 50; Have dealt over 50000 arcane, fire, cold, lightning, light or nature damage"
+                ],
+                "short_name": "ELEMENTAL_SURGE",
+                "source_code": [
+                    "data/talents/uber/cun.lua",
+                    159
+                ],
+                "type": [
+                    "uber/cunning",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_EYE_OF_THE_TIGER",
+                "image": "eye_of_the_tiger.png",
+                "info_text": "<p>All physical criticals reduce the remaining cooldown of a random technique or cunning talent by 2.</p><p>All spell criticals reduce the remaining cooldown of a random spell talent by 1.</p><p>All mind criticals reduce the remaining cooldown of a random wild gift/psionic/afflicted talent by 2.</p><p>This can only happen once per turn, and cannot affect the talent that triggers it.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Eye of the Tiger",
+                "points": 1,
+                "require": [
+                    "Level 30, Cun 50"
+                ],
+                "short_name": "EYE_OF_THE_TIGER",
+                "source_code": [
+                    "data/talents/uber/cun.lua",
+                    215
+                ],
+                "type": [
+                    "uber/cunning",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_WORLDLY_KNOWLEDGE",
+                "image": "worldly_knowledge.png",
+                "info_text": "<p>Learn a new talent category from one of the below at 0.9 mastery, unlocked. Group 1 categories are available to anyone; Group 2 are available only to people without any spells or runes, and Group 3 are not available to followers of Zigur.</p><p>GROUP 1:</p><ul><li> Technique / Conditioning</li><li> Cunning / Survival</li></ul><p>GROUP 2:</p><ul><li> Technique / Mobility</li><li> Technique / Field Control</li><li> Wild Gift / Call of the Wild</li><li> Wild Gift / Mindstar Mastery</li><li> Psionic / Dreaming</li></ul><p>GROUP 3:</p><ul><li> Spell / Divination</li><li> Spell / Staff Combat</li><li> Spell / Stone Alchemy</li><li> Celestial / Chants</li><li> Celestial / Light</li><li> Chronomancy / Chronomancy</li></ul>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Worldly Knowledge",
+                "points": 1,
+                "require": [
+                    "Level 30, Cun 50"
+                ],
+                "short_name": "WORLDLY_KNOWLEDGE",
+                "source_code": [
+                    "data/talents/uber/cun.lua",
+                    269
+                ],
+                "type": [
+                    "uber/cunning",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_TRICKS_OF_THE_TRADE",
+                "image": "tricks_of_the_trade.png",
+                "info_text": "<p>You have friends in low places and have learned some underhanded tricks.</p><p>Gain 0.2 Category Mastery to the Cunning/Stealth Category (or unlock it, if locked), and either gain +0.1 to the Cunning/Scoundrel category or learn and unlock the category at 0.9 if you lack it.</p><p>Additionally, all of your damage penalties from invisibility are permanently halved.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Tricks of the Trade",
+                "points": 1,
+                "require": [
+                    "Level 30, Cun 50; Have sided with the Assassin Lord"
+                ],
+                "short_name": "TRICKS_OF_THE_TRADE",
+                "source_code": [
+                    "data/talents/uber/cun.lua",
+                    299
+                ],
+                "type": [
+                    "uber/cunning",
+                    1
+                ],
+                "uber": true
+            }
+        ],
+        "type": "uber/cunning"
+    },
+    {
+        "description": "Ultimate talents you may only know one.",
+        "hide": true,
+        "name": "dexterity",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_THROUGH_THE_CROWD",
+                "image": "through_the_crowd.png",
+                "info_text": "<p>You are used to a crowded party:</p><ul><li> you can swap places with friendly creatures in just one tenth of a turn as a passive effect.</li><li> you can never damage your friends or neutral creatures while this talent is active.</li><li> you love being surrounded by friends; for each friendly creature in sight you gain +10 to all saves</li></ul>",
+                "mode": "sustained",
+                "multi_require": false,
+                "name": "Through The Crowd",
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Dex 50; Have had at least 6 party members at the same time"
+                ],
+                "short_name": "THROUGH_THE_CROWD",
+                "source_code": [
+                    "data/talents/uber/dex.lua",
+                    20
+                ],
+                "type": [
+                    "uber/dexterity",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            },
+            {
+                "id": "T_SWIFT_HANDS",
+                "image": "swift_hands.png",
+                "info_text": "<p>You have very agile hands; swapping equipment sets (default q key) takes no time, nor does equipping/unequipping items.</p><p>The free item switch may only happen once per turn.</p><p>The cooldown for equipping activatable equipment is removed.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Swift Hands",
+                "points": 1,
+                "require": [
+                    "Level 30, Dex 50"
+                ],
+                "short_name": "SWIFT_HANDS",
+                "source_code": [
+                    "data/talents/uber/dex.lua",
+                    61
+                ],
+                "type": [
+                    "uber/dexterity",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 12,
+                "id": "T_WINDBLADE",
+                "image": "windblade.png",
+                "info_text": "<p>You spin madly, generating a sharp gust of wind with your weapons that deals 320% weapon damage to all foes within radius 4 and disarms them for 4 turns.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Windblade",
+                "points": 1,
+                "radius": 4,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Dex 50; Have dealt over 50000 damage with dual wielded weapons"
+                ],
+                "short_name": "WINDBLADE",
+                "source_code": [
+                    "data/talents/uber/dex.lua",
+                    82
+                ],
+                "type": [
+                    "uber/dexterity",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            },
+            {
+                "id": "T_WINDTOUCHED_SPEED",
+                "image": "windtouched_speed.png",
+                "info_text": "<p>You are attuned with Nature, and she helps you in your fight against the arcane forces.</p><p>You gain 20% permanent global speed and do not trigger pressure traps.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Windtouched Speed",
+                "points": 1,
+                "require": [
+                    "Level 30, Dex 50; Know at least 20 talent levels of equilibrium-using talents"
+                ],
+                "short_name": "WINDTOUCHED_SPEED",
+                "source_code": [
+                    "data/talents/uber/dex.lua",
+                    114
+                ],
+                "type": [
+                    "uber/dexterity",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 20,
+                "id": "T_GIANT_LEAP",
+                "image": "giant_leap.png",
+                "info_text": "<p>You accurately jump to the target and deal 200% weapon damage to all foes within radius 1 on impact as well as dazing them for 3 turns.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Giant Leap",
+                "points": 1,
+                "radius": 1,
+                "range": "10.0",
+                "require": [
+                    "Level 30, Dex 50; Have dealt over 50000 damage with any weapon or unarmed"
+                ],
+                "short_name": "GIANT_LEAP",
+                "source_code": [
+                    "data/talents/uber/dex.lua",
+                    135
+                ],
+                "type": [
+                    "uber/dexterity",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            },
+            {
+                "id": "T_CRAFTY_HANDS",
+                "image": "crafty_hands.png",
+                "info_text": "<p>You are very crafty. You can now also embed gems into helms and belts.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Crafty Hands",
+                "points": 1,
+                "require": [
+                    "Level 30, Dex 50; Know Imbue Item to level 5"
+                ],
+                "short_name": "CRAFTY_HANDS",
+                "source_code": [
+                    "data/talents/uber/dex.lua",
+                    191
+                ],
+                "type": [
+                    "uber/dexterity",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 10,
+                "id": "T_ROLL_WITH_IT",
+                "image": "roll_with_it.png",
+                "info_text": "<p>You have learned to take a few hits when needed and can flow with the tide of battle.</p><p>So long as you can move, you find a way to dodge, evade, deflect or otherwise reduce physical damage against you by <acronym class=\"stat-variable\" title=\"Values for<br>Dexterity 10, 25, 50, 75, 100\">2%, 6%, 10%, 12%, 15%.</acronym></p><p>Once per turn, when you get hit by a melee or archery attack you move back one tile for free and gain 200% movement speed for a turn.</p><p>The damage avoidance scales with your Dexterity and applies after resistances.</p>",
+                "mode": "sustained",
+                "multi_require": false,
+                "name": "Roll With It",
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Dex 50; Have been knocked around at least 50 times"
+                ],
+                "short_name": "ROLL_WITH_IT",
+                "source_code": [
+                    "data/talents/uber/dex.lua",
+                    203
+                ],
+                "type": [
+                    "uber/dexterity",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            },
+            {
+                "cooldown": 10,
+                "id": "T_VITAL_SHOT",
+                "image": "vital_shot.png",
+                "info_text": "<p>You fire a shot straight at your enemy's vital areas, wounding them terribly.</p><p>Enemies hit by this shot will take 450% weapon damage and will be stunned and crippled (losing 50% physical, magical and mental attack speeds) for five turns due to the devastating impact of the shot.</p><p>The stun and cripple chances increase with your Accuracy.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Vital Shot",
+                "no_energy": "fake",
+                "points": 1,
+                "range": "archery",
+                "require": [
+                    "Level 30, Dex 50; Have dealt over 50000 damage with ranged weapons"
+                ],
+                "requires_target": true,
+                "short_name": "VITAL_SHOT",
+                "source_code": [
+                    "data/talents/uber/dex.lua",
+                    229
+                ],
+                "type": [
+                    "uber/dexterity",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            }
+        ],
+        "type": "uber/dexterity"
+    },
+    {
+        "description": "Ultimate talents you may only know one.",
+        "hide": true,
+        "name": "magic",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_SPECTRAL_SHIELD",
+                "image": "spectral_shield.png",
+                "info_text": "<p>By infusing your shield with raw magic, your block can now block any damage type.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Spectral Shield",
+                "points": 1,
+                "require": [
+                    "Level 30, Mag 50; Know the Block talent, have cast 100 spells, and have a block value over 200"
+                ],
+                "short_name": "SPECTRAL_SHIELD",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    20
+                ],
+                "type": [
+                    "uber/magic",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_AETHER_PERMEATION",
+                "image": "aether_permeation.png",
+                "info_text": "<p>You manifest a thin layer of aether all around you. Any attack passing through it will check arcane resistance instead of the incoming damage resistance.</p><p>In effect, all of your resistances are equal to 66% of your arcane resistance.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Aether Permeation",
+                "points": 1,
+                "require": [
+                    "Level 30, Mag 50; Have at least 25% arcane damage reduction and have been exposed to the void of space"
+                ],
+                "short_name": "AETHER_PERMEATION",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    38
+                ],
+                "type": [
+                    "uber/magic",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_MYSTICAL_CUNNING",
+                "image": "vulnerability_poison.png",
+                "info_text": "<p>Your study of arcane forces has let you develop new traps and poisons (depending on which you know when learning this prodigy).</p><p>You can learn:</p><ul><li> Vulnerability Poison: reduces all resistances and deals arcane damage.</li><li> Gravitic Trap: each turn, all foes in a radius 5 around it are pulled in and take temporal damage.</li></ul><p>You also permanently gain 20 Spell Save.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Mystical Cunning",
+                "points": 1,
+                "require": [
+                    "Level 30, Mag 50; Know either traps or poisons"
+                ],
+                "short_name": "MYSTICAL_CUNNING",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    59
+                ],
+                "type": [
+                    "uber/magic",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_ARCANE_MIGHT",
+                "image": "arcane_might.png",
+                "info_text": "<p>You have learned to harness your latent arcane powers, channeling them through your weapon.</p><p>Equipped weapons are treated as having an additional 50% Magic modifier.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Arcane Might",
+                "points": 1,
+                "require": [
+                    "Level 30, Mag 50"
+                ],
+                "short_name": "ARCANE_MIGHT",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    83
+                ],
+                "type": [
+                    "uber/magic",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 30,
+                "id": "T_TEMPORAL_FORM",
+                "image": "temporal_form.png",
+                "info_text": "<p>You can wrap temporal threads around you, assuming the form of a telugoroth for 10 turns.</p><p>While in this form you gain pinning, bleeding, blindness and stun immunity, 30% temporal resistance, your temporal damage bonus is set to your current highest damage bonus + 30%, 50% of the damage you deal becomes temporal, and you gain 20% temporal resistance penetration.</p><p>You also are able to cast two anomalies: Anomaly Rearrange and Anomaly Temporal Storm.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Temporal Form",
+                "no_energy": true,
+                "points": 1,
+                "range": "10.0",
+                "require": [
+                    "Level 30, Mag 50; Have cast over 1000 spells and visited a zone outside of time"
+                ],
+                "requires_target": true,
+                "short_name": "TEMPORAL_FORM",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    93
+                ],
+                "type": [
+                    "uber/magic",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Instant"
+            },
+            {
+                "id": "T_BLIGHTED_SUMMONING",
+                "image": "blighted_summoning.png",
+                "info_text": "<p>You infuse blighted energies into all of your summons, granting them a new talent (at talent level 1):</p><ul><li> War Hound: Curse of Defenselessness</li><li> Jelly: Vimsense</li><li> Minotaur: Life Tap</li><li> Golem: Bone Spear</li><li> Alchemy Golems: Corrupted Strength (level 3) and the Reaving Combat tree</li><li> Ritch: Drain</li><li> Hydra: Blood Spray</li><li> Rimebark: Poison Storm</li><li> Fire Drake: Darkfire</li><li> Turtle: Curse of Impotence</li><li> Spider: Corrosive Worm</li><li> Skeletons: Bone Grab or Bone Spear</li><li> Bone Giants: Bone Shield</li><li> Ghouls: Blood Lock</li><li> Ghoul Rot ghoul: Rend</li><li> Vampires / Liches: Darkfire</li><li> Ghosts / Wights: Blood Boil</li><li> Shadows: Empathic Hex</li><li> Thought-Forms: Flame of Urh'Rok</li><li> Treants: Corrosive Worm</li><li> Yeek Wayists: Dark Portal</li><li> Bloated Oozes: Bone Shield (level 1)</li><li> Mucus Oozes: Virulent Disease</li><li> Temporal Hounds: Elemental Discord</li></ul><p>Your necrotic minions and wild-summons get a bonus to Magic equal to yours.</p><p>The talent levels increase with your level, and other race- or object-based summons may also be affected.</p><p></p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Blighted Summoning",
+                "points": 1,
+                "require": [
+                    "Level 30, Mag 50; Have summoned at least 100 creatures affected by this talent. The alchemist golem counts as 100."
+                ],
+                "short_name": "BLIGHTED_SUMMONING",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    116
+                ],
+                "type": [
+                    "uber/magic",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 30,
+                "id": "T_REVISIONIST_HISTORY",
+                "image": "revisionist_history.png",
+                "info_text": "<p>You can now control the recent past. Upon using this prodigy you gain a temporal effect for 20 turns.</p><p>While this effect holds you can use the prodigy again to rewrite history.</p><p>This prodigy splits the timeline. Attempting to use another spell that also splits the timeline while this effect is active will be unsuccessful.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Revisionist History",
+                "no_energy": true,
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Mag 50; Have time-travelled at least once"
+                ],
+                "short_name": "REVISIONIST_HISTORY",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    227
+                ],
+                "type": [
+                    "uber/magic",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 12,
+                "id": "T_CAUTERIZE",
+                "image": "cauterize.png",
+                "info_text": "<p>Your inner flame is strong. Each time that you receive a blow that would kill you, your body is wreathed in flames.</p><p>The flames will cauterize the wound, fully absorbing all damage done this turn, but they will continue to burn for 8 turns.</p><p>Each turn 10% of the damage absorbed will be dealt by the flames. This will bypass resistance and affinity.</p><p>Warning: this has a cooldown.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Cauterize",
+                "points": 1,
+                "require": [
+                    "Level 30, Mag 50; Have received at least 7500 fire damage and have cast at least 1000 spells"
+                ],
+                "short_name": "CAUTERIZE",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    277
+                ],
+                "type": [
+                    "uber/magic",
+                    1
+                ],
+                "uber": true
+            }
+        ],
+        "type": "uber/magic"
+    },
+    {
+        "description": "Ultimate talents you may only know one.",
+        "hide": true,
+        "name": "other",
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 30,
+                "id": "T_REVISIONIST_HISTORY_BACK",
+                "image": "revisionist_history_back.png",
+                "info_text": "<p>Rewrite the recent past to go back to when you cast Revisionist History.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "name": "Unfold History",
+                "no_energy": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "REVISIONIST_HISTORY_BACK",
+                "source_code": [
+                    "data/talents/uber/mag.lua",
+                    256
+                ],
+                "type": [
+                    "uber/other",
+                    1
+                ],
+                "use_speed": "Instant"
+            }
+        ],
+        "type": "uber/other"
+    },
+    {
+        "description": "Ultimate talents you may only know one.",
+        "hide": true,
+        "name": "strength",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_FLEXIBLE_COMBAT",
+                "image": "flexible_combat.png",
+                "info_text": "<p>Each time that you make a melee attack you have a 60% chance to execute an additional unarmed strike.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Flexible Combat",
+                "points": 1,
+                "require": [
+                    "Level 30, Str 50"
+                ],
+                "short_name": "FLEXIBLE_COMBAT",
+                "source_code": [
+                    "data/talents/uber/str.lua",
+                    20
+                ],
+                "type": [
+                    "uber/strength",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 10,
+                "id": "T_TITAN_S_SMASH",
+                "image": "titan_s_smash.png",
+                "info_text": "<p>You deal a massive blow to your foe, smashing it for 350% weapon damage and knocking it back 6 tiles.</p><p>All foes in its path will be knocked to the side and stunned for 3 turns.</p><p>For each size category over 'big' you gain an additional +80% weapon damage.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "You Shall Be My Weapon!",
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Str 50; Be of size category 'big' or larger. This is also required to use it."
+                ],
+                "requires_target": true,
+                "short_name": "TITAN_S_SMASH",
+                "source_code": [
+                    "data/talents/uber/str.lua",
+                    37
+                ],
+                "type": [
+                    "uber/strength",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            },
+            {
+                "cooldown": 10,
+                "id": "T_MASSIVE_BLOW",
+                "image": "massive_blow.png",
+                "info_text": "<p>You deal a massive blow to your foe, smashing it for 150% weapon damage and knocking it back 4 tiles.</p><p>If the knockback makes it hit a wall, it will smash down the wall and deal an additional 350% weapon damage.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Massive Blow",
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Str 50; Have dug at least 30 walls/trees/etc. and have dealt over 50000 damage with two-handed weapons"
+                ],
+                "requires_target": true,
+                "short_name": "MASSIVE_BLOW",
+                "source_code": [
+                    "data/talents/uber/str.lua",
+                    77
+                ],
+                "type": [
+                    "uber/strength",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            },
+            {
+                "id": "T_STEAMROLLER",
+                "image": "steamroller.png",
+                "info_text": "<p>When you rush, the creature you rush to is marked. If you kill it in the next two turns then your rush cooldown is reset.</p><p>Each time that this effect triggers you gain a stacking +20% damage buff, up to 100%.</p><p>Rush now only costs 2 stamina.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Steamroller",
+                "points": 1,
+                "require": [
+                    "Level 30, Str 50; Know the Rush talent"
+                ],
+                "short_name": "STEAMROLLER",
+                "source_code": [
+                    "data/talents/uber/str.lua",
+                    111
+                ],
+                "type": [
+                    "uber/strength",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 25,
+                "id": "T_IRRESISTIBLE_SUN",
+                "image": "irresistible_sun.png",
+                "info_text": "<p>For 6 turns you gain the mass and power of a star, drawing all creatures within radius 5 toward you and dealing <acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">22, 31, 45, 59, 73</acronym> fire, <acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">22, 31, 45, 59, 73</acronym> light and <acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">22, 31, 45, 59, 73</acronym> physical damage to all foes.</p><p>Foes closer to you take up to 150% more damage.</p><p>The damage will increase with your Strength.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Irresistible Sun",
+                "points": 1,
+                "range": "5.0",
+                "require": [
+                    "Level 30, Str 50; Have dealt over 50000 light or fire damage"
+                ],
+                "requires_target": true,
+                "short_name": "IRRESISTIBLE_SUN",
+                "source_code": [
+                    "data/talents/uber/str.lua",
+                    123
+                ],
+                "type": [
+                    "uber/strength",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            },
+            {
+                "id": "T_NO_FATIGUE",
+                "image": "no_fatigue.png",
+                "info_text": "<p>Your strength is legendary; fatigue and physical exertion mean nothing to you.</p><p>Your fatigue is permanently set to 0, carrying capacity increased by 500, and strength increased by 40.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "I Can Carry The World!",
+                "points": 1,
+                "require": [
+                    "Level 30, Str 50; Be able to use massive armours"
+                ],
+                "short_name": "NO_FATIGUE",
+                "source_code": [
+                    "data/talents/uber/str.lua",
+                    148
+                ],
+                "type": [
+                    "uber/strength",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_LEGACY_OF_THE_NALOREN",
+                "image": "legacy_of_the_naloren.png",
+                "info_text": "<p>You have sided with Slasul and helped him vanquish Ukllmswwik. You are now able to breathe underwater with ease.</p><p>You have also learned to use tridents and other exotic weapons easily (talent level 1 of Exotic Weapon Mastery), and can Spit Poison (talent level 1) as nagas do. These are bonus talent levels that increase with your character level. In addition, should Slasul still live, he may have a further reward for you as thanks&hellip;</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Legacy of the Naloren",
+                "points": 1,
+                "require": [
+                    "Level 30, Str 50; Have sided with Slasul and killed Ukllmswwik"
+                ],
+                "short_name": "LEGACY_OF_THE_NALOREN",
+                "source_code": [
+                    "data/talents/uber/str.lua",
+                    164
+                ],
+                "type": [
+                    "uber/strength",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_SUPERPOWER",
+                "image": "superpower.png",
+                "info_text": "<p>A strong body is key to a strong mind, and a strong mind can be powerful enough to make a strong body.</p><p>This prodigy grants a Mindpower bonus equal to 50% of your Strength.</p><p>Additionally, you treat all weapons as having an additional 30% Willpower modifier.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Superpower",
+                "points": 1,
+                "require": [
+                    "Level 30, Str 50"
+                ],
+                "short_name": "SUPERPOWER",
+                "source_code": [
+                    "data/talents/uber/str.lua",
+                    205
+                ],
+                "type": [
+                    "uber/strength",
+                    1
+                ],
+                "uber": true
+            }
+        ],
+        "type": "uber/strength"
+    },
+    {
+        "description": "Ultimate talents you may only know one.",
+        "hide": true,
+        "name": "willpower",
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 15,
+                "fixed_cooldown": true,
+                "id": "T_DRACONIC_WILL",
+                "image": "draconic_will.png",
+                "info_text": "<p>Your body is like that of a drake, easily resisting detrimental effects.</p><p>For 5 turns, no detrimental effects may target you.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Draconic Will",
+                "no_energy": true,
+                "points": 1,
+                "range": "10.0",
+                "require": [
+                    "Level 30, Wil 50; Be close to the draconic world"
+                ],
+                "requires_target": true,
+                "short_name": "DRACONIC_WILL",
+                "source_code": [
+                    "data/talents/uber/wil.lua",
+                    20
+                ],
+                "type": [
+                    "uber/willpower",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 15,
+                "id": "T_METEORIC_CRASH",
+                "image": "meteoric_crash.png",
+                "info_text": "<p>When casting damaging spells or mind attacks, the release of your willpower can call forth a meteor to crash down near your foes.</p><p>The affected area is turned into lava for 8 turns, and the crash itself will deal <acronym class=\"stat-variable\" title=\"Values for<br>spellpower 10, 25, 50, 75, 100,<br>mindpower 10, 25, 50, 75, 100\">75, 113, 175, 238, 300</acronym> fire and <acronym class=\"stat-variable\" title=\"Values for<br>spellpower 10, 25, 50, 75, 100,<br>mindpower 10, 25, 50, 75, 100\">75, 113, 175, 238, 300</acronym> physical damage.</p><p>The meteor also stuns affected creatures for 3 turns. The damage scales with your Spellpower or Mindpower.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Meteoric Crash",
+                "points": 1,
+                "require": [
+                    "Level 30, Wil 50; Have witnessed a meteoric crash"
+                ],
+                "short_name": "METEORIC_CRASH",
+                "source_code": [
+                    "data/talents/uber/wil.lua",
+                    40
+                ],
+                "type": [
+                    "uber/willpower",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "id": "T_GARKUL_S_REVENGE",
+                "image": "garkul_s_revenge.png",
+                "info_text": "<p>Garkul's spirit is with you. You now deal 1000% more damage to constructs and 20% more damage to humanoids.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Garkul's Revenge",
+                "points": 1,
+                "require": [
+                    "Level 30, Wil 50; Possess and wear two of Garkul's artifacts and know all about Garkul's life"
+                ],
+                "short_name": "GARKUL_S_REVENGE",
+                "source_code": [
+                    "data/talents/uber/wil.lua",
+                    126
+                ],
+                "type": [
+                    "uber/willpower",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 15,
+                "id": "T_HIDDEN_RESOURCES",
+                "image": "hidden_resources.png",
+                "info_text": "<p>You focus your mind on the task at hand, regardless of how dire the situation is.</p><p>For 5 turns, none of your talents use any resources.</p>",
+                "mode": "activated",
+                "multi_require": false,
+                "name": "Hidden Resources",
+                "no_energy": true,
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Wil 50; Have been close to death(killed a foe while below 1 HP)"
+                ],
+                "short_name": "HIDDEN_RESOURCES",
+                "source_code": [
+                    "data/talents/uber/wil.lua",
+                    155
+                ],
+                "type": [
+                    "uber/willpower",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Instant"
+            },
+            {
+                "id": "T_LUCKY_DAY",
+                "image": "lucky_day.png",
+                "info_text": "<p>Every day is your lucky day! You gain a permanent +40 luck bonus.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Lucky Day",
+                "points": 1,
+                "require": [
+                    "Level 30, Wil 50; Be lucky already (at least +5 luck)"
+                ],
+                "short_name": "LUCKY_DAY",
+                "source_code": [
+                    "data/talents/uber/wil.lua",
+                    173
+                ],
+                "type": [
+                    "uber/willpower",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 7,
+                "id": "T_UNBREAKABLE_WILL",
+                "image": "unbreakable_will.png",
+                "info_text": "<p>Your will is so strong that you simply ignore mental effects used against you.</p><p>Warning: this has a cooldown.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Unbreakable Will",
+                "points": 1,
+                "require": [
+                    "Level 30, Wil 50"
+                ],
+                "short_name": "UNBREAKABLE_WILL",
+                "source_code": [
+                    "data/talents/uber/wil.lua",
+                    191
+                ],
+                "type": [
+                    "uber/willpower",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 9,
+                "id": "T_SPELL_FEEDBACK",
+                "image": "spell_feedback.png",
+                "info_text": "<p>Your will is a shield against assaults from crazed arcane users.</p><p>Each time that you take damage from a spell, you punish the spellcaster with <acronym class=\"stat-variable\" title=\"Values for<br>Willpower 10, 25, 50, 75, 100\">40, 70, 120, 170, 220</acronym> mind damage.</p><p>Also, they will suffer a 35% spell failure chance (with duration equal to the cooldown of the spell they used on you).</p><p>Note: this talent has a cooldown.</p>",
+                "mode": "passive",
+                "multi_require": false,
+                "name": "Spell Feedback",
+                "points": 1,
+                "require": [
+                    "Level 30, Wil 50; Antimagic"
+                ],
+                "short_name": "SPELL_FEEDBACK",
+                "source_code": [
+                    "data/talents/uber/wil.lua",
+                    207
+                ],
+                "type": [
+                    "uber/willpower",
+                    1
+                ],
+                "uber": true
+            },
+            {
+                "cooldown": 20,
+                "id": "T_MENTAL_TYRANNY",
+                "image": "mental_tyranny.png",
+                "info_text": "<p>Transcend the physical and rule over all with an iron will!</p><p>While this sustain is active, 33% of your damage is converted into mind damage.</p><p>Additionally, you gain +30% mind resistance penetration, and +10% mind damage.</p>",
+                "mode": "sustained",
+                "multi_require": false,
+                "name": "Mental Tyranny",
+                "points": 1,
+                "range": "1.0",
+                "require": [
+                    "Level 30, Wil 50; Have dealt over 50000 mind damage"
+                ],
+                "short_name": "MENTAL_TYRANNY",
+                "source_code": [
+                    "data/talents/uber/wil.lua",
+                    232
+                ],
+                "type": [
+                    "uber/willpower",
+                    1
+                ],
+                "uber": true,
+                "use_speed": "Standard"
+            }
+        ],
+        "type": "uber/willpower"
+    }
+]

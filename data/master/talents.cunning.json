@@ -1,1 +1,1794 @@
-[{"type":"cunning/ambush","description":"Using darkness and a bit of magic, you manipulate the shadows.","no_silence":true,"min_lev":10,"talents":[{"cost":"15 mana, 15 stamina","mana":15,"range":"1.0","source_code":["data/talents/cunning/ambush.lua",22],"speed":"weapon","points":5,"require":["Level 10, Cun 22","Level 11, Cun 24","Level 12, Cun 26","Level 13, Cun 28","Level 14, Cun 30"],"use_speed":"Weapon","type":["cunning/ambush",1],"is_spell":true,"multi_require":true,"id":"T_SHADOW_LEASH","no_silence":true,"info_text":"<p>For an instant, your weapons turn into a shadow leash that tries to grab the target's weapon, disarming it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> turns.</p><p>The chance to hit improves with your Accuracy.</p>","mode":"activated","short_name":"SHADOW_LEASH","name":"Shadow Leash","requires_target":true,"stamina":15,"image":"shadow_leash.png","cooldown":20},{"cost":"15 mana, 15 stamina","mana":15,"range":"7.0","source_code":["data/talents/cunning/ambush.lua",57],"speed":"combat","points":5,"require":["Level 14, Cun 30","Level 15, Cun 32","Level 16, Cun 34","Level 17, Cun 36","Level 18, Cun 38"],"use_speed":"Combat","type":["cunning/ambush",2],"is_spell":true,"multi_require":true,"id":"T_SHADOW_AMBUSH","no_silence":true,"info_text":"<p>You reach out with shadowy vines toward your target, pulling it to you and silencing it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> turns and dazing it for 2 turns.</p><p>The chance to hit improves with your Accuracy.</p>","mode":"activated","short_name":"SHADOW_AMBUSH","name":"Shadow Ambush","requires_target":true,"stamina":15,"image":"shadow_ambush.png","cooldown":20},{"cost":"35 mana, 35 stamina","source_code":["data/talents/cunning/ambush.lua",104],"mana":35,"short_name":"AMBUSCADE","info_text":"<p>You take full control of your own shadow for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>Your shadow possesses your talents and stats, has <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">56%, 62%, 66%, 68%, 70%</acronym> life and deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">75%, 83%, 88%, 92%, 95%</acronym> damage, -30% all resistances, -100% light resistance and 100% darkness resistance.</p><p>Your shadow is permanently stealthed (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">63, 79, 91, 101, 110</acronym> power), and all melee damage it deals is converted to darkness damage.</p><p>If you release control early or if it leaves your sight for too long, your shadow will dissipate.</p>","speed":"spell","points":5,"require":["Level 18, Cun 38","Level 19, Cun 40","Level 20, Cun 42","Level 21, Cun 44","Level 22, Cun 46"],"multi_require":true,"use_speed":"Spell","type":["cunning/ambush",3],"is_spell":true,"range":"1.0","id":"T_AMBUSCADE","no_silence":true,"mode":"activated","image":"ambuscade.png","name":"Ambuscade","requires_target":true,"stamina":35,"cooldown":20},{"source_code":["data/talents/cunning/ambush.lua",219],"cost":"60 mana, 30 stamina","info_text":"<p>You veil yourself in shadows for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 8</acronym> turns, and let them control you.</p><p>While veiled, you become immune to status effects and gain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">17%, 24%, 30%, 35%, 40%</acronym> all damage reduction. Each turn, you blink to a nearby foe (within range <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 5, 6, 7, 7</acronym>), hitting it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">146%, 169%, 187%, 202%, 215%</acronym> darkness weapon damage.</p><p>The shadow cannot teleport.</p><p>While this goes on, you cannot be stopped unless you are killed, and you cannot control your character.</p>","mana":60,"range":"5.0","speed":"spell","points":5,"require":["Level 22, Cun 46","Level 23, Cun 48","Level 24, Cun 50","Level 25, Cun 52","Level 26, Cun 54"],"multi_require":true,"type":["cunning/ambush",4],"is_spell":true,"use_speed":"Spell","id":"T_SHADOW_VEIL","no_silence":true,"mode":"activated","short_name":"SHADOW_VEIL","name":"Shadow Veil","requires_target":true,"stamina":30,"image":"shadow_veil.png","cooldown":18}],"name":"ambush","points":1,"is_spell":true,"allow_random":true},{"type":"cunning/called-shots","name":"Called Shots","talents":[{"random_ego":"attack","source_code":["data/talents/cunning/called-shots.lua",79],"multi_require":true,"points":5,"image":"skirmisher_kneecapper.png","cost":"10 stamina","no_energy":"fake","speed":"archery","mode":"activated","require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"],"range":"archery","type":["cunning/called-shots",1],"use_speed":"Archery","short_name":"SKIRMISHER_KNEECAPPER","info_text":"<p>Strike your opponent in the knee (or other critical point in an ambulatory appendage) for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">170%, 178%, 185%, 190%, 195%</acronym> weapon damage, knocking them down (<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 1, 1, 2, 2</acronym> turn pin) and slowing their movement by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">45%, 47%, 48%, 50%, 51%</acronym> for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 3, 4, 4, 5</acronym> turns afterwards.</p><p>This shot will bypass other enemies between you and your target.</p><p>The slow effect becomes more powerful with your Cunning.</p>","archery_target_parameters":{"one_shot":true},"id":"T_SKIRMISHER_KNEECAPPER","name":"Kneecapper","requires_target":true,"stamina":10,"cooldown":"8"},{"source_code":["data/talents/cunning/called-shots.lua",133],"cost":"35 stamina","no_energy":"fake","multi_require":true,"range":"archery","info_text":"<p>Employ a specialized sniping shot at a target.</p><p>This shot is focused on precision at long range and deals base <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">91%, 116%, 135%, 152%, 166%</acronym> ranged damage with a bonus that increases with distance.</p><p>The ranged bonus is -49% (penalty) at point blank range, while at your maximum range of 1 it is -49%.</p><p>This shot will bypass other enemies between you and your target.</p>","random_ego":"attack","image":"skirmisher_throat_smasher.png","use_speed":"Archery","short_name":"SKIRMISHER_THROAT_SMASHER","speed":"archery","points":5,"require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"],"archery_target_parameters":{"one_shot":true},"type":["cunning/called-shots",2],"mode":"activated","id":"T_SKIRMISHER_THROAT_SMASHER","name":"Kill Shot","requires_target":true,"stamina":35,"cooldown":"8"},{"cost":"15 stamina","source_code":["data/talents/cunning/called-shots.lua",198],"multi_require":true,"short_name":"SKIRMISHER_NOGGIN_KNOCKER","mode":"activated","image":"skirmisher_noggin_knocker.png","stamina":15,"speed":"archery","points":5,"require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"],"use_speed":"Archery","type":["cunning/called-shots",3],"info_text":"<p>Fire three shots in quick succession at a vulnerable point on the target (usually the head).</p><p>Each shot deals <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">52%, 62%, 69%, 75%, 81%</acronym> Ranged damage and will try to stun or increase the target's stun duration by 1.</p><p>These shots will bypass other enemies between you and your target.</p><p>The chance to stun increases with your Accuracy.</p>","id":"T_SKIRMISHER_NOGGIN_KNOCKER","archery_target_parameters":{"multishots":3,"limit_shots":1},"name":"Noggin Knocker","requires_target":true,"no_energy":"fake","range":"archery","cooldown":"8"},{"type":["cunning/called-shots",4],"id":"T_SKIRMISHER_SLING_SNIPER","multi_require":true,"short_name":"SKIRMISHER_SLING_SNIPER","source_code":["data/talents/cunning/called-shots.lua",236],"mode":"passive","image":"skirmisher_sling_sniper.png","name":"Sling Sniper","no_energy":"fake","points":5,"require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"],"info_text":"<p>Your mastery of called shots is unparalleled. and you gain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3%, 6%, 8%, 10%, 11%</acronym> bonus critical chance and <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">10%, 14%, 17%, 20%, 23%</acronym> critical damage with your Called Shots Talents. At rank 3 the cooldowns of all of your Called Shots Talents are reduced by 2 each. At rank 5 you gain <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100\">15%, 23%, 35%, 43%, 50%</acronym> Physical resistance penetration with all Called Shot attacks.</p>"}],"points":1,"description":"Inflict maximum pain to specific places on your enemies.","allow_random":true},{"type":"cunning/dirty","name":"dirty fighting","talents":[{"cost":"10 stamina","multi_require":true,"short_name":"DIRTY_FIGHTING","speed":"weapon","points":5,"require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"],"source_code":["data/talents/cunning/dirty.lua",22],"type":["cunning/dirty",1],"use_speed":"Weapon","id":"T_DIRTY_FIGHTING","range":"1.0","info_text":"<p>You hit your target doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">45%, 56%, 64%, 70%, 77%</acronym> damage, trying to stun it instead of damaging it. If your attack hits, the target is stunned for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>Stun chance increase with your Accuracy.</p><p>If you fail to stun the target (or if it shrugs off the effect), you quickly recover; the use of the skill does not take a turn.</p>","mode":"activated","random_ego":"attack","name":"Dirty Fighting","requires_target":true,"stamina":10,"image":"dirty_fighting.png","cooldown":12},{"source_code":["data/talents/cunning/dirty.lua",64],"type":["cunning/dirty",2],"id":"T_BACKSTAB","multi_require":true,"short_name":"BACKSTAB","info_text":"<p>Your quick wit gives you a big advantage against stunned targets; all your hits will have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">18%, 30%, 41%, 51%, 60%</acronym> greater chance of being critical.</p><p>Also, your melee critical strikes have <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4%, 8%, 12%, 15%, 18%</acronym> chance to stun the target for 3 turns.</p>","image":"backstab.png","name":"Backstab","points":5,"mode":"passive","require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"]},{"cost":"15 stamina","multi_require":true,"short_name":"SWITCH_PLACE","speed":"weapon","points":5,"require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"],"source_code":["data/talents/cunning/dirty.lua",80],"type":["cunning/dirty",3],"use_speed":"Weapon","id":"T_SWITCH_PLACE","range":"1.0","info_text":"<p>Using a series of tricks and maneuvers, you switch places with your target.</p><p>Switching places will confuse your foes, granting you Evasion (50%) for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> turns.</p><p>While switching places, your weapon(s) will connect with the target; this will not do weapon damage, but on hit effects of the weapons can trigger.</p>","mode":"activated","random_ego":"defensive","name":"Switch Place","requires_target":true,"stamina":15,"image":"switch_place.png","cooldown":10},{"cost":"20 stamina","multi_require":true,"short_name":"CRIPPLE","source_code":["data/talents/cunning/dirty.lua",130],"speed":"weapon","points":5,"require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"],"type":["cunning/dirty",4],"use_speed":"Weapon","id":"T_CRIPPLE","range":"1.0","info_text":"<p>You hit your target, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">145%, 164%, 179%, 191%, 202%</acronym> damage. If your attack connects, the target is crippled for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns, losing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">45%, 50%, 53%, 56%, 57%</acronym> melee, spellcasting and mind speed.</p><p>The chance to land the status improves with Accuracy, and the status power improves with Cunning.</p>","mode":"activated","image":"cripple.png","name":"Cripple","requires_target":true,"stamina":20,"random_ego":"attack","cooldown":25}],"points":1,"description":"Teaches various talents to cripple your foes.","allow_random":true},{"type":"cunning/lethality","name":"lethality","talents":[{"source_code":["data/talents/cunning/lethality.lua",20],"type":["cunning/lethality",1],"mode":"passive","id":"T_LETHALITY","short_name":"LETHALITY","info_text":"<p>You have learned to find and hit weak spots. All your strikes have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2.78%, 4.62%, 6.24%, 7.72%, 9.11%</acronym> greater chance to be critical hits, and your critical hits do <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9.1%, 15%, 21%, 26%, 30%</acronym> more damage.</p><p>Also, when using knives, you now use your Cunning instead of your Strength for bonus damage.</p>","image":"lethality.png","name":"Lethality","multi_require":true,"points":5,"require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"]},{"cost":"15 stamina","short_name":"DEADLY_STRIKES","source_code":["data/talents/cunning/lethality.lua",41],"range":"1.0","points":5,"require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"],"no_energy":true,"type":["cunning/lethality",2],"multi_require":true,"use_speed":"Instant","id":"T_DEADLY_STRIKES","info_text":"<p>You hit your target, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">110%, 123%, 132%, 141%, 148%</acronym> damage. If your attack hits, you gain <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">19, 24, 29, 32, 36</acronym> armour penetration for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 8, 9, 10, 10</acronym> turns.</p><p>The APR will increase with your Cunning.</p>","mode":"activated","image":"deadly_strikes.png","random_ego":"attack","name":"Deadly Strikes","requires_target":true,"stamina":15,"cooldown":12},{"random_ego":"attack","cost":"25 stamina","multi_require":true,"short_name":"WILLFUL_COMBAT","points":5,"require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"],"source_code":["data/talents/cunning/lethality.lua",78],"type":["cunning/lethality",3],"use_speed":"Instant","id":"T_WILLFUL_COMBAT","range":"1.0","info_text":"<p>For <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 7, 9, 11, 13</acronym> turns, you put all your will into your blows, adding <acronym class=\"stat-variable\" title=\"Values for<br>Willpower 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">8, 23, 44, 63, 80</acronym> physical power to each strike.</p><p>The effect will improve with your Cunning and Willpower stats.</p>","mode":"activated","name":"Willful Combat","no_energy":true,"stamina":25,"image":"willful_combat.png","cooldown":60},{"cost":"50 stamina","multi_require":true,"short_name":"SNAP","image":"snap.png","speed":"combat","points":5,"require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"],"type":["cunning/lethality",4],"fixed_cooldown":true,"id":"T_SNAP","source_code":["data/talents/cunning/lethality.lua",103],"use_speed":"Combat","range":"1.0","name":"Snap","info_text":"<p>Your quick wits allow you to reset the cooldown of up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 4, 6, 7, 7</acronym> of your combat talents (cunning or technique) of tier <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 3, 5, 6</acronym> or less.</p>","stamina":50,"mode":"activated","cooldown":50}],"points":1,"description":"How to make your foes feel the pain.","allow_random":true},{"type":"cunning/poisons-effects","name":"poisons","talents":[{"short_name":"DEADLY_POISON","source_code":["data/talents/cunning/poisons.lua",235],"mode":"sustained","info_text":"<p>Coat your weapons with a deadly poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">17, 20, 23, 25, 26</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>The damage scales with your Cunning.</p><p>Every application of the poison stacks.</p>","points":1,"no_unlearn_last":true,"type":["cunning/poisons-effects",1],"use_speed":"Instant","range":"1.0","id":"T_DEADLY_POISON","image":"deadly_poison.png","no_break_stealth":true,"name":"Deadly Poison","no_energy":true,"cooldown":10},{"short_name":"NUMBING_POISON","source_code":["data/talents/cunning/poisons.lua",269],"image":"numbing_poison.png","mode":"sustained","points":1,"use_speed":"Instant","no_unlearn_last":true,"type":["cunning/poisons-effects",1],"range":"1.0","info_text":"<p>Coat your weapons with a numbing poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 18, 20, 22, 23</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>Poisoned creatures will deal <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">14%, 18%, 22%, 25%, 28%</acronym> less damage.</p><p>The effects scale with your Cunning.</p>","id":"T_NUMBING_POISON","no_break_stealth":true,"name":"Numbing Poison","no_energy":true,"cooldown":10},{"short_name":"INSIDIOUS_POISON","source_code":["data/talents/cunning/poisons.lua",304],"image":"insidious_poison.png","mode":"sustained","points":1,"use_speed":"Instant","no_unlearn_last":true,"type":["cunning/poisons-effects",1],"range":"1.0","info_text":"<p>Coat your weapons with an insidious poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 18, 20, 22, 23</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>Poisoned creatures have their healing reduced by <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">37%, 46%, 53%, 58%, 62%.</acronym></p><p>The effects scale with your Cunning.</p>","id":"T_INSIDIOUS_POISON","no_break_stealth":true,"name":"Insidious Poison","no_energy":true,"cooldown":10},{"short_name":"CRIPPLING_POISON","source_code":["data/talents/cunning/poisons.lua",339],"image":"crippling_poison.png","mode":"sustained","points":1,"use_speed":"Instant","no_unlearn_last":true,"type":["cunning/poisons-effects",1],"range":"1.0","info_text":"<p>Coat your weapons with a crippling poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 18, 20, 22, 23</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>Every time a poisoned creature tries to use a talent, it will have a <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">14%, 18%, 22%, 25%, 27%</acronym> chance to fail and lose a turn.</p><p>The damage scales with your Cunning.</p>","id":"T_CRIPPLING_POISON","no_break_stealth":true,"name":"Crippling Poison","no_energy":true,"cooldown":10},{"short_name":"STONING_POISON","source_code":["data/talents/cunning/poisons.lua",374],"image":"stoning_poison.png","mode":"sustained","points":1,"use_speed":"Instant","no_unlearn_last":true,"type":["cunning/poisons-effects",1],"range":"1.0","info_text":"<p>Coat your weapons with a stoning poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">13, 14, 16, 17, 17</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">11, 9, 8, 7, 7</acronym> turns.</p><p>When the poison runs its full duration, the victim will turn to stone for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">3, 3, 4, 5, 5</acronym> turns.</p><p>The damage scales with your Cunning.</p>","id":"T_STONING_POISON","no_break_stealth":true,"name":"Stoning Poison","no_energy":true,"cooldown":10},{"short_name":"VULNERABILITY_POISON","source_code":["data/talents/cunning/poisons.lua",411],"image":"vulnerability_poison.png","mode":"sustained","points":1,"use_speed":"Instant","range":"1.0","no_unlearn_last":true,"type":["cunning/poisons-effects",1],"is_spell":true,"info_text":"<p>Coat your weapons with an arcane poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">13, 14, 16, 17, 17</acronym> arcane damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns.</p><p>The resistances of poisoned creatures are reduced by <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16%, 21%, 23%, 26%, 27%.</acronym></p><p>The damage scales with your Cunning.</p>","id":"T_VULNERABILITY_POISON","no_break_stealth":true,"name":"Vulnerability Poison","no_energy":true,"cooldown":10}],"points":1,"description":"Collection of known poisons.","allow_random":true},{"type":"cunning/poisons","name":"poisons","talents":[{"type":["cunning/poisons",1],"source_code":["data/talents/cunning/poisons.lua",26],"id":"T_VILE_POISONS","multi_require":true,"short_name":"VILE_POISONS","image":"vile_poisons.png","name":"Vile Poisons","points":5,"info_text":"<p>Learn how to coat your melee weapons, sling and bow ammo with poison. Each level, you will learn a new kind of poison:</p><ul><li>Level 1: Deadly Poison</li><li>Level 2: Numbing Poison</li><li>Level 3: Insidious Poison</li><li>Level 4: Crippling Poison</li><li>Level 5: Stoning Poison</li></ul><p>New poisons can also be learned from special teachers in the world.</p><p>Also increases the effectiveness of your poisons by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">26%, 52%, 78%, 104%, 130%.</acronym> (The effect varies for each poison.)</p><p>Coating your weapons in poisons does not break stealth.</p><p>You may only have two poisons active at once.</p><p>Every time you hit a creature with one of your weapons, you have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">26%, 33%, 39%, 46%, 52%</acronym> chance to randomly apply one of your active poisons.</p><p>The chance to apply a poison lowers if the target is already poisoned.</p>","mode":"passive","require":["Level 10, Cun 22","Level 11, Cun 24","Level 12, Cun 26","Level 13, Cun 28","Level 14, Cun 30"]},{"cost":"7 stamina","multi_require":true,"short_name":"VENOMOUS_STRIKE","image":"venomous_strike.png","speed":"weapon","points":5,"require":["Level 14, Cun 30","Level 15, Cun 32","Level 16, Cun 34","Level 17, Cun 36","Level 18, Cun 38"],"type":["cunning/poisons",2],"source_code":["data/talents/cunning/poisons.lua",79],"id":"T_VENOMOUS_STRIKE","use_speed":"Weapon","range":"1.0","info_text":"<p>You hit your target, doing nature damage depending on the number of poisons on the target:</p><ul><li> 0 poisons: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">70%, 78%, 85%, 90%, 95%</acronym></li><li> 1 poisons: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">150%, 167%, 180%, 191%, 201%</acronym></li><li> 2 poisons: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">231%, 256%, 275%, 292%, 306%</acronym></li><li> 3 poisons: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">311%, 345%, 371%, 393%, 412%</acronym></li></ul><p>If you wield a bow or sling you shoot instead.</p><p></p>","name":"Venomous Strike","requires_target":true,"stamina":7,"mode":"activated","cooldown":5},{"cost":"15 stamina","multi_require":true,"short_name":"EMPOWER_POISONS","image":"empower_poisons.png","points":5,"require":["Level 18, Cun 38","Level 19, Cun 40","Level 20, Cun 42","Level 21, Cun 44","Level 22, Cun 46"],"type":["cunning/poisons",3],"source_code":["data/talents/cunning/poisons.lua",144],"id":"T_EMPOWER_POISONS","use_speed":"Instant","range":"1.0","info_text":"<p>Reduces the duration of all poisons on the target by 50%, but increases their damage by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">190%, 218%, 239%, 256%, 270%.</acronym></p><p>The effect increases with your Cunning.</p>","no_energy":true,"name":"Empower Poisons","requires_target":true,"stamina":15,"mode":"activated","cooldown":24},{"type":["cunning/poisons",4],"source_code":["data/talents/cunning/poisons.lua",180],"id":"T_TOXIC_DEATH","multi_require":true,"short_name":"TOXIC_DEATH","points":5,"image":"toxic_death.png","name":"Toxic Death","mode":"passive","require":["Level 22, Cun 46","Level 23, Cun 48","Level 24, Cun 50","Level 25, Cun 52","Level 26, Cun 54"],"info_text":"<p>When you kill a creature, all the poisons affecting it will have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">28%, 36%, 44%, 52%, 60%</acronym> chance to spread to foes in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 1, 2, 3, 3.</acronym></p>"}],"description":"The knowledge of poisons and how to apply them to 'good' effects.","points":1,"min_lev":10,"allow_random":true},{"type":"cunning/scoundrel","name":"scoundrel","talents":[{"multi_require":true,"short_name":"LACERATING_STRIKES","image":"lacerating_strikes.png","mode":"sustained","require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"],"source_code":["data/talents/cunning/scoundrel.lua",22],"points":5,"id":"T_LACERATING_STRIKES","use_speed":"Standard","range":"1.0","generic":true,"name":"Lacerating Strikes","type":["cunning/scoundrel",1],"info_text":"<p>Rend your foe with every attack you do. All attacks now have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">25%, 42%, 53%, 60%, 66%</acronym> chance of inflicting an additional <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">25%, 29%, 32%, 35%, 37%</acronym> of your attack's damage in Bleeding damage, divided over ten turns.</p>"},{"multi_require":true,"short_name":"SCOUNDREL","mode":"passive","require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"],"source_code":["data/talents/cunning/scoundrel.lua",47],"info_text":"<p>Learn to take advantage of your enemy's pain.</p><p>If your enemy is bleeding and attempts to attack you, their critical hit rate is reduced by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">12%, 19%, 25%, 30%, 35%,</acronym> as their wounds make them more predictable.</p><p>If you attack a bleeding enemy, there is a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9%, 13%, 17%, 20%, 23%</acronym> chance that, for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 5, 6, 6</acronym> turns, they are disabled as you take advantage of openings (reducing their movement speed by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">19%, 23%, 25%, 27%, 29%</acronym> and Accuracy by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">14, 16, 18, 20, 22</acronym>) or anguished as you strike their painful wounds (reducing their Willpower by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">14, 16, 18, 20, 22</acronym> and their Cunning by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">14, 16, 18, 20, 22</acronym>).</p><p>The statistical reductions will increase with your Cunning.</p><p></p>","type":["cunning/scoundrel",2],"id":"T_SCOUNDREL","image":"scoundrel.png","generic":true,"points":5,"name":"Scoundrel's Strategies"},{"multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7.0, 7.0, 8.0, 8.0, 9.0</acronym>","image":"nimble_movements.png","speed":"movement","points":5,"require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"],"source_code":["data/talents/cunning/scoundrel.lua",85],"info_text":"<p>Quickly and quietly dash your way to the target square, if it is not blocked by enemies or obstacles. This talent will not break Stealth.</p>","type":["cunning/scoundrel",3],"no_break_stealth":true,"use_speed":"Movement","id":"T_NIMBLE_MOVEMENTS","mode":"activated","short_name":"NIMBLE_MOVEMENTS","message":"@Source@ dashes quickly!","generic":true,"name":"Nimble Movements","requires_target":true,"random_ego":"attack","cooldown":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">30, 23, 20, 17, 15</acronym>"},{"short_name":"MISDIRECTION","image":"misdirection.png","points":5,"require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"],"type":["cunning/scoundrel",4],"source_code":["data/talents/cunning/scoundrel.lua",136],"id":"T_MISDIRECTION","mode":"passive","multi_require":true,"generic":true,"name":"Misdirection","info_text":"<p>Your abilities in sowing confusion and chaos have reached their peak. Now, even your most simple moves confuse your enemies, rendering their offense less effective.</p><p>Your Defense increases by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">11%, 15%, 19%, 22%, 24%,</acronym> and enemies have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4%, 8%, 12%, 15%, 18%</acronym> chance of targetting a random square within <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 3, 4, 5, 5</acronym> squares of you.</p><p>The bonus to Defense will increase with Cunning.</p>"}],"description":"The use of ungentlemanly techniques.","points":1,"generic":true,"allow_random":true},{"talents":[{"cost":"0 mana","mana":0,"short_name":"SHADOW_COMBAT","image":"shadow_combat.png","source_code":["data/talents/cunning/shadow-magic.lua",20],"use_speed":"Spell","mode":"sustained","require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"],"points":5,"type":["cunning/shadow-magic",1],"sustain_stamina":20,"multi_require":true,"id":"T_SHADOW_COMBAT","no_silence":true,"range":"1.0","info_text":"<p>Channel raw magical energy into your melee attacks; each blow you land will do an additional <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">34, 45, 54, 62, 68</acronym> darkness damage and cost 2.00 mana.</p><p>The damage will improve with your Spellpower.</p>","name":"Shadow Combat","is_spell":true,"cooldown":5},{"type":["cunning/shadow-magic",2],"is_spell":true,"id":"T_SHADOW_CUNNING","multi_require":true,"short_name":"SHADOW_CUNNING","source_code":["data/talents/cunning/shadow-magic.lua",47],"no_silence":true,"image":"shadow_cunning.png","points":5,"name":"Shadow Cunning","mode":"passive","require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"],"info_text":"<p>Your preparations give you greater magical capabilities. You gain a bonus to Spellpower equal to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">21%, 28%, 35%, 40%, 46%</acronym> of your Cunning.</p>"},{"multi_require":true,"range":"10.0","image":"shadow_feed.png","source_code":["data/talents/cunning/shadow-magic.lua",62],"points":5,"require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"],"info_text":"<p>You draw energy from the depths of the shadows.</p><p>While sustained, you regenerate <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">0.38, 0.65, 0.91, 1.16, 1.41</acronym> mana per turn, and your physical and spell attack speed increases by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3.0%, 6.1%, 8.9%, 11%, 14%.</acronym></p>","mode":"sustained","type":["cunning/shadow-magic",3],"use_speed":"Spell","id":"T_SHADOW_FEED","no_silence":true,"short_name":"SHADOW_FEED","is_spell":true,"name":"Shadow Feed","sustain_stamina":40,"cooldown":5},{"cost":"30 stamina","multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6.0, 7.0, 9.0, 10.0, 11.0</acronym>","source_code":["data/talents/cunning/shadow-magic.lua",96],"mode":"activated","points":5,"require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"],"use_speed":"Spell","type":["cunning/shadow-magic",4],"is_spell":true,"info_text":"<p>Step through the shadows to your target, dazing it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 4, 5, 5</acronym> turns and hitting it with all your weapons for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">186%, 213%, 234%, 252%, 268%</acronym> darkness weapon damage.</p><p>Dazed targets are significantly impaired, but any damage will free them.</p><p>To Shadowstep, you need to be able to see the target.</p>","id":"T_SHADOWSTEP","no_silence":true,"short_name":"SHADOWSTEP","image":"shadowstep.png","random_ego":"attack","name":"Shadowstep","requires_target":true,"stamina":30,"cooldown":6,"direct_hit":true}],"type":"cunning/shadow-magic","is_spell":true,"name":"shadow magic","description":"Blending magic and shadows.","points":1,"no_silence":true,"allow_random":true},{"type":"cunning/stealth","name":"stealth","talents":[{"allow_autocast":true,"multi_require":true,"short_name":"STEALTH","image":"stealth.png","source_code":["data/talents/cunning/stealth.lua",38],"mode":"sustained","require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"],"use_speed":"Instant","type":["cunning/stealth",1],"points":5,"id":"T_STEALTH","range":"1.0","info_text":"<p>Enters stealth mode (power <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">36, 48, 57, 65, 71,</acronym> based on Cunning), making you harder to detect.</p><p>If successful (re-checked each turn), enemies will not know exactly where you are, or may not notice you at all.</p><p>Stealth reduces your light radius to 0, and will not work with heavy or massive armours.</p><p>You cannot enter stealth if there are foes in sight within range <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9, 7, 6, 5, 4.</acronym></p>","no_sustain_autoreset":true,"name":"Stealth","no_energy":true,"cooldown":10},{"type":["cunning/stealth",2],"id":"T_SHADOWSTRIKE","multi_require":true,"short_name":"SHADOWSTRIKE","source_code":["data/talents/cunning/stealth.lua",97],"image":"shadowstrike.png","name":"Shadowstrike","mode":"passive","info_text":"<p>When striking from stealth, the attack is automatically critical if the target does not notice you just before you land it.</p><p>Shadowstrikes do <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">+21%, +43%, +59%, +73%, +86%</acronym> damage versus a normal critical hit up to 3 grids away and then disminishes to 0% at distance 10.</p><p>These bonuses are guaranteed for spell and mind crits even if the target can see you before it hits.</p>","points":5,"require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"]},{"cost":"20 stamina","multi_require":true,"short_name":"HIDE_IN_PLAIN_SIGHT","image":"hide_in_plain_sight.png","points":5,"require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"],"type":["cunning/stealth",3],"source_code":["data/talents/cunning/stealth.lua",113],"no_energy":true,"id":"T_HIDE_IN_PLAIN_SIGHT","use_speed":"Instant","range":"1.0","info_text":"<p>You have learned how to be stealthy even when in plain sight of your foes.  You may attempt to enter stealth regardless of how close you are to your enemies, but success is more likely against fewer opponents that are farther away.</p><p>Your chance to succeed is determined by comparing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.10, 1.79, 2.32, 2.76, 3.16</acronym> times your stealth power (currently <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">16, 26, 34, 41, 47</acronym>) to the stealth detection of all enemies (reduced by 10% per tile distance) that have a clear line of sight to you.</p><p>You always succeed if you are not directly observed.</p><p>If successful, all creatures currently following you will lose track of your position.</p><p>This also resets the cooldown of your Stealth talent.</p>","mode":"activated","name":"Hide in Plain Sight","stamina":20,"cooldown":40},{"source_code":["data/talents/cunning/stealth.lua",161],"type":["cunning/stealth",4],"points":5,"id":"T_UNSEEN_ACTIONS","multi_require":true,"short_name":"UNSEEN_ACTIONS","image":"unseen_actions.png","name":"Unseen Actions","info_text":"<p>You are able to perform usually unstealthy actions (attacking, using objects, &hellip;) without breaking stealth.  When you perform such an action while stealthed, you have a chance to stay hidden.  Success is more likely against fewer opponents and is determined by comparing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">0.57, 1.14, 1.58, 1.94, 2.27</acronym> times your stealth power (currently <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">8, 17, 23, 29, 34</acronym>) to the stealth detection (reduced by 10% per tile distance) of all enemies that have a clear line of sight to you.</p><p>Your base chance of success is 100% if you are not directly observed, and good or bad luck may also affect it.</p>","mode":"passive","require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"]}],"points":1,"description":"Allows the user to enter stealth.","allow_random":true},{"type":"cunning/survival","name":"survival","talents":[{"source_code":["data/talents/cunning/survival.lua",20],"type":["cunning/survival",1],"mode":"passive","id":"T_HEIGHTENED_SENSES","short_name":"HEIGHTENED_SENSES","multi_require":true,"generic":true,"image":"heightened_senses.png","name":"Heightened Senses","points":5,"require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"],"info_text":"<p>You notice the small things others do not notice, allowing you to \"see\" creatures in a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 8, 9, 10</acronym> radius even outside of light radius.</p><p>This is not telepathy, however, and it is still limited to line of sight.</p><p>Also, your attention to detail allows you to detect traps around you (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">63, 90, 110, 127, 142</acronym> detection 'power').</p><p>At level 3, you learn to disarm known traps (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">63, 90, 110, 127, 142</acronym> disarm 'power').</p><p>The trap detection and disarming ability improves with your Cunning.</p>"},{"source_code":["data/talents/cunning/survival.lua",41],"type":["cunning/survival",2],"points":5,"id":"T_CHARM_MASTERY","short_name":"CHARM_MASTERY","multi_require":true,"image":"charm_mastery.png","name":"Charm Mastery","info_text":"<p>Your cunning manipulations allows you to use charms (wands, totems and torques) more efficiently, reducing their cooldowns by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">14%, 25%, 34%, 40%, 46%.</acronym></p>","generic":true,"mode":"passive","require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"]},{"source_code":["data/talents/cunning/survival.lua",62],"type":["cunning/survival",3],"points":5,"id":"T_PIERCING_SIGHT","multi_require":true,"short_name":"PIERCING_SIGHT","image":"piercing_sight.png","info_text":"<p>You look at your surroundings with more intensity than most people, allowing you to see stealthed or invisible creatures.</p><p>Increases stealth detection by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">43, 59, 71, 81, 90</acronym> and invisibility detection by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">43, 59, 71, 81, 90.</acronym></p><p>The detection power increases with your Cunning.</p>","generic":true,"name":"Piercing Sight","mode":"passive","require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"]},{"multi_require":true,"image":"evasion.png","points":5,"require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"],"source_code":["data/talents/cunning/survival.lua",78],"type":["cunning/survival",4],"use_speed":"Combat","id":"T_EVASION","range":"1.0","info_text":"<p>Your quick wit allows you to see attacks before they land, granting you a <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>Dexterity 100,<br>Willpower 100\">34%, 35%, 36%, 37%, 38%</acronym> chance to completely evade them and granting you <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>Dexterity 100,<br>Willpower 100\">20, 33, 45, 56, 66</acronym> defense for <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Dexterity 10, 25, 50, 75, 100,<br>Willpower 10, 25, 50, 75, 100\">6, 8, 11, 13, 15</acronym> turns.</p><p>Duration increases with Willpower, and chance to evade and defense with Cunning and Dexterity.</p>","mode":"activated","generic":true,"name":"Evasion","short_name":"EVASION","random_ego":"defensive","speed":"combat","cooldown":30}],"description":"The knowledge of the dangers of the world, and how to best avoid them.","points":1,"generic":true,"allow_random":true},{"type":"cunning/tactical","name":"tactical","talents":[{"source_code":["data/talents/cunning/tactical.lua",29],"type":["cunning/tactical",1],"id":"T_TACTICAL_EXPERT","multi_require":true,"short_name":"TACTICAL_EXPERT","mode":"passive","image":"tactical_expert.png","info_text":"<p>Your Defense is increased by <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100\">5, 7, 10, 12, 15</acronym> for every adjacent visible foe, up to a maximum of <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">+24, +51, +66, +76, +82</acronym> Defense.</p><p>The Defense increase per enemy and maximum Defense bonus will scale with your Cunning.</p>","points":5,"require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"],"name":"Tactical Expert"},{"multi_require":true,"short_name":"COUNTER_ATTACK","image":"counter_attack.png","mode":"passive","require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"],"type":["cunning/tactical",2],"id":"T_COUNTER_ATTACK","source_code":["data/talents/cunning/tactical.lua",67],"points":5,"name":"Counter Attack","info_text":"<p>When you avoid a melee blow from an adjacent foe, you have a <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>Cunning 100\">20%, 34%, 43%, 50%, 56%</acronym> chance to get a free, automatic attack against the attacker for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">70%, 78%, 85%, 90%, 95%</acronym> damage, up to <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">1.0, 1.3, 1.7, 2.0, 2.2</acronym> times per turn.</p><p>Unarmed fighters using it do consider it a strike for the purpose of stance damage bonuses (if they have any), and will have a damage bonus as a result.</p><p>Armed fighters get a normal physical attack.</p><p>The chance of countering and number of counter attacks increase with your Cunning.</p>"},{"cost":"12 stamina","multi_require":true,"short_name":"SET_UP","speed":"combat","points":5,"require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"],"source_code":["data/talents/cunning/tactical.lua",96],"use_speed":"Combat","type":["cunning/tactical",3],"id":"T_SET_UP","range":"1.0","info_text":"<p>Increases Defense by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">25, 32, 37, 41, 44</acronym> for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns.  When you avoid a melee blow, you set the target up, increasing the chance of you landing a critical strike on them by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16%, 19%, 22%, 24%, 26%</acronym> and reducing their saving throws by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 19, 22, 24, 26.</acronym></p><p>The effects will scale with your Cunning.</p>","mode":"activated","name":"Set Up","random_ego":"utility","stamina":12,"image":"set_up.png","cooldown":12},{"multi_require":true,"short_name":"EXPLOIT_WEAKNESS","image":"exploit_weakness.png","speed":"combat","points":5,"require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"],"source_code":["data/talents/cunning/tactical.lua",123],"type":["cunning/tactical",4],"sustain_stamina":30,"mode":"sustained","id":"T_EXPLOIT_WEAKNESS","use_speed":"Combat","range":"1.0","info_text":"<p>Systematically find the weaknesses in your opponents' physical resists, at the cost of 10% of your physical damage.  Each time you hit an opponent with a melee attack, you reduce their physical resistance by 5%, up to a maximum of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5%, 20%, 25%, 35%, 40%.</acronym></p><p></p>","cooldown":30,"name":"Exploit Weakness"}],"points":1,"description":"Tactical combat abilities.","allow_random":true},{"type":"cunning/trapping","name":"trapping","talents":[{"source_code":["data/talents/cunning/traps.lua",31],"id":"T_TRAP_MASTERY","multi_require":true,"short_name":"TRAP_MASTERY","type":["cunning/trapping",1],"image":"trap_mastery.png","name":"Trap Mastery","points":5,"mode":"passive","info_text":"<p>Learn how to set up traps. You will learn new traps as follows:</p><ul><li>Level 1: Explosion Trap</li><li>Level 2: Bear Trap</li><li>Level 3: Catapult Trap</li><li>Level 4: Disarm Trap</li><li>Level 5: Nightshade Trap</li></ul><p>New traps can also be learned from special teachers in the world.</p><p>This talent also increases the effectiveness of your traps by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">20%, 46%, 67%, 84%, 100%</acronym> (The effect varies for each trap.) and makes them more difficult to detect and disarm (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">38, 54, 66, 76, 85</acronym> detection 'power' and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">47, 67, 82, 95, 106</acronym> disarm 'power') based on your Cunning.</p><p>If a trap is not triggered 80% of its stamina cost will be refunded when it expires.</p>","require":["Level 0, Cun 12","Level 1, Cun 14","Level 2, Cun 16","Level 3, Cun 18","Level 4, Cun 20"]},{"cost":"15 stamina","multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6.0, 8.0, 9.0, 11.0, 12.0</acronym>","speed":"combat","no_break_stealth":true,"require":["Level 4, Cun 20","Level 5, Cun 22","Level 6, Cun 24","Level 7, Cun 26","Level 8, Cun 28"],"type":["cunning/trapping",2],"source_code":["data/talents/cunning/traps.lua",83],"points":5,"id":"T_LURE","use_speed":"Combat","info_text":"<p>Project a noisy lure for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 7, 8, 9</acronym> turns that attracts all creatures in a radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> to it.</p><p>At level 5, when the lure is destroyed, it will trigger some traps in a radius of 2 around it (check individual traps to see if they are triggered).</p><p>Use of this talent will not break stealth.</p>","mode":"activated","short_name":"LURE","name":"Lure","image":"lure.png","stamina":15,"cooldown":15},{"reflectable":true,"cost":"10 stamina","multi_require":true,"range":"10.0","source_code":["data/talents/cunning/traps.lua",163],"image":"sticky_smoke.png","short_name":"STICKY_SMOKE","speed":"combat","points":5,"require":["Level 8, Cun 28","Level 9, Cun 30","Level 10, Cun 32","Level 11, Cun 34","Level 12, Cun 36"],"no_break_stealth":true,"use_speed":"Combat","type":["cunning/trapping",3],"info_text":"<p>Throws a vial of sticky smoke that explodes in radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">0, 1, 2, 2, 3</acronym> on your foes, reducing their vision range by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 3, 4, 6, 7</acronym> for 5 turns.</p><p>Creatures affected by smoke bomb can never prevent you from stealthing, even if their proximity would normally forbid it.</p><p>Use of this will not break stealth.</p>","mode":"activated","id":"T_STICKY_SMOKE","name":"Sticky Smoke","requires_target":true,"stamina":10,"proj_speed":10,"cooldown":15},{"type":["cunning/trapping",4],"id":"T_TRAP_LAUNCHER","multi_require":true,"short_name":"TRAP_LAUNCHER","source_code":["data/talents/cunning/traps.lua",195],"image":"trap_launcher.png","name":"Trap Launcher","points":5,"info_text":"<p>Allows you to create self deploying traps that you can launch up to 1 grids away.</p><p>At level 5 you learn to do this in total silence, letting you lay traps without breaking stealth.</p>","mode":"passive","require":["Level 12, Cun 36","Level 13, Cun 38","Level 14, Cun 40","Level 15, Cun 42","Level 16, Cun 44"]}],"points":1,"description":"The knowledge of trap laying and assorted trickeries.","allow_random":true},{"type":"cunning/traps","name":"traps","talents":[{"cost":"15 stamina","range":"1.0","image":"explosion_trap.png","speed":"combat","points":1,"no_unlearn_last":true,"type":["cunning/traps",1],"source_code":["data/talents/cunning/traps.lua",252],"id":"T_EXPLOSION_TRAP","use_speed":"Combat","info_text":"<p>Lay a simple yet effective trap that explodes on contact, doing <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">110, 217, 300, 369, 430</acronym> fire damage over a few turns in a radius of 2.</p><p>High level lure can trigger this trap.</p>","mode":"activated","short_name":"EXPLOSION_TRAP","name":"Explosion Trap","requires_target":true,"stamina":15,"cooldown":8},{"cost":"10 stamina","range":"1.0","image":"bear_trap.png","speed":"combat","points":1,"no_unlearn_last":true,"type":["cunning/traps",1],"source_code":["data/talents/cunning/traps.lua",301],"id":"T_BEAR_TRAP","use_speed":"Combat","info_text":"<p>Lay a bear trap. The first creature passing by will be caught in the trap, pinned and bleeding for <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">28, 55, 75, 93, 108</acronym> physical damage each turn for 5 turns.</p>","mode":"activated","short_name":"BEAR_TRAP","name":"Bear Trap","requires_target":true,"stamina":10,"cooldown":12},{"cost":"15 stamina","range":"1.0","image":"catapult_trap.png","speed":"combat","source_code":["data/talents/cunning/traps.lua",354],"no_unlearn_last":true,"type":["cunning/traps",1],"use_speed":"Combat","points":1,"id":"T_CATAPULT_TRAP","info_text":"<p>Lay a catapult trap that knocks back any creature that steps over it up to <acronym class=\"talent-variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> grids away, dazing them.</p>","mode":"activated","short_name":"CATAPULT_TRAP","name":"Catapult Trap","requires_target":true,"stamina":15,"cooldown":10},{"cost":"25 stamina","range":"1.0","speed":"combat","points":1,"source_code":["data/talents/cunning/traps.lua",414],"no_unlearn_last":true,"type":["cunning/traps",1],"use_speed":"Combat","id":"T_DISARMING_TRAP","info_text":"<p>Lay a tricky trap that maims the arms of creatures passing by with acid doing <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">150, 271, 363, 441, 510</acronym> damage and disarming them for <acronym class=\"talent-variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30\">2, 3, 3, 4, 5</acronym> turns.</p>","mode":"activated","short_name":"DISARMING_TRAP","image":"disarming_trap.png","name":"Disarming Trap","requires_target":true,"stamina":25,"cooldown":25},{"cost":"15 stamina","range":"1.0","image":"nightshade_trap.png","speed":"combat","points":1,"no_unlearn_last":true,"type":["cunning/traps",1],"source_code":["data/talents/cunning/traps.lua",469],"id":"T_NIGHTSHADE_TRAP","use_speed":"Combat","info_text":"<p>Lay a trap coated with a potent venom, doing <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">120, 254, 357, 444, 520</acronym> nature damage to a creature passing by and stunning it for 4 turns.</p>","mode":"activated","short_name":"NIGHTSHADE_TRAP","name":"Nightshade Trap","requires_target":true,"stamina":15,"cooldown":8},{"cost":"12 stamina","range":"1.0","speed":"combat","points":1,"source_code":["data/talents/cunning/traps.lua",520],"no_unlearn_last":true,"type":["cunning/traps",1],"use_speed":"Combat","id":"T_FLASH_BANG_TRAP","info_text":"<p>Lay a trap that explodes in a radius of 2, blinding or dazing anything caught inside for <acronym class=\"talent-variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> turns.</p><p>The duration increases with Trap Mastery.</p><p>All foes caught inside take <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">53, 98, 132, 161, 187</acronym> physical damage.</p><p>High level lure can trigger this trap.</p>","mode":"activated","short_name":"FLASH_BANG_TRAP","image":"flash_bang_trap.png","name":"Flash Bang Trap","requires_target":true,"stamina":12,"cooldown":12},{"cost":"12 stamina","range":"1.0","image":"poison_gas_trap.png","speed":"combat","points":1,"no_unlearn_last":true,"type":["cunning/traps",1],"source_code":["data/talents/cunning/traps.lua",586],"id":"T_POISON_GAS_TRAP","use_speed":"Combat","info_text":"<p>Lay a trap that explodes in a radius of 3, releasing a thick poisonous cloud lasting 4 turns.</p><p>Each turn, the cloud infects all creatures with a poison that deals <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">70, 137, 188, 232, 270</acronym> nature damage over 5 turns.</p><p>High level lure can trigger this trap.</p>","mode":"activated","short_name":"POISON_GAS_TRAP","name":"Poison Gas Trap","requires_target":true,"stamina":12,"cooldown":10},{"cost":"12 stamina","range":"1.0","image":"gravitic_trap.png","speed":"combat","points":1,"source_code":["data/talents/cunning/traps.lua",646],"no_unlearn_last":true,"type":["cunning/traps",1],"is_spell":true,"id":"T_GRAVITIC_TRAP","use_speed":"Combat","info_text":"<p>Lay a trap that creates a gravitic anomaly, pulling in all foes around it in a radius of 5.</p><p>All foes caught inside take <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">45, 79, 104, 126, 145</acronym> temporal damage per turn.</p>","mode":"activated","short_name":"GRAVITIC_TRAP","name":"Gravitic Trap","requires_target":true,"stamina":12,"cooldown":15}],"points":1,"description":"Collection of known traps.","allow_random":true}]
+[
+    {
+        "allow_random": true,
+        "description": "Using darkness and a bit of magic, you manipulate the shadows.",
+        "is_spell": true,
+        "min_lev": 10,
+        "name": "ambush",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 20,
+                "cost": "15 mana, 15 stamina",
+                "id": "T_SHADOW_LEASH",
+                "image": "shadow_leash.png",
+                "info_text": "<p>For an instant, your weapons turn into a shadow leash that tries to grab the target's weapon, disarming it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> turns.</p><p>The chance to hit improves with your Accuracy.</p>",
+                "is_spell": true,
+                "mana": 15,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Shadow Leash",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 10, Cun 22",
+                    "Level 11, Cun 24",
+                    "Level 12, Cun 26",
+                    "Level 13, Cun 28",
+                    "Level 14, Cun 30"
+                ],
+                "requires_target": true,
+                "short_name": "SHADOW_LEASH",
+                "source_code": [
+                    "data/talents/cunning/ambush.lua",
+                    22
+                ],
+                "speed": "weapon",
+                "stamina": 15,
+                "type": [
+                    "cunning/ambush",
+                    1
+                ],
+                "use_speed": "Weapon"
+            },
+            {
+                "cooldown": 20,
+                "cost": "15 mana, 15 stamina",
+                "id": "T_SHADOW_AMBUSH",
+                "image": "shadow_ambush.png",
+                "info_text": "<p>You reach out with shadowy vines toward your target, pulling it to you and silencing it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> turns and dazing it for 2 turns.</p><p>The chance to hit improves with your Accuracy.</p>",
+                "is_spell": true,
+                "mana": 15,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Shadow Ambush",
+                "no_silence": true,
+                "points": 5,
+                "range": "7.0",
+                "require": [
+                    "Level 14, Cun 30",
+                    "Level 15, Cun 32",
+                    "Level 16, Cun 34",
+                    "Level 17, Cun 36",
+                    "Level 18, Cun 38"
+                ],
+                "requires_target": true,
+                "short_name": "SHADOW_AMBUSH",
+                "source_code": [
+                    "data/talents/cunning/ambush.lua",
+                    57
+                ],
+                "speed": "combat",
+                "stamina": 15,
+                "type": [
+                    "cunning/ambush",
+                    2
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 20,
+                "cost": "35 mana, 35 stamina",
+                "id": "T_AMBUSCADE",
+                "image": "ambuscade.png",
+                "info_text": "<p>You take full control of your own shadow for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>Your shadow possesses your talents and stats, has <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">56%, 62%, 66%, 68%, 70%</acronym> life and deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">75%, 83%, 88%, 92%, 95%</acronym> damage, -30% all resistances, -100% light resistance and 100% darkness resistance.</p><p>Your shadow is permanently stealthed (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">63, 79, 91, 101, 110</acronym> power), and all melee damage it deals is converted to darkness damage.</p><p>If you release control early or if it leaves your sight for too long, your shadow will dissipate.</p>",
+                "is_spell": true,
+                "mana": 35,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Ambuscade",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 18, Cun 38",
+                    "Level 19, Cun 40",
+                    "Level 20, Cun 42",
+                    "Level 21, Cun 44",
+                    "Level 22, Cun 46"
+                ],
+                "requires_target": true,
+                "short_name": "AMBUSCADE",
+                "source_code": [
+                    "data/talents/cunning/ambush.lua",
+                    104
+                ],
+                "speed": "spell",
+                "stamina": 35,
+                "type": [
+                    "cunning/ambush",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 18,
+                "cost": "60 mana, 30 stamina",
+                "id": "T_SHADOW_VEIL",
+                "image": "shadow_veil.png",
+                "info_text": "<p>You veil yourself in shadows for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 8</acronym> turns, and let them control you.</p><p>While veiled, you become immune to status effects and gain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">17%, 24%, 30%, 35%, 40%</acronym> all damage reduction. Each turn, you blink to a nearby foe (within range <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 5, 6, 7, 7</acronym>), hitting it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">146%, 169%, 187%, 202%, 215%</acronym> darkness weapon damage.</p><p>The shadow cannot teleport.</p><p>While this goes on, you cannot be stopped unless you are killed, and you cannot control your character.</p>",
+                "is_spell": true,
+                "mana": 60,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Shadow Veil",
+                "no_silence": true,
+                "points": 5,
+                "range": "5.0",
+                "require": [
+                    "Level 22, Cun 46",
+                    "Level 23, Cun 48",
+                    "Level 24, Cun 50",
+                    "Level 25, Cun 52",
+                    "Level 26, Cun 54"
+                ],
+                "requires_target": true,
+                "short_name": "SHADOW_VEIL",
+                "source_code": [
+                    "data/talents/cunning/ambush.lua",
+                    219
+                ],
+                "speed": "spell",
+                "stamina": 30,
+                "type": [
+                    "cunning/ambush",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "cunning/ambush"
+    },
+    {
+        "allow_random": true,
+        "description": "Inflict maximum pain to specific places on your enemies.",
+        "name": "Called Shots",
+        "points": 1,
+        "talents": [
+            {
+                "archery_target_parameters": {
+                    "one_shot": true
+                },
+                "cooldown": "8",
+                "cost": "10 stamina",
+                "id": "T_SKIRMISHER_KNEECAPPER",
+                "image": "skirmisher_kneecapper.png",
+                "info_text": "<p>Strike your opponent in the knee (or other critical point in an ambulatory appendage) for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">170%, 178%, 185%, 190%, 195%</acronym> weapon damage, knocking them down (<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 1, 1, 2, 2</acronym> turn pin) and slowing their movement by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">45%, 47%, 48%, 50%, 51%</acronym> for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 3, 4, 4, 5</acronym> turns afterwards.</p><p>This shot will bypass other enemies between you and your target.</p><p>The slow effect becomes more powerful with your Cunning.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Kneecapper",
+                "no_energy": "fake",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "archery",
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "requires_target": true,
+                "short_name": "SKIRMISHER_KNEECAPPER",
+                "source_code": [
+                    "data/talents/cunning/called-shots.lua",
+                    79
+                ],
+                "speed": "archery",
+                "stamina": 10,
+                "type": [
+                    "cunning/called-shots",
+                    1
+                ],
+                "use_speed": "Archery"
+            },
+            {
+                "archery_target_parameters": {
+                    "one_shot": true
+                },
+                "cooldown": "8",
+                "cost": "35 stamina",
+                "id": "T_SKIRMISHER_THROAT_SMASHER",
+                "image": "skirmisher_throat_smasher.png",
+                "info_text": "<p>Employ a specialized sniping shot at a target.</p><p>This shot is focused on precision at long range and deals base <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">91%, 116%, 135%, 152%, 166%</acronym> ranged damage with a bonus that increases with distance.</p><p>The ranged bonus is -49% (penalty) at point blank range, while at your maximum range of 1 it is -49%.</p><p>This shot will bypass other enemies between you and your target.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Kill Shot",
+                "no_energy": "fake",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "archery",
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "requires_target": true,
+                "short_name": "SKIRMISHER_THROAT_SMASHER",
+                "source_code": [
+                    "data/talents/cunning/called-shots.lua",
+                    133
+                ],
+                "speed": "archery",
+                "stamina": 35,
+                "type": [
+                    "cunning/called-shots",
+                    2
+                ],
+                "use_speed": "Archery"
+            },
+            {
+                "archery_target_parameters": {
+                    "limit_shots": 1,
+                    "multishots": 3
+                },
+                "cooldown": "8",
+                "cost": "15 stamina",
+                "id": "T_SKIRMISHER_NOGGIN_KNOCKER",
+                "image": "skirmisher_noggin_knocker.png",
+                "info_text": "<p>Fire three shots in quick succession at a vulnerable point on the target (usually the head).</p><p>Each shot deals <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">52%, 62%, 69%, 75%, 81%</acronym> Ranged damage and will try to stun or increase the target's stun duration by 1.</p><p>These shots will bypass other enemies between you and your target.</p><p>The chance to stun increases with your Accuracy.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Noggin Knocker",
+                "no_energy": "fake",
+                "points": 5,
+                "range": "archery",
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "requires_target": true,
+                "short_name": "SKIRMISHER_NOGGIN_KNOCKER",
+                "source_code": [
+                    "data/talents/cunning/called-shots.lua",
+                    198
+                ],
+                "speed": "archery",
+                "stamina": 15,
+                "type": [
+                    "cunning/called-shots",
+                    3
+                ],
+                "use_speed": "Archery"
+            },
+            {
+                "id": "T_SKIRMISHER_SLING_SNIPER",
+                "image": "skirmisher_sling_sniper.png",
+                "info_text": "<p>Your mastery of called shots is unparalleled. and you gain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3%, 6%, 8%, 10%, 11%</acronym> bonus critical chance and <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">10%, 14%, 17%, 20%, 23%</acronym> critical damage with your Called Shots Talents. At rank 3 the cooldowns of all of your Called Shots Talents are reduced by 2 each. At rank 5 you gain <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100\">15%, 23%, 35%, 43%, 50%</acronym> Physical resistance penetration with all Called Shot attacks.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Sling Sniper",
+                "no_energy": "fake",
+                "points": 5,
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "short_name": "SKIRMISHER_SLING_SNIPER",
+                "source_code": [
+                    "data/talents/cunning/called-shots.lua",
+                    236
+                ],
+                "type": [
+                    "cunning/called-shots",
+                    4
+                ]
+            }
+        ],
+        "type": "cunning/called-shots"
+    },
+    {
+        "allow_random": true,
+        "description": "Teaches various talents to cripple your foes.",
+        "name": "dirty fighting",
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 12,
+                "cost": "10 stamina",
+                "id": "T_DIRTY_FIGHTING",
+                "image": "dirty_fighting.png",
+                "info_text": "<p>You hit your target doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">45%, 56%, 64%, 70%, 77%</acronym> damage, trying to stun it instead of damaging it. If your attack hits, the target is stunned for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>Stun chance increase with your Accuracy.</p><p>If you fail to stun the target (or if it shrugs off the effect), you quickly recover; the use of the skill does not take a turn.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Dirty Fighting",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "requires_target": true,
+                "short_name": "DIRTY_FIGHTING",
+                "source_code": [
+                    "data/talents/cunning/dirty.lua",
+                    22
+                ],
+                "speed": "weapon",
+                "stamina": 10,
+                "type": [
+                    "cunning/dirty",
+                    1
+                ],
+                "use_speed": "Weapon"
+            },
+            {
+                "id": "T_BACKSTAB",
+                "image": "backstab.png",
+                "info_text": "<p>Your quick wit gives you a big advantage against stunned targets; all your hits will have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">18%, 30%, 41%, 51%, 60%</acronym> greater chance of being critical.</p><p>Also, your melee critical strikes have <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4%, 8%, 12%, 15%, 18%</acronym> chance to stun the target for 3 turns.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Backstab",
+                "points": 5,
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "short_name": "BACKSTAB",
+                "source_code": [
+                    "data/talents/cunning/dirty.lua",
+                    64
+                ],
+                "type": [
+                    "cunning/dirty",
+                    2
+                ]
+            },
+            {
+                "cooldown": 10,
+                "cost": "15 stamina",
+                "id": "T_SWITCH_PLACE",
+                "image": "switch_place.png",
+                "info_text": "<p>Using a series of tricks and maneuvers, you switch places with your target.</p><p>Switching places will confuse your foes, granting you Evasion (50%) for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> turns.</p><p>While switching places, your weapon(s) will connect with the target; this will not do weapon damage, but on hit effects of the weapons can trigger.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Switch Place",
+                "points": 5,
+                "random_ego": "defensive",
+                "range": "1.0",
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "requires_target": true,
+                "short_name": "SWITCH_PLACE",
+                "source_code": [
+                    "data/talents/cunning/dirty.lua",
+                    80
+                ],
+                "speed": "weapon",
+                "stamina": 15,
+                "type": [
+                    "cunning/dirty",
+                    3
+                ],
+                "use_speed": "Weapon"
+            },
+            {
+                "cooldown": 25,
+                "cost": "20 stamina",
+                "id": "T_CRIPPLE",
+                "image": "cripple.png",
+                "info_text": "<p>You hit your target, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">145%, 164%, 179%, 191%, 202%</acronym> damage. If your attack connects, the target is crippled for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns, losing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">45%, 50%, 53%, 56%, 57%</acronym> melee, spellcasting and mind speed.</p><p>The chance to land the status improves with Accuracy, and the status power improves with Cunning.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Cripple",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "requires_target": true,
+                "short_name": "CRIPPLE",
+                "source_code": [
+                    "data/talents/cunning/dirty.lua",
+                    130
+                ],
+                "speed": "weapon",
+                "stamina": 20,
+                "type": [
+                    "cunning/dirty",
+                    4
+                ],
+                "use_speed": "Weapon"
+            }
+        ],
+        "type": "cunning/dirty"
+    },
+    {
+        "allow_random": true,
+        "description": "How to make your foes feel the pain.",
+        "name": "lethality",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_LETHALITY",
+                "image": "lethality.png",
+                "info_text": "<p>You have learned to find and hit weak spots. All your strikes have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2.78%, 4.62%, 6.24%, 7.72%, 9.11%</acronym> greater chance to be critical hits, and your critical hits do <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9.1%, 15%, 21%, 26%, 30%</acronym> more damage.</p><p>Also, when using knives, you now use your Cunning instead of your Strength for bonus damage.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Lethality",
+                "points": 5,
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "short_name": "LETHALITY",
+                "source_code": [
+                    "data/talents/cunning/lethality.lua",
+                    20
+                ],
+                "type": [
+                    "cunning/lethality",
+                    1
+                ]
+            },
+            {
+                "cooldown": 12,
+                "cost": "15 stamina",
+                "id": "T_DEADLY_STRIKES",
+                "image": "deadly_strikes.png",
+                "info_text": "<p>You hit your target, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">110%, 123%, 132%, 141%, 148%</acronym> damage. If your attack hits, you gain <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">19, 24, 29, 32, 36</acronym> armour penetration for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 8, 9, 10, 10</acronym> turns.</p><p>The APR will increase with your Cunning.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Deadly Strikes",
+                "no_energy": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "requires_target": true,
+                "short_name": "DEADLY_STRIKES",
+                "source_code": [
+                    "data/talents/cunning/lethality.lua",
+                    41
+                ],
+                "stamina": 15,
+                "type": [
+                    "cunning/lethality",
+                    2
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 60,
+                "cost": "25 stamina",
+                "id": "T_WILLFUL_COMBAT",
+                "image": "willful_combat.png",
+                "info_text": "<p>For <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 7, 9, 11, 13</acronym> turns, you put all your will into your blows, adding <acronym class=\"stat-variable\" title=\"Values for<br>Willpower 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">8, 23, 44, 63, 80</acronym> physical power to each strike.</p><p>The effect will improve with your Cunning and Willpower stats.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Willful Combat",
+                "no_energy": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "short_name": "WILLFUL_COMBAT",
+                "source_code": [
+                    "data/talents/cunning/lethality.lua",
+                    78
+                ],
+                "stamina": 25,
+                "type": [
+                    "cunning/lethality",
+                    3
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 50,
+                "cost": "50 stamina",
+                "fixed_cooldown": true,
+                "id": "T_SNAP",
+                "image": "snap.png",
+                "info_text": "<p>Your quick wits allow you to reset the cooldown of up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 4, 6, 7, 7</acronym> of your combat talents (cunning or technique) of tier <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 3, 5, 6</acronym> or less.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Snap",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "short_name": "SNAP",
+                "source_code": [
+                    "data/talents/cunning/lethality.lua",
+                    103
+                ],
+                "speed": "combat",
+                "stamina": 50,
+                "type": [
+                    "cunning/lethality",
+                    4
+                ],
+                "use_speed": "Combat"
+            }
+        ],
+        "type": "cunning/lethality"
+    },
+    {
+        "allow_random": true,
+        "description": "Collection of known poisons.",
+        "name": "poisons",
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 10,
+                "id": "T_DEADLY_POISON",
+                "image": "deadly_poison.png",
+                "info_text": "<p>Coat your weapons with a deadly poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">17, 20, 23, 25, 26</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>The damage scales with your Cunning.</p><p>Every application of the poison stacks.</p>",
+                "mode": "sustained",
+                "name": "Deadly Poison",
+                "no_break_stealth": true,
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "DEADLY_POISON",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    235
+                ],
+                "type": [
+                    "cunning/poisons-effects",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 10,
+                "id": "T_NUMBING_POISON",
+                "image": "numbing_poison.png",
+                "info_text": "<p>Coat your weapons with a numbing poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 18, 20, 22, 23</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>Poisoned creatures will deal <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">14%, 18%, 22%, 25%, 28%</acronym> less damage.</p><p>The effects scale with your Cunning.</p>",
+                "mode": "sustained",
+                "name": "Numbing Poison",
+                "no_break_stealth": true,
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "NUMBING_POISON",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    269
+                ],
+                "type": [
+                    "cunning/poisons-effects",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 10,
+                "id": "T_INSIDIOUS_POISON",
+                "image": "insidious_poison.png",
+                "info_text": "<p>Coat your weapons with an insidious poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 18, 20, 22, 23</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>Poisoned creatures have their healing reduced by <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">37%, 46%, 53%, 58%, 62%.</acronym></p><p>The effects scale with your Cunning.</p>",
+                "mode": "sustained",
+                "name": "Insidious Poison",
+                "no_break_stealth": true,
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "INSIDIOUS_POISON",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    304
+                ],
+                "type": [
+                    "cunning/poisons-effects",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 10,
+                "id": "T_CRIPPLING_POISON",
+                "image": "crippling_poison.png",
+                "info_text": "<p>Coat your weapons with a crippling poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 18, 20, 22, 23</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>Every time a poisoned creature tries to use a talent, it will have a <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">14%, 18%, 22%, 25%, 27%</acronym> chance to fail and lose a turn.</p><p>The damage scales with your Cunning.</p>",
+                "mode": "sustained",
+                "name": "Crippling Poison",
+                "no_break_stealth": true,
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "CRIPPLING_POISON",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    339
+                ],
+                "type": [
+                    "cunning/poisons-effects",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 10,
+                "id": "T_STONING_POISON",
+                "image": "stoning_poison.png",
+                "info_text": "<p>Coat your weapons with a stoning poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">13, 14, 16, 17, 17</acronym> nature damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">11, 9, 8, 7, 7</acronym> turns.</p><p>When the poison runs its full duration, the victim will turn to stone for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">3, 3, 4, 5, 5</acronym> turns.</p><p>The damage scales with your Cunning.</p>",
+                "mode": "sustained",
+                "name": "Stoning Poison",
+                "no_break_stealth": true,
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "STONING_POISON",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    374
+                ],
+                "type": [
+                    "cunning/poisons-effects",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 10,
+                "id": "T_VULNERABILITY_POISON",
+                "image": "vulnerability_poison.png",
+                "info_text": "<p>Coat your weapons with an arcane poison, inflicting <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">13, 14, 16, 17, 17</acronym> arcane damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns.</p><p>The resistances of poisoned creatures are reduced by <acronym class=\"variable\" title=\"Values for<br>Vile Poisons talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16%, 21%, 23%, 26%, 27%.</acronym></p><p>The damage scales with your Cunning.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "name": "Vulnerability Poison",
+                "no_break_stealth": true,
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "VULNERABILITY_POISON",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    411
+                ],
+                "type": [
+                    "cunning/poisons-effects",
+                    1
+                ],
+                "use_speed": "Instant"
+            }
+        ],
+        "type": "cunning/poisons-effects"
+    },
+    {
+        "allow_random": true,
+        "description": "The knowledge of poisons and how to apply them to 'good' effects.",
+        "min_lev": 10,
+        "name": "poisons",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_VILE_POISONS",
+                "image": "vile_poisons.png",
+                "info_text": "<p>Learn how to coat your melee weapons, sling and bow ammo with poison. Each level, you will learn a new kind of poison:</p><ul><li>Level 1: Deadly Poison</li><li>Level 2: Numbing Poison</li><li>Level 3: Insidious Poison</li><li>Level 4: Crippling Poison</li><li>Level 5: Stoning Poison</li></ul><p>New poisons can also be learned from special teachers in the world.</p><p>Also increases the effectiveness of your poisons by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">26%, 52%, 78%, 104%, 130%.</acronym> (The effect varies for each poison.)</p><p>Coating your weapons in poisons does not break stealth.</p><p>You may only have two poisons active at once.</p><p>Every time you hit a creature with one of your weapons, you have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">26%, 33%, 39%, 46%, 52%</acronym> chance to randomly apply one of your active poisons.</p><p>The chance to apply a poison lowers if the target is already poisoned.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Vile Poisons",
+                "points": 5,
+                "require": [
+                    "Level 10, Cun 22",
+                    "Level 11, Cun 24",
+                    "Level 12, Cun 26",
+                    "Level 13, Cun 28",
+                    "Level 14, Cun 30"
+                ],
+                "short_name": "VILE_POISONS",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    26
+                ],
+                "type": [
+                    "cunning/poisons",
+                    1
+                ]
+            },
+            {
+                "cooldown": 5,
+                "cost": "7 stamina",
+                "id": "T_VENOMOUS_STRIKE",
+                "image": "venomous_strike.png",
+                "info_text": "<p>You hit your target, doing nature damage depending on the number of poisons on the target:</p><ul><li> 0 poisons: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">70%, 78%, 85%, 90%, 95%</acronym></li><li> 1 poisons: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">150%, 167%, 180%, 191%, 201%</acronym></li><li> 2 poisons: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">231%, 256%, 275%, 292%, 306%</acronym></li><li> 3 poisons: <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">311%, 345%, 371%, 393%, 412%</acronym></li></ul><p>If you wield a bow or sling you shoot instead.</p><p></p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Venomous Strike",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 14, Cun 30",
+                    "Level 15, Cun 32",
+                    "Level 16, Cun 34",
+                    "Level 17, Cun 36",
+                    "Level 18, Cun 38"
+                ],
+                "requires_target": true,
+                "short_name": "VENOMOUS_STRIKE",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    79
+                ],
+                "speed": "weapon",
+                "stamina": 7,
+                "type": [
+                    "cunning/poisons",
+                    2
+                ],
+                "use_speed": "Weapon"
+            },
+            {
+                "cooldown": 24,
+                "cost": "15 stamina",
+                "id": "T_EMPOWER_POISONS",
+                "image": "empower_poisons.png",
+                "info_text": "<p>Reduces the duration of all poisons on the target by 50%, but increases their damage by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">190%, 218%, 239%, 256%, 270%.</acronym></p><p>The effect increases with your Cunning.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Empower Poisons",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 18, Cun 38",
+                    "Level 19, Cun 40",
+                    "Level 20, Cun 42",
+                    "Level 21, Cun 44",
+                    "Level 22, Cun 46"
+                ],
+                "requires_target": true,
+                "short_name": "EMPOWER_POISONS",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    144
+                ],
+                "stamina": 15,
+                "type": [
+                    "cunning/poisons",
+                    3
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "id": "T_TOXIC_DEATH",
+                "image": "toxic_death.png",
+                "info_text": "<p>When you kill a creature, all the poisons affecting it will have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">28%, 36%, 44%, 52%, 60%</acronym> chance to spread to foes in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 1, 2, 3, 3.</acronym></p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Toxic Death",
+                "points": 5,
+                "require": [
+                    "Level 22, Cun 46",
+                    "Level 23, Cun 48",
+                    "Level 24, Cun 50",
+                    "Level 25, Cun 52",
+                    "Level 26, Cun 54"
+                ],
+                "short_name": "TOXIC_DEATH",
+                "source_code": [
+                    "data/talents/cunning/poisons.lua",
+                    180
+                ],
+                "type": [
+                    "cunning/poisons",
+                    4
+                ]
+            }
+        ],
+        "type": "cunning/poisons"
+    },
+    {
+        "allow_random": true,
+        "description": "The use of ungentlemanly techniques.",
+        "generic": true,
+        "name": "scoundrel",
+        "points": 1,
+        "talents": [
+            {
+                "generic": true,
+                "id": "T_LACERATING_STRIKES",
+                "image": "lacerating_strikes.png",
+                "info_text": "<p>Rend your foe with every attack you do. All attacks now have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">25%, 42%, 53%, 60%, 66%</acronym> chance of inflicting an additional <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">25%, 29%, 32%, 35%, 37%</acronym> of your attack's damage in Bleeding damage, divided over ten turns.</p>",
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Lacerating Strikes",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "short_name": "LACERATING_STRIKES",
+                "source_code": [
+                    "data/talents/cunning/scoundrel.lua",
+                    22
+                ],
+                "type": [
+                    "cunning/scoundrel",
+                    1
+                ],
+                "use_speed": "Standard"
+            },
+            {
+                "generic": true,
+                "id": "T_SCOUNDREL",
+                "image": "scoundrel.png",
+                "info_text": "<p>Learn to take advantage of your enemy's pain.</p><p>If your enemy is bleeding and attempts to attack you, their critical hit rate is reduced by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">12%, 19%, 25%, 30%, 35%,</acronym> as their wounds make them more predictable.</p><p>If you attack a bleeding enemy, there is a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9%, 13%, 17%, 20%, 23%</acronym> chance that, for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 5, 6, 6</acronym> turns, they are disabled as you take advantage of openings (reducing their movement speed by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">19%, 23%, 25%, 27%, 29%</acronym> and Accuracy by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">14, 16, 18, 20, 22</acronym>) or anguished as you strike their painful wounds (reducing their Willpower by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">14, 16, 18, 20, 22</acronym> and their Cunning by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">14, 16, 18, 20, 22</acronym>).</p><p>The statistical reductions will increase with your Cunning.</p><p></p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Scoundrel's Strategies",
+                "points": 5,
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "short_name": "SCOUNDREL",
+                "source_code": [
+                    "data/talents/cunning/scoundrel.lua",
+                    47
+                ],
+                "type": [
+                    "cunning/scoundrel",
+                    2
+                ]
+            },
+            {
+                "cooldown": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">30, 23, 20, 17, 15</acronym>",
+                "generic": true,
+                "id": "T_NIMBLE_MOVEMENTS",
+                "image": "nimble_movements.png",
+                "info_text": "<p>Quickly and quietly dash your way to the target square, if it is not blocked by enemies or obstacles. This talent will not break Stealth.</p>",
+                "message": "@Source@ dashes quickly!",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Nimble Movements",
+                "no_break_stealth": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7.0, 7.0, 8.0, 8.0, 9.0</acronym>",
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "requires_target": true,
+                "short_name": "NIMBLE_MOVEMENTS",
+                "source_code": [
+                    "data/talents/cunning/scoundrel.lua",
+                    85
+                ],
+                "speed": "movement",
+                "type": [
+                    "cunning/scoundrel",
+                    3
+                ],
+                "use_speed": "Movement"
+            },
+            {
+                "generic": true,
+                "id": "T_MISDIRECTION",
+                "image": "misdirection.png",
+                "info_text": "<p>Your abilities in sowing confusion and chaos have reached their peak. Now, even your most simple moves confuse your enemies, rendering their offense less effective.</p><p>Your Defense increases by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">11%, 15%, 19%, 22%, 24%,</acronym> and enemies have a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4%, 8%, 12%, 15%, 18%</acronym> chance of targetting a random square within <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 3, 4, 5, 5</acronym> squares of you.</p><p>The bonus to Defense will increase with Cunning.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Misdirection",
+                "points": 5,
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "short_name": "MISDIRECTION",
+                "source_code": [
+                    "data/talents/cunning/scoundrel.lua",
+                    136
+                ],
+                "type": [
+                    "cunning/scoundrel",
+                    4
+                ]
+            }
+        ],
+        "type": "cunning/scoundrel"
+    },
+    {
+        "allow_random": true,
+        "description": "Blending magic and shadows.",
+        "is_spell": true,
+        "name": "shadow magic",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 5,
+                "cost": "0 mana",
+                "id": "T_SHADOW_COMBAT",
+                "image": "shadow_combat.png",
+                "info_text": "<p>Channel raw magical energy into your melee attacks; each blow you land will do an additional <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">34, 45, 54, 62, 68</acronym> darkness damage and cost 2.00 mana.</p><p>The damage will improve with your Spellpower.</p>",
+                "is_spell": true,
+                "mana": 0,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Shadow Combat",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "short_name": "SHADOW_COMBAT",
+                "source_code": [
+                    "data/talents/cunning/shadow-magic.lua",
+                    20
+                ],
+                "sustain_stamina": 20,
+                "type": [
+                    "cunning/shadow-magic",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "id": "T_SHADOW_CUNNING",
+                "image": "shadow_cunning.png",
+                "info_text": "<p>Your preparations give you greater magical capabilities. You gain a bonus to Spellpower equal to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">21%, 28%, 35%, 40%, 46%</acronym> of your Cunning.</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Shadow Cunning",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "short_name": "SHADOW_CUNNING",
+                "source_code": [
+                    "data/talents/cunning/shadow-magic.lua",
+                    47
+                ],
+                "type": [
+                    "cunning/shadow-magic",
+                    2
+                ]
+            },
+            {
+                "cooldown": 5,
+                "id": "T_SHADOW_FEED",
+                "image": "shadow_feed.png",
+                "info_text": "<p>You draw energy from the depths of the shadows.</p><p>While sustained, you regenerate <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">0.38, 0.65, 0.91, 1.16, 1.41</acronym> mana per turn, and your physical and spell attack speed increases by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3.0%, 6.1%, 8.9%, 11%, 14%.</acronym></p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Shadow Feed",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "short_name": "SHADOW_FEED",
+                "source_code": [
+                    "data/talents/cunning/shadow-magic.lua",
+                    62
+                ],
+                "sustain_stamina": 40,
+                "type": [
+                    "cunning/shadow-magic",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 6,
+                "cost": "30 stamina",
+                "direct_hit": true,
+                "id": "T_SHADOWSTEP",
+                "image": "shadowstep.png",
+                "info_text": "<p>Step through the shadows to your target, dazing it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 4, 5, 5</acronym> turns and hitting it with all your weapons for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">186%, 213%, 234%, 252%, 268%</acronym> darkness weapon damage.</p><p>Dazed targets are significantly impaired, but any damage will free them.</p><p>To Shadowstep, you need to be able to see the target.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Shadowstep",
+                "no_silence": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6.0, 7.0, 9.0, 10.0, 11.0</acronym>",
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "requires_target": true,
+                "short_name": "SHADOWSTEP",
+                "source_code": [
+                    "data/talents/cunning/shadow-magic.lua",
+                    96
+                ],
+                "stamina": 30,
+                "type": [
+                    "cunning/shadow-magic",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "cunning/shadow-magic"
+    },
+    {
+        "allow_random": true,
+        "description": "Allows the user to enter stealth.",
+        "name": "stealth",
+        "points": 1,
+        "talents": [
+            {
+                "allow_autocast": true,
+                "cooldown": 10,
+                "id": "T_STEALTH",
+                "image": "stealth.png",
+                "info_text": "<p>Enters stealth mode (power <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">36, 48, 57, 65, 71,</acronym> based on Cunning), making you harder to detect.</p><p>If successful (re-checked each turn), enemies will not know exactly where you are, or may not notice you at all.</p><p>Stealth reduces your light radius to 0, and will not work with heavy or massive armours.</p><p>You cannot enter stealth if there are foes in sight within range <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">9, 7, 6, 5, 4.</acronym></p>",
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Stealth",
+                "no_energy": true,
+                "no_sustain_autoreset": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "short_name": "STEALTH",
+                "source_code": [
+                    "data/talents/cunning/stealth.lua",
+                    38
+                ],
+                "type": [
+                    "cunning/stealth",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "id": "T_SHADOWSTRIKE",
+                "image": "shadowstrike.png",
+                "info_text": "<p>When striking from stealth, the attack is automatically critical if the target does not notice you just before you land it.</p><p>Shadowstrikes do <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">+21%, +43%, +59%, +73%, +86%</acronym> damage versus a normal critical hit up to 3 grids away and then disminishes to 0% at distance 10.</p><p>These bonuses are guaranteed for spell and mind crits even if the target can see you before it hits.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Shadowstrike",
+                "points": 5,
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "short_name": "SHADOWSTRIKE",
+                "source_code": [
+                    "data/talents/cunning/stealth.lua",
+                    97
+                ],
+                "type": [
+                    "cunning/stealth",
+                    2
+                ]
+            },
+            {
+                "cooldown": 40,
+                "cost": "20 stamina",
+                "id": "T_HIDE_IN_PLAIN_SIGHT",
+                "image": "hide_in_plain_sight.png",
+                "info_text": "<p>You have learned how to be stealthy even when in plain sight of your foes.  You may attempt to enter stealth regardless of how close you are to your enemies, but success is more likely against fewer opponents that are farther away.</p><p>Your chance to succeed is determined by comparing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.10, 1.79, 2.32, 2.76, 3.16</acronym> times your stealth power (currently <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">16, 26, 34, 41, 47</acronym>) to the stealth detection of all enemies (reduced by 10% per tile distance) that have a clear line of sight to you.</p><p>You always succeed if you are not directly observed.</p><p>If successful, all creatures currently following you will lose track of your position.</p><p>This also resets the cooldown of your Stealth talent.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Hide in Plain Sight",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "short_name": "HIDE_IN_PLAIN_SIGHT",
+                "source_code": [
+                    "data/talents/cunning/stealth.lua",
+                    113
+                ],
+                "stamina": 20,
+                "type": [
+                    "cunning/stealth",
+                    3
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "id": "T_UNSEEN_ACTIONS",
+                "image": "unseen_actions.png",
+                "info_text": "<p>You are able to perform usually unstealthy actions (attacking, using objects, &hellip;) without breaking stealth.  When you perform such an action while stealthed, you have a chance to stay hidden.  Success is more likely against fewer opponents and is determined by comparing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">0.57, 1.14, 1.58, 1.94, 2.27</acronym> times your stealth power (currently <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">8, 17, 23, 29, 34</acronym>) to the stealth detection (reduced by 10% per tile distance) of all enemies that have a clear line of sight to you.</p><p>Your base chance of success is 100% if you are not directly observed, and good or bad luck may also affect it.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Unseen Actions",
+                "points": 5,
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "short_name": "UNSEEN_ACTIONS",
+                "source_code": [
+                    "data/talents/cunning/stealth.lua",
+                    161
+                ],
+                "type": [
+                    "cunning/stealth",
+                    4
+                ]
+            }
+        ],
+        "type": "cunning/stealth"
+    },
+    {
+        "allow_random": true,
+        "description": "The knowledge of the dangers of the world, and how to best avoid them.",
+        "generic": true,
+        "name": "survival",
+        "points": 1,
+        "talents": [
+            {
+                "generic": true,
+                "id": "T_HEIGHTENED_SENSES",
+                "image": "heightened_senses.png",
+                "info_text": "<p>You notice the small things others do not notice, allowing you to \"see\" creatures in a <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 8, 9, 10</acronym> radius even outside of light radius.</p><p>This is not telepathy, however, and it is still limited to line of sight.</p><p>Also, your attention to detail allows you to detect traps around you (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">63, 90, 110, 127, 142</acronym> detection 'power').</p><p>At level 3, you learn to disarm known traps (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">63, 90, 110, 127, 142</acronym> disarm 'power').</p><p>The trap detection and disarming ability improves with your Cunning.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Heightened Senses",
+                "points": 5,
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "short_name": "HEIGHTENED_SENSES",
+                "source_code": [
+                    "data/talents/cunning/survival.lua",
+                    20
+                ],
+                "type": [
+                    "cunning/survival",
+                    1
+                ]
+            },
+            {
+                "generic": true,
+                "id": "T_CHARM_MASTERY",
+                "image": "charm_mastery.png",
+                "info_text": "<p>Your cunning manipulations allows you to use charms (wands, totems and torques) more efficiently, reducing their cooldowns by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">14%, 25%, 34%, 40%, 46%.</acronym></p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Charm Mastery",
+                "points": 5,
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "short_name": "CHARM_MASTERY",
+                "source_code": [
+                    "data/talents/cunning/survival.lua",
+                    41
+                ],
+                "type": [
+                    "cunning/survival",
+                    2
+                ]
+            },
+            {
+                "generic": true,
+                "id": "T_PIERCING_SIGHT",
+                "image": "piercing_sight.png",
+                "info_text": "<p>You look at your surroundings with more intensity than most people, allowing you to see stealthed or invisible creatures.</p><p>Increases stealth detection by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">43, 59, 71, 81, 90</acronym> and invisibility detection by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">43, 59, 71, 81, 90.</acronym></p><p>The detection power increases with your Cunning.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Piercing Sight",
+                "points": 5,
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "short_name": "PIERCING_SIGHT",
+                "source_code": [
+                    "data/talents/cunning/survival.lua",
+                    62
+                ],
+                "type": [
+                    "cunning/survival",
+                    3
+                ]
+            },
+            {
+                "cooldown": 30,
+                "generic": true,
+                "id": "T_EVASION",
+                "image": "evasion.png",
+                "info_text": "<p>Your quick wit allows you to see attacks before they land, granting you a <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>Dexterity 100,<br>Willpower 100\">34%, 35%, 36%, 37%, 38%</acronym> chance to completely evade them and granting you <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>Dexterity 100,<br>Willpower 100\">20, 33, 45, 56, 66</acronym> defense for <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Dexterity 10, 25, 50, 75, 100,<br>Willpower 10, 25, 50, 75, 100\">6, 8, 11, 13, 15</acronym> turns.</p><p>Duration increases with Willpower, and chance to evade and defense with Cunning and Dexterity.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Evasion",
+                "points": 5,
+                "random_ego": "defensive",
+                "range": "1.0",
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "short_name": "EVASION",
+                "source_code": [
+                    "data/talents/cunning/survival.lua",
+                    78
+                ],
+                "speed": "combat",
+                "type": [
+                    "cunning/survival",
+                    4
+                ],
+                "use_speed": "Combat"
+            }
+        ],
+        "type": "cunning/survival"
+    },
+    {
+        "allow_random": true,
+        "description": "Tactical combat abilities.",
+        "name": "tactical",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_TACTICAL_EXPERT",
+                "image": "tactical_expert.png",
+                "info_text": "<p>Your Defense is increased by <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100\">5, 7, 10, 12, 15</acronym> for every adjacent visible foe, up to a maximum of <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">+24, +51, +66, +76, +82</acronym> Defense.</p><p>The Defense increase per enemy and maximum Defense bonus will scale with your Cunning.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Tactical Expert",
+                "points": 5,
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "short_name": "TACTICAL_EXPERT",
+                "source_code": [
+                    "data/talents/cunning/tactical.lua",
+                    29
+                ],
+                "type": [
+                    "cunning/tactical",
+                    1
+                ]
+            },
+            {
+                "id": "T_COUNTER_ATTACK",
+                "image": "counter_attack.png",
+                "info_text": "<p>When you avoid a melee blow from an adjacent foe, you have a <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>Cunning 100\">20%, 34%, 43%, 50%, 56%</acronym> chance to get a free, automatic attack against the attacker for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">70%, 78%, 85%, 90%, 95%</acronym> damage, up to <acronym class=\"stat-variable\" title=\"Values for<br>Cunning 10, 25, 50, 75, 100,<br>Cunning 10, 25, 50, 75, 100\">1.0, 1.3, 1.7, 2.0, 2.2</acronym> times per turn.</p><p>Unarmed fighters using it do consider it a strike for the purpose of stance damage bonuses (if they have any), and will have a damage bonus as a result.</p><p>Armed fighters get a normal physical attack.</p><p>The chance of countering and number of counter attacks increase with your Cunning.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Counter Attack",
+                "points": 5,
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "short_name": "COUNTER_ATTACK",
+                "source_code": [
+                    "data/talents/cunning/tactical.lua",
+                    67
+                ],
+                "type": [
+                    "cunning/tactical",
+                    2
+                ]
+            },
+            {
+                "cooldown": 12,
+                "cost": "12 stamina",
+                "id": "T_SET_UP",
+                "image": "set_up.png",
+                "info_text": "<p>Increases Defense by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">25, 32, 37, 41, 44</acronym> for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns.  When you avoid a melee blow, you set the target up, increasing the chance of you landing a critical strike on them by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16%, 19%, 22%, 24%, 26%</acronym> and reducing their saving throws by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 19, 22, 24, 26.</acronym></p><p>The effects will scale with your Cunning.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Set Up",
+                "points": 5,
+                "random_ego": "utility",
+                "range": "1.0",
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "short_name": "SET_UP",
+                "source_code": [
+                    "data/talents/cunning/tactical.lua",
+                    96
+                ],
+                "speed": "combat",
+                "stamina": 12,
+                "type": [
+                    "cunning/tactical",
+                    3
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 30,
+                "id": "T_EXPLOIT_WEAKNESS",
+                "image": "exploit_weakness.png",
+                "info_text": "<p>Systematically find the weaknesses in your opponents' physical resists, at the cost of 10% of your physical damage.  Each time you hit an opponent with a melee attack, you reduce their physical resistance by 5%, up to a maximum of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5%, 20%, 25%, 35%, 40%.</acronym></p><p></p>",
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Exploit Weakness",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "short_name": "EXPLOIT_WEAKNESS",
+                "source_code": [
+                    "data/talents/cunning/tactical.lua",
+                    123
+                ],
+                "speed": "combat",
+                "sustain_stamina": 30,
+                "type": [
+                    "cunning/tactical",
+                    4
+                ],
+                "use_speed": "Combat"
+            }
+        ],
+        "type": "cunning/tactical"
+    },
+    {
+        "allow_random": true,
+        "description": "The knowledge of trap laying and assorted trickeries.",
+        "name": "trapping",
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_TRAP_MASTERY",
+                "image": "trap_mastery.png",
+                "info_text": "<p>Learn how to set up traps. You will learn new traps as follows:</p><ul><li>Level 1: Explosion Trap</li><li>Level 2: Bear Trap</li><li>Level 3: Catapult Trap</li><li>Level 4: Disarm Trap</li><li>Level 5: Nightshade Trap</li></ul><p>New traps can also be learned from special teachers in the world.</p><p>This talent also increases the effectiveness of your traps by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">20%, 46%, 67%, 84%, 100%</acronym> (The effect varies for each trap.) and makes them more difficult to detect and disarm (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">38, 54, 66, 76, 85</acronym> detection 'power' and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">47, 67, 82, 95, 106</acronym> disarm 'power') based on your Cunning.</p><p>If a trap is not triggered 80% of its stamina cost will be refunded when it expires.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Trap Mastery",
+                "points": 5,
+                "require": [
+                    "Level 0, Cun 12",
+                    "Level 1, Cun 14",
+                    "Level 2, Cun 16",
+                    "Level 3, Cun 18",
+                    "Level 4, Cun 20"
+                ],
+                "short_name": "TRAP_MASTERY",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    31
+                ],
+                "type": [
+                    "cunning/trapping",
+                    1
+                ]
+            },
+            {
+                "cooldown": 15,
+                "cost": "15 stamina",
+                "id": "T_LURE",
+                "image": "lure.png",
+                "info_text": "<p>Project a noisy lure for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 7, 8, 9</acronym> turns that attracts all creatures in a radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> to it.</p><p>At level 5, when the lure is destroyed, it will trigger some traps in a radius of 2 around it (check individual traps to see if they are triggered).</p><p>Use of this talent will not break stealth.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Lure",
+                "no_break_stealth": true,
+                "points": 5,
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6.0, 8.0, 9.0, 11.0, 12.0</acronym>",
+                "require": [
+                    "Level 4, Cun 20",
+                    "Level 5, Cun 22",
+                    "Level 6, Cun 24",
+                    "Level 7, Cun 26",
+                    "Level 8, Cun 28"
+                ],
+                "short_name": "LURE",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    83
+                ],
+                "speed": "combat",
+                "stamina": 15,
+                "type": [
+                    "cunning/trapping",
+                    2
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 15,
+                "cost": "10 stamina",
+                "id": "T_STICKY_SMOKE",
+                "image": "sticky_smoke.png",
+                "info_text": "<p>Throws a vial of sticky smoke that explodes in radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">0, 1, 2, 2, 3</acronym> on your foes, reducing their vision range by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 3, 4, 6, 7</acronym> for 5 turns.</p><p>Creatures affected by smoke bomb can never prevent you from stealthing, even if their proximity would normally forbid it.</p><p>Use of this will not break stealth.</p>",
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Sticky Smoke",
+                "no_break_stealth": true,
+                "points": 5,
+                "proj_speed": 10,
+                "range": "10.0",
+                "reflectable": true,
+                "require": [
+                    "Level 8, Cun 28",
+                    "Level 9, Cun 30",
+                    "Level 10, Cun 32",
+                    "Level 11, Cun 34",
+                    "Level 12, Cun 36"
+                ],
+                "requires_target": true,
+                "short_name": "STICKY_SMOKE",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    163
+                ],
+                "speed": "combat",
+                "stamina": 10,
+                "type": [
+                    "cunning/trapping",
+                    3
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "id": "T_TRAP_LAUNCHER",
+                "image": "trap_launcher.png",
+                "info_text": "<p>Allows you to create self deploying traps that you can launch up to 1 grids away.</p><p>At level 5 you learn to do this in total silence, letting you lay traps without breaking stealth.</p>",
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Trap Launcher",
+                "points": 5,
+                "require": [
+                    "Level 12, Cun 36",
+                    "Level 13, Cun 38",
+                    "Level 14, Cun 40",
+                    "Level 15, Cun 42",
+                    "Level 16, Cun 44"
+                ],
+                "short_name": "TRAP_LAUNCHER",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    195
+                ],
+                "type": [
+                    "cunning/trapping",
+                    4
+                ]
+            }
+        ],
+        "type": "cunning/trapping"
+    },
+    {
+        "allow_random": true,
+        "description": "Collection of known traps.",
+        "name": "traps",
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 8,
+                "cost": "15 stamina",
+                "id": "T_EXPLOSION_TRAP",
+                "image": "explosion_trap.png",
+                "info_text": "<p>Lay a simple yet effective trap that explodes on contact, doing <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">110, 217, 300, 369, 430</acronym> fire damage over a few turns in a radius of 2.</p><p>High level lure can trigger this trap.</p>",
+                "mode": "activated",
+                "name": "Explosion Trap",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "requires_target": true,
+                "short_name": "EXPLOSION_TRAP",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    252
+                ],
+                "speed": "combat",
+                "stamina": 15,
+                "type": [
+                    "cunning/traps",
+                    1
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 12,
+                "cost": "10 stamina",
+                "id": "T_BEAR_TRAP",
+                "image": "bear_trap.png",
+                "info_text": "<p>Lay a bear trap. The first creature passing by will be caught in the trap, pinned and bleeding for <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">28, 55, 75, 93, 108</acronym> physical damage each turn for 5 turns.</p>",
+                "mode": "activated",
+                "name": "Bear Trap",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "requires_target": true,
+                "short_name": "BEAR_TRAP",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    301
+                ],
+                "speed": "combat",
+                "stamina": 10,
+                "type": [
+                    "cunning/traps",
+                    1
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 10,
+                "cost": "15 stamina",
+                "id": "T_CATAPULT_TRAP",
+                "image": "catapult_trap.png",
+                "info_text": "<p>Lay a catapult trap that knocks back any creature that steps over it up to <acronym class=\"talent-variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> grids away, dazing them.</p>",
+                "mode": "activated",
+                "name": "Catapult Trap",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "requires_target": true,
+                "short_name": "CATAPULT_TRAP",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    354
+                ],
+                "speed": "combat",
+                "stamina": 15,
+                "type": [
+                    "cunning/traps",
+                    1
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 25,
+                "cost": "25 stamina",
+                "id": "T_DISARMING_TRAP",
+                "image": "disarming_trap.png",
+                "info_text": "<p>Lay a tricky trap that maims the arms of creatures passing by with acid doing <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">150, 271, 363, 441, 510</acronym> damage and disarming them for <acronym class=\"talent-variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30\">2, 3, 3, 4, 5</acronym> turns.</p>",
+                "mode": "activated",
+                "name": "Disarming Trap",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "requires_target": true,
+                "short_name": "DISARMING_TRAP",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    414
+                ],
+                "speed": "combat",
+                "stamina": 25,
+                "type": [
+                    "cunning/traps",
+                    1
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 8,
+                "cost": "15 stamina",
+                "id": "T_NIGHTSHADE_TRAP",
+                "image": "nightshade_trap.png",
+                "info_text": "<p>Lay a trap coated with a potent venom, doing <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">120, 254, 357, 444, 520</acronym> nature damage to a creature passing by and stunning it for 4 turns.</p>",
+                "mode": "activated",
+                "name": "Nightshade Trap",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "requires_target": true,
+                "short_name": "NIGHTSHADE_TRAP",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    469
+                ],
+                "speed": "combat",
+                "stamina": 15,
+                "type": [
+                    "cunning/traps",
+                    1
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 12,
+                "cost": "12 stamina",
+                "id": "T_FLASH_BANG_TRAP",
+                "image": "flash_bang_trap.png",
+                "info_text": "<p>Lay a trap that explodes in a radius of 2, blinding or dazing anything caught inside for <acronym class=\"talent-variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> turns.</p><p>The duration increases with Trap Mastery.</p><p>All foes caught inside take <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">53, 98, 132, 161, 187</acronym> physical damage.</p><p>High level lure can trigger this trap.</p>",
+                "mode": "activated",
+                "name": "Flash Bang Trap",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "requires_target": true,
+                "short_name": "FLASH_BANG_TRAP",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    520
+                ],
+                "speed": "combat",
+                "stamina": 12,
+                "type": [
+                    "cunning/traps",
+                    1
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 10,
+                "cost": "12 stamina",
+                "id": "T_POISON_GAS_TRAP",
+                "image": "poison_gas_trap.png",
+                "info_text": "<p>Lay a trap that explodes in a radius of 3, releasing a thick poisonous cloud lasting 4 turns.</p><p>Each turn, the cloud infects all creatures with a poison that deals <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">70, 137, 188, 232, 270</acronym> nature damage over 5 turns.</p><p>High level lure can trigger this trap.</p>",
+                "mode": "activated",
+                "name": "Poison Gas Trap",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "requires_target": true,
+                "short_name": "POISON_GAS_TRAP",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    586
+                ],
+                "speed": "combat",
+                "stamina": 12,
+                "type": [
+                    "cunning/traps",
+                    1
+                ],
+                "use_speed": "Combat"
+            },
+            {
+                "cooldown": 15,
+                "cost": "12 stamina",
+                "id": "T_GRAVITIC_TRAP",
+                "image": "gravitic_trap.png",
+                "info_text": "<p>Lay a trap that creates a gravitic anomaly, pulling in all foes around it in a radius of 5.</p><p>All foes caught inside take <acronym class=\"variable\" title=\"Values for<br>Trap Mastery talent levels 1-5,<br>Cunning 100\">45, 79, 104, 126, 145</acronym> temporal damage per turn.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "name": "Gravitic Trap",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "requires_target": true,
+                "short_name": "GRAVITIC_TRAP",
+                "source_code": [
+                    "data/talents/cunning/traps.lua",
+                    646
+                ],
+                "speed": "combat",
+                "stamina": 12,
+                "type": [
+                    "cunning/traps",
+                    1
+                ],
+                "use_speed": "Combat"
+            }
+        ],
+        "type": "cunning/traps"
+    }
+]

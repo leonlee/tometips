@@ -1,1 +1,2135 @@
-[{"type":"celestial/chants","description":"Chant the glory of the Sun.","no_silence":true,"generic":true,"name":"chants","talents":[{"source_code":["data/talents/celestial/chants.lua",30],"multi_require":true,"range":"10.0","image":"chant_of_fortitude.png","points":5,"cost":"20 positive energy","mode":"sustained","require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"dont_provide_pool":true,"use_speed":"Instant","type":["celestial/chants",1],"is_spell":true,"info_text":"<p>You chant the glory of the Sun, granting you <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 73, 84, 93</acronym> Physical Save and Spell Save and increasing your maximum life by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6.3%, 12%, 16%, 21%, 25%</acronym> (Currently:  <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 11, 16, 20, 24</acronym>).</p><p>In addition, this talent surrounds you with a shield of light, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> light damage to anything that hits you in melee.</p><p>You may only have one Chant active at once.</p><p>The saves and light damage will increase with your Spellpower and the life with talent level.</p>","id":"T_CHANT_OF_FORTITUDE","no_silence":true,"short_name":"CHANT_OF_FORTITUDE","generic":true,"name":"Chant of Fortitude","sustain_positive":20,"no_energy":true,"cooldown":12},{"cost":"20 positive energy","multi_require":true,"range":"10.0","source_code":["data/talents/celestial/chants.lua",82],"image":"chant_of_fortress.png","short_name":"CHANT_OF_FORTRESS","points":5,"mode":"sustained","require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"dont_provide_pool":true,"use_speed":"Instant","type":["celestial/chants",2],"is_spell":true,"info_text":"<p>You chant the glory of the Sun, reducing the damage enemies 3 or more spaces away deal by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">16%, 22%, 27%, 30%, 32%.</acronym></p><p>In addition, this talent surrounds you with a shield of light, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> light damage to anything that hits you in melee.</p><p>You may only have one Chant active at once.</p><p>The damage reduction will increase with talent level and light damage will increase with your Spellpower.</p>","id":"T_CHANT_OF_FORTRESS","no_silence":true,"generic":true,"name":"Chant of Fortress","sustain_positive":20,"no_energy":true,"cooldown":12},{"cost":"20 positive energy","multi_require":true,"range":"10.0","source_code":["data/talents/celestial/chants.lua",126],"image":"chant_of_resistance.png","points":5,"mode":"sustained","require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"dont_provide_pool":true,"use_speed":"Instant","type":["celestial/chants",3],"is_spell":true,"info_text":"<p>You chant the glory of the Sun, granting you <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">15%, 21%, 25%, 28%, 32%</acronym> resistance to all damage.</p><p>In addition, this talent surrounds you with a shield of light, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> light damage to anything that hits you in melee.</p><p>You may only have one Chant active at once.</p><p>The effects will increase with your Spellpower.</p>","id":"T_CHANT_OF_RESISTANCE","no_silence":true,"short_name":"CHANT_OF_RESISTANCE","generic":true,"name":"Chant of Resistance","sustain_positive":20,"no_energy":true,"cooldown":12},{"cost":"5 positive energy","source_code":["data/talents/celestial/chants.lua",170],"multi_require":true,"range":"10.0","image":"chant_of_light.png","points":5,"use_speed":"Instant","mode":"sustained","require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"dont_provide_pool":true,"info_text":"<p>You chant the glory of the Sun, empowering your light and fire elemental attacks so that they do <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">31%, 43%, 52%, 59%, 66%</acronym> additional damage.</p><p>In addition, this talent surrounds you with a shield of light, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> light damage to anything that hits you in melee.</p><p>Your lite radius is also increased by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 4, 5, 6, 6.</acronym></p><p>You may only have one Chant active at once and this Chant costs less power to sustain.</p><p>The effects will increase with your Spellpower.</p>","type":["celestial/chants",4],"is_spell":true,"short_name":"CHANT_OF_LIGHT","id":"T_CHANT_OF_LIGHT","no_silence":true,"generic":true,"name":"Chant of Light","sustain_positive":5,"no_energy":true,"cooldown":12}],"points":1,"is_spell":true,"allow_random":true},{"type":"celestial/circles","description":"Bind the power of the Moon into circles at your feet.","no_silence":true,"min_lev":10,"talents":[{"cost":"10 negative energy","multi_require":true,"range":"0.0","source_code":["data/talents/celestial/circles.lua",21],"use_speed":"Instant","points":5,"require":["Level 10, Mag 22","Level 11, Mag 24","Level 12, Mag 26","Level 13, Mag 28","Level 14, Mag 30"],"is_spell":true,"negative":10,"id":"T_CIRCLE_OF_SHIFTING_SHADOWS","no_silence":true,"info_text":"<p>Creates a circle of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> at your feet; the circle increases your Defense by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">18, 25, 30, 35, 38,</acronym> and deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">19, 25, 31, 35, 39</acronym> darkness damage per turn to everyone else with in its radius. The circle lasts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The damage will increase with your Spellpower.</p>","mode":"activated","short_name":"CIRCLE_OF_SHIFTING_SHADOWS","name":"Circle of Shifting Shadows","image":"circle_of_shifting_shadows.png","no_energy":true,"type":["celestial/circles",1],"cooldown":20},{"positive":10,"multi_require":true,"range":"0.0","source_code":["data/talents/celestial/circles.lua",60],"use_speed":"Instant","points":5,"require":["Level 14, Mag 30","Level 15, Mag 32","Level 16, Mag 34","Level 17, Mag 36","Level 18, Mag 38"],"is_spell":true,"cost":"10 positive energy","id":"T_CIRCLE_OF_BLAZING_LIGHT","no_silence":true,"info_text":"<p>Creates a circle of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> at your feet; the circle lights up affected tiles, increases your positive energy by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">3, 4, 4, 5, 5</acronym> each turn, and deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">9.13, 12, 15, 17, 19</acronym> light damage and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">9.13, 12, 15, 17, 19</acronym> fire damage per turn to everyone else within its radius.  The circle lasts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The damage will increase with your Spellpower.</p>","mode":"activated","short_name":"CIRCLE_OF_BLAZING_LIGHT","name":"Circle of Blazing Light","image":"circle_of_blazing_light.png","no_energy":true,"type":["celestial/circles",2],"cooldown":20},{"positive":10,"multi_require":true,"range":"0.0","source_code":["data/talents/celestial/circles.lua",102],"use_speed":"Instant","points":5,"require":["Level 18, Mag 38","Level 19, Mag 40","Level 20, Mag 42","Level 21, Mag 44","Level 22, Mag 46"],"cost":"10 positive energy, 10 negative energy","is_spell":true,"negative":10,"id":"T_CIRCLE_OF_SANCTITY","no_silence":true,"info_text":"<p>Creates a circle of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> at your feet; the circle protects you from silence effects while you remain in its radius, and silences everyone else who enters. The circle lasts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p>","mode":"activated","short_name":"CIRCLE_OF_SANCTITY","name":"Circle of Sanctity","image":"circle_of_sanctity.png","no_energy":true,"type":["celestial/circles",3],"cooldown":20},{"positive":10,"source_code":["data/talents/celestial/circles.lua",139],"multi_require":true,"range":"0.0","use_speed":"Instant","type":["celestial/circles",4],"points":5,"require":["Level 22, Mag 46","Level 23, Mag 48","Level 24, Mag 50","Level 25, Mag 52","Level 26, Mag 54"],"cost":"10 positive energy, 10 negative energy","is_spell":true,"negative":10,"id":"T_CIRCLE_OF_WARDING","no_silence":true,"info_text":"<p>Creates a circle of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> at your feet; the circle slows incoming projectiles by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">61%, 83%, 100%, 114%, 127%,</acronym> and attempts to push all creatures other then yourself out of its radius, inflicting <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">12, 17, 20, 23, 26</acronym> light damage and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">12, 17, 20, 23, 26</acronym> darkness damage per turn as it does so.  The circle lasts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The effects will increase with your Spellpower.</p>","mode":"activated","short_name":"CIRCLE_OF_WARDING","name":"Circle of Warding","image":"circle_of_warding.png","no_energy":true,"cooldown":20}],"name":"circles","points":1,"is_spell":true,"allow_random":true},{"talents":[{"cost":"10 positive energy","multi_require":true,"range":"10.0","image":"weapon_of_light.png","source_code":["data/talents/celestial/combat.lua",22],"info_text":"<p>Infuse your weapon with the power of the Sun, adding <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">23, 44, 60, 73, 85</acronym> light damage on each melee hit.</p><p>Additionally, if you have a temporary damage shield active, melee attacks will increase its power by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">11, 21, 29, 36, 42.</acronym></p><p>If the same shield is refreshed 20 times it will become unstable and explode, removing it.</p><p>The damage dealt and shield bonus will increase with your Spellpower.</p>","mode":"sustained","require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"type":["celestial/combat",1],"is_spell":true,"use_speed":"Spell","id":"T_WEAPON_OF_LIGHT","no_silence":true,"short_name":"WEAPON_OF_LIGHT","name":"Weapon of Light","sustain_positive":10,"points":5,"cooldown":10},{"positive":15,"multi_require":true,"range":"<acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">2.8, 4.7, 6.9, 8.6, 10.0</acronym>","image":"wave_of_power.png","source_code":["data/talents/celestial/combat.lua",82],"use_speed":"Spell","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"type":["celestial/combat",2],"is_spell":true,"cost":"15 positive energy","id":"T_WAVE_OF_POWER","no_silence":true,"info_text":"<p>In a pure display of power, you project a ranged melee attack, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">146%, 169%, 187%, 202%, 215%</acronym> weapon damage.</p><p>If the target is outside of melee range, you have a chance to project a second attack against it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">62%, 90%, 113%, 132%, 150%</acronym> weapon damage.</p><p>The second strike chance (which increases with distance) is <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">10%, 19%, 26%, 32%, 37%</acronym> at range 2 and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Strength 100\">37%, 55%, 65%, 71%, 75%</acronym> at the maximum range of <acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">2, 4, 6, 8, 10.</acronym></p><p>The range will increase with your Strength.</p>","mode":"activated","short_name":"WAVE_OF_POWER","name":"Wave of Power","requires_target":true,"random_ego":"attack","cooldown":6},{"cost":"10 positive energy","source_code":["data/talents/celestial/combat.lua",132],"multi_require":true,"range":"10.0","short_name":"WEAPON_OF_WRATH","image":"weapon_of_wrath.png","points":5,"mode":"sustained","require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"use_speed":"Spell","type":["celestial/combat",3],"is_spell":true,"info_text":"<p>Your weapon attacks burn with righteous fury, dealing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">28%, 62%, 74%, 80%, 84%</acronym> of your lost HP as additional Fire damage (up to <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">277, 376, 452, 517, 575,</acronym> Current:  0).</p><p>Targets struck are also afflicted with a Martyrdom effect that causes them to take <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7%, 15%, 21%, 25%, 28%</acronym> of all damage they deal for 4 turns.</p>","id":"T_WEAPON_OF_WRATH","no_silence":true,"name":"Weapon of Wrath","sustain_positive":10,"cooldown":10},{"no_sustain_autoreset":true,"cost":"20 positive energy","multi_require":true,"short_name":"SECOND_LIFE","image":"second_life.png","mode":"sustained","require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"source_code":["data/talents/celestial/combat.lua",185],"type":["celestial/combat",4],"is_spell":true,"points":5,"id":"T_SECOND_LIFE","no_silence":true,"use_speed":"Spell","range":"1.0","info_text":"<p>Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">11, 23, 32, 41, 48.</acronym></p>","name":"Second Life","sustain_positive":20,"cooldown":30}],"type":"celestial/combat","is_spell":true,"name":"combat","description":"Your devotion allows you to combat your foes with indomitable determination.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"positive":-7,"multi_require":true,"range":"1.0","source_code":["data/talents/celestial/crusader.lua",25],"image":"absorption_strike.png","points":5,"require":["Level 10, Mag 22","Level 11, Mag 24","Level 12, Mag 26","Level 13, Mag 28","Level 14, Mag 30"],"type":["celestial/crusader",1],"is_spell":true,"cost":"-7 positive energy","id":"T_ABSORPTION_STRIKE","no_silence":true,"use_speed":"Spell","info_text":"<p>You strike your foe with your two handed weapon, dealing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">171%, 196%, 215%, 232%, 246%</acronym> weapon damage.</p><p>If the attack hits, all foes in radius 2 will have their light resistance reduced by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6%, 11%, 16%, 20%, 24%</acronym> and their damage reduced by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2%, 7%, 11%, 15%, 19%</acronym> for 5 turns.</p>","mode":"activated","name":"Absorption Strike","requires_target":true,"short_name":"ABSORPTION_STRIKE","cooldown":8},{"positive":20,"multi_require":true,"range":"5.0","image":"mark_of_light.png","source_code":["data/talents/celestial/crusader.lua",66],"use_speed":"Instant","points":5,"require":["Level 14, Mag 30","Level 15, Mag 32","Level 16, Mag 34","Level 17, Mag 36","Level 18, Mag 38"],"type":["celestial/crusader",2],"is_spell":true,"cost":"20 positive energy","id":"T_MARK_OF_LIGHT","no_silence":true,"info_text":"<p>You mark a target with light for 5 turns, causing all melee hits you deal to it to heal you for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">19%, 33%, 43%, 51%, 56%</acronym> of the damage done.</p>","mode":"activated","name":"Mark of Light","requires_target":true,"no_energy":true,"short_name":"MARK_OF_LIGHT","cooldown":15},{"cost":"20 positive energy","source_code":["data/talents/celestial/crusader.lua",95],"multi_require":true,"short_name":"RIGHTEOUS_STRENGTH","image":"righteous_strength.png","use_speed":"Spell","mode":"sustained","points":5,"require":["Level 18, Mag 38","Level 19, Mag 40","Level 20, Mag 42","Level 21, Mag 44","Level 22, Mag 46"],"type":["celestial/crusader",3],"is_spell":true,"id":"T_RIGHTEOUS_STRENGTH","range":"1.0","name":"Righteous Strength","sustain_positive":20,"no_silence":true,"info_text":"<p>While wielding a two handed weapon, your critical strike chance is increased by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3%, 6%, 8%, 10%, 12%,</acronym> and your melee criticals instill you with righteous strength, increasing all physical and light damage you deal by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6%, 9%, 12%, 15%, 17%,</acronym> stacking up to 3 times.</p><p>In addition, your melee critical strikes leave a lasting lightburn on the target, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">79, 108, 129, 148, 164</acronym> light damage over 5 turns and reducing opponents armour by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7, 17, 24, 30, 36.</acronym></p><p>The damage increases with your Spellpower.</p>"},{"source_code":["data/talents/celestial/crusader.lua",132],"random_ego":"attack","positive":15,"multi_require":true,"range":"0.0","info_text":"<p>Infuse your two handed weapon with light while spinning around.</p><p>All creatures in radius one take <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">90%, 107%, 120%, 131%, 141%</acronym> weapon damage.</p><p>In addition while spinning your weapon shines so much it deals <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">91%, 116%, 135%, 152%, 166%</acronym> light weapon damage to all foes in radius 2.</p><p>At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.</p>","image":"flash_of_the_blade.png","points":5,"require":["Level 22, Mag 46","Level 23, Mag 48","Level 24, Mag 50","Level 25, Mag 52","Level 26, Mag 54"],"cost":"15 positive energy","type":["celestial/crusader",4],"is_spell":true,"use_speed":"Spell","id":"T_FLASH_OF_THE_BLADE","no_silence":true,"mode":"activated","short_name":"FLASH_OF_THE_BLADE","name":"Flash of the Blade","requires_target":true,"radius":2,"cooldown":9}],"type":"celestial/crusader","is_spell":true,"name":"crusader","description":"Forgo your shield for the chance to crush your foes with a mighty two handed weapon.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"source_code":["data/talents/celestial/eclipse.lua",20],"type":["celestial/eclipse",1],"is_spell":true,"points":5,"id":"T_BLOOD_RED_MOON","multi_require":true,"short_name":"BLOOD_RED_MOON","image":"blood_red_moon.png","no_silence":true,"name":"Blood Red Moon","mode":"passive","info_text":"<p>Increases your spell critical chance by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4%, 8%, 12%, 15%, 18%.</acronym></p>","require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"]},{"positive":10,"multi_require":true,"short_name":"TOTALITY","source_code":["data/talents/celestial/eclipse.lua",36],"range":"1.0","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"cost":"10 positive energy, 10 negative energy","use_speed":"Spell","type":["celestial/eclipse",2],"fixed_cooldown":true,"negative":10,"id":"T_TOTALITY","no_silence":true,"info_text":"<p>Increases your light and darkness resistance penetration by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">26%, 39%, 49%, 55%, 61%</acronym> for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 8, 9, 10</acronym> turns, and reduces the cooldown of all Celestial skills by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7.</acronym></p><p>The resistance penetration will increase with your Cunning.</p>","mode":"activated","image":"totality.png","name":"Totality","is_spell":true,"cooldown":30},{"source_code":["data/talents/celestial/eclipse.lua",69],"cost":"10 positive energy, 10 negative energy","multi_require":true,"range":"6.0","points":5,"image":"corona.png","use_speed":"Spell","info_text":"<p>Each time one of your spells criticals, you project a bolt of light or shadow at up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> targets within radius 6, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 74, 85, 94</acronym> light damage or <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 74, 85, 94</acronym> darkness damage per bolt.</p><p>This effect costs 2 positive or 2 negative energy each time it's triggered, and will not activate if either your positive or negative energy is below 2.</p><p>The damage scales with your Spellpower.</p>","mode":"sustained","require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"type":["celestial/eclipse",3],"is_spell":true,"short_name":"CORONA","id":"T_CORONA","no_silence":true,"name":"Corona","sustain_positive":10,"sustain_negative":10,"proj_speed":3,"cooldown":30},{"cost":"10 negative energy","multi_require":true,"sustain_negative":10,"source_code":["data/talents/celestial/eclipse.lua",135],"image":"darkest_light.png","info_text":"<p>This powerful spell grants you <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">21, 29, 34, 38, 43</acronym> bonus invisibility, but converts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 4, 3, 2, 1</acronym> negative energy into positive energy each turn.  Once your positive energy exceeds your negative energy, or you deactivate the talent, the effect ends in an explosion of light, converting all of your positive energy into damage and inflicting an additional <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">66, 89, 107, 122, 136</acronym> damage to everything in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5.</acronym></p><p>As you become invisible, you fade out of phase with reality; all your damage is reduced by 50%.</p><p>You may not cast Twilight while this spell is active, and you should take off your light source; otherwise, others will spot you with ease.</p><p>The invisibility bonus will increase with your Cunning, and the explosion damage will increase with your Spellpower.</p>","mode":"sustained","require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"use_speed":"Spell","type":["celestial/eclipse",4],"range":"1.0","id":"T_DARKEST_LIGHT","no_silence":true,"short_name":"DARKEST_LIGHT","is_spell":true,"name":"Darkest Light","points":5,"cooldown":30}],"type":"celestial/eclipse","is_spell":true,"name":"eclipse","description":"The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...","points":1,"no_silence":true,"allow_random":true},{"type":"celestial/glyphs","description":"Bind the brilliant powers into glyphs to trap your foes.","no_silence":true,"min_lev":10,"talents":[{"positive":-10,"source_code":["data/talents/celestial/glyphs.lua",22],"multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.0, 3.0, 4.0, 5.0, 5.0</acronym>","mode":"activated","random_ego":"attack","cost":"-10 positive energy","points":5,"require":["Level 10, Mag 22","Level 11, Mag 24","Level 12, Mag 26","Level 13, Mag 28","Level 14, Mag 30"],"use_speed":"Instant","info_text":"<p>You bind light in a glyph on the floor. All enemies walking over the glyph will be dazed for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The glyph is a hidden trap (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">30, 43, 52, 61, 68</acronym> detection and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">38, 54, 66, 76, 85</acronym> disarm power based on your Magic) and lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p>","type":["celestial/glyphs",1],"is_spell":true,"id":"T_GLYPH_OF_PARALYSIS","no_silence":true,"short_name":"GLYPH_OF_PARALYSIS","image":"glyph_of_paralysis.png","name":"Glyph of Paralysis","requires_target":true,"no_energy":true,"cooldown":20},{"positive":-10,"source_code":["data/talents/celestial/glyphs.lua",93],"multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.0, 3.0, 4.0, 5.0, 5.0</acronym>","info_text":"<p>You bind light in a glyph on the floor. All targets walking over the glyph will be hit by a blast that knocks them back and does <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">38, 54, 66, 77, 86</acronym> physical damage.</p><p>The glyph is a hidden trap (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">30, 43, 52, 61, 68</acronym> detection and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">38, 54, 66, 76, 85</acronym> disarm power based on your Magic) and lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>The damage will increase with your Spellpower.</p>","random_ego":"attack","cost":"-10 positive energy","points":5,"require":["Level 14, Mag 30","Level 15, Mag 32","Level 16, Mag 34","Level 17, Mag 36","Level 18, Mag 38"],"use_speed":"Instant","type":["celestial/glyphs",2],"is_spell":true,"id":"T_GLYPH_OF_REPULSION","no_silence":true,"mode":"activated","short_name":"GLYPH_OF_REPULSION","image":"glyph_of_repulsion.png","name":"Glyph of Repulsion","requires_target":true,"no_energy":true,"cooldown":20},{"positive":-10,"source_code":["data/talents/celestial/glyphs.lua",172],"multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.0, 3.0, 4.0, 5.0, 5.0</acronym>","info_text":"<p>You bind light in a glyph on the floor. All targets walking over the glyph will trigger an explosion of light that does <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">38, 54, 66, 77, 86</acronym> damage to everyone within 1 tile.</p><p>The glyph is a hidden trap (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">30, 43, 52, 61, 68</acronym> detection and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">30, 43, 52, 61, 68</acronym> disarm power based on your Magic) and lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>The damage will increase with your Spellpower.</p>","random_ego":"attack","cost":"-10 positive energy","points":5,"require":["Level 18, Mag 38","Level 19, Mag 40","Level 20, Mag 42","Level 21, Mag 44","Level 22, Mag 46"],"use_speed":"Instant","type":["celestial/glyphs",3],"is_spell":true,"id":"T_GLYPH_OF_EXPLOSION","no_silence":true,"mode":"activated","short_name":"GLYPH_OF_EXPLOSION","image":"glyph_of_explosion.png","name":"Glyph of Explosion","requires_target":true,"no_energy":true,"cooldown":20},{"positive":-10,"source_code":["data/talents/celestial/glyphs.lua",246],"multi_require":true,"mode":"activated","range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.0, 3.0, 4.0, 5.0, 5.0</acronym>","cost":"-10 positive energy","points":5,"require":["Level 22, Mag 46","Level 23, Mag 48","Level 24, Mag 50","Level 25, Mag 52","Level 26, Mag 54"],"use_speed":"Instant","info_text":"<p>You bind light in a glyph on the floor. All targets walking over the glyph will be slowed by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">29%, 38%, 47%, 56%, 65%</acronym> for 5 turns.</p><p>The glyph is a hidden trap (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">38, 54, 66, 76, 85</acronym> detection and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">38, 54, 66, 76, 85</acronym> disarm power based on your Magic) and lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p>","type":["celestial/glyphs",4],"is_spell":true,"id":"T_GLYPH_OF_FATIGUE","no_silence":true,"short_name":"GLYPH_OF_FATIGUE","image":"glyph_of_fatigue.png","name":"Glyph of Fatigue","requires_target":true,"no_energy":true,"random_ego":"attack","cooldown":20}],"name":"glyphs","points":1,"is_spell":true,"allow_random":true},{"type":"celestial/guardian","description":"Your devotion grants you additional protection.","no_silence":true,"min_lev":10,"talents":[{"cost":"10 positive energy","multi_require":true,"range":"10.0","image":"shield_of_light.png","source_code":["data/talents/celestial/guardian.lua",24],"info_text":"<p>Infuse your shield with light, healing you for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">14, 18, 22, 25, 28</acronym> each time you take damage at the expense of up to 2 positive energy.</p><p>If you do not have any positive energy, the effect will not trigger.</p><p>Additionally, once per turn successful melee attacks will trigger a bonus attack with your shield dealing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">45%, 60%, 71%, 81%, 89%</acronym> light damage.</p><p>The healing done will increase with your Spellpower.</p>","mode":"sustained","require":["Level 10, Mag 22","Level 11, Mag 24","Level 12, Mag 26","Level 13, Mag 28","Level 14, Mag 30"],"points":5,"type":["celestial/guardian",1],"is_spell":true,"use_speed":"Spell","id":"T_SHIELD_OF_LIGHT","no_silence":true,"short_name":"SHIELD_OF_LIGHT","name":"Shield of Light","sustain_positive":10,"cooldown":10},{"positive":25,"multi_require":true,"short_name":"BRANDISH","source_code":["data/talents/celestial/guardian.lua",69],"image":"brandish.png","range":"1.0","points":5,"require":["Level 14, Mag 30","Level 15, Mag 32","Level 16, Mag 34","Level 17, Mag 36","Level 18, Mag 38"],"cost":"25 positive energy","is_spell":true,"use_speed":"Spell","id":"T_BRANDISH","no_silence":true,"info_text":"<p>Hits the target with your weapon doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">201%, 244%, 276%, 303%, 328%</acronym> damage, and with a shield strike doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">150%, 172%, 188%, 201%, 214%</acronym> damage. If the shield strike connects, your shield will explode in a burst of light that inflicts <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">135, 183, 220, 252, 280</acronym> light damage on all targets except yourself within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> of the target, and light up all tiles in that radius.</p><p>The light damage will increase with your Spellpower.</p>","mode":"activated","type":["celestial/guardian",2],"name":"Brandish","requires_target":true,"cooldown":8},{"no_sustain_autoreset":true,"cost":"20 positive energy","multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2.0, 3.0, 5.0, 6.0, 7.0</acronym>","image":"retribution.png","source_code":["data/talents/celestial/guardian.lua",122],"points":5,"require":["Level 18, Mag 38","Level 19, Mag 40","Level 20, Mag 42","Level 21, Mag 44","Level 22, Mag 46"],"use_speed":"Spell","type":["celestial/guardian",3],"is_spell":true,"mode":"sustained","id":"T_RETRIBUTION","no_silence":true,"info_text":"<p>Retribution negates half of all damage you take while it is active. Once Retribution has negated <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">278, 376, 453, 518, 575</acronym> damage, your shield will explode in a burst of light, inflicting damage equal to the amount negated in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> and deactivating the talent.</p><p>The amount absorbed will increase with your Spellpower.</p><p></p>","short_name":"RETRIBUTION","name":"Retribution","sustain_positive":20,"cooldown":10},{"positive":-20,"source_code":["data/talents/celestial/guardian.lua",174],"multi_require":true,"range":"1.0","mode":"activated","image":"crusade.png","cost":"-20 positive energy","points":5,"require":["Level 22, Mag 46","Level 23, Mag 48","Level 24, Mag 50","Level 25, Mag 52","Level 26, Mag 54"],"use_speed":"Spell","type":["celestial/guardian",4],"is_spell":true,"info_text":"<p>You demonstrate your dedication to the light with a measured attack striking once with your weapon for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">75%, 94%, 109%, 121%, 132%</acronym> damage and once with your shield for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">75%, 94%, 109%, 121%, 132%</acronym> damage.</p><p>If the first strike connects <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 2, 3, 4, 4</acronym> random talent cooldowns are reduced by 1.</p><p>If the second strike connects you are cleansed of 1 debuffs.</p>","id":"T_CRUSADE","no_silence":true,"short_name":"CRUSADE","random_ego":"attack","name":"Crusade","requires_target":true,"cooldown":5}],"name":"guardian","points":1,"is_spell":true,"allow_random":true},{"type":"celestial/hymns","description":"Chant the glory of the Moon.","no_silence":true,"generic":true,"name":"hymns","talents":[{"cost":"20 negative energy","multi_require":true,"range":"10.0","source_code":["data/talents/celestial/hymns.lua",29],"image":"hymn_of_shadows.png","short_name":"HYMN_OF_SHADOWS","points":5,"mode":"sustained","require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"dont_provide_pool":true,"use_speed":"Instant","type":["celestial/hymns",1],"is_spell":true,"info_text":"<p>Chant the glory of the Moon, empowering your dark elemental attacks so that they do <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">15%, 21%, 25%, 28%, 32%</acronym> additional darkness damage.</p><p>In addition, this talent surrounds you with a shield of shadows, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">32, 43, 52, 60, 66</acronym> darkness damage to anything that attacks you.</p><p>You may only have one Hymn active at once.</p><p>The effects will increase with your Spellpower.</p>","id":"T_HYMN_OF_SHADOWS","no_silence":true,"generic":true,"name":"Hymn of Shadows","no_energy":true,"sustain_negative":20,"cooldown":12},{"source_code":["data/talents/celestial/hymns.lua",70],"cost":"20 negative energy","multi_require":true,"sustain_negative":20,"points":5,"image":"hymn_of_detection.png","use_speed":"Instant","info_text":"<p>Chant the glory of the Moon, granting you infravision up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> grids, stealth detection (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">+9, +12, +14, +17, +18</acronym> power), and invisibility detection (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">+22, +29, +35, +41, +45</acronym> power).</p><p>In addition, this talent surrounds you with a shield of shadows, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> darkness damage to anything that attacks you.</p><p>You may only have one Hymn active at once.</p><p>The stealth and invisibility detection, as well as the on-hit damage, will increase with your Spellpower.</p>","mode":"sustained","require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"dont_provide_pool":true,"type":["celestial/hymns",2],"is_spell":true,"short_name":"HYMN_OF_DETECTION","id":"T_HYMN_OF_DETECTION","no_silence":true,"generic":true,"name":"Hymn of Detection","no_energy":true,"range":"10.0","cooldown":12},{"cost":"20 negative energy","multi_require":true,"range":"10.0","source_code":["data/talents/celestial/hymns.lua",119],"image":"hymn_of_perseverance.png","short_name":"HYMN_OF_PERSEVERANCE","points":5,"mode":"sustained","require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"dont_provide_pool":true,"use_speed":"Instant","type":["celestial/hymns",3],"is_spell":true,"info_text":"<p>Chant the glory of the Moon, granting you <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">25%, 36%, 44%, 50%, 55%</acronym> stun, blindness and confusion resistance.</p><p>In addition, this talent surrounds you with a shield of shadows, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">32, 43, 52, 60, 66</acronym> darkness damage to anything that attacks you.</p><p>You may only have one Hymn active at once.</p><p>The on-hit damage will increase with your Spellpower.</p>","id":"T_HYMN_OF_PERSEVERANCE","no_silence":true,"generic":true,"name":"Hymn of Perseverance","no_energy":true,"sustain_negative":20,"cooldown":12},{"source_code":["data/talents/celestial/hymns.lua",165],"cost":"20 negative energy","points":5,"multi_require":true,"sustain_negative":20,"use_speed":"Instant","image":"hymn_of_moonlight.png","info_text":"<p>Chant the glory of the Moon, conjuring a shroud of dancing shadows that follows you as long as this spell is active.</p><p>Each turn, a shadowy beam will hit up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> of your foes within radius 5 for 1 to <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> damage.</p><p>This powerful spell will drain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7.1, 4.8, 3.6, 2.9, 2.4</acronym> negative energy for each beam; no beam will fire if your negative energy is too low.</p><p>The damage will increase with your Spellpower.</p>","mode":"sustained","require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"dont_provide_pool":true,"short_name":"HYMN_OF_MOONLIGHT","type":["celestial/hymns",4],"is_spell":true,"id":"T_HYMN_OF_MOONLIGHT","no_silence":true,"generic":true,"name":"Hymn of Moonlight","no_energy":true,"range":"5.0","cooldown":12}],"points":1,"is_spell":true,"allow_random":true},{"type":"celestial/light","description":"Invoke the power of the light to heal and mend.","no_silence":true,"generic":true,"name":"light","talents":[{"positive":-10,"multi_require":true,"short_name":"HEALING_LIGHT","image":"healing_light.png","source_code":["data/talents/celestial/light.lua",20],"points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"type":["celestial/light",1],"is_spell":true,"cost":"-10 positive energy","id":"T_HEALING_LIGHT","is_heal":true,"no_silence":true,"use_speed":"Spell","range":"1.0","generic":true,"name":"Healing Light","info_text":"<p>An invigorating ray of Sunlight shines upon you, healing your body for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">306, 415, 500, 571, 635</acronym> life.</p><p>The amount healed will increase with your Spellpower.</p>","mode":"activated","random_ego":"defensive","cooldown":10},{"positive":-20,"source_code":["data/talents/celestial/light.lua",50],"multi_require":true,"range":"0.0","info_text":"<p>A magical zone of Sunlight appears around you, healing and shielding all within a radius of 2 for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> per turn and increasing healing effects on everyone within by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">26%, 35%, 42%, 48%, 53%.</acronym> The effect lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 6, 7, 7</acronym> turns.</p><p>Existing damage shields will be added to instead of overwritten and have their duration set to 2 if it isn't higher.</p><p>If the same shield is refreshed 20 times it will become unstable and explode, removing it.</p><p>It also lights up the affected zone.</p><p>The amount healed will increase with the Magic stat</p>","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"cost":"-20 positive energy","radius":2,"is_spell":true,"use_speed":"Spell","id":"T_BATHE_IN_LIGHT","no_silence":true,"mode":"activated","short_name":"BATHE_IN_LIGHT","generic":true,"name":"Bathe in Light","image":"bathe_in_light.png","type":["celestial/light",2],"random_ego":"defensive","cooldown":15},{"random_ego":"defensive","positive":-20,"multi_require":true,"short_name":"BARRIER","image":"barrier.png","source_code":["data/talents/celestial/light.lua",94],"points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"use_speed":"Spell","type":["celestial/light",3],"cost":"-20 positive energy","id":"T_BARRIER","no_silence":true,"range":"1.0","info_text":"<p>A protective shield forms around you that lasts for up to 10 turns and negates <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">256, 347, 417, 477, 530</acronym> damage.</p><p>The total damage the barrier can absorb will increase with your Spellpower.</p>","generic":true,"name":"Barrier","mode":"activated","is_spell":true,"cooldown":15},{"positive":-20,"short_name":"PROVIDENCE","source_code":["data/talents/celestial/light.lua",117],"use_speed":"Spell","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"name":"Providence","multi_require":true,"type":["celestial/light",4],"is_spell":true,"cost":"-20 positive energy","id":"T_PROVIDENCE","no_silence":true,"range":"1.0","info_text":"<p>Places you under the protection of Light itself. For <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns, the light heals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">31, 43, 52, 59, 66</acronym> life and removes a single negative effect from you.</p><p>The amount healed will increase with your Spellpower.</p>","generic":true,"mode":"activated","image":"providence.png","random_ego":"defensive","cooldown":30}],"points":1,"is_spell":true,"allow_random":true},{"type":"celestial/other","is_spell":true,"talents":[{"cost":"14 negative energy","short_name":"JUMPGATE_TELEPORT","image":"jumpgate_teleport.png","source_code":["data/talents/celestial/twilight.lua",54],"is_teleport":true,"points":1,"type_no_req":true,"no_unlearn_last":true,"type":["celestial/other",1],"is_spell":true,"id":"T_JUMPGATE_TELEPORT","no_silence":true,"use_speed":"Spell","range":"1.0","info_text":"<p>Instantly travel to your jumpgate, as long as you are within <acronym class=\"talent-variable\" title=\"Values for<br>Jumpgate talent levels 1-5,<br>talent mastery 1.30\">13, 15, 16, 18, 19</acronym> tiles of it.</p>","name":"Jumpgate: Teleport To","mode":"activated","negative":14,"cooldown":7},{"no_sustain_autoreset":true,"cost":"20 negative energy","sustain_negative":20,"image":"jumpgate_two.png","source_code":["data/talents/celestial/twilight.lua",300],"points":1,"mode":"sustained","type_no_req":true,"use_speed":"Spell","no_unlearn_last":true,"type":["celestial/other",1],"is_spell":true,"range":"1.0","id":"T_JUMPGATE_TWO","no_silence":true,"info_text":"<p>Create a second shadow jumpgate at your location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within <acronym class=\"talent-variable\" title=\"Values for<br>Jumpgate talent levels 1-5,<br>talent mastery 1.30\">13, 15, 16, 18, 19</acronym> tiles of it.</p>","short_name":"JUMPGATE_TWO","name":"Jumpgate Two","cooldown":20},{"cost":"14 negative energy","short_name":"JUMPGATE_TELEPORT_TWO","image":"jumpgate_teleport_two.png","source_code":["data/talents/celestial/twilight.lua",366],"is_teleport":true,"points":1,"type_no_req":true,"no_unlearn_last":true,"type":["celestial/other",1],"is_spell":true,"id":"T_JUMPGATE_TELEPORT_TWO","no_silence":true,"use_speed":"Spell","range":"1.0","info_text":"<p>Instantly travel to your second jumpgate, as long as you are within <acronym class=\"talent-variable\" title=\"Values for<br>Jumpgate talent levels 1-5,<br>talent mastery 1.30\">13, 15, 16, 18, 19</acronym> tiles of it.</p>","name":"Jumpgate Two: Teleport To","mode":"activated","negative":14,"cooldown":7}],"description":"Various celestial talents.","points":1,"no_silence":true,"name":"other"},{"talents":[{"short_name":"RADIANCE","image":"radiance.png","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"is_spell":true,"source_code":["data/talents/celestial/radiance.lua",28],"id":"T_RADIANCE","no_silence":true,"mode":"passive","multi_require":true,"name":"Radiance","type":["celestial/radiance",1],"info_text":"<p>You are so infused with sunlight that your body glows permanently in radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8,</acronym> even in dark places.</p><p>Your vision adapts to this glow, giving you <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">34%, 58%, 69%, 75%, 80%</acronym> blindness resistance.</p><p>The light radius overrides your normal light if it is bigger (it does not stack).</p><p></p>"},{"multi_require":true,"short_name":"ILLUMINATION","image":"illumination.png","mode":"passive","require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"type":["celestial/radiance",2],"is_spell":true,"id":"T_ILLUMINATION","no_silence":true,"source_code":["data/talents/celestial/radiance.lua",49],"name":"Illumination","points":5,"info_text":"<p>The light of your Radiance allows you to see that which would normally be unseen.</p><p>All enemies in your Radiance aura have their invisibility and stealth power reduced by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">80, 104, 122, 137, 151.</acronym></p><p>In addition, all actors affected by illumination are easier to see and therefore hit; their defense is reduced by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">27, 34, 40, 46, 50</acronym> and all evasion bonuses from being unseen are negated.</p><p>The effects increase with your Spellpower.</p>"},{"cost":"10 positive energy","multi_require":true,"range":"0.0","image":"searing_sight.png","source_code":["data/talents/celestial/radiance.lua",86],"info_text":"<p>Your Radiance is so powerful it burns all foes caught in it, doing up to <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">22, 30, 36, 41, 46</acronym> light damage (reduced with distance) to all foes caught inside.</p><p>At level 4 the light is so bright it has <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7%, 13%, 17%, 20%, 22%</acronym> chance to daze them for 3 turns.</p><p>The damage increases with your Spellpower.</p>","mode":"sustained","require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"points":5,"type":["celestial/radiance",3],"is_spell":true,"use_speed":"Spell","id":"T_SEARING_SIGHT","no_silence":true,"short_name":"SEARING_SIGHT","name":"Searing Sight","sustain_positive":10,"cooldown":15},{"positive":20,"multi_require":true,"range":"0.0","image":"judgement.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"source_code":["data/talents/celestial/radiance.lua",125],"cost":"20 positive energy","is_spell":true,"id":"T_JUDGEMENT","no_silence":true,"use_speed":"Spell","info_text":"<p>Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">100, 135, 163, 186, 207</acronym> light damage and healing you for 50% of the damage dealt.  This powerful ability will dim your Radiance, reducing its radius to 1 for 5 turns.</p>","mode":"activated","name":"Judgement","short_name":"JUDGEMENT","type":["celestial/radiance",4],"cooldown":25}],"type":"celestial/radiance","is_spell":true,"name":"radiance","description":"You channel the light of the sun through your body.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"reflectable":true,"cost":"10 negative energy","source_code":["data/talents/celestial/star-fury.lua",20],"multi_require":true,"range":"10.0","info_text":"<p>Focuses the power of the Moon into a beam of shadows, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">156, 212, 255, 291, 323</acronym> damage.</p><p>The damage dealt will increase with your Spellpower.</p>","image":"moonlight_ray.png","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"use_speed":"Spell","type":["celestial/star-fury",1],"is_spell":true,"negative":10,"id":"T_MOONLIGHT_RAY","no_silence":true,"mode":"activated","short_name":"MOONLIGHT_RAY","name":"Moonlight Ray","requires_target":true,"random_ego":"attack","cooldown":3,"direct_hit":true},{"source_code":["data/talents/celestial/star-fury.lua",55],"short_name":"SHADOW_BLAST","random_ego":"attack","cost":"15 negative energy","multi_require":true,"range":"5.0","use_speed":"Spell","info_text":"<p>Invokes a blast of shadows that deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">73, 98, 118, 135, 150</acronym> darkness damage, and leaves a radius 3 field that does <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> darkness damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 5, 6, 6</acronym> turns.</p><p>The damage dealt will increase with your Spellpower.</p>","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"mode":"activated","type":["celestial/star-fury",2],"is_spell":true,"negative":15,"id":"T_SHADOW_BLAST","no_silence":true,"image":"shadow_blast.png","name":"Shadow Blast","requires_target":true,"radius":3,"cooldown":10,"direct_hit":true},{"source_code":["data/talents/celestial/star-fury.lua",105],"random_ego":"attack","positive":-10,"info_text":"<p>A surge of twilight pulses from you, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">39, 70, 93, 113, 130</acronym> light and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">39, 70, 93, 113, 130</acronym> darkness damage to all others within radius 2.</p><p>The damage dealt will increase with your Spellpower.</p>","multi_require":true,"range":"0.0","image":"twilight_surge.png","cost":"-10 positive energy, -20 negative energy","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"use_speed":"Spell","type":["celestial/star-fury",3],"is_spell":true,"negative":-20,"id":"T_TWILIGHT_SURGE","no_silence":true,"mode":"activated","short_name":"TWILIGHT_SURGE","name":"Twilight Surge","radius":2,"cooldown":7,"direct_hit":true},{"cost":"20 negative energy","source_code":["data/talents/celestial/star-fury.lua",142],"multi_require":true,"range":"6.0","info_text":"<p>A star falls on a radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 1, 2, 2, 3</acronym> area, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">114, 155, 186, 213, 236</acronym> darkness damage on impact and stunning all within the area for 4 turns.</p><p>The damage dealt will increase with your Spellpower.</p>","image":"starfall.png","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"use_speed":"Spell","is_spell":true,"negative":20,"id":"T_STARFALL","no_silence":true,"mode":"activated","short_name":"STARFALL","name":"Starfall","requires_target":true,"type":["celestial/star-fury",4],"random_ego":"attack","cooldown":12,"direct_hit":true}],"type":"celestial/star-fury","is_spell":true,"name":"star fury","description":"Call the fury of the Stars and the Moon to destroy your foes.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"source_code":["data/talents/celestial/sun.lua",21],"random_ego":"attack","positive":-16,"image":"sun_beam.png","multi_require":true,"short_name":"SUN_BEAM","cost":"-16 positive energy","use_speed":"Spell","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"info_text":"<p>Calls forth a beam of light from the Sun, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">149, 202, 243, 278, 309</acronym> Light damage to the target.</p><p>At level 3 the beam will be so intense it will also blind the target and everyone in a radius 2 around it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 2, 3, 4, 4</acronym> turns.</p><p>The damage dealt will increase with your Spellpower.</p>","type":["celestial/sun",1],"is_spell":true,"mode":"activated","id":"T_SUN_BEAM","no_silence":true,"reflectable":true,"name":"Sun Ray","requires_target":true,"range":"7.0","cooldown":9,"direct_hit":true},{"positive":-20,"multi_require":true,"range":"<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5.0, 8.0, 8.0, 9.0, 9.0</acronym>","image":"path_of_the_sun.png","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"type":["celestial/sun",2],"is_spell":true,"source_code":["data/talents/celestial/sun.lua",69],"id":"T_PATH_OF_THE_SUN","no_silence":true,"cost":"-20 positive energy","use_speed":"Spell","info_text":"<p>A path of sunlight appears in front of you for 5 turns. All foes standing inside take <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">43, 58, 70, 79, 88</acronym> Light damage per turn.</p><p>While standing in the path, your movement takes no time and can not trigger traps.</p><p>The damage done will increase with your Spellpower.</p>","name":"Path of the Sun","mode":"activated","short_name":"PATH_OF_THE_SUN","cooldown":15,"direct_hit":true},{"short_name":"SUN_VENGEANCE","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"type":["celestial/sun",3],"is_spell":true,"source_code":["data/talents/celestial/sun.lua",111],"id":"T_SUN_VENGEANCE","mode":"passive","multi_require":true,"name":"Sun's Vengeance","no_silence":true,"image":"sun_vengeance.png","info_text":"<p>Infuse yourself with the raging fury of the Sun, increasing your physical and spell critical chance by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2%, 5%, 8%, 10%, 12%.</acronym></p><p>Each time you crit with a physical attack or a spell you have <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">38%, 59%, 69%, 75%, 79%</acronym> chance to gain Sun's Vengeance for 2 turns.</p><p>While affected by Sun's Vengeance, your Sun Ray will take no time to use and will deal 25% more damage.</p><p>If Sun Ray was on cooldown, the remaining turns are reduced by one instead.</p><p>This effect can only happen once per turn.</p>"},{"positive":-15,"multi_require":true,"range":"10.0","source_code":["data/talents/celestial/sun.lua",152],"image":"suncloak.png","cost":"-15 positive energy","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"use_speed":"Spell","info_text":"<p>You wrap yourself in a cloak of sunlight that empowers your magic and protects you for 6 turns.</p><p>While the cloak is active, your spell casting speed is increased by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">21%, 28%, 34%, 39%, 43%,</acronym> your spell cooldowns are reduced by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">33%, 37%, 38%, 40%, 40%,</acronym> and you cannot take more than <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">87%, 80%, 74%, 69%, 65%</acronym> of your maximum life from a single blow.</p><p>The effects will increase with your Spellpower.</p>","type":["celestial/sun",4],"fixed_cooldown":true,"mode":"activated","id":"T_SUNCLOAK","no_silence":true,"short_name":"SUNCLOAK","is_spell":true,"name":"Suncloak","requires_target":true,"cooldown":15,"direct_hit":true}],"type":"celestial/sun","is_spell":true,"name":"sun","description":"Summon the power of the Sun to burn your foes.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"reflectable":true,"positive":-16,"source_code":["data/talents/celestial/sunlight.lua",20],"multi_require":true,"range":"7.0","mode":"activated","image":"searing_light.png","cost":"-16 positive energy","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"use_speed":"Spell","type":["celestial/sunlight",1],"is_spell":true,"info_text":"<p>Calls the power of the Sun into a searing lance, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">107, 145, 175, 200, 222</acronym> damage to the target and leaving a spot on the ground for 4 turns that does <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> light damage to anyone within it.</p><p>The damage dealt will increase with your Spellpower.</p>","id":"T_SEARING_LIGHT","no_silence":true,"short_name":"SEARING_LIGHT","random_ego":"attack","name":"Searing Light","requires_target":true,"cooldown":6,"direct_hit":true},{"positive":-15,"source_code":["data/talents/celestial/sunlight.lua",64],"multi_require":true,"range":"0.0","info_text":"<p>Invokes the Sun to cause a flare within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5,</acronym> blinding your foes for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns and lighting up your immediate area (radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 6, 8, 8, 10</acronym>).</p><p>At level 3 it will also do <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> light damage within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5.</acronym></p><p>The damage done will increase with your Spellpower.</p>","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"cost":"-15 positive energy","is_spell":true,"use_speed":"Spell","id":"T_SUN_FLARE","no_silence":true,"mode":"activated","short_name":"SUN_FLARE","image":"sun_flare.png","name":"Sun Flare","type":["celestial/sunlight",2],"random_ego":"attack","cooldown":22,"direct_hit":true},{"positive":-20,"multi_require":true,"range":"7.0","source_code":["data/talents/celestial/sunlight.lua",108],"image":"firebeam.png","use_speed":"Spell","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"type":["celestial/sunlight",3],"is_spell":true,"cost":"-20 positive energy","id":"T_FIREBEAM","no_silence":true,"info_text":"<p>Call forth the Sun to summon a fiery beam, burning all targets in a line for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">135, 183, 220, 252, 280</acronym> fire damage.</p><p>The damage done will increase with your Spellpower.</p>","mode":"activated","short_name":"FIREBEAM","name":"Firebeam","requires_target":true,"random_ego":"attack","cooldown":7,"direct_hit":true},{"positive":-20,"multi_require":true,"range":"0.0","source_code":["data/talents/celestial/sunlight.lua",143],"image":"sunburst.png","use_speed":"Spell","points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"radius":3,"is_spell":true,"cost":"-20 positive energy","id":"T_SUNBURST","no_silence":true,"info_text":"<p>Conjures a furious burst of Sunlight, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">107, 145, 175, 200, 222</acronym> light damage to all around you in a radius of 3.</p><p>The damage done will increase with your Spellpower.</p>","mode":"activated","short_name":"SUNBURST","name":"Sunburst","type":["celestial/sunlight",4],"random_ego":"attack","cooldown":15,"direct_hit":true}],"type":"celestial/sunlight","is_spell":true,"name":"sunlight","description":"Summon the power of the Sun to burn your foes.","points":1,"no_silence":true,"allow_random":true},{"talents":[{"positive":15,"range":"10.0","image":"twilight.png","points":5,"require":["Level 0, Mag 12","Level 1, Mag 14","Level 2, Mag 16","Level 3, Mag 18","Level 4, Mag 20"],"source_code":["data/talents/celestial/twilight.lua",22],"multi_require":true,"type":["celestial/twilight",1],"is_spell":true,"name":"Twilight","id":"T_TWILIGHT","no_silence":true,"cost":"15 positive energy","use_speed":"Spell","info_text":"<p>You stand between the darkness and the light, allowing you to convert 15 positive energy into <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">89, 142, 186, 225, 260</acronym> negative energy.</p><p>Learning this talent will change the default level of positive and negative energies to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">22%, 28%, 32%, 34%, 36%</acronym> of their maximum. Each turn, the energies will slowly fall/rise to this value, instead of 0.</p><p>The negative energy gain will increase with your Cunning.</p>","mode":"activated","short_name":"TWILIGHT","cooldown":6},{"cost":"20 negative energy","sustain_negative":20,"image":"jumpgate.png","source_code":["data/talents/celestial/twilight.lua",88],"mode":"sustained","points":5,"require":["Level 4, Mag 20","Level 5, Mag 22","Level 6, Mag 24","Level 7, Mag 26","Level 8, Mag 28"],"multi_require":true,"use_speed":"Spell","is_spell":true,"range":"1.0","id":"T_JUMPGATE","no_silence":true,"info_text":"<p>Create a shadow jumpgate at your current location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within <acronym class=\"talent-variable\" title=\"Values for<br>Jumpgate talent levels 1-5,<br>talent mastery 1.30\">13, 15, 16, 18, 19</acronym> tiles of it.</p><p>Note that any stairs underneath the jumpgate will be unusable while the spell is sustained, and you may need to cancel this sustain in order to leave certain locations.</p><p>At talent level 4, you learn to create and sustain a second jumpgate.</p>","short_name":"JUMPGATE","no_sustain_autoreset":true,"name":"Jumpgate","type":["celestial/twilight",2],"cooldown":"40"},{"source_code":["data/talents/celestial/twilight.lua",165],"cost":"15 negative energy","mode":"activated","multi_require":true,"short_name":"MIND_BLAST","image":"mind_blast.png","use_speed":"Spell","points":5,"require":["Level 8, Mag 28","Level 9, Mag 30","Level 10, Mag 32","Level 11, Mag 34","Level 12, Mag 36"],"range":"1.0","info_text":"<p>Let out a mental cry that shatters the will of your targets within radius 3, confusing (<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">20%, 35%, 41%, 45%, 48%</acronym> to act randomly) them for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">9, 10, 11, 12, 12</acronym> turns.</p><p>The duration will improve with your Cunning.</p>","radius":3,"is_spell":true,"negative":15,"id":"T_MIND_BLAST","no_silence":true,"type":["celestial/twilight",3],"name":"Mind Blast","requires_target":true,"random_ego":"attack","cooldown":15,"direct_hit":true},{"cost":"10 negative energy","multi_require":true,"range":"5.0","source_code":["data/talents/celestial/twilight.lua",199],"points":5,"require":["Level 12, Mag 36","Level 13, Mag 38","Level 14, Mag 40","Level 15, Mag 42","Level 16, Mag 44"],"use_speed":"Spell","type":["celestial/twilight",4],"is_spell":true,"negative":10,"id":"T_SHADOW_SIMULACRUM","no_silence":true,"info_text":"<p>Creates a shadowy copy of a hostile target of up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">medium, medium, big, big, huge</acronym> size. The copy will attack its progenitor immediately and lasts for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 16, 17, 18, 18</acronym> turns.</p><p>The duplicate has <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">25%, 36%, 44%, 50%, 57%</acronym> of the target's life, <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">25%, 36%, 44%, 50%, 57%</acronym> all damage resistance, +50% darkness resistance and -50% light resistance.</p><p>The duration, life and all damage resistance scale with your Cunning and this ability will not work on bosses.</p>","mode":"activated","short_name":"SHADOW_SIMULACRUM","name":"Shadow Simulacrum","requires_target":true,"image":"shadow_simulacrum.png","random_ego":"attack","cooldown":30}],"type":"celestial/twilight","is_spell":true,"name":"twilight","description":"Stand between the darkness and the light, harnessing both.","points":1,"no_silence":true,"allow_random":true}]
+[
+    {
+        "allow_random": true,
+        "description": "Chant the glory of the Sun.",
+        "generic": true,
+        "is_spell": true,
+        "name": "chants",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 12,
+                "cost": "20 positive energy",
+                "dont_provide_pool": true,
+                "generic": true,
+                "id": "T_CHANT_OF_FORTITUDE",
+                "image": "chant_of_fortitude.png",
+                "info_text": "<p>You chant the glory of the Sun, granting you <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 73, 84, 93</acronym> Physical Save and Spell Save and increasing your maximum life by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6.3%, 12%, 16%, 21%, 25%</acronym> (Currently:  <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 11, 16, 20, 24</acronym>).</p><p>In addition, this talent surrounds you with a shield of light, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> light damage to anything that hits you in melee.</p><p>You may only have one Chant active at once.</p><p>The saves and light damage will increase with your Spellpower and the life with talent level.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Chant of Fortitude",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "CHANT_OF_FORTITUDE",
+                "source_code": [
+                    "data/talents/celestial/chants.lua",
+                    30
+                ],
+                "sustain_positive": 20,
+                "type": [
+                    "celestial/chants",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 12,
+                "cost": "20 positive energy",
+                "dont_provide_pool": true,
+                "generic": true,
+                "id": "T_CHANT_OF_FORTRESS",
+                "image": "chant_of_fortress.png",
+                "info_text": "<p>You chant the glory of the Sun, reducing the damage enemies 3 or more spaces away deal by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">16%, 22%, 27%, 30%, 32%.</acronym></p><p>In addition, this talent surrounds you with a shield of light, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> light damage to anything that hits you in melee.</p><p>You may only have one Chant active at once.</p><p>The damage reduction will increase with talent level and light damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Chant of Fortress",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "CHANT_OF_FORTRESS",
+                "source_code": [
+                    "data/talents/celestial/chants.lua",
+                    82
+                ],
+                "sustain_positive": 20,
+                "type": [
+                    "celestial/chants",
+                    2
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 12,
+                "cost": "20 positive energy",
+                "dont_provide_pool": true,
+                "generic": true,
+                "id": "T_CHANT_OF_RESISTANCE",
+                "image": "chant_of_resistance.png",
+                "info_text": "<p>You chant the glory of the Sun, granting you <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">15%, 21%, 25%, 28%, 32%</acronym> resistance to all damage.</p><p>In addition, this talent surrounds you with a shield of light, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> light damage to anything that hits you in melee.</p><p>You may only have one Chant active at once.</p><p>The effects will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Chant of Resistance",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "CHANT_OF_RESISTANCE",
+                "source_code": [
+                    "data/talents/celestial/chants.lua",
+                    126
+                ],
+                "sustain_positive": 20,
+                "type": [
+                    "celestial/chants",
+                    3
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 12,
+                "cost": "5 positive energy",
+                "dont_provide_pool": true,
+                "generic": true,
+                "id": "T_CHANT_OF_LIGHT",
+                "image": "chant_of_light.png",
+                "info_text": "<p>You chant the glory of the Sun, empowering your light and fire elemental attacks so that they do <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">31%, 43%, 52%, 59%, 66%</acronym> additional damage.</p><p>In addition, this talent surrounds you with a shield of light, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> light damage to anything that hits you in melee.</p><p>Your lite radius is also increased by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 4, 5, 6, 6.</acronym></p><p>You may only have one Chant active at once and this Chant costs less power to sustain.</p><p>The effects will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Chant of Light",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "CHANT_OF_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/chants.lua",
+                    170
+                ],
+                "sustain_positive": 5,
+                "type": [
+                    "celestial/chants",
+                    4
+                ],
+                "use_speed": "Instant"
+            }
+        ],
+        "type": "celestial/chants"
+    },
+    {
+        "allow_random": true,
+        "description": "Bind the power of the Moon into circles at your feet.",
+        "is_spell": true,
+        "min_lev": 10,
+        "name": "circles",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 20,
+                "cost": "10 negative energy",
+                "id": "T_CIRCLE_OF_SHIFTING_SHADOWS",
+                "image": "circle_of_shifting_shadows.png",
+                "info_text": "<p>Creates a circle of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> at your feet; the circle increases your Defense by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">18, 25, 30, 35, 38,</acronym> and deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">19, 25, 31, 35, 39</acronym> darkness damage per turn to everyone else with in its radius. The circle lasts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Circle of Shifting Shadows",
+                "negative": 10,
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "0.0",
+                "require": [
+                    "Level 10, Mag 22",
+                    "Level 11, Mag 24",
+                    "Level 12, Mag 26",
+                    "Level 13, Mag 28",
+                    "Level 14, Mag 30"
+                ],
+                "short_name": "CIRCLE_OF_SHIFTING_SHADOWS",
+                "source_code": [
+                    "data/talents/celestial/circles.lua",
+                    21
+                ],
+                "type": [
+                    "celestial/circles",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 20,
+                "cost": "10 positive energy",
+                "id": "T_CIRCLE_OF_BLAZING_LIGHT",
+                "image": "circle_of_blazing_light.png",
+                "info_text": "<p>Creates a circle of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> at your feet; the circle lights up affected tiles, increases your positive energy by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">3, 4, 4, 5, 5</acronym> each turn, and deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">9.13, 12, 15, 17, 19</acronym> light damage and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">9.13, 12, 15, 17, 19</acronym> fire damage per turn to everyone else within its radius.  The circle lasts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Circle of Blazing Light",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "positive": 10,
+                "range": "0.0",
+                "require": [
+                    "Level 14, Mag 30",
+                    "Level 15, Mag 32",
+                    "Level 16, Mag 34",
+                    "Level 17, Mag 36",
+                    "Level 18, Mag 38"
+                ],
+                "short_name": "CIRCLE_OF_BLAZING_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/circles.lua",
+                    60
+                ],
+                "type": [
+                    "celestial/circles",
+                    2
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 20,
+                "cost": "10 positive energy, 10 negative energy",
+                "id": "T_CIRCLE_OF_SANCTITY",
+                "image": "circle_of_sanctity.png",
+                "info_text": "<p>Creates a circle of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> at your feet; the circle protects you from silence effects while you remain in its radius, and silences everyone else who enters. The circle lasts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Circle of Sanctity",
+                "negative": 10,
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "positive": 10,
+                "range": "0.0",
+                "require": [
+                    "Level 18, Mag 38",
+                    "Level 19, Mag 40",
+                    "Level 20, Mag 42",
+                    "Level 21, Mag 44",
+                    "Level 22, Mag 46"
+                ],
+                "short_name": "CIRCLE_OF_SANCTITY",
+                "source_code": [
+                    "data/talents/celestial/circles.lua",
+                    102
+                ],
+                "type": [
+                    "celestial/circles",
+                    3
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 20,
+                "cost": "10 positive energy, 10 negative energy",
+                "id": "T_CIRCLE_OF_WARDING",
+                "image": "circle_of_warding.png",
+                "info_text": "<p>Creates a circle of radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> at your feet; the circle slows incoming projectiles by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">61%, 83%, 100%, 114%, 127%,</acronym> and attempts to push all creatures other then yourself out of its radius, inflicting <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">12, 17, 20, 23, 26</acronym> light damage and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">12, 17, 20, 23, 26</acronym> darkness damage per turn as it does so.  The circle lasts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The effects will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Circle of Warding",
+                "negative": 10,
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "positive": 10,
+                "range": "0.0",
+                "require": [
+                    "Level 22, Mag 46",
+                    "Level 23, Mag 48",
+                    "Level 24, Mag 50",
+                    "Level 25, Mag 52",
+                    "Level 26, Mag 54"
+                ],
+                "short_name": "CIRCLE_OF_WARDING",
+                "source_code": [
+                    "data/talents/celestial/circles.lua",
+                    139
+                ],
+                "type": [
+                    "celestial/circles",
+                    4
+                ],
+                "use_speed": "Instant"
+            }
+        ],
+        "type": "celestial/circles"
+    },
+    {
+        "allow_random": true,
+        "description": "Your devotion allows you to combat your foes with indomitable determination.",
+        "is_spell": true,
+        "name": "combat",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 10,
+                "cost": "10 positive energy",
+                "id": "T_WEAPON_OF_LIGHT",
+                "image": "weapon_of_light.png",
+                "info_text": "<p>Infuse your weapon with the power of the Sun, adding <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">23, 44, 60, 73, 85</acronym> light damage on each melee hit.</p><p>Additionally, if you have a temporary damage shield active, melee attacks will increase its power by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">11, 21, 29, 36, 42.</acronym></p><p>If the same shield is refreshed 20 times it will become unstable and explode, removing it.</p><p>The damage dealt and shield bonus will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Weapon of Light",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "WEAPON_OF_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/combat.lua",
+                    22
+                ],
+                "sustain_positive": 10,
+                "type": [
+                    "celestial/combat",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 6,
+                "cost": "15 positive energy",
+                "id": "T_WAVE_OF_POWER",
+                "image": "wave_of_power.png",
+                "info_text": "<p>In a pure display of power, you project a ranged melee attack, doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">146%, 169%, 187%, 202%, 215%</acronym> weapon damage.</p><p>If the target is outside of melee range, you have a chance to project a second attack against it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">62%, 90%, 113%, 132%, 150%</acronym> weapon damage.</p><p>The second strike chance (which increases with distance) is <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">10%, 19%, 26%, 32%, 37%</acronym> at range 2 and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Strength 100\">37%, 55%, 65%, 71%, 75%</acronym> at the maximum range of <acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">2, 4, 6, 8, 10.</acronym></p><p>The range will increase with your Strength.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Wave of Power",
+                "no_silence": true,
+                "points": 5,
+                "positive": 15,
+                "random_ego": "attack",
+                "range": "<acronym class=\"stat-variable\" title=\"Values for<br>Strength 10, 25, 50, 75, 100\">2.8, 4.7, 6.9, 8.6, 10.0</acronym>",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "WAVE_OF_POWER",
+                "source_code": [
+                    "data/talents/celestial/combat.lua",
+                    82
+                ],
+                "type": [
+                    "celestial/combat",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 10,
+                "cost": "10 positive energy",
+                "id": "T_WEAPON_OF_WRATH",
+                "image": "weapon_of_wrath.png",
+                "info_text": "<p>Your weapon attacks burn with righteous fury, dealing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">28%, 62%, 74%, 80%, 84%</acronym> of your lost HP as additional Fire damage (up to <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">277, 376, 452, 517, 575,</acronym> Current:  0).</p><p>Targets struck are also afflicted with a Martyrdom effect that causes them to take <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7%, 15%, 21%, 25%, 28%</acronym> of all damage they deal for 4 turns.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Weapon of Wrath",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "WEAPON_OF_WRATH",
+                "source_code": [
+                    "data/talents/celestial/combat.lua",
+                    132
+                ],
+                "sustain_positive": 10,
+                "type": [
+                    "celestial/combat",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 30,
+                "cost": "20 positive energy",
+                "id": "T_SECOND_LIFE",
+                "image": "second_life.png",
+                "info_text": "<p>Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">11, 23, 32, 41, 48.</acronym></p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Second Life",
+                "no_silence": true,
+                "no_sustain_autoreset": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "SECOND_LIFE",
+                "source_code": [
+                    "data/talents/celestial/combat.lua",
+                    185
+                ],
+                "sustain_positive": 20,
+                "type": [
+                    "celestial/combat",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/combat"
+    },
+    {
+        "allow_random": true,
+        "description": "Forgo your shield for the chance to crush your foes with a mighty two handed weapon.",
+        "is_spell": true,
+        "name": "crusader",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 8,
+                "cost": "-7 positive energy",
+                "id": "T_ABSORPTION_STRIKE",
+                "image": "absorption_strike.png",
+                "info_text": "<p>You strike your foe with your two handed weapon, dealing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">171%, 196%, 215%, 232%, 246%</acronym> weapon damage.</p><p>If the attack hits, all foes in radius 2 will have their light resistance reduced by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6%, 11%, 16%, 20%, 24%</acronym> and their damage reduced by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2%, 7%, 11%, 15%, 19%</acronym> for 5 turns.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Absorption Strike",
+                "no_silence": true,
+                "points": 5,
+                "positive": -7,
+                "range": "1.0",
+                "require": [
+                    "Level 10, Mag 22",
+                    "Level 11, Mag 24",
+                    "Level 12, Mag 26",
+                    "Level 13, Mag 28",
+                    "Level 14, Mag 30"
+                ],
+                "requires_target": true,
+                "short_name": "ABSORPTION_STRIKE",
+                "source_code": [
+                    "data/talents/celestial/crusader.lua",
+                    25
+                ],
+                "type": [
+                    "celestial/crusader",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 15,
+                "cost": "20 positive energy",
+                "id": "T_MARK_OF_LIGHT",
+                "image": "mark_of_light.png",
+                "info_text": "<p>You mark a target with light for 5 turns, causing all melee hits you deal to it to heal you for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">19%, 33%, 43%, 51%, 56%</acronym> of the damage done.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Mark of Light",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "positive": 20,
+                "range": "5.0",
+                "require": [
+                    "Level 14, Mag 30",
+                    "Level 15, Mag 32",
+                    "Level 16, Mag 34",
+                    "Level 17, Mag 36",
+                    "Level 18, Mag 38"
+                ],
+                "requires_target": true,
+                "short_name": "MARK_OF_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/crusader.lua",
+                    66
+                ],
+                "type": [
+                    "celestial/crusader",
+                    2
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cost": "20 positive energy",
+                "id": "T_RIGHTEOUS_STRENGTH",
+                "image": "righteous_strength.png",
+                "info_text": "<p>While wielding a two handed weapon, your critical strike chance is increased by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3%, 6%, 8%, 10%, 12%,</acronym> and your melee criticals instill you with righteous strength, increasing all physical and light damage you deal by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6%, 9%, 12%, 15%, 17%,</acronym> stacking up to 3 times.</p><p>In addition, your melee critical strikes leave a lasting lightburn on the target, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">79, 108, 129, 148, 164</acronym> light damage over 5 turns and reducing opponents armour by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7, 17, 24, 30, 36.</acronym></p><p>The damage increases with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Righteous Strength",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 18, Mag 38",
+                    "Level 19, Mag 40",
+                    "Level 20, Mag 42",
+                    "Level 21, Mag 44",
+                    "Level 22, Mag 46"
+                ],
+                "short_name": "RIGHTEOUS_STRENGTH",
+                "source_code": [
+                    "data/talents/celestial/crusader.lua",
+                    95
+                ],
+                "sustain_positive": 20,
+                "type": [
+                    "celestial/crusader",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 9,
+                "cost": "15 positive energy",
+                "id": "T_FLASH_OF_THE_BLADE",
+                "image": "flash_of_the_blade.png",
+                "info_text": "<p>Infuse your two handed weapon with light while spinning around.</p><p>All creatures in radius one take <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">90%, 107%, 120%, 131%, 141%</acronym> weapon damage.</p><p>In addition while spinning your weapon shines so much it deals <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">91%, 116%, 135%, 152%, 166%</acronym> light weapon damage to all foes in radius 2.</p><p>At level 4 your spinning blade creates a shield that blocks all damage for 1 turn.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Flash of the Blade",
+                "no_silence": true,
+                "points": 5,
+                "positive": 15,
+                "radius": 2,
+                "random_ego": "attack",
+                "range": "0.0",
+                "require": [
+                    "Level 22, Mag 46",
+                    "Level 23, Mag 48",
+                    "Level 24, Mag 50",
+                    "Level 25, Mag 52",
+                    "Level 26, Mag 54"
+                ],
+                "requires_target": true,
+                "short_name": "FLASH_OF_THE_BLADE",
+                "source_code": [
+                    "data/talents/celestial/crusader.lua",
+                    132
+                ],
+                "type": [
+                    "celestial/crusader",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/crusader"
+    },
+    {
+        "allow_random": true,
+        "description": "The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...",
+        "is_spell": true,
+        "name": "eclipse",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_BLOOD_RED_MOON",
+                "image": "blood_red_moon.png",
+                "info_text": "<p>Increases your spell critical chance by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4%, 8%, 12%, 15%, 18%.</acronym></p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Blood Red Moon",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "BLOOD_RED_MOON",
+                "source_code": [
+                    "data/talents/celestial/eclipse.lua",
+                    20
+                ],
+                "type": [
+                    "celestial/eclipse",
+                    1
+                ]
+            },
+            {
+                "cooldown": 30,
+                "cost": "10 positive energy, 10 negative energy",
+                "fixed_cooldown": true,
+                "id": "T_TOTALITY",
+                "image": "totality.png",
+                "info_text": "<p>Increases your light and darkness resistance penetration by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">26%, 39%, 49%, 55%, 61%</acronym> for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 6, 8, 9, 10</acronym> turns, and reduces the cooldown of all Celestial skills by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7.</acronym></p><p>The resistance penetration will increase with your Cunning.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Totality",
+                "negative": 10,
+                "no_silence": true,
+                "points": 5,
+                "positive": 10,
+                "range": "1.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "TOTALITY",
+                "source_code": [
+                    "data/talents/celestial/eclipse.lua",
+                    36
+                ],
+                "type": [
+                    "celestial/eclipse",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 30,
+                "cost": "10 positive energy, 10 negative energy",
+                "id": "T_CORONA",
+                "image": "corona.png",
+                "info_text": "<p>Each time one of your spells criticals, you project a bolt of light or shadow at up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> targets within radius 6, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 74, 85, 94</acronym> light damage or <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">45, 61, 74, 85, 94</acronym> darkness damage per bolt.</p><p>This effect costs 2 positive or 2 negative energy each time it's triggered, and will not activate if either your positive or negative energy is below 2.</p><p>The damage scales with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Corona",
+                "no_silence": true,
+                "points": 5,
+                "proj_speed": 3,
+                "range": "6.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "CORONA",
+                "source_code": [
+                    "data/talents/celestial/eclipse.lua",
+                    69
+                ],
+                "sustain_negative": 10,
+                "sustain_positive": 10,
+                "type": [
+                    "celestial/eclipse",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 30,
+                "cost": "10 negative energy",
+                "id": "T_DARKEST_LIGHT",
+                "image": "darkest_light.png",
+                "info_text": "<p>This powerful spell grants you <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">21, 29, 34, 38, 43</acronym> bonus invisibility, but converts <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5, 4, 3, 2, 1</acronym> negative energy into positive energy each turn.  Once your positive energy exceeds your negative energy, or you deactivate the talent, the effect ends in an explosion of light, converting all of your positive energy into damage and inflicting an additional <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100,<br>spellpower 100\">66, 89, 107, 122, 136</acronym> damage to everything in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5.</acronym></p><p>As you become invisible, you fade out of phase with reality; all your damage is reduced by 50%.</p><p>You may not cast Twilight while this spell is active, and you should take off your light source; otherwise, others will spot you with ease.</p><p>The invisibility bonus will increase with your Cunning, and the explosion damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Darkest Light",
+                "no_silence": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "DARKEST_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/eclipse.lua",
+                    135
+                ],
+                "sustain_negative": 10,
+                "type": [
+                    "celestial/eclipse",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/eclipse"
+    },
+    {
+        "allow_random": true,
+        "description": "Bind the brilliant powers into glyphs to trap your foes.",
+        "is_spell": true,
+        "min_lev": 10,
+        "name": "glyphs",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 20,
+                "cost": "-10 positive energy",
+                "id": "T_GLYPH_OF_PARALYSIS",
+                "image": "glyph_of_paralysis.png",
+                "info_text": "<p>You bind light in a glyph on the floor. All enemies walking over the glyph will be dazed for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns.</p><p>The glyph is a hidden trap (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">30, 43, 52, 61, 68</acronym> detection and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">38, 54, 66, 76, 85</acronym> disarm power based on your Magic) and lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Glyph of Paralysis",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "positive": -10,
+                "random_ego": "attack",
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.0, 3.0, 4.0, 5.0, 5.0</acronym>",
+                "require": [
+                    "Level 10, Mag 22",
+                    "Level 11, Mag 24",
+                    "Level 12, Mag 26",
+                    "Level 13, Mag 28",
+                    "Level 14, Mag 30"
+                ],
+                "requires_target": true,
+                "short_name": "GLYPH_OF_PARALYSIS",
+                "source_code": [
+                    "data/talents/celestial/glyphs.lua",
+                    22
+                ],
+                "type": [
+                    "celestial/glyphs",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 20,
+                "cost": "-10 positive energy",
+                "id": "T_GLYPH_OF_REPULSION",
+                "image": "glyph_of_repulsion.png",
+                "info_text": "<p>You bind light in a glyph on the floor. All targets walking over the glyph will be hit by a blast that knocks them back and does <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">38, 54, 66, 77, 86</acronym> physical damage.</p><p>The glyph is a hidden trap (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">30, 43, 52, 61, 68</acronym> detection and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">38, 54, 66, 76, 85</acronym> disarm power based on your Magic) and lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Glyph of Repulsion",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "positive": -10,
+                "random_ego": "attack",
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.0, 3.0, 4.0, 5.0, 5.0</acronym>",
+                "require": [
+                    "Level 14, Mag 30",
+                    "Level 15, Mag 32",
+                    "Level 16, Mag 34",
+                    "Level 17, Mag 36",
+                    "Level 18, Mag 38"
+                ],
+                "requires_target": true,
+                "short_name": "GLYPH_OF_REPULSION",
+                "source_code": [
+                    "data/talents/celestial/glyphs.lua",
+                    93
+                ],
+                "type": [
+                    "celestial/glyphs",
+                    2
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 20,
+                "cost": "-10 positive energy",
+                "id": "T_GLYPH_OF_EXPLOSION",
+                "image": "glyph_of_explosion.png",
+                "info_text": "<p>You bind light in a glyph on the floor. All targets walking over the glyph will trigger an explosion of light that does <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">38, 54, 66, 77, 86</acronym> damage to everyone within 1 tile.</p><p>The glyph is a hidden trap (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">30, 43, 52, 61, 68</acronym> detection and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100,<br>spellpower 100\">30, 43, 52, 61, 68</acronym> disarm power based on your Magic) and lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Glyph of Explosion",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "positive": -10,
+                "random_ego": "attack",
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.0, 3.0, 4.0, 5.0, 5.0</acronym>",
+                "require": [
+                    "Level 18, Mag 38",
+                    "Level 19, Mag 40",
+                    "Level 20, Mag 42",
+                    "Level 21, Mag 44",
+                    "Level 22, Mag 46"
+                ],
+                "requires_target": true,
+                "short_name": "GLYPH_OF_EXPLOSION",
+                "source_code": [
+                    "data/talents/celestial/glyphs.lua",
+                    172
+                ],
+                "type": [
+                    "celestial/glyphs",
+                    3
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 20,
+                "cost": "-10 positive energy",
+                "id": "T_GLYPH_OF_FATIGUE",
+                "image": "glyph_of_fatigue.png",
+                "info_text": "<p>You bind light in a glyph on the floor. All targets walking over the glyph will be slowed by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">29%, 38%, 47%, 56%, 65%</acronym> for 5 turns.</p><p>The glyph is a hidden trap (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">38, 54, 66, 76, 85</acronym> detection and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Magic 100\">38, 54, 66, 76, 85</acronym> disarm power based on your Magic) and lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> turns.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Glyph of Fatigue",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "positive": -10,
+                "random_ego": "attack",
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1.0, 3.0, 4.0, 5.0, 5.0</acronym>",
+                "require": [
+                    "Level 22, Mag 46",
+                    "Level 23, Mag 48",
+                    "Level 24, Mag 50",
+                    "Level 25, Mag 52",
+                    "Level 26, Mag 54"
+                ],
+                "requires_target": true,
+                "short_name": "GLYPH_OF_FATIGUE",
+                "source_code": [
+                    "data/talents/celestial/glyphs.lua",
+                    246
+                ],
+                "type": [
+                    "celestial/glyphs",
+                    4
+                ],
+                "use_speed": "Instant"
+            }
+        ],
+        "type": "celestial/glyphs"
+    },
+    {
+        "allow_random": true,
+        "description": "Your devotion grants you additional protection.",
+        "is_spell": true,
+        "min_lev": 10,
+        "name": "guardian",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 10,
+                "cost": "10 positive energy",
+                "id": "T_SHIELD_OF_LIGHT",
+                "image": "shield_of_light.png",
+                "info_text": "<p>Infuse your shield with light, healing you for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">14, 18, 22, 25, 28</acronym> each time you take damage at the expense of up to 2 positive energy.</p><p>If you do not have any positive energy, the effect will not trigger.</p><p>Additionally, once per turn successful melee attacks will trigger a bonus attack with your shield dealing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">45%, 60%, 71%, 81%, 89%</acronym> light damage.</p><p>The healing done will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Shield of Light",
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 10, Mag 22",
+                    "Level 11, Mag 24",
+                    "Level 12, Mag 26",
+                    "Level 13, Mag 28",
+                    "Level 14, Mag 30"
+                ],
+                "short_name": "SHIELD_OF_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/guardian.lua",
+                    24
+                ],
+                "sustain_positive": 10,
+                "type": [
+                    "celestial/guardian",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 8,
+                "cost": "25 positive energy",
+                "id": "T_BRANDISH",
+                "image": "brandish.png",
+                "info_text": "<p>Hits the target with your weapon doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">201%, 244%, 276%, 303%, 328%</acronym> damage, and with a shield strike doing <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">150%, 172%, 188%, 201%, 214%</acronym> damage. If the shield strike connects, your shield will explode in a burst of light that inflicts <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">135, 183, 220, 252, 280</acronym> light damage on all targets except yourself within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5</acronym> of the target, and light up all tiles in that radius.</p><p>The light damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Brandish",
+                "no_silence": true,
+                "points": 5,
+                "positive": 25,
+                "range": "1.0",
+                "require": [
+                    "Level 14, Mag 30",
+                    "Level 15, Mag 32",
+                    "Level 16, Mag 34",
+                    "Level 17, Mag 36",
+                    "Level 18, Mag 38"
+                ],
+                "requires_target": true,
+                "short_name": "BRANDISH",
+                "source_code": [
+                    "data/talents/celestial/guardian.lua",
+                    69
+                ],
+                "type": [
+                    "celestial/guardian",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 10,
+                "cost": "20 positive energy",
+                "id": "T_RETRIBUTION",
+                "image": "retribution.png",
+                "info_text": "<p>Retribution negates half of all damage you take while it is active. Once Retribution has negated <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">278, 376, 453, 518, 575</acronym> damage, your shield will explode in a burst of light, inflicting damage equal to the amount negated in a radius of <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 5, 6, 7</acronym> and deactivating the talent.</p><p>The amount absorbed will increase with your Spellpower.</p><p></p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Retribution",
+                "no_silence": true,
+                "no_sustain_autoreset": true,
+                "points": 5,
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2.0, 3.0, 5.0, 6.0, 7.0</acronym>",
+                "require": [
+                    "Level 18, Mag 38",
+                    "Level 19, Mag 40",
+                    "Level 20, Mag 42",
+                    "Level 21, Mag 44",
+                    "Level 22, Mag 46"
+                ],
+                "short_name": "RETRIBUTION",
+                "source_code": [
+                    "data/talents/celestial/guardian.lua",
+                    122
+                ],
+                "sustain_positive": 20,
+                "type": [
+                    "celestial/guardian",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 5,
+                "cost": "-20 positive energy",
+                "id": "T_CRUSADE",
+                "image": "crusade.png",
+                "info_text": "<p>You demonstrate your dedication to the light with a measured attack striking once with your weapon for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">75%, 94%, 109%, 121%, 132%</acronym> damage and once with your shield for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">75%, 94%, 109%, 121%, 132%</acronym> damage.</p><p>If the first strike connects <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 2, 3, 4, 4</acronym> random talent cooldowns are reduced by 1.</p><p>If the second strike connects you are cleansed of 1 debuffs.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Crusade",
+                "no_silence": true,
+                "points": 5,
+                "positive": -20,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "Level 22, Mag 46",
+                    "Level 23, Mag 48",
+                    "Level 24, Mag 50",
+                    "Level 25, Mag 52",
+                    "Level 26, Mag 54"
+                ],
+                "requires_target": true,
+                "short_name": "CRUSADE",
+                "source_code": [
+                    "data/talents/celestial/guardian.lua",
+                    174
+                ],
+                "type": [
+                    "celestial/guardian",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/guardian"
+    },
+    {
+        "allow_random": true,
+        "description": "Chant the glory of the Moon.",
+        "generic": true,
+        "is_spell": true,
+        "name": "hymns",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 12,
+                "cost": "20 negative energy",
+                "dont_provide_pool": true,
+                "generic": true,
+                "id": "T_HYMN_OF_SHADOWS",
+                "image": "hymn_of_shadows.png",
+                "info_text": "<p>Chant the glory of the Moon, empowering your dark elemental attacks so that they do <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">15%, 21%, 25%, 28%, 32%</acronym> additional darkness damage.</p><p>In addition, this talent surrounds you with a shield of shadows, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">32, 43, 52, 60, 66</acronym> darkness damage to anything that attacks you.</p><p>You may only have one Hymn active at once.</p><p>The effects will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Hymn of Shadows",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "HYMN_OF_SHADOWS",
+                "source_code": [
+                    "data/talents/celestial/hymns.lua",
+                    29
+                ],
+                "sustain_negative": 20,
+                "type": [
+                    "celestial/hymns",
+                    1
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 12,
+                "cost": "20 negative energy",
+                "dont_provide_pool": true,
+                "generic": true,
+                "id": "T_HYMN_OF_DETECTION",
+                "image": "hymn_of_detection.png",
+                "info_text": "<p>Chant the glory of the Moon, granting you infravision up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">6, 7, 9, 10, 11</acronym> grids, stealth detection (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">+9, +12, +14, +17, +18</acronym> power), and invisibility detection (<acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">+22, +29, +35, +41, +45</acronym> power).</p><p>In addition, this talent surrounds you with a shield of shadows, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">16, 21, 25, 29, 32</acronym> darkness damage to anything that attacks you.</p><p>You may only have one Hymn active at once.</p><p>The stealth and invisibility detection, as well as the on-hit damage, will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Hymn of Detection",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "HYMN_OF_DETECTION",
+                "source_code": [
+                    "data/talents/celestial/hymns.lua",
+                    70
+                ],
+                "sustain_negative": 20,
+                "type": [
+                    "celestial/hymns",
+                    2
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 12,
+                "cost": "20 negative energy",
+                "dont_provide_pool": true,
+                "generic": true,
+                "id": "T_HYMN_OF_PERSEVERANCE",
+                "image": "hymn_of_perseverance.png",
+                "info_text": "<p>Chant the glory of the Moon, granting you <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">25%, 36%, 44%, 50%, 55%</acronym> stun, blindness and confusion resistance.</p><p>In addition, this talent surrounds you with a shield of shadows, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">32, 43, 52, 60, 66</acronym> darkness damage to anything that attacks you.</p><p>You may only have one Hymn active at once.</p><p>The on-hit damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Hymn of Perseverance",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "HYMN_OF_PERSEVERANCE",
+                "source_code": [
+                    "data/talents/celestial/hymns.lua",
+                    119
+                ],
+                "sustain_negative": 20,
+                "type": [
+                    "celestial/hymns",
+                    3
+                ],
+                "use_speed": "Instant"
+            },
+            {
+                "cooldown": 12,
+                "cost": "20 negative energy",
+                "dont_provide_pool": true,
+                "generic": true,
+                "id": "T_HYMN_OF_MOONLIGHT",
+                "image": "hymn_of_moonlight.png",
+                "info_text": "<p>Chant the glory of the Moon, conjuring a shroud of dancing shadows that follows you as long as this spell is active.</p><p>Each turn, a shadowy beam will hit up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 2, 4, 5, 6</acronym> of your foes within radius 5 for 1 to <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> damage.</p><p>This powerful spell will drain <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7.1, 4.8, 3.6, 2.9, 2.4</acronym> negative energy for each beam; no beam will fire if your negative energy is too low.</p><p>The damage will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Hymn of Moonlight",
+                "no_energy": true,
+                "no_silence": true,
+                "points": 5,
+                "range": "5.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "HYMN_OF_MOONLIGHT",
+                "source_code": [
+                    "data/talents/celestial/hymns.lua",
+                    165
+                ],
+                "sustain_negative": 20,
+                "type": [
+                    "celestial/hymns",
+                    4
+                ],
+                "use_speed": "Instant"
+            }
+        ],
+        "type": "celestial/hymns"
+    },
+    {
+        "allow_random": true,
+        "description": "Invoke the power of the light to heal and mend.",
+        "generic": true,
+        "is_spell": true,
+        "name": "light",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 10,
+                "cost": "-10 positive energy",
+                "generic": true,
+                "id": "T_HEALING_LIGHT",
+                "image": "healing_light.png",
+                "info_text": "<p>An invigorating ray of Sunlight shines upon you, healing your body for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">306, 415, 500, 571, 635</acronym> life.</p><p>The amount healed will increase with your Spellpower.</p>",
+                "is_heal": true,
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Healing Light",
+                "no_silence": true,
+                "points": 5,
+                "positive": -10,
+                "random_ego": "defensive",
+                "range": "1.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "HEALING_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/light.lua",
+                    20
+                ],
+                "type": [
+                    "celestial/light",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 15,
+                "cost": "-20 positive energy",
+                "generic": true,
+                "id": "T_BATHE_IN_LIGHT",
+                "image": "bathe_in_light.png",
+                "info_text": "<p>A magical zone of Sunlight appears around you, healing and shielding all within a radius of 2 for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> per turn and increasing healing effects on everyone within by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">26%, 35%, 42%, 48%, 53%.</acronym> The effect lasts for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 6, 7, 7</acronym> turns.</p><p>Existing damage shields will be added to instead of overwritten and have their duration set to 2 if it isn't higher.</p><p>If the same shield is refreshed 20 times it will become unstable and explode, removing it.</p><p>It also lights up the affected zone.</p><p>The amount healed will increase with the Magic stat</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Bathe in Light",
+                "no_silence": true,
+                "points": 5,
+                "positive": -20,
+                "radius": 2,
+                "random_ego": "defensive",
+                "range": "0.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "BATHE_IN_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/light.lua",
+                    50
+                ],
+                "type": [
+                    "celestial/light",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 15,
+                "cost": "-20 positive energy",
+                "generic": true,
+                "id": "T_BARRIER",
+                "image": "barrier.png",
+                "info_text": "<p>A protective shield forms around you that lasts for up to 10 turns and negates <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">256, 347, 417, 477, 530</acronym> damage.</p><p>The total damage the barrier can absorb will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Barrier",
+                "no_silence": true,
+                "points": 5,
+                "positive": -20,
+                "random_ego": "defensive",
+                "range": "1.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "BARRIER",
+                "source_code": [
+                    "data/talents/celestial/light.lua",
+                    94
+                ],
+                "type": [
+                    "celestial/light",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 30,
+                "cost": "-20 positive energy",
+                "generic": true,
+                "id": "T_PROVIDENCE",
+                "image": "providence.png",
+                "info_text": "<p>Places you under the protection of Light itself. For <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8</acronym> turns, the light heals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">31, 43, 52, 59, 66</acronym> life and removes a single negative effect from you.</p><p>The amount healed will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Providence",
+                "no_silence": true,
+                "points": 5,
+                "positive": -20,
+                "random_ego": "defensive",
+                "range": "1.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "PROVIDENCE",
+                "source_code": [
+                    "data/talents/celestial/light.lua",
+                    117
+                ],
+                "type": [
+                    "celestial/light",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/light"
+    },
+    {
+        "description": "Various celestial talents.",
+        "is_spell": true,
+        "name": "other",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 7,
+                "cost": "14 negative energy",
+                "id": "T_JUMPGATE_TELEPORT",
+                "image": "jumpgate_teleport.png",
+                "info_text": "<p>Instantly travel to your jumpgate, as long as you are within <acronym class=\"talent-variable\" title=\"Values for<br>Jumpgate talent levels 1-5,<br>talent mastery 1.30\">13, 15, 16, 18, 19</acronym> tiles of it.</p>",
+                "is_spell": true,
+                "is_teleport": true,
+                "mode": "activated",
+                "name": "Jumpgate: Teleport To",
+                "negative": 14,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "JUMPGATE_TELEPORT",
+                "source_code": [
+                    "data/talents/celestial/twilight.lua",
+                    54
+                ],
+                "type": [
+                    "celestial/other",
+                    1
+                ],
+                "type_no_req": true,
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 20,
+                "cost": "20 negative energy",
+                "id": "T_JUMPGATE_TWO",
+                "image": "jumpgate_two.png",
+                "info_text": "<p>Create a second shadow jumpgate at your location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within <acronym class=\"talent-variable\" title=\"Values for<br>Jumpgate talent levels 1-5,<br>talent mastery 1.30\">13, 15, 16, 18, 19</acronym> tiles of it.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "name": "Jumpgate Two",
+                "no_silence": true,
+                "no_sustain_autoreset": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "JUMPGATE_TWO",
+                "source_code": [
+                    "data/talents/celestial/twilight.lua",
+                    300
+                ],
+                "sustain_negative": 20,
+                "type": [
+                    "celestial/other",
+                    1
+                ],
+                "type_no_req": true,
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 7,
+                "cost": "14 negative energy",
+                "id": "T_JUMPGATE_TELEPORT_TWO",
+                "image": "jumpgate_teleport_two.png",
+                "info_text": "<p>Instantly travel to your second jumpgate, as long as you are within <acronym class=\"talent-variable\" title=\"Values for<br>Jumpgate talent levels 1-5,<br>talent mastery 1.30\">13, 15, 16, 18, 19</acronym> tiles of it.</p>",
+                "is_spell": true,
+                "is_teleport": true,
+                "mode": "activated",
+                "name": "Jumpgate Two: Teleport To",
+                "negative": 14,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "JUMPGATE_TELEPORT_TWO",
+                "source_code": [
+                    "data/talents/celestial/twilight.lua",
+                    366
+                ],
+                "type": [
+                    "celestial/other",
+                    1
+                ],
+                "type_no_req": true,
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/other"
+    },
+    {
+        "allow_random": true,
+        "description": "You channel the light of the sun through your body.",
+        "is_spell": true,
+        "name": "radiance",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "id": "T_RADIANCE",
+                "image": "radiance.png",
+                "info_text": "<p>You are so infused with sunlight that your body glows permanently in radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 6, 7, 8,</acronym> even in dark places.</p><p>Your vision adapts to this glow, giving you <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">34%, 58%, 69%, 75%, 80%</acronym> blindness resistance.</p><p>The light radius overrides your normal light if it is bigger (it does not stack).</p><p></p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Radiance",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "RADIANCE",
+                "source_code": [
+                    "data/talents/celestial/radiance.lua",
+                    28
+                ],
+                "type": [
+                    "celestial/radiance",
+                    1
+                ]
+            },
+            {
+                "id": "T_ILLUMINATION",
+                "image": "illumination.png",
+                "info_text": "<p>The light of your Radiance allows you to see that which would normally be unseen.</p><p>All enemies in your Radiance aura have their invisibility and stealth power reduced by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">80, 104, 122, 137, 151.</acronym></p><p>In addition, all actors affected by illumination are easier to see and therefore hit; their defense is reduced by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">27, 34, 40, 46, 50</acronym> and all evasion bonuses from being unseen are negated.</p><p>The effects increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Illumination",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "ILLUMINATION",
+                "source_code": [
+                    "data/talents/celestial/radiance.lua",
+                    49
+                ],
+                "type": [
+                    "celestial/radiance",
+                    2
+                ]
+            },
+            {
+                "cooldown": 15,
+                "cost": "10 positive energy",
+                "id": "T_SEARING_SIGHT",
+                "image": "searing_sight.png",
+                "info_text": "<p>Your Radiance is so powerful it burns all foes caught in it, doing up to <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">22, 30, 36, 41, 46</acronym> light damage (reduced with distance) to all foes caught inside.</p><p>At level 4 the light is so bright it has <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">7%, 13%, 17%, 20%, 22%</acronym> chance to daze them for 3 turns.</p><p>The damage increases with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Searing Sight",
+                "no_silence": true,
+                "points": 5,
+                "range": "0.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "SEARING_SIGHT",
+                "source_code": [
+                    "data/talents/celestial/radiance.lua",
+                    86
+                ],
+                "sustain_positive": 10,
+                "type": [
+                    "celestial/radiance",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 25,
+                "cost": "20 positive energy",
+                "id": "T_JUDGEMENT",
+                "image": "judgement.png",
+                "info_text": "<p>Fire a glowing orb of light at each enemy within your Radiance.  Each orb will slowly follow its target until it connects dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> light damage to anything else it contacts along the way.  When the target is reached the orb will explode dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">100, 135, 163, 186, 207</acronym> light damage and healing you for 50% of the damage dealt.  This powerful ability will dim your Radiance, reducing its radius to 1 for 5 turns.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Judgement",
+                "no_silence": true,
+                "points": 5,
+                "positive": 20,
+                "range": "0.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "JUDGEMENT",
+                "source_code": [
+                    "data/talents/celestial/radiance.lua",
+                    125
+                ],
+                "type": [
+                    "celestial/radiance",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/radiance"
+    },
+    {
+        "allow_random": true,
+        "description": "Call the fury of the Stars and the Moon to destroy your foes.",
+        "is_spell": true,
+        "name": "star fury",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 3,
+                "cost": "10 negative energy",
+                "direct_hit": true,
+                "id": "T_MOONLIGHT_RAY",
+                "image": "moonlight_ray.png",
+                "info_text": "<p>Focuses the power of the Moon into a beam of shadows, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">156, 212, 255, 291, 323</acronym> damage.</p><p>The damage dealt will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Moonlight Ray",
+                "negative": 10,
+                "no_silence": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "10.0",
+                "reflectable": true,
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "MOONLIGHT_RAY",
+                "source_code": [
+                    "data/talents/celestial/star-fury.lua",
+                    20
+                ],
+                "type": [
+                    "celestial/star-fury",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 10,
+                "cost": "15 negative energy",
+                "direct_hit": true,
+                "id": "T_SHADOW_BLAST",
+                "image": "shadow_blast.png",
+                "info_text": "<p>Invokes a blast of shadows that deals <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">73, 98, 118, 135, 150</acronym> darkness damage, and leaves a radius 3 field that does <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">25, 34, 41, 47, 52</acronym> darkness damage per turn for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">3, 4, 5, 6, 6</acronym> turns.</p><p>The damage dealt will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Shadow Blast",
+                "negative": 15,
+                "no_silence": true,
+                "points": 5,
+                "radius": 3,
+                "random_ego": "attack",
+                "range": "5.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "requires_target": true,
+                "short_name": "SHADOW_BLAST",
+                "source_code": [
+                    "data/talents/celestial/star-fury.lua",
+                    55
+                ],
+                "type": [
+                    "celestial/star-fury",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 7,
+                "cost": "-10 positive energy, -20 negative energy",
+                "direct_hit": true,
+                "id": "T_TWILIGHT_SURGE",
+                "image": "twilight_surge.png",
+                "info_text": "<p>A surge of twilight pulses from you, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">39, 70, 93, 113, 130</acronym> light and <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">39, 70, 93, 113, 130</acronym> darkness damage to all others within radius 2.</p><p>The damage dealt will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Twilight Surge",
+                "negative": -20,
+                "no_silence": true,
+                "points": 5,
+                "positive": -10,
+                "radius": 2,
+                "random_ego": "attack",
+                "range": "0.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "TWILIGHT_SURGE",
+                "source_code": [
+                    "data/talents/celestial/star-fury.lua",
+                    105
+                ],
+                "type": [
+                    "celestial/star-fury",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 12,
+                "cost": "20 negative energy",
+                "direct_hit": true,
+                "id": "T_STARFALL",
+                "image": "starfall.png",
+                "info_text": "<p>A star falls on a radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">1, 1, 2, 2, 3</acronym> area, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">114, 155, 186, 213, 236</acronym> darkness damage on impact and stunning all within the area for 4 turns.</p><p>The damage dealt will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Starfall",
+                "negative": 20,
+                "no_silence": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "6.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "requires_target": true,
+                "short_name": "STARFALL",
+                "source_code": [
+                    "data/talents/celestial/star-fury.lua",
+                    142
+                ],
+                "type": [
+                    "celestial/star-fury",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/star-fury"
+    },
+    {
+        "allow_random": true,
+        "description": "Summon the power of the Sun to burn your foes.",
+        "is_spell": true,
+        "name": "sun",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 9,
+                "cost": "-16 positive energy",
+                "direct_hit": true,
+                "id": "T_SUN_BEAM",
+                "image": "sun_beam.png",
+                "info_text": "<p>Calls forth a beam of light from the Sun, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">149, 202, 243, 278, 309</acronym> Light damage to the target.</p><p>At level 3 the beam will be so intense it will also blind the target and everyone in a radius 2 around it for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 2, 3, 4, 4</acronym> turns.</p><p>The damage dealt will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Sun Ray",
+                "no_silence": true,
+                "points": 5,
+                "positive": -16,
+                "random_ego": "attack",
+                "range": "7.0",
+                "reflectable": true,
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "SUN_BEAM",
+                "source_code": [
+                    "data/talents/celestial/sun.lua",
+                    21
+                ],
+                "type": [
+                    "celestial/sun",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 15,
+                "cost": "-20 positive energy",
+                "direct_hit": true,
+                "id": "T_PATH_OF_THE_SUN",
+                "image": "path_of_the_sun.png",
+                "info_text": "<p>A path of sunlight appears in front of you for 5 turns. All foes standing inside take <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">43, 58, 70, 79, 88</acronym> Light damage per turn.</p><p>While standing in the path, your movement takes no time and can not trigger traps.</p><p>The damage done will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Path of the Sun",
+                "no_silence": true,
+                "points": 5,
+                "positive": -20,
+                "range": "<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">5.0, 8.0, 8.0, 9.0, 9.0</acronym>",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "PATH_OF_THE_SUN",
+                "source_code": [
+                    "data/talents/celestial/sun.lua",
+                    69
+                ],
+                "type": [
+                    "celestial/sun",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "id": "T_SUN_VENGEANCE",
+                "image": "sun_vengeance.png",
+                "info_text": "<p>Infuse yourself with the raging fury of the Sun, increasing your physical and spell critical chance by <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2%, 5%, 8%, 10%, 12%.</acronym></p><p>Each time you crit with a physical attack or a spell you have <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">38%, 59%, 69%, 75%, 79%</acronym> chance to gain Sun's Vengeance for 2 turns.</p><p>While affected by Sun's Vengeance, your Sun Ray will take no time to use and will deal 25% more damage.</p><p>If Sun Ray was on cooldown, the remaining turns are reduced by one instead.</p><p>This effect can only happen once per turn.</p>",
+                "is_spell": true,
+                "mode": "passive",
+                "multi_require": true,
+                "name": "Sun's Vengeance",
+                "no_silence": true,
+                "points": 5,
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "short_name": "SUN_VENGEANCE",
+                "source_code": [
+                    "data/talents/celestial/sun.lua",
+                    111
+                ],
+                "type": [
+                    "celestial/sun",
+                    3
+                ]
+            },
+            {
+                "cooldown": 15,
+                "cost": "-15 positive energy",
+                "direct_hit": true,
+                "fixed_cooldown": true,
+                "id": "T_SUNCLOAK",
+                "image": "suncloak.png",
+                "info_text": "<p>You wrap yourself in a cloak of sunlight that empowers your magic and protects you for 6 turns.</p><p>While the cloak is active, your spell casting speed is increased by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">21%, 28%, 34%, 39%, 43%,</acronym> your spell cooldowns are reduced by <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">33%, 37%, 38%, 40%, 40%,</acronym> and you cannot take more than <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">87%, 80%, 74%, 69%, 65%</acronym> of your maximum life from a single blow.</p><p>The effects will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Suncloak",
+                "no_silence": true,
+                "points": 5,
+                "positive": -15,
+                "range": "10.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "requires_target": true,
+                "short_name": "SUNCLOAK",
+                "source_code": [
+                    "data/talents/celestial/sun.lua",
+                    152
+                ],
+                "type": [
+                    "celestial/sun",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/sun"
+    },
+    {
+        "allow_random": true,
+        "description": "Summon the power of the Sun to burn your foes.",
+        "is_spell": true,
+        "name": "sunlight",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 6,
+                "cost": "-16 positive energy",
+                "direct_hit": true,
+                "id": "T_SEARING_LIGHT",
+                "image": "searing_light.png",
+                "info_text": "<p>Calls the power of the Sun into a searing lance, doing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">107, 145, 175, 200, 222</acronym> damage to the target and leaving a spot on the ground for 4 turns that does <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> light damage to anyone within it.</p><p>The damage dealt will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Searing Light",
+                "no_silence": true,
+                "points": 5,
+                "positive": -16,
+                "random_ego": "attack",
+                "range": "7.0",
+                "reflectable": true,
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "requires_target": true,
+                "short_name": "SEARING_LIGHT",
+                "source_code": [
+                    "data/talents/celestial/sunlight.lua",
+                    20
+                ],
+                "type": [
+                    "celestial/sunlight",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 22,
+                "cost": "-15 positive energy",
+                "direct_hit": true,
+                "id": "T_SUN_FLARE",
+                "image": "sun_flare.png",
+                "info_text": "<p>Invokes the Sun to cause a flare within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5,</acronym> blinding your foes for <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 5, 7, 8, 9</acronym> turns and lighting up your immediate area (radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">4, 6, 8, 8, 10</acronym>).</p><p>At level 3 it will also do <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">52, 71, 85, 97, 108</acronym> light damage within radius <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">2, 3, 4, 4, 5.</acronym></p><p>The damage done will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Sun Flare",
+                "no_silence": true,
+                "points": 5,
+                "positive": -15,
+                "random_ego": "attack",
+                "range": "0.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "SUN_FLARE",
+                "source_code": [
+                    "data/talents/celestial/sunlight.lua",
+                    64
+                ],
+                "type": [
+                    "celestial/sunlight",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 7,
+                "cost": "-20 positive energy",
+                "direct_hit": true,
+                "id": "T_FIREBEAM",
+                "image": "firebeam.png",
+                "info_text": "<p>Call forth the Sun to summon a fiery beam, burning all targets in a line for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">135, 183, 220, 252, 280</acronym> fire damage.</p><p>The damage done will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Firebeam",
+                "no_silence": true,
+                "points": 5,
+                "positive": -20,
+                "random_ego": "attack",
+                "range": "7.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "FIREBEAM",
+                "source_code": [
+                    "data/talents/celestial/sunlight.lua",
+                    108
+                ],
+                "type": [
+                    "celestial/sunlight",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 15,
+                "cost": "-20 positive energy",
+                "direct_hit": true,
+                "id": "T_SUNBURST",
+                "image": "sunburst.png",
+                "info_text": "<p>Conjures a furious burst of Sunlight, dealing <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>spellpower 100\">107, 145, 175, 200, 222</acronym> light damage to all around you in a radius of 3.</p><p>The damage done will increase with your Spellpower.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Sunburst",
+                "no_silence": true,
+                "points": 5,
+                "positive": -20,
+                "radius": 3,
+                "random_ego": "attack",
+                "range": "0.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "short_name": "SUNBURST",
+                "source_code": [
+                    "data/talents/celestial/sunlight.lua",
+                    143
+                ],
+                "type": [
+                    "celestial/sunlight",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/sunlight"
+    },
+    {
+        "allow_random": true,
+        "description": "Stand between the darkness and the light, harnessing both.",
+        "is_spell": true,
+        "name": "twilight",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "cooldown": 6,
+                "cost": "15 positive energy",
+                "id": "T_TWILIGHT",
+                "image": "twilight.png",
+                "info_text": "<p>You stand between the darkness and the light, allowing you to convert 15 positive energy into <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">89, 142, 186, 225, 260</acronym> negative energy.</p><p>Learning this talent will change the default level of positive and negative energies to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">22%, 28%, 32%, 34%, 36%</acronym> of their maximum. Each turn, the energies will slowly fall/rise to this value, instead of 0.</p><p>The negative energy gain will increase with your Cunning.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Twilight",
+                "no_silence": true,
+                "points": 5,
+                "positive": 15,
+                "range": "10.0",
+                "require": [
+                    "Level 0, Mag 12",
+                    "Level 1, Mag 14",
+                    "Level 2, Mag 16",
+                    "Level 3, Mag 18",
+                    "Level 4, Mag 20"
+                ],
+                "short_name": "TWILIGHT",
+                "source_code": [
+                    "data/talents/celestial/twilight.lua",
+                    22
+                ],
+                "type": [
+                    "celestial/twilight",
+                    1
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": "40",
+                "cost": "20 negative energy",
+                "id": "T_JUMPGATE",
+                "image": "jumpgate.png",
+                "info_text": "<p>Create a shadow jumpgate at your current location. As long as you sustain this spell, you can use 'Jumpgate: Teleport' to instantly travel to the jumpgate, as long as you are within <acronym class=\"talent-variable\" title=\"Values for<br>Jumpgate talent levels 1-5,<br>talent mastery 1.30\">13, 15, 16, 18, 19</acronym> tiles of it.</p><p>Note that any stairs underneath the jumpgate will be unusable while the spell is sustained, and you may need to cancel this sustain in order to leave certain locations.</p><p>At talent level 4, you learn to create and sustain a second jumpgate.</p>",
+                "is_spell": true,
+                "mode": "sustained",
+                "multi_require": true,
+                "name": "Jumpgate",
+                "no_silence": true,
+                "no_sustain_autoreset": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "Level 4, Mag 20",
+                    "Level 5, Mag 22",
+                    "Level 6, Mag 24",
+                    "Level 7, Mag 26",
+                    "Level 8, Mag 28"
+                ],
+                "short_name": "JUMPGATE",
+                "source_code": [
+                    "data/talents/celestial/twilight.lua",
+                    88
+                ],
+                "sustain_negative": 20,
+                "type": [
+                    "celestial/twilight",
+                    2
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 15,
+                "cost": "15 negative energy",
+                "direct_hit": true,
+                "id": "T_MIND_BLAST",
+                "image": "mind_blast.png",
+                "info_text": "<p>Let out a mental cry that shatters the will of your targets within radius 3, confusing (<acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">20%, 35%, 41%, 45%, 48%</acronym> to act randomly) them for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">9, 10, 11, 12, 12</acronym> turns.</p><p>The duration will improve with your Cunning.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Mind Blast",
+                "negative": 15,
+                "no_silence": true,
+                "points": 5,
+                "radius": 3,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "Level 8, Mag 28",
+                    "Level 9, Mag 30",
+                    "Level 10, Mag 32",
+                    "Level 11, Mag 34",
+                    "Level 12, Mag 36"
+                ],
+                "requires_target": true,
+                "short_name": "MIND_BLAST",
+                "source_code": [
+                    "data/talents/celestial/twilight.lua",
+                    165
+                ],
+                "type": [
+                    "celestial/twilight",
+                    3
+                ],
+                "use_speed": "Spell"
+            },
+            {
+                "cooldown": 30,
+                "cost": "10 negative energy",
+                "id": "T_SHADOW_SIMULACRUM",
+                "image": "shadow_simulacrum.png",
+                "info_text": "<p>Creates a shadowy copy of a hostile target of up to <acronym class=\"talent-variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30\">medium, medium, big, big, huge</acronym> size. The copy will attack its progenitor immediately and lasts for <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">16, 16, 17, 18, 18</acronym> turns.</p><p>The duplicate has <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">25%, 36%, 44%, 50%, 57%</acronym> of the target's life, <acronym class=\"variable\" title=\"Values for<br>talent levels 1-5,<br>talent mastery 1.30,<br>Cunning 100\">25%, 36%, 44%, 50%, 57%</acronym> all damage resistance, +50% darkness resistance and -50% light resistance.</p><p>The duration, life and all damage resistance scale with your Cunning and this ability will not work on bosses.</p>",
+                "is_spell": true,
+                "mode": "activated",
+                "multi_require": true,
+                "name": "Shadow Simulacrum",
+                "negative": 10,
+                "no_silence": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "5.0",
+                "require": [
+                    "Level 12, Mag 36",
+                    "Level 13, Mag 38",
+                    "Level 14, Mag 40",
+                    "Level 15, Mag 42",
+                    "Level 16, Mag 44"
+                ],
+                "requires_target": true,
+                "short_name": "SHADOW_SIMULACRUM",
+                "source_code": [
+                    "data/talents/celestial/twilight.lua",
+                    199
+                ],
+                "type": [
+                    "celestial/twilight",
+                    4
+                ],
+                "use_speed": "Spell"
+            }
+        ],
+        "type": "celestial/twilight"
+    }
+]

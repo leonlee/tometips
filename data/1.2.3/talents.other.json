@@ -1,1 +1,119 @@
-[{"chndescription":"Talents of the various entities of the world.","type":"other/other","name":"other","chnname":"other","talents":[{"chnname":"繁殖","short_name":"MULTIPLY","image":"multiply.png","mode":"主动","hide":true,"type":["other/other",1],"id":"T_MULTIPLY","source_code":["data/talents/misc/npcs.lua",37],"range":"10.0","use_speed":"1 回合","info_text":"<p>复 制 你 自 身！</p>","requires_target":true,"points":1,"name":"Multiply","cooldown":3},{"chnname":"停滞","short_name":"SUSPENDED","image":"arcane_feed.png","points":1,"hide":true,"type":["other/other",1],"id":"T_SUSPENDED","source_code":["data/talents/misc/npcs.lua",2131],"range":"1.0","name":"Suspended","use_speed":"1 回合","info_text":"<p>除 非 受 到 伤 害， 否 则 目 标 无 法 行 动。</p>","cooldown":10,"mode":"持续"}],"points":1,"description":"Talents of the various entities of the world.","hide":true},{"chndescription":"Unclassified talents of the various horrors of the world.","type":"other/horror","name":"horror powers","chnname":"horror powers","talents":[{"chnname":"虚空回音","range":"10.0","image":"echoes_from_the_void.png","points":5,"hide":true,"source_code":["data/talents/misc/horrors.lua",226],"type":["other/horror",1],"use_speed":"1 回合","id":"T_ECHOES_FROM_THE_VOID","info_text":"<p> 释 放 虚 空 的 混 乱， 使 目 标 每 回 合 强 制 进 行 精 神 豁 免 鉴 定， 持 续 6 回 合， 未 通 过 豁 免 则 在 原 伤 害 基 础 上 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">66, 89, 107, 122, 136</acronym> 精 神 伤 害（ 由 精 神 和 自 然 伤 害 基 础 伤 害 决 定）。</p>","mode":"主动","message":"@Source@ shows @Target@ the madness of the void.","short_name":"ECHOES_FROM_THE_VOID","name":"Echoes From The Void","requires_target":true,"cooldown":10,"direct_hit":true},{"chnname":"虚空碎片","range":"10.0","image":"void_shards.png","points":5,"source_code":["data/talents/misc/horrors.lua",264],"type":["other/horror",1],"use_speed":"1 回合","id":"T_VOID_SHARDS","info_text":"<p>召 唤 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 4, 5</acronym> 个 虚 空 碎 片。 碎 片 会 进 入 不 稳 定 状 态， 造 成 每 回 合 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">32, 43, 52, 60, 66</acronym> 时 空 伤 害 持 续 5 回 合。 它 们 在 不 稳 定 状 态 下 死 亡 会 发 生 爆 炸 造 成 4 码 范 围 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">68, 92, 110, 126, 140</acronym> 时 空 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">68, 92, 110, 126, 140</acronym> 物 理 伤 害。</p>","mode":"主动","message":"@Source@ summons void shards.","short_name":"VOID_SHARDS","name":"Void Shards","requires_target":true,"is_summon":true,"hide":true,"cooldown":20}],"points":1,"description":"Unclassified talents of the various horrors of the world.","hide":true}]
+[
+    {
+        "chndescription": "Talents of the various entities of the world.",
+        "chnname": "other",
+        "description": "Talents of the various entities of the world.",
+        "hide": true,
+        "name": "other",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "繁殖",
+                "cooldown": 3,
+                "hide": true,
+                "id": "T_MULTIPLY",
+                "image": "multiply.png",
+                "info_text": "<p>复 制 你 自 身！</p>",
+                "mode": "主动",
+                "name": "Multiply",
+                "points": 1,
+                "range": "10.0",
+                "requires_target": true,
+                "short_name": "MULTIPLY",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    37
+                ],
+                "type": [
+                    "other/other",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "停滞",
+                "cooldown": 10,
+                "hide": true,
+                "id": "T_SUSPENDED",
+                "image": "arcane_feed.png",
+                "info_text": "<p>除 非 受 到 伤 害， 否 则 目 标 无 法 行 动。</p>",
+                "mode": "持续",
+                "name": "Suspended",
+                "points": 1,
+                "range": "1.0",
+                "short_name": "SUSPENDED",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    2131
+                ],
+                "type": [
+                    "other/other",
+                    1
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "other/other"
+    },
+    {
+        "chndescription": "Unclassified talents of the various horrors of the world.",
+        "chnname": "horror powers",
+        "description": "Unclassified talents of the various horrors of the world.",
+        "hide": true,
+        "name": "horror powers",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "虚空回音",
+                "cooldown": 10,
+                "direct_hit": true,
+                "hide": true,
+                "id": "T_ECHOES_FROM_THE_VOID",
+                "image": "echoes_from_the_void.png",
+                "info_text": "<p> 释 放 虚 空 的 混 乱， 使 目 标 每 回 合 强 制 进 行 精 神 豁 免 鉴 定， 持 续 6 回 合， 未 通 过 豁 免 则 在 原 伤 害 基 础 上 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">66, 89, 107, 122, 136</acronym> 精 神 伤 害（ 由 精 神 和 自 然 伤 害 基 础 伤 害 决 定）。</p>",
+                "message": "@Source@ shows @Target@ the madness of the void.",
+                "mode": "主动",
+                "name": "Echoes From The Void",
+                "points": 5,
+                "range": "10.0",
+                "requires_target": true,
+                "short_name": "ECHOES_FROM_THE_VOID",
+                "source_code": [
+                    "data/talents/misc/horrors.lua",
+                    226
+                ],
+                "type": [
+                    "other/horror",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "虚空碎片",
+                "cooldown": 20,
+                "hide": true,
+                "id": "T_VOID_SHARDS",
+                "image": "void_shards.png",
+                "info_text": "<p>召 唤 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 4, 5</acronym> 个 虚 空 碎 片。 碎 片 会 进 入 不 稳 定 状 态， 造 成 每 回 合 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">32, 43, 52, 60, 66</acronym> 时 空 伤 害 持 续 5 回 合。 它 们 在 不 稳 定 状 态 下 死 亡 会 发 生 爆 炸 造 成 4 码 范 围 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">68, 92, 110, 126, 140</acronym> 时 空 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">68, 92, 110, 126, 140</acronym> 物 理 伤 害。</p>",
+                "is_summon": true,
+                "message": "@Source@ summons void shards.",
+                "mode": "主动",
+                "name": "Void Shards",
+                "points": 5,
+                "range": "10.0",
+                "requires_target": true,
+                "short_name": "VOID_SHARDS",
+                "source_code": [
+                    "data/talents/misc/horrors.lua",
+                    264
+                ],
+                "type": [
+                    "other/horror",
+                    1
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "other/horror"
+    }
+]
