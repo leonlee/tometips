@@ -180,8 +180,60 @@
                 "T_REFIT_GOLEM": 1,
                 "T_THROW_BOMB": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "spell/acid-alchemy": [
+                    true,
+                    1.3,
+                    "法术 / 酸性炼金系"
+                ],
+                "spell/advanced-golemancy": [
+                    false,
+                    1.3,
+                    "法术 / 高级傀儡系"
+                ],
+                "spell/energy-alchemy": [
+                    false,
+                    1.3,
+                    "法术 / 能量炼金系"
+                ],
+                "spell/explosives": [
+                    true,
+                    1.3,
+                    "法术 / 爆炸系"
+                ],
+                "spell/fire-alchemy": [
+                    true,
+                    1.3,
+                    "法术 / 火焰炼金系"
+                ],
+                "spell/frost-alchemy": [
+                    true,
+                    1.3,
+                    "法术 / 冰霜炼金系"
+                ],
+                "spell/golemancy": [
+                    true,
+                    1.3,
+                    "法术 / 傀儡系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    false,
+                    0.9,
+                    "灵巧 / 生存系"
+                ],
+                "spell/staff-combat": [
+                    true,
+                    1.3,
+                    "法术 / 法杖格斗系"
+                ],
+                "spell/stone-alchemy": [
+                    true,
+                    1.3,
+                    "法术 / 岩石炼金系"
+                ]
+            }
         },
         "ANORITHIL": {
             "desc": "<p>    星 月 术 士 出 生 于 晨 曦 之 门， 在 遥 远 东 方 自 由 生 活 人 们 的 最 后 堡 垒 里。 </p><p>    他 们 的 事 业 受 人 尊 敬， 他 们 的 座 右 铭 是： 我 们 站 在 太 阳 与 月 亮 之 间， 光 暗 交 替 之 界。 在 灰 色 的 黎 明 中 寻 找 我 们 的 使 命。 </p><p>    他 们 可 以 施 展 太 阳、 月 亮 的 法 术 将 任 何 试 图 破 坏 太 阳 堡 垒 的 人 消 灭。 </p><p>    他 们 掌 握 日 月 魔 法， 通 常 在 使 用 星 怒 之 前 他 们 就 可 以 用 太 阳 射 线 灼 烧 他 们 的 对 手。 </p><p> 他 们 最 重 要 的 属 性 是： 魔 法 和 灵 巧。 </p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 属 性 修 正 </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +0 力 量， +0 敏 捷， +0 体 质 </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +6 魔 法， +0 意 志， +3 灵 巧 </span></span></p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 每 等 级 生 命 加 值： </span></span><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> +0</span></span></p>",
@@ -204,8 +256,60 @@
                 "T_SEARING_LIGHT": 1,
                 "T_TWILIGHT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "celestial/circles": [
+                    false,
+                    1.3,
+                    "天空 / 法阵系"
+                ],
+                "celestial/eclipse": [
+                    true,
+                    1.3,
+                    "天空 / 日蚀系"
+                ],
+                "celestial/glyphs": [
+                    false,
+                    1.3,
+                    "天空 / 圣印系"
+                ],
+                "celestial/star-fury": [
+                    true,
+                    1.3,
+                    "天空 / 星怒系"
+                ],
+                "celestial/sunlight": [
+                    true,
+                    1.3,
+                    "天空 / 阳光系"
+                ],
+                "celestial/twilight": [
+                    true,
+                    1.3,
+                    "天空 / 黄昏系"
+                ]
+            },
+            "talents_types_generic": {
+                "celestial/chants": [
+                    true,
+                    1.3,
+                    "天空 / 赞歌系"
+                ],
+                "celestial/hymns": [
+                    true,
+                    1.3,
+                    "天空 / 圣诗系"
+                ],
+                "celestial/light": [
+                    true,
+                    1.3,
+                    "天空 / 圣光系"
+                ],
+                "cunning/survival": [
+                    false,
+                    1.1,
+                    "灵巧 / 生存系"
+                ]
+            }
         },
         "ARCANE_BLADE": {
             "copy_add": {
@@ -232,14 +336,95 @@
                 "T_WEAPON_COMBAT": 1
             },
             "talents_types_class": {
+                "cunning/dirty": [
+                    true,
+                    1.2,
+                    "灵巧 / 卑劣攻击系"
+                ],
+                "spell/air": [
+                    true,
+                    1.2,
+                    "法术 / 气系"
+                ],
+                "spell/earth": [
+                    true,
+                    1.2,
+                    "法术 / 土系"
+                ],
+                "spell/enhancement": [
+                    true,
+                    1.2,
+                    "法术 / 附魔系"
+                ],
+                "spell/fire": [
+                    true,
+                    1.2,
+                    "法术 / 火系"
+                ],
                 "spell/stone": [
                     false,
                     1.1,
                     "法术 / 石系",
                     true
+                ],
+                "technique/2hweapon-assault": [
+                    false,
+                    1,
+                    "格斗 / 双手战技系"
+                ],
+                "technique/combat-techniques-active": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    false,
+                    1.1,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/dualweapon-attack": [
+                    false,
+                    1,
+                    "格斗 / 双持战技系"
+                ],
+                "technique/magical-combat": [
+                    true,
+                    1.3,
+                    "格斗 / 魔法格斗系"
+                ],
+                "technique/shield-offense": [
+                    false,
+                    1,
+                    "格斗 / 盾牌攻击系"
+                ],
+                "technique/superiority": [
+                    false,
+                    1.2,
+                    "格斗 / 战术优化系"
                 ]
             },
-            "talents_types_generic": []
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1.1,
+                    "灵巧 / 生存系"
+                ],
+                "spell/aegis": [
+                    true,
+                    1.1,
+                    "法术 / 防护系"
+                ],
+                "spell/conveyance": [
+                    true,
+                    1.2,
+                    "法术 / 传送系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗训练系"
+                ]
+            }
         },
         "ARCHER": {
             "desc": "<p>    弓 箭 手 是 身 手 矫 健 的 远 程 战 士， 能 将 他 的 敌 人 钉 在 原 地 再 射 出 如 雨 般 的 箭 矢 消 灭 对 手。 </p><p>    高 等 级 的 弓 箭 手 可 以 射 出 特 殊 的 箭 矢， 可 以 是 射 穿 目 标， 减 速 或 者 使 目 标 钉 在 原 地。 </p><p>    弓 箭 手 可 以 使 用 长 弓 和 投 石 索。 </p><p> 他 们 最 重 要 的 属 性 是： 敏 捷 和 力 量 （ 装 备 弓 时） 或 灵 巧 ( 装 备 投 石 索 )</p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 属 性 修 正： </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +2 力 量， +5 敏 捷， +0 体 质 </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +0 魔 法， +0 意 志， +2 灵 巧 </span></span></p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 每 等 级 生 命 加 值： </span></span><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> +0</span></span></p>",
@@ -267,14 +452,75 @@
                 "T_WEAPON_COMBAT": 1
             },
             "talents_types_class": {
+                "cunning/dirty": [
+                    false,
+                    1,
+                    "灵巧 / 卑劣攻击系"
+                ],
                 "cunning/poisons": [
                     false,
                     1.2,
                     "灵巧 / 毒药系",
                     true
+                ],
+                "cunning/trapping": [
+                    false,
+                    1.2,
+                    "灵巧 / 陷阱制作系"
+                ],
+                "technique/archery-bow": [
+                    true,
+                    1.3,
+                    "格斗 / 弓系"
+                ],
+                "technique/archery-excellence": [
+                    false,
+                    1.3,
+                    "格斗 / 高等箭术系"
+                ],
+                "technique/archery-sling": [
+                    true,
+                    1.3,
+                    "格斗 / 投石索系"
+                ],
+                "technique/archery-training": [
+                    true,
+                    1.3,
+                    "格斗 / 箭术训练系"
+                ],
+                "technique/archery-utility": [
+                    true,
+                    1.3,
+                    "格斗 / 强化箭系"
+                ],
+                "technique/combat-techniques-active": [
+                    false,
+                    0.9,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    true,
+                    0.9,
+                    "格斗 / 战斗经验系"
                 ]
             },
-            "talents_types_generic": []
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ],
+                "technique/field-control": [
+                    true,
+                    1,
+                    "格斗 / 阵地控制系"
+                ]
+            }
         },
         "ARCHMAGE": {
             "copy_add": {
@@ -309,11 +555,46 @@
                 "T_PHASE_DOOR": 1
             },
             "talents_types_class": {
+                "spell/aether": [
+                    false,
+                    1.3,
+                    "法术 / 以太系"
+                ],
+                "spell/air": [
+                    true,
+                    1.3,
+                    "法术 / 气系"
+                ],
+                "spell/arcane": [
+                    true,
+                    1.3,
+                    "法术 / 奥术系"
+                ],
+                "spell/earth": [
+                    true,
+                    1.3,
+                    "法术 / 土系"
+                ],
+                "spell/fire": [
+                    true,
+                    1.3,
+                    "法术 / 火系"
+                ],
                 "spell/ice": [
                     false,
                     1.3,
                     "法术 / 冰系",
                     true
+                ],
+                "spell/meta": [
+                    false,
+                    1.3,
+                    "法术 / 超魔系"
+                ],
+                "spell/phantasm": [
+                    true,
+                    1.3,
+                    "法术 / 幻术系"
                 ],
                 "spell/stone": [
                     false,
@@ -327,6 +608,16 @@
                     "法术 / 风暴系",
                     true
                 ],
+                "spell/temporal": [
+                    false,
+                    1.3,
+                    "法术 / 时间系"
+                ],
+                "spell/water": [
+                    true,
+                    1.3,
+                    "法术 / 水系"
+                ],
                 "spell/wildfire": [
                     false,
                     1.3,
@@ -334,7 +625,28 @@
                     true
                 ]
             },
-            "talents_types_generic": []
+            "talents_types_generic": {
+                "cunning/survival": [
+                    false,
+                    0.9,
+                    "灵巧 / 生存系"
+                ],
+                "spell/aegis": [
+                    true,
+                    1.3,
+                    "法术 / 防护系"
+                ],
+                "spell/conveyance": [
+                    true,
+                    1.3,
+                    "法术 / 传送系"
+                ],
+                "spell/divination": [
+                    true,
+                    1.3,
+                    "法术 / 侦查系"
+                ]
+            }
         },
         "BERSERKER": {
             "copy_add": {
@@ -360,8 +672,80 @@
                 "T_WARSHOUT_BERSERKER": 1,
                 "T_WEAPON_COMBAT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "cunning/dirty": [
+                    false,
+                    1,
+                    "灵巧 / 卑劣攻击系"
+                ],
+                "technique/2hweapon-assault": [
+                    true,
+                    1.3,
+                    "格斗 / 双手战技系"
+                ],
+                "technique/archery-training": [
+                    false,
+                    1.1,
+                    "格斗 / 箭术训练系"
+                ],
+                "technique/bloodthirst": [
+                    false,
+                    1.2,
+                    "格斗 / 嗜血系"
+                ],
+                "technique/combat-techniques-active": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/shield-defense": [
+                    false,
+                    0.9,
+                    "格斗 / 盾牌防御系"
+                ],
+                "technique/strength-of-the-berserker": [
+                    true,
+                    1.3,
+                    "格斗 / 狂暴之力系"
+                ],
+                "technique/superiority": [
+                    false,
+                    1.3,
+                    "格斗 / 战术优化系"
+                ],
+                "technique/warcries": [
+                    false,
+                    1.3,
+                    "格斗 / 战吼系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ],
+                "technique/conditioning": [
+                    true,
+                    1.3,
+                    "格斗 / 体质强化系"
+                ],
+                "technique/field-control": [
+                    false,
+                    1,
+                    "格斗 / 阵地控制系"
+                ]
+            }
         },
         "BRAWLER": {
             "copy_add": {
@@ -389,8 +773,80 @@
                 "T_UPPERCUT": 1,
                 "T_WEAPON_COMBAT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "cunning/dirty": [
+                    false,
+                    1,
+                    "灵巧 / 卑劣攻击系"
+                ],
+                "cunning/tactical": [
+                    true,
+                    1.3,
+                    "灵巧 / 战术系"
+                ],
+                "technique/combat-techniques-active": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/finishing-moves": [
+                    true,
+                    1.3,
+                    "格斗 / 终结技系"
+                ],
+                "technique/grappling": [
+                    false,
+                    1.3,
+                    "格斗 / 关节技系"
+                ],
+                "technique/pugilism": [
+                    true,
+                    1.3,
+                    "格斗 / 拳术系"
+                ],
+                "technique/unarmed-discipline": [
+                    false,
+                    1.3,
+                    "格斗 / 徒手格斗系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    false,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗训练系"
+                ],
+                "technique/conditioning": [
+                    true,
+                    1.1,
+                    "格斗 / 体质强化系"
+                ],
+                "technique/field-control": [
+                    true,
+                    1,
+                    "格斗 / 阵地控制系"
+                ],
+                "technique/mobility": [
+                    true,
+                    1.2,
+                    "格斗 / 移动系"
+                ],
+                "technique/unarmed-training": [
+                    true,
+                    1.3,
+                    "格斗 / 徒手训练系"
+                ]
+            }
         },
         "BULWARK": {
             "copy_add": {
@@ -417,8 +873,80 @@
                 "T_WEAPONS_MASTERY": 1,
                 "T_WEAPON_COMBAT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "cunning/dirty": [
+                    false,
+                    1,
+                    "灵巧 / 卑劣攻击系"
+                ],
+                "technique/2hweapon-offense": [
+                    false,
+                    0.9,
+                    "格斗 / 双手武器系"
+                ],
+                "technique/archery-training": [
+                    false,
+                    1.1,
+                    "格斗 / 箭术训练系"
+                ],
+                "technique/battle-tactics": [
+                    false,
+                    1.3,
+                    "格斗 / 战争策略系"
+                ],
+                "technique/combat-techniques-active": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/shield-defense": [
+                    true,
+                    1.3,
+                    "格斗 / 盾牌防御系"
+                ],
+                "technique/shield-offense": [
+                    true,
+                    1.3,
+                    "格斗 / 盾牌攻击系"
+                ],
+                "technique/superiority": [
+                    false,
+                    1.3,
+                    "格斗 / 战术优化系"
+                ],
+                "technique/warcries": [
+                    false,
+                    1.3,
+                    "格斗 / 战吼系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ],
+                "technique/conditioning": [
+                    true,
+                    1.3,
+                    "格斗 / 体质强化系"
+                ],
+                "technique/field-control": [
+                    false,
+                    1,
+                    "格斗 / 阵地控制系"
+                ]
+            }
         },
         "CORRUPTOR": {
             "desc": "<p>    堕 落 者 是 一 个 恐 怖 的 对 手， 使 用 黑 暗 魔 法 并 汲 取 目 标 的 灵 魂。 </p><p>    他 们 驾 驭 魔 鬼 的 枯 萎 术， 压 制 灵 魂， 偷 取 生 命 力 量 来 恢 复 自 己。 </p><p>    最 强 大 的 堕 落 者 甚 至 可 以 召 唤 恶 魔 来 守 护 他 们。 </p><p> 他 们 最 重 要 的 属 性 是： 魔 法 和 意 志。 </p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 属 性 修 正： </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +0 力 量， +0 敏 捷， +2 体 质 </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +4 魔 法， +3 意 志， +0 灵 巧 </span></span></p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 每 等 级 生 命 加 值： </span></span><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> +0</span></span></p>",
@@ -445,8 +973,65 @@
                 "T_PACIFICATION_HEX": 1,
                 "T_SOUL_ROT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "corruption/blight": [
+                    true,
+                    1.3,
+                    "堕落 / 枯萎系"
+                ],
+                "corruption/blood": [
+                    true,
+                    1.3,
+                    "堕落 / 血系"
+                ],
+                "corruption/bone": [
+                    false,
+                    1.3,
+                    "堕落 / 骨系"
+                ],
+                "corruption/plague": [
+                    true,
+                    1.3,
+                    "堕落 / 瘟疫系"
+                ],
+                "corruption/sanguisuge": [
+                    true,
+                    1.3,
+                    "堕落 / 水蛭系"
+                ],
+                "corruption/shadowflame": [
+                    false,
+                    1.3,
+                    "堕落 / 暗影烈焰系"
+                ],
+                "corruption/vim": [
+                    true,
+                    1.3,
+                    "堕落 / 活力系"
+                ]
+            },
+            "talents_types_generic": {
+                "corruption/curses": [
+                    true,
+                    1.3,
+                    "堕落 / 诅咒系"
+                ],
+                "corruption/hexes": [
+                    true,
+                    1.3,
+                    "堕落 / 邪术系"
+                ],
+                "corruption/torment": [
+                    false,
+                    1.3,
+                    "堕落 / 折磨系"
+                ],
+                "cunning/survival": [
+                    false,
+                    1,
+                    "灵巧 / 生存系"
+                ]
+            }
         },
         "CURSED": {
             "copy_add": {
@@ -474,8 +1059,60 @@
                 "T_WEAPONS_MASTERY": 1,
                 "T_WEAPON_COMBAT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "cursed/endless-hunt": [
+                    true,
+                    1.3,
+                    "诅咒 / 无尽狩猎系"
+                ],
+                "cursed/fears": [
+                    false,
+                    1,
+                    "诅咒 / 恐惧系"
+                ],
+                "cursed/gloom": [
+                    true,
+                    1.3,
+                    "诅咒 / 黑暗光环系"
+                ],
+                "cursed/predator": [
+                    false,
+                    1,
+                    "诅咒 / 猎杀系"
+                ],
+                "cursed/rampage": [
+                    false,
+                    1,
+                    "诅咒 / 暴走系"
+                ],
+                "cursed/slaughter": [
+                    true,
+                    1.3,
+                    "诅咒 / 杀戮系"
+                ],
+                "cursed/strife": [
+                    true,
+                    1.3,
+                    "诅咒 / 冲突系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    false,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "cursed/cursed-form": [
+                    true,
+                    1,
+                    "诅咒 / 诅咒形态系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ]
+            }
         },
         "DOOMED": {
             "copy_add": [],
@@ -500,8 +1137,60 @@
                 "T_UNNATURAL_BODY": 1,
                 "T_WILLFUL_STRIKE": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "cursed/darkness": [
+                    true,
+                    1.3,
+                    "诅咒 / 黑暗系"
+                ],
+                "cursed/fears": [
+                    false,
+                    1,
+                    "诅咒 / 恐惧系"
+                ],
+                "cursed/force-of-will": [
+                    true,
+                    1.3,
+                    "诅咒 / 意志之力系"
+                ],
+                "cursed/one-with-shadows": [
+                    false,
+                    1.3,
+                    "诅咒 / 强化阴影系"
+                ],
+                "cursed/punishments": [
+                    true,
+                    1.3,
+                    "诅咒 / 惩罚系"
+                ],
+                "cursed/shadows": [
+                    true,
+                    1.3,
+                    "诅咒 / 阴影系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    false,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "cursed/cursed-form": [
+                    true,
+                    1,
+                    "诅咒 / 诅咒形态系"
+                ],
+                "cursed/dark-sustenance": [
+                    true,
+                    1.3,
+                    "诅咒 / 黑暗生存系"
+                ],
+                "cursed/gestures": [
+                    true,
+                    1.3,
+                    "诅咒 / 手势系"
+                ]
+            }
         },
         "MARAUDER": {
             "desc": "<p>    马 基 · 埃 亚 尔 的 野 外 不 是 个 安 全 的 地 方。 野 兽 和 到 处 游 荡 的 龙 似 乎 是 巨 大 的 威 胁， 然 而 真 正 危 险 的 是 两 条 腿 的 人。 窃 贼、 强 盗、 刺 客 投 机 冒 险 家、 疯 狂 的 巫 师 甚 至 狂 热 的 猎 魔 者 都 会 让 那 些 走 出 安 全 的 城 墙 之 外 的 冒 险 者 丧 命。 </p><p>    在 这 混 乱 之 中 诞 生 了 一 种 特 殊 的 盗 贼， 他 们 擅 于 正 面 交 锋 而 不 是 使 用 诡 计。 拥 有 精 准 特 技、 灵 巧 步 伐 和 锋 利 刀 刃 的 掠 夺 者 搜 寻 他 的 目 标 并 直 接 消 灭 他 们。 他 们 通 过 高 等 战 斗 训 练 使 双 持 武 器 更 加 有 效， 情 形 不 利 时 他 们 不 会 忌 讳 使 用 肮 脏 的 手 段 取 得 胜 利。 </p><p> 他 们 最 重 要 的 技 能 是： 力 量、 敏 捷 和 灵 巧。 </p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 属 性 修 正： </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +4 力 量， +4 敏 捷， +0 体 质 </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +0 魔 法， +0 意 志， +1 灵 巧 </span></span></p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 每 等 级 生 命 加 值： </span></span><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> +0</span></span></p>",
@@ -529,14 +1218,85 @@
                 "T_SKULLCRACKER": 1
             },
             "talents_types_class": {
+                "cunning/dirty": [
+                    true,
+                    1.3,
+                    "灵巧 / 卑劣攻击系"
+                ],
                 "cunning/poisons": [
                     false,
                     0.9,
                     "灵巧 / 毒药系",
                     true
+                ],
+                "cunning/tactical": [
+                    false,
+                    1.2,
+                    "灵巧 / 战术系"
+                ],
+                "technique/battle-tactics": [
+                    false,
+                    1.2,
+                    "格斗 / 战争策略系"
+                ],
+                "technique/bloodthirst": [
+                    false,
+                    1.1,
+                    "格斗 / 嗜血系"
+                ],
+                "technique/combat-techniques-active": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    true,
+                    1,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/dualweapon-attack": [
+                    true,
+                    1.2,
+                    "格斗 / 双持战技系"
+                ],
+                "technique/dualweapon-training": [
+                    true,
+                    1.2,
+                    "格斗 / 双持武器系"
                 ]
             },
-            "talents_types_generic": []
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1.3,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ],
+                "technique/conditioning": [
+                    true,
+                    1.3,
+                    "格斗 / 体质强化系"
+                ],
+                "technique/field-control": [
+                    true,
+                    1.3,
+                    "格斗 / 阵地控制系"
+                ],
+                "technique/mobility": [
+                    true,
+                    1.3,
+                    "格斗 / 移动系"
+                ],
+                "technique/thuggery": [
+                    true,
+                    1.3,
+                    "格斗 / 暗杀系"
+                ]
+            }
         },
         "MINDSLAYER": {
             "copy_add": {
@@ -565,8 +1325,75 @@
                 "T_SKATE": 1,
                 "T_TELEKINETIC_SMASH": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "psionic/absorption": [
+                    true,
+                    1.3,
+                    "超能 / 吸收系"
+                ],
+                "psionic/augmented-striking": [
+                    true,
+                    1.3,
+                    "超能 / 强化打击系"
+                ],
+                "psionic/charged-mastery": [
+                    false,
+                    1.3,
+                    "超能 / 电能掌握"
+                ],
+                "psionic/focus": [
+                    true,
+                    1.3,
+                    "超能 / 聚焦系"
+                ],
+                "psionic/kinetic-mastery": [
+                    false,
+                    1.3,
+                    "超能 / 动能掌握"
+                ],
+                "psionic/projection": [
+                    true,
+                    1.3,
+                    "超能 / 投射系"
+                ],
+                "psionic/psi-fighting": [
+                    true,
+                    1.3,
+                    "超能 / 超能格斗系"
+                ],
+                "psionic/thermal-mastery": [
+                    false,
+                    1.3,
+                    "超能 / 热能掌握"
+                ],
+                "psionic/voracity": [
+                    true,
+                    1.3,
+                    "超能 / 贪婪系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "psionic/augmented-mobility": [
+                    true,
+                    1.3,
+                    "超能 / 强化移动系"
+                ],
+                "psionic/finer-energy-manipulations": [
+                    true,
+                    1.3,
+                    "超能 / 能量操控系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1,
+                    "格斗 / 战斗训练系"
+                ]
+            }
         },
         "NECROMANCER": {
             "copy_add": {
@@ -598,14 +1425,65 @@
                 "T_NECROTIC_AURA": 1
             },
             "talents_types_class": {
+                "spell/advanced-necrotic-minions": [
+                    false,
+                    1.3,
+                    "法术 / 高级死灵召唤系"
+                ],
+                "spell/animus": [
+                    true,
+                    1.3,
+                    "法术 / 仇恨系"
+                ],
+                "spell/grave": [
+                    true,
+                    1.3,
+                    "法术 / 陵墓系"
+                ],
                 "spell/ice": [
                     false,
                     1.2,
                     "法术 / 冰系",
                     true
+                ],
+                "spell/necrosis": [
+                    true,
+                    1.3,
+                    "法术 / 死灵系"
+                ],
+                "spell/necrotic-minions": [
+                    true,
+                    1.3,
+                    "法术 / 死灵召唤系"
+                ],
+                "spell/nightfall": [
+                    true,
+                    1.3,
+                    "法术 / 黑夜降临系"
+                ],
+                "spell/shades": [
+                    false,
+                    1.3,
+                    "法术 / 暗影系"
                 ]
             },
-            "talents_types_generic": []
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    0.9,
+                    "灵巧 / 生存系"
+                ],
+                "spell/conveyance": [
+                    true,
+                    1.2,
+                    "法术 / 传送系"
+                ],
+                "spell/divination": [
+                    true,
+                    1.2,
+                    "法术 / 侦查系"
+                ]
+            }
         },
         "NONE": {
             "desc": "<p> 你 的 种 族 无 法 选 择 职 业， 它 有 自 己 的 天 赋 力 量。 </p>",
@@ -643,8 +1521,70 @@
                 "T_PSIBLADES": 1,
                 "T_SLIME_SPIT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "wild-gift/corrosive-blades": [
+                    false,
+                    1.3,
+                    "自然 / 腐蚀利刃系"
+                ],
+                "wild-gift/eyals-fury": [
+                    false,
+                    1.3,
+                    "自然 / 埃亚尔之怒"
+                ],
+                "wild-gift/moss": [
+                    true,
+                    1.3,
+                    "自然 / 苔藓系"
+                ],
+                "wild-gift/mucus": [
+                    true,
+                    1.3,
+                    "自然 / 粘液系"
+                ],
+                "wild-gift/ooze": [
+                    true,
+                    1.3,
+                    "自然 / 软泥系"
+                ],
+                "wild-gift/oozing-blades": [
+                    false,
+                    1.3,
+                    "自然 / 软泥利刃系"
+                ],
+                "wild-gift/slime": [
+                    true,
+                    1.3,
+                    "自然 / 史莱姆系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1.1,
+                    "灵巧 / 生存系"
+                ],
+                "wild-gift/antimagic": [
+                    true,
+                    1.3,
+                    "自然 / 反魔法系"
+                ],
+                "wild-gift/call": [
+                    true,
+                    1.3,
+                    "自然 / 自然召唤系"
+                ],
+                "wild-gift/fungus": [
+                    false,
+                    1.3,
+                    "自然 / 真菌系"
+                ],
+                "wild-gift/mindstar-mastery": [
+                    true,
+                    1.3,
+                    "自然 / 灵晶掌握系"
+                ]
+            }
         },
         "PARADOX_MAGE": {
             "copy_add": {
@@ -671,8 +1611,65 @@
                 "T_STATIC_HISTORY": 1,
                 "T_TURN_BACK_THE_CLOCK": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "chronomancy/age-manipulation": [
+                    true,
+                    1.3,
+                    "时空 / 时光操纵系"
+                ],
+                "chronomancy/gravity": [
+                    true,
+                    1.3,
+                    "时空 / 重力系"
+                ],
+                "chronomancy/matter": [
+                    true,
+                    1.3,
+                    "时空 / 物质系"
+                ],
+                "chronomancy/paradox": [
+                    false,
+                    1.3,
+                    "时空 / 无序系"
+                ],
+                "chronomancy/speed-control": [
+                    true,
+                    1.3,
+                    "时空 / 速度控制系"
+                ],
+                "chronomancy/timeline-threading": [
+                    false,
+                    1.3,
+                    "时空 / 时空螺旋系"
+                ],
+                "chronomancy/timetravel": [
+                    true,
+                    1.3,
+                    "时空 / 时空漫游系"
+                ]
+            },
+            "talents_types_generic": {
+                "chronomancy/chronomancy": [
+                    true,
+                    1.3,
+                    "时空 / 时空系"
+                ],
+                "chronomancy/energy": [
+                    true,
+                    1.3,
+                    "时空 / 能量系"
+                ],
+                "chronomancy/spacetime-weaving": [
+                    true,
+                    1.3,
+                    "时空 / 时空编织系"
+                ],
+                "cunning/survival": [
+                    false,
+                    1,
+                    "灵巧 / 生存系"
+                ]
+            }
         },
         "PSION": {
             "copy_add": {
@@ -692,7 +1689,13 @@
             "talents": {
                 "T_POSSESS": 1
             },
-            "talents_types_class": [],
+            "talents_types_class": {
+                "psionic/possession": [
+                    true,
+                    1.3,
+                    "超能 / 控制系"
+                ]
+            },
             "talents_types_generic": []
         },
         "REAVER": {
@@ -706,7 +1709,7 @@
                     "file": "npc/humanoid_human_reaver.png"
                 }
             ],
-            "locked_desc": "    收 割 敌 人 的 灵 魂 ， 你 会 发 现 黑 暗 的 力 量 涌 入 体 内。 ",
+            "locked_desc": "    收 割 队 伍 里 的 3 个 灵 魂 你 会 发 现 黑 暗 的 力 量 涌 入 体 内。 ",
             "name": "Reaver",
             "short_name": "REAVER",
             "stats": {
@@ -720,8 +1723,65 @@
                 "T_REND": 1,
                 "T_WEAPON_COMBAT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "corruption/bone": [
+                    true,
+                    1.3,
+                    "堕落 / 骨系"
+                ],
+                "corruption/plague": [
+                    true,
+                    1.3,
+                    "堕落 / 瘟疫系"
+                ],
+                "corruption/reaving-combat": [
+                    true,
+                    1.3,
+                    "堕落 / 掠夺格斗系"
+                ],
+                "corruption/sanguisuge": [
+                    true,
+                    1.3,
+                    "堕落 / 水蛭系"
+                ],
+                "corruption/scourge": [
+                    true,
+                    1.3,
+                    "堕落 / 鞭笞系"
+                ],
+                "corruption/vim": [
+                    true,
+                    1.3,
+                    "堕落 / 活力系"
+                ]
+            },
+            "talents_types_generic": {
+                "corruption/curses": [
+                    false,
+                    1.3,
+                    "堕落 / 诅咒系"
+                ],
+                "corruption/hexes": [
+                    false,
+                    1.3,
+                    "堕落 / 邪术系"
+                ],
+                "corruption/torment": [
+                    true,
+                    1.3,
+                    "堕落 / 折磨系"
+                ],
+                "cunning/survival": [
+                    false,
+                    1.1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ]
+            }
         },
         "ROGUE": {
             "desc": "<p>    盗 贼 是 诡 计 专 家。 盗 贼 可 以 潜 行 到 你 背 后 而 不 被 发 现， 然 后 通 过 背 后 刺 杀 中 造 成 巨 大 伤 害。 </p><p>    盗 贼 通 常 双 持 匕 首， 他 们 同 样 可 以 成 为 陷 阱 专 家， 除 了 安 装 陷 阱 以 外 他 们 可 以 侦 测 并 拆 除 陷 阱。 </p><p> 他 们 最 重 要 的 属 性 是： 敏 捷 和 灵 巧。 </p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 属 性 修 正： </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +1 力 量， +3 敏 捷， +0 体 质 </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +0 魔 法， +0 意 志， +5 灵 巧 </span></span></p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 每 等 级 生 命 加 值： </span></span><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> +0</span></span></p>",
@@ -748,14 +1808,80 @@
                 "T_WEAPON_COMBAT": 1
             },
             "talents_types_class": {
+                "cunning/dirty": [
+                    true,
+                    1.3,
+                    "灵巧 / 卑劣攻击系"
+                ],
+                "cunning/lethality": [
+                    true,
+                    1.3,
+                    "灵巧 / 致命攻击系"
+                ],
                 "cunning/poisons": [
                     false,
                     1.3,
                     "灵巧 / 毒药系",
                     true
+                ],
+                "cunning/stealth": [
+                    true,
+                    1.3,
+                    "灵巧 / 潜行系"
+                ],
+                "cunning/trapping": [
+                    true,
+                    1.3,
+                    "灵巧 / 陷阱制作系"
+                ],
+                "technique/combat-techniques-active": [
+                    false,
+                    1.3,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    false,
+                    1.3,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/dualweapon-attack": [
+                    true,
+                    1.3,
+                    "格斗 / 双持战技系"
+                ],
+                "technique/dualweapon-training": [
+                    true,
+                    1.3,
+                    "格斗 / 双持武器系"
                 ]
             },
-            "talents_types_generic": []
+            "talents_types_generic": {
+                "cunning/scoundrel": [
+                    true,
+                    1.3,
+                    "灵巧 / 街头格斗系"
+                ],
+                "cunning/survival": [
+                    true,
+                    1.3,
+                    "灵巧 / 生存系"
+                ],
+                "technique/acrobatics": [
+                    true,
+                    1.3,
+                    "格斗 / 杂耍系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ],
+                "technique/field-control": [
+                    false,
+                    1,
+                    "格斗 / 阵地控制系"
+                ]
+            }
         },
         "SHADOWBLADE": {
             "desc": "<p>    影 舞 者 是 拥 有 魔 法 天 赋 的 特 殊 盗 贼， 他 们 可 以 在 阴 影 之 中 发 动 偷 袭 同 时 可 以 施 展 魔 法 来 强 化 他 们 的 攻 击 和 生 存 能 力。 </p><p>    他 们 的 魔 法 并 非 习 得 而 是 与 生 俱 来 的， 因 此 他 们 不 能 依 靠 自 然 的 法 力 恢 复 而 必 须 依 靠 额 外 的 道 具 来 恢 复 法 力 值。 </p><p>    他 们 使 用 幻 觉、 时 间、 预 知 和 传 送 技 能 来 增 强 他 们 的 行 动。 </p><p> 他 们 最 重 要 的 属 性 是： 敏 捷、 灵 巧 和 魔 法。 </p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 属 性 修 正： </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +0 力 量， +3 敏 捷， +0 体 质 </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +3 魔 法， +0 意 志， +3 灵 巧 </span></span></p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 每 等 级 生 命 加 值： </span></span><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> +0</span></span></p>",
@@ -780,8 +1906,85 @@
                 "T_SHADOW_COMBAT": 1,
                 "T_WEAPON_COMBAT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "cunning/ambush": [
+                    false,
+                    1.3,
+                    "灵巧 / 伏击系"
+                ],
+                "cunning/dirty": [
+                    true,
+                    1.3,
+                    "灵巧 / 卑劣攻击系"
+                ],
+                "cunning/lethality": [
+                    true,
+                    1.3,
+                    "灵巧 / 致命攻击系"
+                ],
+                "cunning/shadow-magic": [
+                    true,
+                    1.3,
+                    "灵巧 / 影之秘法系"
+                ],
+                "cunning/stealth": [
+                    false,
+                    1.3,
+                    "灵巧 / 潜行系"
+                ],
+                "spell/phantasm": [
+                    true,
+                    1,
+                    "法术 / 幻术系"
+                ],
+                "spell/temporal": [
+                    false,
+                    1,
+                    "法术 / 时间系"
+                ],
+                "technique/combat-techniques-active": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    false,
+                    1.3,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/dualweapon-attack": [
+                    true,
+                    1.2,
+                    "格斗 / 双持战技系"
+                ],
+                "technique/dualweapon-training": [
+                    true,
+                    1.2,
+                    "格斗 / 双持武器系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1.1,
+                    "灵巧 / 生存系"
+                ],
+                "spell/conveyance": [
+                    true,
+                    1,
+                    "法术 / 传送系"
+                ],
+                "spell/divination": [
+                    false,
+                    1,
+                    "法术 / 侦查系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.2,
+                    "格斗 / 战斗训练系"
+                ]
+            }
         },
         "SKIRMISHER": {
             "copy_add": {
@@ -811,14 +2014,60 @@
                 "T_WEAPON_COMBAT": 1
             },
             "talents_types_class": {
+                "cunning/called-shots": [
+                    true,
+                    1.3,
+                    "灵巧 / 精准射击系"
+                ],
                 "cunning/poisons": [
                     false,
                     1.2,
                     "灵巧 / 毒药系",
                     true
+                ],
+                "cunning/trapping": [
+                    false,
+                    1.1,
+                    "灵巧 / 陷阱制作系"
+                ],
+                "technique/buckler-training": [
+                    true,
+                    1.3,
+                    "格斗 / 盾牌训练系"
+                ],
+                "technique/skirmisher-slings": [
+                    true,
+                    1.3,
+                    "格斗 / 散兵-投石索系"
+                ],
+                "technique/tireless-combatant": [
+                    true,
+                    1.3,
+                    "格斗 / 不倦战斗系"
                 ]
             },
-            "talents_types_generic": []
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1.3,
+                    "灵巧 / 生存系"
+                ],
+                "technique/acrobatics": [
+                    true,
+                    1.3,
+                    "格斗 / 杂耍系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ],
+                "technique/field-control": [
+                    false,
+                    1.1,
+                    "格斗 / 阵地控制系"
+                ]
+            }
         },
         "SOLIPSIST": {
             "copy_add": {
@@ -845,8 +2094,75 @@
                 "T_SOLIPSISM": 1,
                 "T_THOUGHT_FORMS": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "psionic/discharge": [
+                    false,
+                    1.3,
+                    "超能 / 脉冲系"
+                ],
+                "psionic/distortion": [
+                    true,
+                    1.3,
+                    "超能 / 扭曲系"
+                ],
+                "psionic/dream-smith": [
+                    true,
+                    1.3,
+                    "超能 / 梦境锻造系"
+                ],
+                "psionic/nightmare": [
+                    false,
+                    1.3,
+                    "超能 / 梦靥系"
+                ],
+                "psionic/psychic-assault": [
+                    true,
+                    1.3,
+                    "超能 / 心灵战斗系"
+                ],
+                "psionic/slumber": [
+                    true,
+                    1.3,
+                    "超能 / 催眠系"
+                ],
+                "psionic/solipsism": [
+                    true,
+                    1.3,
+                    "超能 / 唯我主义"
+                ],
+                "psionic/thought-forms": [
+                    true,
+                    1.3,
+                    "超能 / 具象之弧系"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "psionic/dream-forge": [
+                    false,
+                    1.3,
+                    "超能 / 梦之熔炉系"
+                ],
+                "psionic/dreaming": [
+                    true,
+                    1.3,
+                    "超能 / 梦境系"
+                ],
+                "psionic/feedback": [
+                    true,
+                    1.3,
+                    "超能 / 反馈系"
+                ],
+                "psionic/mentalism": [
+                    true,
+                    1.3,
+                    "超能 / 唯心主义"
+                ]
+            }
         },
         "SUMMONER": {
             "desc": "<p>    召 唤 师 从 不 孤 身 战 斗， 他 们 时 刻 准 备 召 唤 出 宠 物 为 他 们 而 战。 </p><p>    召 唤 师 可 以 同 时 召 唤 战 争 猎 犬 和 火 龙。 </p><p> 他 们 最 重 要 的 属 性 是： 意 志 和 灵 巧。 </p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 属 性 修 正： </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +0 力 量， +1 敏 捷， +0 体 质 </span></span></p><p><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> * +0 魔 法， +5 意 志， +3 灵 巧 </span></span></p><p><span style=\"color: #ffd700\"><span style=\"tstr-color-GOLD\"> 每 等 级 生 命 加 值： </span></span><span style=\"color: #51ddff\"><span style=\"tstr-color-LIGHT_BLUE\"> +0</span></span></p>",
@@ -873,8 +2189,70 @@
                 "T_RITCH_FLAMESPITTER": 1,
                 "T_WAR_HOUND": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "technique/combat-techniques-active": [
+                    false,
+                    1,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    false,
+                    1,
+                    "格斗 / 战斗经验系"
+                ],
+                "wild-gift/summon-advanced": [
+                    false,
+                    1.3,
+                    "自然 / 高级召唤"
+                ],
+                "wild-gift/summon-augmentation": [
+                    false,
+                    1.3,
+                    "自然 / 召唤（增益）"
+                ],
+                "wild-gift/summon-distance": [
+                    true,
+                    1.3,
+                    "自然 / 召唤（远程）"
+                ],
+                "wild-gift/summon-melee": [
+                    true,
+                    1.3,
+                    "自然 / 召唤（近战）"
+                ],
+                "wild-gift/summon-utility": [
+                    true,
+                    1.3,
+                    "自然 / 召唤（通用）"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    true,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1,
+                    "格斗 / 战斗训练系"
+                ],
+                "wild-gift/call": [
+                    true,
+                    1.2,
+                    "自然 / 自然召唤系"
+                ],
+                "wild-gift/harmony": [
+                    false,
+                    1.1,
+                    "自然 / 自然协调系"
+                ],
+                "wild-gift/mindstar-mastery": [
+                    false,
+                    1.1,
+                    "自然 / 灵晶掌握系"
+                ]
+            }
         },
         "SUN_PALADIN": {
             "copy_add": {
@@ -900,8 +2278,75 @@
                 "T_SUN_BEAM": 1,
                 "T_WEAPON_OF_LIGHT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "celestial/combat": [
+                    true,
+                    1.3,
+                    "天空 / 圣战系"
+                ],
+                "celestial/crusader": [
+                    false,
+                    1.3,
+                    "天空 / 十字军系"
+                ],
+                "celestial/guardian": [
+                    false,
+                    1.3,
+                    "天空 / 守护系"
+                ],
+                "celestial/radiance": [
+                    false,
+                    1.3,
+                    "天空 / 光辉系"
+                ],
+                "celestial/sun": [
+                    true,
+                    1.3,
+                    "天空 / 太阳系"
+                ],
+                "technique/2hweapon-assault": [
+                    true,
+                    1.1,
+                    "格斗 / 双手战技系"
+                ],
+                "technique/combat-techniques-active": [
+                    false,
+                    1.1,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/shield-offense": [
+                    true,
+                    1.1,
+                    "格斗 / 盾牌攻击系"
+                ]
+            },
+            "talents_types_generic": {
+                "celestial/chants": [
+                    true,
+                    1.3,
+                    "天空 / 赞歌系"
+                ],
+                "celestial/light": [
+                    true,
+                    1.3,
+                    "天空 / 圣光系"
+                ],
+                "cunning/survival": [
+                    false,
+                    1.1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗训练系"
+                ]
+            }
         },
         "TEMPORAL_WARDEN": {
             "copy_add": {
@@ -933,8 +2378,70 @@
                 "T_STRENGTH_OF_PURPOSE": 1,
                 "T_WEAPON_COMBAT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "chronomancy/spacetime-folding": [
+                    true,
+                    1.3,
+                    "时空 / 时空折叠系"
+                ],
+                "chronomancy/speed-control": [
+                    true,
+                    1.1,
+                    "时空 / 速度控制系"
+                ],
+                "chronomancy/temporal-combat": [
+                    true,
+                    1.3,
+                    "时空 / 时空格斗系"
+                ],
+                "chronomancy/timetravel": [
+                    false,
+                    1,
+                    "时空 / 时空漫游系"
+                ],
+                "technique/archery-bow": [
+                    true,
+                    1,
+                    "格斗 / 弓系"
+                ],
+                "technique/archery-utility": [
+                    false,
+                    1,
+                    "格斗 / 强化箭系"
+                ],
+                "technique/dualweapon-attack": [
+                    true,
+                    1,
+                    "格斗 / 双持战技系"
+                ],
+                "technique/dualweapon-training": [
+                    false,
+                    1,
+                    "格斗 / 双持武器系"
+                ]
+            },
+            "talents_types_generic": {
+                "chronomancy/chronomancy": [
+                    true,
+                    1.1,
+                    "时空 / 时空系"
+                ],
+                "chronomancy/spacetime-weaving": [
+                    true,
+                    1,
+                    "时空 / 时空编织系"
+                ],
+                "cunning/survival": [
+                    false,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗训练系"
+                ]
+            }
         },
         "TUTORIAL_ADVENTURER": {
             "desc": "<p> 冒 险 家 们 有 一 套 通 用 的 理 论 可 以 传 授 给 菜 鸟 们。 </p>",
@@ -955,8 +2462,25 @@
                 "T_WEAPONS_MASTERY": 2,
                 "T_WEAPON_COMBAT": 2
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "technique/shield-defense": [
+                    true,
+                    1.3,
+                    "格斗 / 盾牌防御系"
+                ],
+                "technique/shield-offense": [
+                    true,
+                    1.3,
+                    "格斗 / 盾牌攻击系"
+                ]
+            },
+            "talents_types_generic": {
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ]
+            }
         },
         "WYRMIC": {
             "copy_add": {
@@ -986,8 +2510,85 @@
                 "T_WEAPONS_MASTERY": 1,
                 "T_WEAPON_COMBAT": 1
             },
-            "talents_types_class": [],
-            "talents_types_generic": []
+            "talents_types_class": {
+                "technique/2hweapon-assault": [
+                    true,
+                    1.1,
+                    "格斗 / 双手战技系"
+                ],
+                "technique/combat-techniques-active": [
+                    false,
+                    1,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    true,
+                    1,
+                    "格斗 / 战斗经验系"
+                ],
+                "technique/shield-offense": [
+                    true,
+                    1.1,
+                    "格斗 / 盾牌攻击系"
+                ],
+                "wild-gift/cold-drake": [
+                    true,
+                    1.3,
+                    "自然 / 冰龙形态"
+                ],
+                "wild-gift/fire-drake": [
+                    true,
+                    1.3,
+                    "自然 / 火龙形态"
+                ],
+                "wild-gift/higher-draconic": [
+                    false,
+                    1.3,
+                    "自然 / 高等龙族系"
+                ],
+                "wild-gift/sand-drake": [
+                    true,
+                    1.3,
+                    "自然 / 土龙形态"
+                ],
+                "wild-gift/storm-drake": [
+                    true,
+                    1.3,
+                    "自然 / 雷龙形态"
+                ],
+                "wild-gift/venom-drake": [
+                    true,
+                    1.3,
+                    "自然 / 毒龙形态"
+                ]
+            },
+            "talents_types_generic": {
+                "cunning/survival": [
+                    false,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1,
+                    "格斗 / 战斗训练系"
+                ],
+                "wild-gift/call": [
+                    true,
+                    1.2,
+                    "自然 / 自然召唤系"
+                ],
+                "wild-gift/fungus": [
+                    true,
+                    1.1,
+                    "自然 / 真菌系"
+                ],
+                "wild-gift/harmony": [
+                    false,
+                    1.1,
+                    "自然 / 自然协调系"
+                ]
+            }
         }
     }
 }
