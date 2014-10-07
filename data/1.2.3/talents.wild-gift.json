@@ -3259,7 +3259,7 @@
                 "generic": true,
                 "id": "T_PSIBLADES",
                 "image": "psiblades.png",
-                "info_text": "<p>将 你 的 精 神 能 量 灌 入 你 所 装 备 的 灵 晶 中， 使 其 生 成 心 灵 利 刃。 </p><p> 灵 晶 所 产 生 的 心 灵 利 刃 会 进 行 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1.45, 1.60, 1.72, 1.81, 1.90</acronym> 伤 害 修 正 加 成（ 从 属 性 中 获 得 的 伤 害 值）， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1.23, 1.47, 1.66, 1.81, 1.95</acronym> 护 甲 穿 透, 并 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1.45, 1.60, 1.72, 1.81, 1.90</acronym> 的 精 神 强 度、 意 志 和 灵 巧。  </p><p> 同 时 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">13, 26, 39, 52, 65</acronym> 点 物 理 强 度， 当 你 使 用 灵 晶 时， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">25%, 36%, 44%, 50%, 57%</acronym> 武 器 伤 害。</p>",
+                "info_text": "<p>将 你 的 精 神 能 量 灌 入 你 所 装 备 的 灵 晶 中， 使 其 生 成 心 灵 利 刃。 </p><p> 灵 晶 所 产 生 的 心 灵 利 刃 会 进 行 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1.45, 1.60, 1.72, 1.81, 1.90</acronym> 伤 害 修 正 加 成（ 从 属 性 中 获 得 的 伤 害 值）， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1.23, 1.47, 1.66, 1.81, 1.95</acronym> 护 甲 穿 透。</p><p> 心 灵 利 刃 将 使 灵 晶 附 加 的 精 神 强 度、 意 志 和 灵 巧 变 为 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1.45, 1.60, 1.72, 1.81, 1.90</acronym> 倍。  </p><p> 同 时 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">13, 26, 39, 52, 65</acronym> 点 物 理 强 度， 当 你 使 用 灵 晶 时， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">25%, 36%, 44%, 50%, 57%</acronym> 武 器 伤 害。</p>",
                 "is_mind": true,
                 "is_nature": true,
                 "mode": "持续",
@@ -3313,7 +3313,7 @@
                 "short_name": "THORN_GRAB",
                 "source_code": [
                     "data/talents/gifts/mindstar-mastery.lua",
-                    72
+                    73
                 ],
                 "type": [
                     "wild-gift/mindstar-mastery",
@@ -3347,7 +3347,7 @@
                 "short_name": "LEAVES_TIDE",
                 "source_code": [
                     "data/talents/gifts/mindstar-mastery.lua",
-                    100
+                    101
                 ],
                 "type": [
                     "wild-gift/mindstar-mastery",
@@ -3383,7 +3383,7 @@
                 "short_name": "NATURE_S_EQUILIBRIUM",
                 "source_code": [
                     "data/talents/gifts/mindstar-mastery.lua",
-                    140
+                    141
                 ],
                 "type": [
                     "wild-gift/mindstar-mastery",

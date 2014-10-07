@@ -1938,7 +1938,7 @@
                 "short_name": "DARK_GIFTS",
                 "source_code": [
                     "data/talents/cursed/cursed-aura.lua",
-                    272
+                    273
                 ],
                 "type": [
                     "cursed/cursed-aura",
@@ -1969,7 +1969,7 @@
                 "short_name": "RUINED_EARTH",
                 "source_code": [
                     "data/talents/cursed/cursed-aura.lua",
-                    300
+                    301
                 ],
                 "type": [
                     "cursed/cursed-aura",
@@ -2000,7 +2000,7 @@
                 "short_name": "CURSED_SENTRY",
                 "source_code": [
                     "data/talents/cursed/cursed-aura.lua",
-                    348
+                    349
                 ],
                 "type": [
                     "cursed/cursed-aura",
