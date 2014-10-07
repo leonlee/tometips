@@ -1709,7 +1709,7 @@
                     "file": "npc/humanoid_human_reaver.png"
                 }
             ],
-            "locked_desc": "    收 割 队 伍 里 的 3 个 灵 魂 你 会 发 现 黑 暗 的 力 量 涌 入 体 内。 ",
+            "locked_desc": "    收 割 敌 人 的 灵 魂 ， 你 会 发 现 黑 暗 的 力 量 涌 入 体 内。 ",
             "name": "Reaver",
             "short_name": "REAVER",
             "stats": {
