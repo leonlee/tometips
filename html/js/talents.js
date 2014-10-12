@@ -25,7 +25,7 @@ function fillNavTalents(tome, category) {
     }
 
     for (var i = 0; i < talent_types.length; i++) {
-        $el.append('<li><a href="#talents/' + toUnsafeHtmlId(talent_types[i].type) + currentQuery() + '">' + toTitleCase(talent_types[i].name + '</a></li>'));
+        $el.append('<li><a href="#talents/' + toUnsafeHtmlId(talent_types[i].type) + currentQuery() + '">' + toTitleCase(talent_types[i].chnname + '</a></li>'));
         // "type" happens to be category/name, which is what we want for routing
     }
 }
@@ -72,7 +72,7 @@ function fillTalentAvailability(tome, category) {
 
         _.each(show, function(value, key) {
             if (value.length) {
-                $("#talents\\/" + key.replace('/', '\\/') + "-avail").html('Availability: ' + value.join(', '));
+                $("#talents\\/" + key.replace('/', '\\/') + "-avail").html('可用职业: ' + value.join(', '));
             }
         });
 

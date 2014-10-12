@@ -21,6 +21,9 @@ textarea {
 body {
     line-height: 1.4;
 }
+h1, h2, h3, h4, h5, h6, body{
+	font-family: "Helvetica","Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei","华文细黑","STHeiti", FontAwesome, freesans, clean, sans-serif;
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -285,7 +288,13 @@ a.hint-link .fa {
     font-size: 75%;
 }
 
-.source-link, .wiki-link {
+.source-link{
+    text-transform: lowercase;
+    position: absolute;
+    right: 100px;
+    bottom: 15px;
+}
+.wiki-link {
     text-transform: lowercase;
     position: absolute;
     right: 15px;
@@ -580,4 +589,8 @@ table.old-new td {
     h3 {
         page-break-after: avoid;
     }
+}
+.description{
+	position:relative;
+	padding: 15px;
 }

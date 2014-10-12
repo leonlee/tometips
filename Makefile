@@ -1,8 +1,7 @@
 SHELL := /bin/bash
 
-VERSIONS := 1.1.5 1.2.0 1.2.1 1.2.2 1.2.3
+VERSIONS := 1.2.3
 VERSIONS += master
-
 # GitHub Pages output
 PAGES_OUTPUT = ../tometips.github.io
 
@@ -12,6 +11,8 @@ all: t-engine4 img html/js/templates.js html/js/partials.js \
 	$(patsubst %,html/data/%/changes.talents.json,$(VERSIONS)) \
 	$(patsubst %,html/data/%/recent-changes.talents.json,$(VERSIONS))
 
+1.2.3-chn-release:1.2.3-chn pretty
+1.2.3-chn: html/data/1.2.3/tome.json html/data/1.2.3/classes.json html/js/partials.js html/js/templates.js
 html/data/%/tome.json: % talent_spoilers.lua
 	lua talent_spoilers.lua $< $(dir $@)
 
@@ -49,7 +50,7 @@ img: t-engine4
 
 # Pretty-prints each of the JSON files.
 pretty: html/data/$(VERSION)
-	for file in $$(find html -name '*.json'); do python -mjson.tool $$file > $$file.tmp && mv $$file.tmp $$file; done
+	for file in $$(find html -name '*.json'); do python json_conv.py $$file $$file.tmp && mv $$file.tmp $$file; done
 
 # git shortcuts to automate maintenance of the local source tree
 t-engine4:

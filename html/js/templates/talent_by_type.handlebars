@@ -1,8 +1,11 @@
 {{! FIXME: type header and description }}
 {{#each this}}
-<h2><a class="anchor" id="talents/{{type}}"></a>{{toTitleCase name}}</h2>
+<h2><a class="anchor" id="talents/{{type}}"></a>{{chnname}}</h2>
 <div>
-    <p>{{description}}</p>
+    <div class="description">
+	<p>{{chndescription}}</p>
+	<div class="wiki-link"><a href="http://te4.org/wiki/{{toWikiLink name}}_(category)" target="_blank">查看wiki</a></div>
+    </div>
     <p id="talents/{{type}}-avail"></p>
     <div>
         {{#each talents}}
@@ -10,14 +13,15 @@
                 <div class="panel-heading clickable">
                     <h3 class="panel-title">
                         <a id="talents/{{../type}}/{{toHtmlId id}}" data-toggle="collapse" data-target="#collapse-{{toHtmlId id}}">
-                            {{> talent_img}}{{name}}
+                            {{> talent_img}}{{chnname}}
                         </a>
                     </h3>
                 </div>
                 <div id="collapse-{{toHtmlId id}}" class="talent-details panel-collapse collapse">
                     <div class="panel-body">
                         {{> talent_details}}
-                        {{#if source_code}}<div class="source-link"><a href="http://git.net-core.org/darkgod/t-engine4/blob/{{tag}}/game/modules/tome/{{source_code.[0]}}#L{{source_code.[1]}}" target="_blank">View source</a></div>{{/if}}
+						<div class="wiki-link"><a href="http://te4.org/wiki/{{toWikiLink name}}_(talent)" target="_blank">查看wiki</a></div>
+                        {{#if source_code}}<div class="source-link"><a href="http://git.net-core.org/darkgod/t-engine4/blob/{{tag}}/game/modules/tome/{{source_code.[0]}}#L{{source_code.[1]}}" target="_blank">查看源代码</a></div>{{/if}}
                         </div>
                     </div>
                 </div>

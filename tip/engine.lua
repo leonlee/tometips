@@ -180,11 +180,29 @@ tip.raw_resources = {'mana', 'soul', 'stamina', 'equilibrium', 'vim', 'positive'
 
 tip.resources = {}
 for i, v in ipairs(tip.raw_resources) do
-    tip.resources[v] = v
-    tip.resources[v] = tip.resources[v]:gsub("sustain_", "")
-    tip.resources[v] = tip.resources[v]:gsub("_", " ")
-    tip.resources[v] = tip.resources[v]:gsub("positive", "positive energy")
-    tip.resources[v] = tip.resources[v]:gsub("negative", "negative energy")
+    tip.resources['mana'] =  '法力消耗：'
+	tip.resources['soul'] =  '灵魂消耗: '
+	tip.resources['stamina'] =  '体力消耗： '
+	tip.resources['equilibrium'] =  '自然失衡值消耗： '
+	tip.resources['vim'] =  '活力值消耗： '
+	tip.resources['positive'] =  '正能量消耗： '
+	tip.resources['negative'] =  '负能量消耗： '
+	tip.resources['hate'] =  '仇恨值消耗：  '
+	tip.resources['paradox'] =  '紊乱值消耗： '
+	tip.resources['psi'] =  '意念力消耗： '
+	tip.resources['feedback'] =  '反馈值消耗： '
+	tip.resources['fortress_energy'] =  '堡垒能量值消耗： '
+	tip.resources['sustain_mana'] =  '持续法力消耗： '
+	tip.resources['sustain_stamina'] =  '持续体力消耗： '
+	tip.resources['sustain_equilibrium'] =  '持续失衡值消耗： '
+	tip.resources['sustain_vim'] =  '持续活力值消耗： '
+	tip.resources['drain_vim'] =  '每回合活力值消耗: '
+	tip.resources['sustain_positive'] =  '持续正能量消耗： '
+	tip.resources['sustain_negative'] =  '持续负能量消耗： '
+	tip.resources['sustain_hate'] =  '持续仇恨值消耗：  '
+	tip.resources['sustain_paradox'] =  '持续紊乱值消耗： '
+	tip.resources['sustain_psi'] =  '持续意念力消耗： '
+	tip.resources['sustain_feedback'] =  '持续反馈值消耗： '
 end
 
 local Actor = require 'mod.class.Actor'

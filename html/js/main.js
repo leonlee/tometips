@@ -141,6 +141,12 @@ function toTitleCase(s)
     return s[0].toUpperCase() + s.slice(1);
 }
 
+function to_chn_talent_categories(s)
+{
+	if (tome[versions.current].chn_talent_categories[s] != undefined) return tome[versions.current].chn_talent_categories[s];
+	return s;
+}
+
 ///ToME-specific function that makes a ToME ID a valid and standard HTML ID
 function toHtmlId(s)
 {
@@ -152,7 +158,7 @@ function toHtmlId(s)
 ///legitimately uses them (e.g., "spells/fire").
 function toUnsafeHtmlId(s)
 {
-    return s.toLowerCase().replace(/[':]/, '_');
+	return s.toLowerCase().replace(/[':]/, '_');
 }
 
 /**Given an object, return a new object that indexes the object's properties by
@@ -223,12 +229,18 @@ Handlebars.registerHelper('$', function (partial) {
     return new Handlebars.SafeString(partial(context));
 });
 
+Handlebars.registerHelper('to_chn_talent_categories', function(context, options) {
+    return to_chn_talent_categories(context);
+});
+
 Handlebars.registerHelper('toTitleCase', function(context, options) {
     return toTitleCase(context);
 });
 
-Handlebars.registerHelper('toLowerCase', function(context, options) {
-    return context.toLowerCase();
+Handlebars.registerHelper('toWikiLink', function(context, options) {
+    s = context.toLowerCase();
+	s = s.replace(/ /g, "_")
+	return s.substring(0, 1).toUpperCase() + s.substring(1);
 });
 
 Handlebars.registerHelper('toDecimal', function(context, places, options) {
@@ -325,8 +337,9 @@ var versions = (function() {
 
     var versions = {
         DEFAULT: '1.2.3',
-        ALL: [ '1.1.5', '1.2.0', '1.2.1', '1.2.2', '1.2.3', 'master' ],
-        DISPLAY: { 'master': 'next' },
+        //ALL: [ '1.1.5', '1.2.0', '1.2.1', '1.2.2', '1.2.3', 'master' ],
+		ALL: ['1.2.3'],
+        DISPLAY: { '1.2.3': '1.2.3中文' },
 
         name: function(ver) {
             return versions.DISPLAY[ver] || ver;

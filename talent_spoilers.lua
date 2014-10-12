@@ -1,31 +1,77 @@
 require 'tip.engine'
 require 'lib.json4lua.json.json'
 
-local Actor = require 'mod.class.Actor'
-
+require 'data.talent_name'
+require 'data.talent_type_description'
+require 'data.talent_type_name'
+require 'data.stat_name'
+printf = function(s,...)
+	return io.write(s:format(...))
+ end
+local Actor = require 'mod.class.Actor'	
 spoilers = {
     -- Currently active parameters.  TODO: Configurable
     active = {
         mastery = 1.3,
-
+		
         -- To simplify implementation, we use one value for stats (str, dex,
         -- etc.) and powers (physical power, accuracy, mindpower, spellpower).
         stat_power = 100,
-
+		
         -- According to chronomancer.lua, 300 is "the optimal balance"
         paradox = 300,
-
+		
         -- The goal is to display effectiveness at 50% of max psi.
         psi = 50,
         max_psi = 100,
     },
-
+	alter_mastery_type = {
+		["corruption/vile-life"] = 1.0,
+		["cursed/cursed-aura"] = 1.0,
+		["cursed/cursed-form"] = 1.0,
+		["cursed/fears"] = 1.0,
+		["cursed/predator"] = 1.0,
+		["cursed/rampage"] = 1.0,
+		["golem/fighting"] = 1.0,
+		["golem/arcane"] = 1.0,
+		["race/higher"] = 1.0,
+		["race/dwarf"] = 1.0,
+		["race/shalore"] = 1.0,
+		["race/thalore"] = 1.0,
+		["race/halfling"] = 1.0,
+		["race/orc"] = 1.0,
+		["race/yeek"] = 1.0,
+		["undead/ghoul"] = 1.0,
+		["undead/skeleton"] = 1.0,
+		["wild-gift/harmony"] = 1.0,
+		["misc/objects"] = 1.0,
+		["other/other"] = 1.0,
+		["other/horror"] = 1.0,
+		["base/class"] = 1.0,
+		["technique/objects"] = 1.0,
+		["technique/other"] = 1.0,
+		["technique/horror"] = 1.0,
+		["golem/drolem"] = 1.0,
+		["spell/objects"] = 1.0,
+		["spell/other"] = 1.0,
+		["spell/horror"] = 1.0,
+		["wild-gift/objects"] = 1.0,
+		["wild-gift/other"] = 1.0,
+		["wild-gift/horror"] = 1.0,
+		["corruption/other"] = 1.0,
+		["corruption/horror"] = 1.0,
+		["undead/other"] = 1.0,
+		["undead/keepsake"] = 1.0,
+		["chronomancy/other"] = 1.0,
+		["psionic/other"] = 1.0,
+		["psionic/horror"] = 1.0,
+	},
     -- We iterate over these parameters to display the effects of a talent at
     -- different stats and talent levels.
     --
     -- determineDisabled depends on this particular layout (5 varying stats and
     -- 5 varying talent levels).
-    all_active = {
+	all_active = {
         { stat_power=10,  talent_level=1},
         { stat_power=25,  talent_level=1},
         { stat_power=50,  talent_level=1},
@@ -55,22 +101,20 @@ spoilers = {
         return #table.keys(self.used) == 1 and self.used.paradox
     end,
 
-    -- Determines the HTML tooltip and CSS class to use for the current
     -- talent, by looking at spoilers.used, the results of determineDisabled,
     -- and the results so far of generating the talent message.
     usedMessage = function(self, disable, prev_results)
         disable = disable or {}
         local msg = {}
-
         local use_talent = self.used.talent and not disable.talent
         if use_talent then
             if self.active.alt_talent then
-                msg[#msg+1] = Actor.talents_def[self.active.alt_talent_fake_id or self.active.talent_id].name .. " talent levels 1-5"
+                msg[#msg+1] = Actor.talents_def[self.active.alt_talent_fake_id or self.active.talent_id].name .. " 技能等级 1-5"
             else
-                msg[#msg+1] = "talent levels 1-5"
+                msg[#msg+1] = "技能等级 1-5"
             end
 
-            if self.used.mastery then msg[#msg+1] = ("talent mastery %.2f"):format(self.active.mastery) end
+            if self.used.mastery then msg[#msg+1] = ("技能树等级 %.2f"):format(self.active.mastery) end
         end
 
         local stat_power_text
@@ -85,22 +129,22 @@ spoilers = {
         local use_stat_power = false
         if not disable.stat_power then
             for k, v in pairs(self.used.stat or {}) do
-                if v then msg[#msg+1] = ("%s %s"):format(Actor.stats_def[k].name, stat_power_text) use_stat_power = true end
+                if v then msg[#msg+1] = ("%s %s"):format(s_stat_name[Actor.stats_def[k].name] or Actor.stats_def[k].name, stat_power_text) use_stat_power = true end
             end
-            if self.used.attack then msg[#msg+1] = ("accuracy %s"):format(stat_power_text) use_stat_power = true end
-            if self.used.physicalpower then msg[#msg+1] = ("physical power %s"):format(stat_power_text) use_stat_power = true end
-            if self.used.spellpower then msg[#msg+1] = ("spellpower %s"):format(stat_power_text) use_stat_power = true end
-            if self.used.mindpower then msg[#msg+1] = ("mindpower %s"):format(stat_power_text) use_stat_power = true end
+            if self.used.attack then msg[#msg+1] = ("命中率 %s"):format(stat_power_text) use_stat_power = true end
+            if self.used.physicalpower then msg[#msg+1] = ("物理强度 %s"):format(stat_power_text) use_stat_power = true end
+            if self.used.spellpower then msg[#msg+1] = ("法术强度 %s"):format(stat_power_text) use_stat_power = true end
+            if self.used.mindpower then msg[#msg+1] = ("精神强度 %s"):format(stat_power_text) use_stat_power = true end
         end
 
-        if self.used.paradox then msg[#msg+1] = ("paradox %i"):format(self.active.paradox) use_stat_power = true end
-
-        if self.used.psi and self.used.max_psi then
+        if self.used.paradox then msg[#msg+1] = ("紊乱值 %i"):format(self.active.paradox) use_stat_power = true end
+		
+		if self.used.psi and self.used.max_psi then
             -- MAJOR HACK: If it looks like we're in a "(max %d)" block, then
             -- don't include the psi percentage.  Also hard-code the fact that
             -- radius doesn't depend on psi percentage.
             if prev_results[#prev_results-1] ~= 'radius' and not (prev_results[#prev_results-2] == '(' and prev_results[#prev_results-1] == 'max') then
-                msg[#msg+1] = ("psi %i%%"):format(self.active.psi / self.active.max_psi * 100)
+                msg[#msg+1] = ("超能力值 %i%%"):format(self.active.psi / self.active.max_psi * 100)
             end
         elseif self.used.psi or self.used.max_psi then
             -- Abort, since we won't know how to handle.
@@ -108,7 +152,7 @@ spoilers = {
             tip.util.logError("Unexpected use of psi without max_psi or vice versa")
             os.exit(1)
         end
-
+		
         local css_class
         if use_stat_power and use_talent then
             css_class = 'variable'
@@ -118,7 +162,7 @@ spoilers = {
             css_class = 'talent-variable'
         end
 
-        return (self:usedParadoxOnly() and "Value for\r" or "Values for\r") .. table.concat(msg, ",\r"), css_class
+        return (self:usedParadoxOnly() and "以下状况下的数值\r" or "以下状况下的数值\r") .. table.concat(msg, ",\r"), css_class
     end,
 
     -- Looks at the results of getTalentByLevel or multiDiff (a table) to see
@@ -155,6 +199,7 @@ spoilers = {
     end,
 
     blacklist_talent_type = {
+--        ["technique/2hweapon-cripple"] = true, -- unavailable in this ToME version
         ["chronomancy/temporal-archery"] = true, -- unavailable in this ToME version
         ["psionic/possession"] = true,           -- unavailable in this ToME version
         ["psionic/psi-archery"] = true,          -- unavailable in this ToME version
@@ -330,7 +375,7 @@ function getTalentReqDesc(player, t, tlev)
     if req.level then
         local v = util.getval(req.level, tlev)
         if #new_require > 0 then new_require[#new_require+1] = ', ' end
-        new_require[#new_require+1] = ("Level %d"):format(v)
+        new_require[#new_require+1] = ("等级 %d"):format(v)
     end
     if req.stat then
         for s, v in pairs(req.stat) do
@@ -338,13 +383,13 @@ function getTalentReqDesc(player, t, tlev)
             if spoilers.used.stat then
                 local stat = {}
                 for k, s in pairs(spoilers.used.stat or {}) do
-                    stat[#stat+1] = Actor.stats_def[k].short_name:capitalize()
+                    stat[#stat+1] = Actor.stats_def[k].name:capitalize()
                 end
                 if #new_require > 0 then new_require[#new_require+1] = ', ' end
                 new_require[#new_require+1] = ("%s %d"):format(table.concat(stat, " or "), v)
             else
                 if #new_require > 0 then new_require[#new_require+1] = ', ' end
-                new_require[#new_require+1] = ("%s %d"):format(player.stats_def[s].short_name:capitalize(), v)
+                new_require[#new_require+1] = ("%s %d"):format(s_stat_name[player.stats_def[s].name:capitalize() ], v)
             end
         end
     end
@@ -362,7 +407,7 @@ end
 -- Process each talent, adding text descriptions of the various attributes
 for tid, t in pairs(Actor.talents_def) do
     spoilers.active.talent_id = tid
-
+	spoilers.active.mastery = spoilers.alter_mastery_type[t.type[1] ] or 1.3
     -- Special cases: Poison effects depend on the Vile Poisons talent.  Traps depend on Trap Mastery.
     spoilers.active.alt_talent = false
     spoilers.active.alt_talent_fake_id = nil
@@ -475,26 +520,26 @@ for tid, t in pairs(Actor.talents_def) do
         -- Simple speed logic from 1.2.3 and earlier
         if not player.getTalentSpeed then
             if t.no_energy and type(t.no_energy) == "boolean" and t.no_energy == true then
-                t.use_speed = "Instant"
+                t.use_speed = "瞬间"
             else
-                t.use_speed = "1 turn"
+                t.use_speed = "1 回合"
             end
         else
             -- "Usage Speed" logic from Actor:getTalentFullDescription
-            local uspeed = "Full Turn"
+            local uspeed = "1 回合"
             local no_energy = util.getval(t.no_energy, player, t)
             local display_speed = util.getval(t.display_speed, player, t)
             if display_speed then
                 uspeed = display_speed
             elseif no_energy and type(no_energy) == "boolean" and no_energy == true then
-                uspeed = "Instant"
+                uspeed = "瞬间"
             else
                 local speed = player:getTalentSpeed(t)
                 local speed_type = player:getTalentSpeedType(t)
                 if type(speed_type) == "string" then
                     speed_type = speed_type:capitalize()
                 else
-                    speed_type = 'Special'
+                    speed_type = '特殊'
                 end
                 -- Actual speed value is fairly meaningless for spoilers
                 --uspeed = ("%s (#LIGHT_GREEN#%d%%#LAST# of a turn)"):format(speed_type, speed * 100)
@@ -503,13 +548,15 @@ for tid, t in pairs(Actor.talents_def) do
             t.use_speed = uspeed
         end
     end
-
+	if t.mode == "passive" then t.mode = "被动"
+	elseif t.mode == "sustained" then t.mode = "持续"
+	else t.mode = "主动"
+	end
     t.cooldown = getvalByTalentLevel(t.cooldown, player, t)
-
     local cost = {}
     for i, v in ipairs(tip.raw_resources) do
         if t[v] then
-            cost[#cost+1] = string.format("%s %s", getvalByTalentLevel(t[v], player, t), tip.resources[v])
+            cost[#cost+1] = string.format("%s %s", tip.resources[v], getvalByTalentLevel(t[v], player, t))
         end
     end
     if #cost > 0 then t.cost = table.concat(cost, ", ") end
@@ -524,7 +571,8 @@ for tid, t in pairs(Actor.talents_def) do
         t.require = new_require
         t.multi_require = t.points > 1
     end
-
+	
+	
     -- Strip unused elements in order to save space.
     t.display_entity = nil
     t.tactical = nil
@@ -542,6 +590,7 @@ for tid, t in pairs(Actor.talents_def) do
     if d then
         t.source_code = tip.util.resolveSource(d)
     end
+	t.chnname = t_talent_name[string.gsub(t.id, "_1", "")] or t.name;
 end
 
 -- TODO: travel speed
@@ -572,6 +621,7 @@ end
 -- Reorganize ToME's data for output
 local talents_by_category = {}
 local talent_categories = {}
+printf("%d\n", table.getn(Actor.talents_types_def["chronomancy/other"].talents) )
 for k, v in pairs(Actor.talents_types_def) do
     -- talent_types_def is indexed by both number and name.
     -- We only want to print by name.
@@ -592,12 +642,29 @@ for k, v in pairs(Actor.talents_types_def) do
             talent_categories[category] = true
         end
     end
+	v.chnname = t_talent_type_name[v.name] or v.name
+	v.chndescription = t_talent_type_description[v.description] or v.description
+end
+cate_order_id = {}
+type_order_id = {}
+for k, v in pairs(Actor.talents_types_def) do
+	if type(k) == 'number' then
+		cate_order_id[v.type:split('/')[1] ] = k
+		--io.write(string.format("%s %d\n", v.type, k))
+		type_order_id[v.type] = k
+	end
 end
 talent_categories = table.keys(talent_categories)
-table.sort(talent_categories)
-
+table.sort(talent_categories, function(a, b) return cate_order_id[a] < cate_order_id[b] end)
+chn_talent_categories = {}
+for k, v in pairs(talent_categories) do
+	chn_talent_categories[v] = t_talent_cat[v] or v
+end
 for k, v in pairs(talents_by_category) do
-    table.sort(v, function(a, b) return a.name:upper() < b.name:upper() end)
+    table.sort(v, function(a, b) 
+		--io.write(string.format("%s %s\n", k .. "/" .. a.name, k .. "/" .. b.name))
+		return (type_order_id[a.type] or 10000) < (type_order_id[b.type] or 10000)
+	end)
 end
 
 -- Output the data
@@ -611,6 +678,8 @@ out:write(json.encode({
     version = tip.version,
 
     talent_categories = talent_categories,
+	
+	chn_talent_categories = chn_talent_categories,
 }))
 out:close()
 
