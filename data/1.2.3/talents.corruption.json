@@ -17,7 +17,7 @@
                 "hide": true,
                 "id": "T_BLIGHTZONE",
                 "image": "blightzone.png",
-                "info_text": "<p>蒸 腾 目 标 区 域（ 4 码 范 围） 造 成 每 回 合 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">42, 57, 68, 78, 87</acronym> 枯 萎 伤 害 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 6, 7, 8</acronym> 回 合。 </p><p> 受 魔 法 影 响， 伤 害 有 额 外 加 成。</p>",
+                "info_text": "<p>蒸 腾 目 标 区 域（ 4 码 范 围） 造 成 每 回 合 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>法术强度 100\">38, 51, 61, 69, 77</acronym> 枯 萎 伤 害 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">3, 4, 5, 6, 7</acronym> 回 合。 </p><p> 受 魔 法 影 响， 伤 害 有 额 外 加 成。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Blightzone",
@@ -58,7 +58,7 @@
                 "hide": true,
                 "id": "T_WORM_ROT",
                 "image": "worm_rot.png",
-                "info_text": "<p>使 目 标 感 染 腐 肉 寄 生 幼 虫 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5, 6, 8, 9, 10</acronym> 回 合。 每 回 合 会 移 除 目 标 一 个 物 理 增 益 效 果 并 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">16, 22, 26, 30, 33</acronym> 酸 系 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">16, 22, 26, 30, 33</acronym> 枯 萎 伤 害。 </p><p> 如 果 5 回 合 后 未 被 清 除 则 幼 虫 会 孵 化 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">206, 279, 336, 384, 426</acronym> 酸 系 伤 害， 移 除 这 个 效 果 但 是 会 在 目 标 处 成 长 为 一 条 成 熟 的 腐 肉 虫。</p>",
+                "info_text": "<p>使 目 标 感 染 腐 肉 寄 生 幼 虫 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">5, 6, 7, 8, 9</acronym> 回 合。 每 回 合 会 移 除 目 标 一 个 物 理 增 益 效 果 并 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>法术强度 100\">14, 19, 23, 26, 29</acronym> 酸 系 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>法术强度 100\">14, 19, 23, 26, 29</acronym> 枯 萎 伤 害。 </p><p> 如 果 5 回 合 后 未 被 清 除 则 幼 虫 会 孵 化 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>法术强度 100\">184, 248, 298, 340, 377</acronym> 酸 系 伤 害， 移 除 这 个 效 果 但 是 会 在 目 标 处 成 长 为 一 条 成 熟 的 腐 肉 虫。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Worm Rot",
@@ -1040,7 +1040,7 @@
                 ]
             },
             {
-                "chnname": "Elemental Discord",
+                "chnname": "元素狂乱",
                 "cooldown": 20,
                 "cost": "活力值消耗：  30",
                 "generic": true,

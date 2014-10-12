@@ -350,7 +350,7 @@
                 "cost": "法力消耗： 25",
                 "id": "T_DROLEM_POISON_BREATH",
                 "image": "poison_breath.png",
-                "info_text": "<p> 对 你 的 敌 人 喷 吐 毒 雾 ， 在 几 个 回 合 内 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>魔法 100\">157, 204, 240, 269, 294</acronym> 点 伤 害 。 受 魔 法 影 响 ， 伤 害 有 额 外 加 成 。 </p>",
+                "info_text": "<p> 对 你 的 敌 人 喷 吐 毒 雾 ， 在 几 个 回 合 内 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>魔法 100\">143, 185, 216, 242, 265</acronym> 点 伤 害 。 受 魔 法 影 响 ， 伤 害 有 额 外 加 成 。 </p>",
                 "mana": 25,
                 "message": "@Source@ breathes poison!",
                 "mode": "主动",

@@ -8,7 +8,7 @@
         "talents": [
             {
                 "chnname": "守护",
-                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">24.1, 20.2, 16.3, 12.4, 10</acronym>",
+                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">25, 22, 19, 16, 13</acronym>",
                 "hard_cap": 5,
                 "id": "T_WARD",
                 "image": "ward.png",
