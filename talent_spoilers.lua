@@ -7,11 +7,17 @@ spoilers = {
     -- Currently active parameters.  TODO: Configurable
     active = {
         mastery = 1.3,
+
         -- To simplify implementation, we use one value for stats (str, dex,
         -- etc.) and powers (physical power, accuracy, mindpower, spellpower).
         stat_power = 100,
+
         -- According to chronomancer.lua, 300 is "the optimal balance"
         paradox = 300,
+
+        -- The goal is to display effectiveness at 50% of max psi.
+        psi = 50,
+        max_psi = 100,
     },
 
     -- We iterate over these parameters to display the effects of a talent at
@@ -50,9 +56,9 @@ spoilers = {
     end,
 
     -- Determines the HTML tooltip and CSS class to use for the current
-    -- talent, by looking at spoilers.used and the results of
-    -- determineDisabled.
-    usedMessage = function(self, disable)
+    -- talent, by looking at spoilers.used, the results of determineDisabled,
+    -- and the results so far of generating the talent message.
+    usedMessage = function(self, disable, prev_results)
         disable = disable or {}
         local msg = {}
 
@@ -88,6 +94,20 @@ spoilers = {
         end
 
         if self.used.paradox then msg[#msg+1] = ("paradox %i"):format(self.active.paradox) use_stat_power = true end
+
+        if self.used.psi and self.used.max_psi then
+            -- MAJOR HACK: If it looks like we're in a "(max %d)" block, then
+            -- don't include the psi percentage.  Also hard-code the fact that
+            -- radius doesn't depend on psi percentage.
+            if prev_results[#prev_results-1] ~= 'radius' and not (prev_results[#prev_results-2] == '(' and prev_results[#prev_results-1] == 'max') then
+                msg[#msg+1] = ("psi %i%%"):format(self.active.psi / self.active.max_psi * 100)
+            end
+        elseif self.used.psi or self.used.max_psi then
+            -- Abort, since we won't know how to handle.
+            -- We can add handling if/when ToME starts using it.
+            tip.util.logError("Unexpected use of psi without max_psi or vice versa")
+            os.exit(1)
+        end
 
         local css_class
         if use_stat_power and use_talent then
@@ -128,9 +148,9 @@ spoilers = {
         end
     end,
 
-    formatResults = function(self, results)
+    formatResults = function(self, results, prev_results)
         local new_result, disabled = self:determineDisabled(results)
-        local message, css_class = self:usedMessage(disabled)
+        local message, css_class = self:usedMessage(disabled, prev_results)
         return '<acronym class="' .. css_class .. '" title="' .. message .. '">' .. new_result .. '</acronym>'
     end,
 
@@ -209,6 +229,16 @@ end
 player.getParadox = function(self)
     spoilers.used.paradox = true
     return spoilers.active.paradox
+end
+
+player.getPsi = function(self)
+    spoilers.used.psi = true
+    return spoilers.active.psi
+end
+
+player.getMaxPsi = function(self)
+    spoilers.used.max_psi = true
+    return spoilers.active.max_psi
 end
 
 player.isTalentActive = function() return false end  -- TODO: Doesn't handle spiked auras
@@ -371,7 +401,7 @@ for tid, t in pairs(Actor.talents_def) do
             s[i] = s[i]:gsub("(%d%d+)%.(%d)%d*", function(a, b) return tonumber(b) >= 5 and tostring(tonumber(a) + 1) or a end)
         end
 
-        res:add(spoilers:formatResults(s))
+        res:add(spoilers:formatResults(s, res))
     end):toString()
 
     -- Special case: Extract Gems is too hard to format
@@ -416,6 +446,10 @@ for tid, t in pairs(Actor.talents_def) do
     -- Add HTML character entities
     t.info_text = t.info_text:gsub('%-%-', '&mdash;')
     t.info_text = t.info_text:gsub('%.%.%.', '&hellip;')
+
+    -- Handle font tags. Duplicated from tip.util.tstringToHtml.
+    t.info_text = t.info_text:gsub('#{bold}#', '<span style="font-weight: bold"><span style="tstr-font-bold">')
+    t.info_text = t.info_text:gsub('#{normal}#', '</span></span>')
 
     -- Ending of info text.
 
