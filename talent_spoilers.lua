@@ -502,7 +502,7 @@ for tid, t in pairs(Actor.talents_def) do
 
     if t.mode ~= "passive" then
         if t.range == Actor.talents_def[Actor.T_SHOOT].range then
-            t.range = "archery"
+            t.range = "弓箭射程"
         else
             t.range = getByTalentLevel(player, function() return ("%.1f"):format(player:getTalentRange(t)) end)
 
