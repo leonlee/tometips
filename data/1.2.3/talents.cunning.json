@@ -1723,7 +1723,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 0, 灵巧 12",
                     "等级 1, 灵巧 14",
@@ -1760,7 +1760,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 4, 灵巧 20",
                     "等级 5, 灵巧 22",
@@ -1797,7 +1797,7 @@
                 "name": "Noggin Knocker",
                 "no_energy": "fake",
                 "points": 5,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 8, 灵巧 28",
                     "等级 9, 灵巧 30",

@@ -399,7 +399,7 @@
                 "name": "Vital Shot",
                 "no_energy": "fake",
                 "points": 1,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 30, 敏捷 50; 曾使用远程武器造成50000点伤害"
                 ],

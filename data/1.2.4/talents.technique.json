@@ -1940,7 +1940,7 @@
                 "no_energy": "fake",
                 "no_unlearn_last": true,
                 "points": 1,
-                "range": "archery",
+                "range": "弓箭射程",
                 "requires_target": true,
                 "short_name": "SHOOT",
                 "source_code": [
@@ -2028,7 +2028,7 @@
                 "name": "Piercing Arrow",
                 "no_energy": "fake",
                 "points": 5,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 4, 敏捷 20",
                     "等级 5, 敏捷 22",
@@ -2061,7 +2061,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "radius": 1,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 8, 敏捷 28",
                     "等级 9, 敏捷 30",
@@ -2094,7 +2094,7 @@
                 "name": "Volley of Arrows",
                 "no_energy": "fake",
                 "points": 5,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 12, 敏捷 36",
                     "等级 13, 敏捷 38",
@@ -2164,7 +2164,7 @@
                 "name": "Eye Shot",
                 "no_energy": "fake",
                 "points": 5,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 4, 敏捷 20",
                     "等级 5, 敏捷 22",
@@ -2197,7 +2197,7 @@
                 "name": "Inertial Shot",
                 "no_energy": "fake",
                 "points": 5,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 8, 敏捷 28",
                     "等级 9, 敏捷 30",
@@ -2275,7 +2275,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 0, 敏捷 12",
                     "等级 1, 敏捷 14",
@@ -2370,7 +2370,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 12, 敏捷 36",
                     "等级 13, 敏捷 38",
@@ -2413,7 +2413,7 @@
                 "name": "Flare",
                 "no_energy": "fake",
                 "points": 5,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 0, 敏捷 12",
                     "等级 1, 敏捷 14",
@@ -2447,7 +2447,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 4, 敏捷 20",
                     "等级 5, 敏捷 22",
@@ -2481,7 +2481,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 8, 敏捷 28",
                     "等级 9, 敏捷 30",
@@ -2515,7 +2515,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 12, 敏捷 36",
                     "等级 13, 敏捷 38",
@@ -2560,7 +2560,7 @@
                 "name": "Shoot Down",
                 "no_energy": true,
                 "points": 5,
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 10, 敏捷 22",
                     "等级 11, 敏捷 24",
@@ -2660,7 +2660,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 22, 敏捷 46",
                     "等级 23, 敏捷 48",
@@ -4493,7 +4493,7 @@
                 "no_energy": "fake",
                 "points": 5,
                 "random_ego": "attack",
-                "range": "archery",
+                "range": "弓箭射程",
                 "require": [
                     "等级 4, 敏捷 20",
                     "等级 5, 敏捷 22",
