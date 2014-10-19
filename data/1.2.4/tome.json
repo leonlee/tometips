@@ -1,0 +1,42 @@
+{
+    "chn_talent_categories": {
+        "base": "base",
+        "celestial": "天空",
+        "chronomancy": "时空",
+        "corruption": "堕落",
+        "cunning": "灵巧",
+        "cursed": "诅咒",
+        "golem": "傀儡",
+        "inscriptions": "inscriptions",
+        "misc": "misc",
+        "other": "other",
+        "psionic": "超能",
+        "race": "种族技能",
+        "spell": "法术",
+        "technique": "格斗",
+        "uber": "uber",
+        "undead": "亡灵",
+        "wild-gift": "自然"
+    },
+    "tag": "tome-1.2.4",
+    "talent_categories": [
+        "base",
+        "inscriptions",
+        "misc",
+        "other",
+        "race",
+        "technique",
+        "cunning",
+        "golem",
+        "spell",
+        "wild-gift",
+        "celestial",
+        "corruption",
+        "undead",
+        "cursed",
+        "chronomancy",
+        "psionic",
+        "uber"
+    ],
+    "version": "1.2.4"
+}

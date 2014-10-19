@@ -1,0 +1,78 @@
+[
+    {
+        "chnname": "堕落 / 暗影烈焰系",
+        "name": "corruption / Shadowflame",
+        "values": [
+            {
+                "type": "changed",
+                "value": {
+                    "chnname": "鬼魂形态",
+                    "cooldown": 30,
+                    "cost": "活力值消耗：  12",
+                    "id": "T_WRAITHFORM",
+                    "image": "wraithform.png",
+                    "info_text": "<p>转 化 为 鬼 魂， 允 许 你 穿 墙（ 但 不 会 免 疫 窒 息）， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5, 6, 8, 9, 10</acronym> 回 合。 </p><p> 同 时 增 加 闪 避 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6, 12, 16, 20, 23</acronym> 和 护 甲 值 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6, 10, 13, 16, 18</acronym> 。 </p><p> 效 果 结 束 时 若 你 处 于 墙 内， 你 将 被 随 机 传 送。</p><p> 受 法 术 强 度 影 响， 增 益 效 果 有 额 外 加 成。</p>",
+                    "is_spell": true,
+                    "mode": "主动",
+                    "multi_require": true,
+                    "name": "Wraithform",
+                    "no_energy": true,
+                    "no_silence": true,
+                    "points": 5,
+                    "range": "1.0",
+                    "require": [
+                        "等级 0, 魔法 12",
+                        "等级 1, 魔法 14",
+                        "等级 2, 魔法 16",
+                        "等级 3, 魔法 18",
+                        "等级 4, 魔法 20"
+                    ],
+                    "short_name": "WRAITHFORM",
+                    "source_code": [
+                        "data/talents/corruptions/shadowflame.lua",
+                        20
+                    ],
+                    "type": [
+                        "corruption/shadowflame",
+                        1
+                    ],
+                    "use_speed": "瞬间",
+                    "vim": 12
+                },
+                "value2": {
+                    "chnname": "鬼魂形态",
+                    "cooldown": 30,
+                    "cost": "活力值消耗：  20",
+                    "id": "T_WRAITHFORM",
+                    "image": "wraithform.png",
+                    "info_text": "<p>转 化 为 鬼 魂， 允 许 你 穿 墙（ 但 不 会 免 疫 窒 息）， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5, 6, 8, 9, 10</acronym> 回 合。 </p><p> 同 时 增 加 闪 避 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">11, 15, 19, 21, 24</acronym> 和 护 甲 值 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">9, 12, 14, 17, 18</acronym> 。 </p><p> 效 果 结 束 时 若 你 处 于 墙 内， 你 将 被 随 机 传 送。</p><p> 受 法 术 强 度 影 响， 增 益 效 果 有 额 外 加 成。</p>",
+                    "is_spell": true,
+                    "mode": "主动",
+                    "multi_require": true,
+                    "name": "Wraithform",
+                    "no_silence": true,
+                    "points": 5,
+                    "range": "1.0",
+                    "require": [
+                        "等级 0, 魔法 12",
+                        "等级 1, 魔法 14",
+                        "等级 2, 魔法 16",
+                        "等级 3, 魔法 18",
+                        "等级 4, 魔法 20"
+                    ],
+                    "short_name": "WRAITHFORM",
+                    "source_code": [
+                        "data/talents/corruptions/shadowflame.lua",
+                        20
+                    ],
+                    "type": [
+                        "corruption/shadowflame",
+                        1
+                    ],
+                    "use_speed": "1 回合",
+                    "vim": 20
+                }
+            }
+        ]
+    }
+]

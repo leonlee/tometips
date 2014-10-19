@@ -1,0 +1,409 @@
+[
+    {
+        "chndescription": "Talents of the various entities of the world.",
+        "chnname": "other",
+        "description": "Talents of the various entities of the world.",
+        "hide": true,
+        "name": "other",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "投掷白骨",
+                "cooldown": 6,
+                "direct_hit": true,
+                "hide": true,
+                "id": "T_THROW_BONES",
+                "image": "throw_bones.png",
+                "info_text": "<p>向 目 标 投 掷 白 骨 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>力量 100\">199, 273, 330, 378, 420</acronym> 物 理 流 血 伤 害。 </p><p> 受 力 量 影 响， 伤 害 有 额 外 加 成。</p>",
+                "mode": "主动",
+                "name": "Throw Bones",
+                "points": 5,
+                "radius": 2,
+                "range": "10.0",
+                "requires_target": true,
+                "short_name": "THROW_BONES",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    966
+                ],
+                "type": [
+                    "undead/other",
+                    1
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "undead/other"
+    },
+    {
+        "chndescription": "Keepsake shadows's innate abilities.",
+        "chnname": "keepsake shadow",
+        "description": "Keepsake shadows's innate abilities.",
+        "generic": true,
+        "name": "keepsake shadow",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "消隐",
+                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5\">7, 6, 5, 4, 3</acronym>",
+                "generic": true,
+                "hide": true,
+                "id": "T_KEEPSAKE_FADE",
+                "image": "keepsake_fade.png",
+                "info_text": "<p>你 淡 出 视 野， 使 你 隐 形 至 下 一 回 合。</p>",
+                "mode": "主动",
+                "name": "Fade",
+                "points": 5,
+                "range": "1.0",
+                "short_name": "KEEPSAKE_FADE",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    2056
+                ],
+                "type": [
+                    "undead/keepsake",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "相位之门",
+                "generic": true,
+                "hide": true,
+                "id": "T_KEEPSAKE_PHASE_DOOR",
+                "image": "keepsake_phase_door.png",
+                "info_text": "<p>在 小 范 围 内 传 送 你。</p>",
+                "is_teleport": true,
+                "mode": "主动",
+                "name": "Phase Door",
+                "points": 5,
+                "range": "10.0",
+                "short_name": "KEEPSAKE_PHASE_DOOR",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    2073
+                ],
+                "type": [
+                    "undead/keepsake",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "灵异打击",
+                "generic": true,
+                "hide": true,
+                "id": "T_KEEPSAKE_BLINDSIDE",
+                "image": "keepsake_blindside.png",
+                "info_text": "<p>你 以 难 以 分 辨 的 速 度 闪 现 到 10 码 范 围 内 的 某 个 目 标 面 前， 造 成 1% 伤 害。</p>",
+                "mode": "主动",
+                "name": "Blindside",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "10.0",
+                "requires_target": true,
+                "short_name": "KEEPSAKE_BLINDSIDE",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    2092
+                ],
+                "type": [
+                    "undead/keepsake",
+                    1
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "undead/keepsake"
+    },
+    {
+        "chndescription": " 不 死 族 的 天 赋。 ",
+        "chnname": "base",
+        "description": "Undead's innate abilities.",
+        "generic": true,
+        "name": "base",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "逝去的知识",
+                "generic": true,
+                "id": "T_UNDEAD_ID",
+                "image": "undead_id.png",
+                "info_text": "<p>你 集 中 精 神 回 想 你 生 前 时 的 知 识， 来 辨 识 一 些 稀 有 物 品。</p>",
+                "mode": "被动",
+                "name": "Knowledge of the Past",
+                "no_unlearn_last": true,
+                "points": 1,
+                "short_name": "UNDEAD_ID",
+                "source_code": [
+                    "data/talents/undeads/undeads.lua",
+                    49
+                ],
+                "type": [
+                    "undead/base",
+                    1
+                ]
+            }
+        ],
+        "type": "undead/base"
+    },
+    {
+        "chndescription": " 食 尸 鬼 的 天 赋。 ",
+        "chnname": "食尸鬼",
+        "description": "Ghoul's innate abilities.",
+        "generic": true,
+        "name": "ghoul",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "食尸者",
+                "generic": true,
+                "id": "T_GHOUL",
+                "image": "ghoul.png",
+                "info_text": "<p>增 强 食 尸 鬼 的 身 体， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">2, 4, 6, 8, 10</acronym> 点 力 量 和 体 质。</p><p>你 的 身 体 对 伤 害 抗 性 极 高， 任 何 一 次 伤 害 不 会 让 你 失 去 超 过 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">90%, 80%, 70%, 60%, 50%</acronym> 最 大 生 命。</p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Ghoul",
+                "points": 5,
+                "require": [
+                    "等级 0",
+                    "等级 1",
+                    "等级 2",
+                    "等级 3",
+                    "等级 4"
+                ],
+                "short_name": "GHOUL",
+                "source_code": [
+                    "data/talents/undeads/ghoul.lua",
+                    20
+                ],
+                "type": [
+                    "undead/ghoul",
+                    1
+                ]
+            },
+            {
+                "chnname": "定向跳跃",
+                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5\">20, 18, 16, 14, 12</acronym>",
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_GHOULISH_LEAP",
+                "image": "ghoulish_leap.png",
+                "info_text": "<p>跳 向 你 的 目 标。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Ghoulish Leap",
+                "points": 5,
+                "range": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">5.0, 6.0, 7.0, 8.0, 10.0</acronym>",
+                "require": [
+                    "等级 4",
+                    "等级 5",
+                    "等级 6",
+                    "等级 7",
+                    "等级 8"
+                ],
+                "requires_target": true,
+                "short_name": "GHOULISH_LEAP",
+                "source_code": [
+                    "data/talents/undeads/ghoul.lua",
+                    40
+                ],
+                "type": [
+                    "undead/ghoul",
+                    2
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "亡灵唾液",
+                "cooldown": 25,
+                "generic": true,
+                "id": "T_RETCH",
+                "image": "retch.png",
+                "info_text": "<p>向 你 周 围 的 空 地 上 呕 吐， 治 疗 任 何 在 这 空 地 上 的 不 死 族 并 伤 害 敌 方 单 位。 </p><p> 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">7, 9, 11, 13, 15</acronym> 回 合 并 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>体质 100\">32, 39, 44, 48, 52</acronym> 点 枯 萎 伤 害 或 治 疗 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>体质 100\">48, 58, 66, 72, 78</acronym> 点 生 命 值。</p><p> 呕 吐 范 围 内 的 生 物 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">5%, 10%, 16%, 20%, 25%</acronym> 概 率 失 去 一 项 物 理 效 果 。 </p><p> 不 死 族 解 除 负 面 效 果 ， 其 他 生 物 失 去 正 面 效 果。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Retch",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 8",
+                    "等级 9",
+                    "等级 10",
+                    "等级 11",
+                    "等级 12"
+                ],
+                "requires_target": true,
+                "short_name": "RETCH",
+                "source_code": [
+                    "data/talents/undeads/ghoul.lua",
+                    81
+                ],
+                "type": [
+                    "undead/ghoul",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "侵蚀",
+                "cooldown": 15,
+                "generic": true,
+                "id": "T_GNAW",
+                "image": "gnaw.png",
+                "info_text": "<p>撕 咬 你 的 目 标 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">28%, 39%, 48%, 55%, 61%</acronym> 伤 害。 </p><p>如 果 你 的 攻 击 命 中， 目 标 会 感 染 食 尸 鬼 腐 烂 疫 病 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">4, 5, 6, 7, 8</acronym> 回 合。 </p><p>食 尸 鬼 腐 烂 疫 病 每 回 合 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>体质 100\">19, 25, 29, 33, 36</acronym> 枯 萎 伤 害。 </p><p>等 级 2 时 食 尸 鬼 腐 烂 疫 病 还 能 降 低 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>体质 100\">8, 10, 12, 14, 15</acronym> 点 力 量； </p><p>等 级 3 时 降 低 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>体质 100\">8, 10, 12, 14, 15</acronym> 点 敏 捷； </p><p>等 级 4 时 降 低 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>体质 100\">8, 10, 12, 14, 15</acronym> 点 体 质； </p><p>等 级 5 时 目 标 被 杀 死 时 会 变 成 你 的 食 尸 鬼 傀 儡。 </p><p>受 体 质 影 响， 枯 萎 伤 害 及 属 性 减 益 按 比 例 加 成。 </p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Gnaw",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 12",
+                    "等级 13",
+                    "等级 14",
+                    "等级 15",
+                    "等级 16"
+                ],
+                "requires_target": true,
+                "short_name": "GNAW",
+                "source_code": [
+                    "data/talents/undeads/ghoul.lua",
+                    119
+                ],
+                "type": [
+                    "undead/ghoul",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "undead/ghoul"
+    },
+    {
+        "chndescription": " 骷 髅 的 天 赋。 ",
+        "chnname": "骷髅人",
+        "description": "Skeleton's innate abilities.",
+        "generic": true,
+        "name": "skeleton",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "骷髅体质",
+                "generic": true,
+                "id": "T_SKELETON",
+                "image": "skeleton.png",
+                "info_text": "<p>调 整 你 的 骷 髅 体 质， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">2, 4, 6, 8, 10</acronym> 点 力 量 和 敏 捷。</p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Skeleton",
+                "points": 5,
+                "require": [
+                    "等级 0",
+                    "等级 1",
+                    "等级 2",
+                    "等级 3",
+                    "等级 4"
+                ],
+                "short_name": "SKELETON",
+                "source_code": [
+                    "data/talents/undeads/skeleton.lua",
+                    20
+                ],
+                "type": [
+                    "undead/skeleton",
+                    1
+                ]
+            },
+            {
+                "chnname": "骨质盔甲",
+                "cooldown": 30,
+                "generic": true,
+                "id": "T_BONE_ARMOUR",
+                "image": "bone_armour.png",
+                "info_text": "<p>在 你 的 周 围 制 造 一 个 能 吸 收 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>敏捷 100\">471, 566, 639, 700, 755</acronym> 点 伤 害 的 骨 盾。 持 续 10 回 合。 </p><p>受 敏 捷 影 响， 护 盾 的 最 大 吸 收 值 有 额 外 加 成。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Bone Armour",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 4",
+                    "等级 5",
+                    "等级 6",
+                    "等级 7",
+                    "等级 8"
+                ],
+                "short_name": "BONE_ARMOUR",
+                "source_code": [
+                    "data/talents/undeads/skeleton.lua",
+                    37
+                ],
+                "type": [
+                    "undead/skeleton",
+                    2
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "弹力骨骼",
+                "generic": true,
+                "id": "T_RESILIENT_BONES",
+                "image": "resilient_bones.png",
+                "info_text": "<p>你 的 骨 头 充 满 弹 性， 至 多 减 少 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">9%, 20%, 29%, 36%, 41%</acronym> 所 有 负 面 状 态 持 续 的 时 间。</p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Resilient Bones",
+                "points": 5,
+                "range": 1,
+                "require": [
+                    "等级 8",
+                    "等级 9",
+                    "等级 10",
+                    "等级 11",
+                    "等级 12"
+                ],
+                "short_name": "RESILIENT_BONES",
+                "source_code": [
+                    "data/talents/undeads/skeleton.lua",
+                    59
+                ],
+                "type": [
+                    "undead/skeleton",
+                    3
+                ]
+            },
+            {
+                "chnname": "重组",
+                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">41, 35, 31, 28, 25</acronym>",
+                "generic": true,
+                "id": "T_SKELETON_REASSEMBLE",
+                "image": "skeleton_reassemble.png",
+                "info_text": "<p>重 新 组 合 你 的 骨 头， 治 疗 你 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">101, 236, 340, 427, 505</acronym> 点 生 命 值。 </p><p>在 等 级 5 时 你 将 会 得 到 重 塑 自 我 的 能 力， 被 摧 毁 后 可 以 原 地 满 血 复 活。（ 仅 限 1 次）</p>",
+                "is_heal": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Re-assemble",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 12",
+                    "等级 13",
+                    "等级 14",
+                    "等级 15",
+                    "等级 16"
+                ],
+                "short_name": "SKELETON_REASSEMBLE",
+                "source_code": [
+                    "data/talents/undeads/skeleton.lua",
+                    74
+                ],
+                "type": [
+                    "undead/skeleton",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "undead/skeleton"
+    }
+]

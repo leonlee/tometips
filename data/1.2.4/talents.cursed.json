@@ -1,0 +1,2147 @@
+[
+    {
+        "allow_random": true,
+        "chndescription": " 你 的 武 器 渴 望 着 下 一 个 牺 牲 者。 ",
+        "chnname": "杀戮系",
+        "description": "Your weapon yearns for its next victim.",
+        "name": "slaughter",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "削砍",
+                "cooldown": 8,
+                "cost": "仇恨值消耗：   2",
+                "hate": 2,
+                "id": "T_SLASH",
+                "image": "slash.png",
+                "info_text": "<p>野 蛮 的 削 砍 你 的 目 标 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100\">126%（, 130%（, 134%（, 138%（, 141%（</acronym> 0 仇 恨） 至 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100\">188%（, 201%（, 214%（, 227%（, 239%（</acronym> 100+ 仇 恨） 伤 害。 </p><p> 等 级 3 时 攻 击 附 带 诅 咒， 降 低 目 标 治 疗 效 果 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">16%, 16%, 21%, 26%, 30%</acronym> 持 续 15 回 合， 效 果 可 叠 加。 </p><p> 受 力 量 影 响， 伤 害 按 比 例 加 成。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Slash",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "等级 0, 力量 12",
+                    "等级 1, 力量 14",
+                    "等级 2, 力量 16",
+                    "等级 3, 力量 18",
+                    "等级 4, 力量 20"
+                ],
+                "requires_target": true,
+                "short_name": "SLASH",
+                "source_code": [
+                    "data/talents/cursed/slaughter.lua",
+                    22
+                ],
+                "type": [
+                    "cursed/slaughter",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "狂乱之袭",
+                "cooldown": 12,
+                "cost": "仇恨值消耗：   2",
+                "hate": 2,
+                "id": "T_FRENZY",
+                "image": "frenzy.png",
+                "info_text": "<p>对 附 近 目 标 进 行 4 次 攻 击 每 个 目 标 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>力量 100\">26%, 29%, 32%, 35%, 38%</acronym> （ 0 仇 恨 值） 至 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>力量 100\">53%, 59%, 65%, 71%, 77%</acronym> （ 100+ 仇 恨 值）。 附 近 被 追 踪 的 目 标 会 被 优 先 攻 击。 </p><p> 等 级 3 时 你 的 猛 烈 攻 击 会 同 时 降 低 目 标 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>力量 100\">11, 11, 16, 21, 24</acronym> 的 命 中， 持 续 3 回 合。 </p><p> 受 力 量 影 响， 伤 害 加 成 和 命 中 减 值 有 额 外 加 成。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Frenzy",
+                "points": 5,
+                "radius": 1,
+                "random_ego": "attack",
+                "range": "0.0",
+                "require": [
+                    "等级 4, 力量 20",
+                    "等级 5, 力量 22",
+                    "等级 6, 力量 24",
+                    "等级 7, 力量 26",
+                    "等级 8, 力量 28"
+                ],
+                "short_name": "FRENZY",
+                "source_code": [
+                    "data/talents/cursed/slaughter.lua",
+                    72
+                ],
+                "type": [
+                    "cursed/slaughter",
+                    2
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "鲁莽冲撞",
+                "cooldown": 15,
+                "cost": "仇恨值消耗：   5",
+                "hate": 5,
+                "id": "T_RECKLESS_CHARGE",
+                "image": "reckless_charge.png",
+                "info_text": "<p>冲 过 你 的 目 标， 途 经 的 所 有 目 标 受 到 35% （ 0 仇 恨） 至 70% （ 100+ 仇 恨） 伤 害。 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">Small, Small, Medium-sized, Medium-sized, Big</acronym> 体 型 的 目 标 会 被 你 弹 开。 你 最 多 可 以 攻 击 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 4, 5, 6, 6</acronym> 次， 并 且 你 对 路 径 上 的 敌 人 可 造 成 不 止 1 次 攻 击。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Reckless Charge",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4.0, 5.0, 7.0, 8.0, 9.0</acronym>",
+                "require": [
+                    "等级 8, 力量 28",
+                    "等级 9, 力量 30",
+                    "等级 10, 力量 32",
+                    "等级 11, 力量 34",
+                    "等级 12, 力量 36"
+                ],
+                "requires_target": true,
+                "short_name": "RECKLESS_CHARGE",
+                "source_code": [
+                    "data/talents/cursed/slaughter.lua",
+                    134
+                ],
+                "type": [
+                    "cursed/slaughter",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "分裂攻击",
+                "cooldown": 10,
+                "id": "T_CLEAVE",
+                "image": "cleave.png",
+                "info_text": "<p> 激 活 时 ， 你 的 每 一 个 武 器 有 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>力量 100\">19%, 21%, 23%, 25%, 27%</acronym> （ 双 持） 或 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>力量 100\">31%, 32%, 33%, 35%, 36%</acronym> （ 单 持） 概 率 攻 击 第 二 个 目 标， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>力量 100\">32%（, 49%（, 59%（, 66%（, 70%（</acronym> 0 仇 恨 值） 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>力量 100\">49%, 66%, 74%, 79%, 83%</acronym> （ 100+ 仇 恨 值） 伤 害（ 双 手 武 器 伤 害 额 外 增 加 25% ）。 </p><p> 不 顾 一 切 的 杀 戮 会 带 给 你 厄 运 (-3 幸 运 )。 </p><p> 分 裂 攻 击、 杀 意 涌 动 和 无 所 畏 惧 不 能 同 时 开 启， 并 且 激 活 其 中 一 个 也 会 使 另 外 两 个 进 入 冷 却。</p><p> 受 力 量 影 响 ， 攻 击 概 率 和 伤 害 有 额 外 加 成 。</p>",
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Cleave",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 12, 力量 36",
+                    "等级 13, 力量 38",
+                    "等级 14, 力量 40",
+                    "等级 15, 力量 42",
+                    "等级 16, 力量 44"
+                ],
+                "short_name": "CLEAVE",
+                "source_code": [
+                    "data/talents/cursed/slaughter.lua",
+                    280
+                ],
+                "type": [
+                    "cursed/slaughter",
+                    4
+                ],
+                "use_speed": "瞬间"
+            }
+        ],
+        "type": "cursed/slaughter"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 你 不 知 疲 倦 无 时 无 刻 狩 猎 你 的 下 一 个 目 标。 ",
+        "chnname": "无尽狩猎系",
+        "description": "Each day, you lift your weary body and begin the unending hunt.",
+        "name": "endless hunt",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "跟踪",
+                "cooldown": 0,
+                "id": "T_STALK",
+                "image": "stalk.png",
+                "info_text": "<p>当 你 连 续 两 回 合 持 续 近 战 攻 击 同 一 个 目 标 时， 你 将 憎 恨 目 标 并 追 踪 目 标， 效 果 持 续 40 回 合 或 直 到 目 标 死 亡。 </p><p> 你 每 回 合 攻 击 追 踪 目 标 都 将 获 得 可 叠 加 增 益 效 果， 该 效 果 在 你 不 攻 击 会 减 少 1 重 效 果。 </p><p>1 重 增 益 : <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100,<br>力量 100\">+13, +17, +20, +22, +24</acronym> 命 中， <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100,<br>力量 100\">+8%, +9%, +9%, +10%, +11%</acronym> 近 战 伤 害， 当 目 标 被 击 中 时， 每 回 合 增 加 +0.50 仇 恨 值。 </p><p>2 重 增 益 : <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100,<br>力量 100\">+18, +24, +28, +32, +35</acronym> 命 中， <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100,<br>力量 100\">+16%, +18%, +19%, +21%, +23%</acronym> 近 战 伤 害， 当 目 标 被 击 中 时， 每 回 合 增 加 +1.00 仇 恨 值。 </p><p>3 重 增 益 : <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100,<br>力量 100\">+22, +29, +35, +39, +43</acronym> 命 中， <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100,<br>力量 100\">+24%, +27%, +29%, +32%, +35%</acronym> 近 战 伤 害， 当 目 标 被 击 中 时， 每 回 合 增 加 +1.50 仇 恨 值。 </p><p> 受 意 志 影 响， 命 中 有 额 外 加 成。 </p><p> 受 力 量 影 响， 近 战 伤 害 有 额 外 加 成。</p>",
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Stalk",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 0, 意志 12",
+                    "等级 1, 意志 14",
+                    "等级 2, 意志 16",
+                    "等级 3, 意志 18",
+                    "等级 4, 意志 20"
+                ],
+                "short_name": "STALK",
+                "source_code": [
+                    "data/talents/cursed/endless-hunt.lua",
+                    22
+                ],
+                "type": [
+                    "cursed/endless-hunt",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "引诱思维",
+                "cooldown": 10,
+                "cost": "仇恨值消耗：   2",
+                "hate": 2,
+                "id": "T_BECKON",
+                "image": "beckon.png",
+                "info_text": "<p>捕 猎 者 和 猎 物 之 间 的 联 系 能 让 你 给 予 目 标 思 想 暗 示 , 引 诱 他 们 更 靠 近 你。 </p><p> 在 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">7, 10, 12, 15, 18</acronym> 回 合 内， 目 标 会 试 图 接 近 你， 甚 至 推 开 路 径 上 的 其 他 单 位。 </p><p> 每 回 合 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">27%, 37%, 44%, 50%, 55%</acronym> 的 几 率， 它 们 会 取 消 原 有 动 作 并 直 接 向 你 走 去。 </p><p> 目 标 受 到 致 命 攻 击 时 可 能 会 打 断 该 效 果， 此 效 果 会 减 少 目 标 注 意 力， 在 它 们 到 达 你 所 在 位 置 之 前， 降 低 其 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">14, 18, 22, 24, 27</acronym> 点 法 术 强 度 和 精 神 强 度。 </p><p> 受 意 志 影 响， 法 术 强 度 和 精 神 强 度 的 降 低 效 果 有 额 外 加 成。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Beckon",
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "等级 4, 意志 20",
+                    "等级 5, 意志 22",
+                    "等级 6, 意志 24",
+                    "等级 7, 意志 26",
+                    "等级 8, 意志 28"
+                ],
+                "short_name": "BECKON",
+                "source_code": [
+                    "data/talents/cursed/endless-hunt.lua",
+                    96
+                ],
+                "type": [
+                    "cursed/endless-hunt",
+                    2
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "痛苦折磨",
+                "cooldown": 6,
+                "cost": "仇恨值消耗：   5",
+                "hate": 5,
+                "id": "T_HARASS_PREY",
+                "image": "harass_prey.png",
+                "info_text": "<p>用 两 次 快 速 的 攻 击 折 磨 你 追 踪 的 目 标 , 每 次 攻 击 造 成 35% （ 0 仇 恨） ～ 67% （ 100+ 仇 恨） 的 伤 害。 并 且 每 次 攻 击 都 将 中 断 目 标 某 项 技 能 或 符 文， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 5, 6, 6, 7</acronym> 回 合。 目 标 会 因 为 你 的 攻 击 而 气 馁， 它 的 伤 害 降 低 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">63%, 69%, 72%, 75%, 76%</acronym> ， 持 续 2 回 合。 </p><p> 受 意 志 影 响， 伤 害 降 低 有 额 外 加 成。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Harass Prey",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "等级 8, 意志 28",
+                    "等级 9, 意志 30",
+                    "等级 10, 意志 32",
+                    "等级 11, 意志 34",
+                    "等级 12, 意志 36"
+                ],
+                "short_name": "HARASS_PREY",
+                "source_code": [
+                    "data/talents/cursed/endless-hunt.lua",
+                    146
+                ],
+                "type": [
+                    "cursed/endless-hunt",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "杀意涌动",
+                "cooldown": 10,
+                "id": "T_SURGE",
+                "image": "surge.png",
+                "info_text": "<p>让 杀 意 激 发 你 敏 捷 的 身 手 , 提 高 你 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">60%, 79%, 94%, 106%, 116%</acronym> 移 动 速 度。 不 顾 一 切 的 移 动 会 带 给 你 厄 运 (-3 幸 运 )。 </p><p> 分 裂 攻 击、 杀 意 涌 动 和 无 所 畏 惧 不 能 同 时 开 启， 并 且 激 活 其 中 一 个 也 会 使 另 外 两 个 进 入 冷 却。 </p><p> 你 的 移 动 速 度 与 双 武 器 提 供 的 完 美 平 衡， 使 你 在 双 持 的 同 时 闪 避 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">17, 22, 26, 29, 32</acronym> 点。 </p><p> 受 意 志 影 响， 移 动 速 度 和 双 持 时 的 闪 避 增 益 有 额 外 加 成。</p>",
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Surge",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 12, 意志 36",
+                    "等级 13, 意志 38",
+                    "等级 14, 意志 40",
+                    "等级 15, 意志 42",
+                    "等级 16, 意志 44"
+                ],
+                "short_name": "SURGE",
+                "source_code": [
+                    "data/talents/cursed/endless-hunt.lua",
+                    209
+                ],
+                "type": [
+                    "cursed/endless-hunt",
+                    4
+                ],
+                "use_speed": "瞬间"
+            }
+        ],
+        "type": "cursed/endless-hunt"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 战 场 就 是 你 的 最 终 归 宿， 死 亡 和 混 乱 是 你 仅 有 的 慰 藉。 ",
+        "chnname": "冲突系",
+        "description": "The battlefield is your home; death and confusion, your comfort.",
+        "name": "strife",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "压制",
+                "cooldown": "8",
+                "cost": "仇恨值消耗：   4",
+                "hate": 4,
+                "id": "T_DOMINATE",
+                "image": "dominate.png",
+                "info_text": "<p>将 注 意 力 转 移 到 附 近 目 标 并 用 你 强 大 的 气 场 压 制 它。 如 果 目 标 未 能 通 过 精 神 强 度 豁 免 鉴 定， 目 标 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 5, 6, 6</acronym> 回 合 内 将 无 法 移 动 并 受 到 更 多 伤 害。 目 标 降 低 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">13, 17, 20, 22, 24</acronym> 点 护 甲 值、 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">19, 24, 29, 32, 36</acronym> 点 闪 避， 并 且 你 对 目 标 的 攻 击 会 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">41%, 48%, 52%, 55%, 57%</acronym> 抵 抗 穿 透。 如 如 果 目 标 与 你 相 邻 , 那 么 此 技 能 会 附 加 一 次 近 战 攻 击。 </p><p> 受 意 志 影 响， 效 果 有 额 外 加 成。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Dominate",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "2.5",
+                "require": [
+                    "等级 0, 力量 12",
+                    "等级 1, 力量 14",
+                    "等级 2, 力量 16",
+                    "等级 3, 力量 18",
+                    "等级 4, 力量 20"
+                ],
+                "requires_target": true,
+                "short_name": "DOMINATE",
+                "source_code": [
+                    "data/talents/cursed/strife.lua",
+                    22
+                ],
+                "type": [
+                    "cursed/strife",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "第七感觉",
+                "id": "T_PRETERNATURAL_SENSES",
+                "image": "preternatural_senses.png",
+                "info_text": "<p>你 的 第 7 感 能 让 你 能 在 狩 猎 中 发 现 下 个 牺 牲 品。 </p><p> 你 能 感 觉 到 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2.0, 4.0, 5.0, 6.0, 7.0</acronym> 码 半 径 范 围 内 的 敌 人。 </p><p> 在 10 码 半 径 范 围 内 你 总 能 看 见 被 追 踪 的 目 标。</p><p> 同 时 增 加 你 的 侦 测 潜 行 等 级 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">43，, 59，, 71，, 81，, 90，</acronym> 侦 测 隐 形 等 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">级43。, 级59。, 级71。, 级81。, 级90。</acronym></p><p> 受 意 志 影 响， 侦 测 强 度 有 额 外 加 成。 </p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Preternatural Senses",
+                "points": 5,
+                "require": [
+                    "等级 4, 力量 20",
+                    "等级 5, 力量 22",
+                    "等级 6, 力量 24",
+                    "等级 7, 力量 26",
+                    "等级 8, 力量 28"
+                ],
+                "short_name": "PRETERNATURAL_SENSES",
+                "source_code": [
+                    "data/talents/cursed/strife.lua",
+                    76
+                ],
+                "type": [
+                    "cursed/strife",
+                    2
+                ]
+            },
+            {
+                "chnname": "闪电突袭",
+                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12, 11, 10, 8, 7</acronym>",
+                "cost": "仇恨值消耗：   4",
+                "hate": 4,
+                "id": "T_BLINDSIDE",
+                "image": "blindside.png",
+                "info_text": "<p>你 闪 电 般 的 出 现 在 6 码 范 围 内 的 敌 人 身 边， 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">39%, 46%, 52%, 57%, 62%</acronym> （ 0 仇 恨） ～ <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">131%, 156%, 175%, 192%, 206%</acronym> （ 100+ 仇 恨） 的 伤 害。 </p><p> 你 闪 电 般 的 突 袭 使 敌 人 没 有 提 防， 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100\">20, 27, 32, 36, 39</acronym> 点 额 外 闪 避， 持 续 1 回 合。 </p><p> 受 力 量 影 响， 闪 避 值 有 额 外 加 成。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Blindside",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "6.0",
+                "require": [
+                    "等级 8, 力量 28",
+                    "等级 9, 力量 30",
+                    "等级 10, 力量 32",
+                    "等级 11, 力量 34",
+                    "等级 12, 力量 36"
+                ],
+                "requires_target": true,
+                "short_name": "BLINDSIDE",
+                "source_code": [
+                    "data/talents/cursed/strife.lua",
+                    224
+                ],
+                "type": [
+                    "cursed/strife",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "无所畏惧",
+                "cooldown": 10,
+                "id": "T_REPEL",
+                "image": "repel.png",
+                "info_text": "<p>在 猛 烈 的 攻 击 面 前， 你 选 择 直 面 威 胁 而 不 是 躲 藏。 </p><p> 当 技 能 激 活 时， 你 有 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100\">19%, 23%, 25%, 26%, 27%</acronym> 概 率 抵 挡 一 次 近 程 攻 击。 不 顾 一 切 的 防 御 会 带 给 你 厄 运（ -3 幸 运）。 </p><p> 分 裂 攻 击， 杀 意 涌 动 和 无 所 畏 惧 不 能 同 时 开 启， 并 且 激 活 其 中 一 个 也 会 使 另 外 两 个 进 入 冷 却。 </p><p> 受 力 量 和 是 否 装 备 盾 牌 影 响， 概 率 有 额 外 加 成。</p>",
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Repel",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 12, 力量 36",
+                    "等级 13, 力量 38",
+                    "等级 14, 力量 40",
+                    "等级 15, 力量 42",
+                    "等级 16, 力量 44"
+                ],
+                "short_name": "REPEL",
+                "source_code": [
+                    "data/talents/cursed/strife.lua",
+                    364
+                ],
+                "type": [
+                    "cursed/strife",
+                    4
+                ],
+                "use_speed": "瞬间"
+            }
+        ],
+        "type": "cursed/strife"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 强 迫 你 视 线 内 的 生 物 替 你 分 担 你 心 中 的 绝 望。 ",
+        "chnname": "黑暗光环系",
+        "description": "All those in your sight must share your despair.",
+        "is_mind": true,
+        "name": "gloom",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "黑暗光环",
+                "cooldown": 0,
+                "id": "T_GLOOM",
+                "image": "gloom.png",
+                "info_text": "<p>1 个 3 码 半 径 范 围 的 可 怕 黑 暗 光 环 围 绕 你 , 影 响 附 近 的 敌 人。 </p><p> 光 环 内 的 每 一 个 目 标 每 回 合 必 须 与 你 的 精 神 强 度 进 行 豁 免 鉴 定， 未 通 过 鉴 定 则 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">8%, 11%, 13%, 15%, 17%</acronym> 概 率 被 减 速、 震 慑、 混 乱， 持 续 3 回 合。 </p><p> 这 个 能 力 是 与 生 俱 来 的， 激 活 或 停 止 不 消 耗 任 何 能 量， 每 增 加 一 点 技 能 点 可 增 加 黑 暗 光 环 系 精 神 强 度（ 当 前： <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+1, +3, +4, +6, +7</acronym> ）。</p>",
+                "is_mind": true,
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Gloom",
+                "no_energy": true,
+                "points": 5,
+                "range": "3.0",
+                "require": [
+                    "等级 0, 意志 12",
+                    "等级 1, 意志 14",
+                    "等级 2, 意志 16",
+                    "等级 3, 意志 18",
+                    "等级 4, 意志 20"
+                ],
+                "short_name": "GLOOM",
+                "source_code": [
+                    "data/talents/cursed/gloom.lua",
+                    33
+                ],
+                "type": [
+                    "cursed/gloom",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "黑暗衰竭",
+                "id": "T_WEAKNESS",
+                "image": "weakness.png",
+                "info_text": "<p>在 黑 暗 光 环 里 的 每 一 个 目 标 每 回 合 必 须 与 你 的 精 神 强 度 进 行 豁 免 鉴 定， 未 通 过 鉴 定 则 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">8%, 11%, 13%, 15%, 17%</acronym> 概 率 被 恐 惧 而 虚 弱 持 续 3 回 合， 降 低 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">-14%, -20%, -24%, -27%, -29%</acronym> 伤 害， 你 对 被 削 弱 目 标 的 首 次 近 战 攻 击 能 获 得 2 点 仇 恨 值。 </p><p> 每 增 加 一 点 技 能 点 可 增 加 黑 暗 光 环 系 精 神 强 度（ 当 前： <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+1, +3, +4, +6, +7</acronym> ）。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Weakness",
+                "points": 5,
+                "require": [
+                    "等级 4, 意志 20",
+                    "等级 5, 意志 22",
+                    "等级 6, 意志 24",
+                    "等级 7, 意志 26",
+                    "等级 8, 意志 28"
+                ],
+                "short_name": "WEAKNESS",
+                "source_code": [
+                    "data/talents/cursed/gloom.lua",
+                    149
+                ],
+                "type": [
+                    "cursed/gloom",
+                    2
+                ]
+            },
+            {
+                "chnname": "黑暗痛苦",
+                "id": "T_DISMAY",
+                "image": "dismay.png",
+                "info_text": "<p>在 黑 暗 光 环 里 的 每 一 个 目 标 每 回 合 必 须 与 你 的 精 神 强 度 进 行 豁 免 鉴 定， 未 通 过 鉴 定 则 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4.0%, 5.7%, 7.0%, 8.0%, 8.9%</acronym> 概 率 受 到 黑 暗 痛 苦 持 续 3 回 合， 你 对 受 黑 暗 痛 苦 折 磨 的 目 标 进 行 的 首 次 近 战 攻 击 必 定 暴 击。 </p><p> 每 增 加 一 点 技 能 点 可 增 加 黑 暗 光 环 系 精 神 强 度（ 当 前： <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+1, +3, +4, +6, +7</acronym> ）。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Dismay",
+                "points": 5,
+                "require": [
+                    "等级 8, 意志 28",
+                    "等级 9, 意志 30",
+                    "等级 10, 意志 32",
+                    "等级 11, 意志 34",
+                    "等级 12, 意志 36"
+                ],
+                "short_name": "DISMAY",
+                "source_code": [
+                    "data/talents/cursed/gloom.lua",
+                    174
+                ],
+                "type": [
+                    "cursed/gloom",
+                    3
+                ]
+            },
+            {
+                "chnname": "庇护光环",
+                "id": "T_SANCTUARY",
+                "image": "sanctuary.png",
+                "info_text": "<p>你 的 黑 暗 光 环 成 为 独 立 于 外 界 的 避 难 所， 任 何 光 环 外 的 目 标 对 你 的 伤 害 降 低 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12%, 17%, 21%, 25%, 28%</acronym> 。 </p><p> 每 增 加 一 点 技 能 点 可 增 加 黑 暗 光 环 系 精 神 强 度（ 当 前： <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+1, +3, +4, +6, +7</acronym> ）。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Sanctuary",
+                "points": 5,
+                "require": [
+                    "等级 12, 意志 36",
+                    "等级 13, 意志 38",
+                    "等级 14, 意志 40",
+                    "等级 15, 意志 42",
+                    "等级 16, 意志 44"
+                ],
+                "short_name": "SANCTUARY",
+                "source_code": [
+                    "data/talents/cursed/gloom.lua",
+                    214
+                ],
+                "type": [
+                    "cursed/gloom",
+                    4
+                ]
+            }
+        ],
+        "type": "cursed/gloom"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 释 放 你 内 心 激 增 的 愤 怒。 ",
+        "chnname": "暴走系",
+        "description": "Let loose the hate that has grown within.",
+        "name": "rampage",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "暴走",
+                "cooldown": 24,
+                "cost": "仇恨值消耗：   15",
+                "hate": 15,
+                "id": "T_RAMPAGE",
+                "image": "rampage.png",
+                "info_text": "<p>你 进 入 暴 走 状 态 5 回 合（ 最 多 8 回 合）， 摧 毁 在 你 路 径 上 的 所 有 东 西， 该 技 能 瞬 发， 同 时 也 有 较 小 几 率 在 你 受 到 8% 最 大 生 命 值 以 上 的 伤 害 时 自 动 激 活。 暴 走 状 态 下 你 使 用 任 何 技 能、 符 文 或 纹 身 都 无 法 专 心 使 得 技 能 效 果 持 续 时 间 缩 短 1 回 合， 暴 走 状 态 下 的 第 一 次 移 动 可 延 长 暴 走 效 果 1 回 合。 </p><p> 暴 走 加 成： <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+140%, +190%, +234%, +274%, +313%</acronym> 移 动 速 度。 </p><p> 暴 走 加 成： <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+22%, +30%, +37%, +43%, +50%</acronym> 攻 击 速 度。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Rampage",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 0, 力量 12",
+                    "等级 1, 力量 14",
+                    "等级 2, 力量 16",
+                    "等级 3, 力量 18",
+                    "等级 4, 力量 20"
+                ],
+                "short_name": "RAMPAGE",
+                "source_code": [
+                    "data/talents/cursed/rampage.lua",
+                    20
+                ],
+                "type": [
+                    "cursed/rampage",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "无情",
+                "id": "T_BRUTALITY",
+                "image": "brutality.png",
+                "info_text": "<p>使 你 的 暴 走 更 加 无 情， 暴 走 状 态 下 的 第 一 次 暴 击 可 延 长 暴 走 效 果 1 回 合。 </p><p> 暴 走 加 成： 你 的 物 理 伤 害 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">12%, 20%, 26%, 32%, 37%</acronym> 。 </p><p> 暴 走 加 成： 你 的 物 理 豁 免 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">6, 9, 12, 15, 18</acronym> ， 精 神 豁 免 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">6, 9, 12, 15, 18</acronym> 。</p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Brutality",
+                "points": 5,
+                "require": [
+                    "等级 4, 力量 20",
+                    "等级 5, 力量 22",
+                    "等级 6, 力量 24",
+                    "等级 7, 力量 26",
+                    "等级 8, 力量 28"
+                ],
+                "short_name": "BRUTALITY",
+                "source_code": [
+                    "data/talents/cursed/rampage.lua",
+                    94
+                ],
+                "type": [
+                    "cursed/rampage",
+                    2
+                ]
+            },
+            {
+                "chnname": "不屈不挠",
+                "id": "T_TENACITY",
+                "image": "tenacity.png",
+                "info_text": "<p>你 的 暴 走 变 得 势 不 可 挡。 </p><p> 暴 走 加 成： 暴 走 状 态 下 每 回 合 你 最 多 可 以 无 视 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>力量 100\">35, 46, 54, 61, 67</acronym> 伤 害， 当 你 无 视 超 过 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>力量 100\">143, 186, 218, 245, 268</acronym> 伤 害 时， 暴 走 效 果 延 长 1 回 合。 </p><p> 受 力 量 加 成， 你 无 视 的 伤 害 有 额 外 加 成。</p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Tenacity",
+                "points": 5,
+                "require": [
+                    "等级 8, 力量 28",
+                    "等级 9, 力量 30",
+                    "等级 10, 力量 32",
+                    "等级 11, 力量 34",
+                    "等级 12, 力量 36"
+                ],
+                "short_name": "TENACITY",
+                "source_code": [
+                    "data/talents/cursed/rampage.lua",
+                    117
+                ],
+                "type": [
+                    "cursed/rampage",
+                    3
+                ]
+            },
+            {
+                "chnname": "猛力抨击",
+                "cooldown": 6,
+                "cost": "仇恨值消耗：   3",
+                "hate": 3,
+                "id": "T_SLAM",
+                "image": "slam.png",
+                "info_text": "<p>暴 走 状 态 中， 你 可 以 攻 击 到 最 多 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">2, 3, 3, 4, 4</acronym> 个 邻 近 目 标， 震 慑 他 们 2 回 合， 并 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>物理强度 100\">41, 56, 67, 76, 85</acronym> ～ <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>物理强度 100\">83, 112, 134, 153, 170</acronym> 物 理 伤 害， 首 次 同 时 对 两 个 以 上 目 标 造 成 的 攻 击 可 以 延 长 暴 走 效 果 1 回 合。 </p><p> 受 物 理 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Slam",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "等级 12, 力量 36",
+                    "等级 13, 力量 38",
+                    "等级 14, 力量 40",
+                    "等级 15, 力量 42",
+                    "等级 16, 力量 44"
+                ],
+                "short_name": "SLAM",
+                "source_code": [
+                    "data/talents/cursed/rampage.lua",
+                    142
+                ],
+                "type": [
+                    "cursed/rampage",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "cursed/rampage"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 你 集 中 精 神 追 猎 并 杀 死 你 的 猎 物。 ",
+        "chnname": "猎杀系",
+        "description": "Track and kill your prey with single-minded focus.",
+        "name": "predator",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "猎杀标记",
+                "cooldown": 5,
+                "id": "T_MARK_PREY",
+                "image": "mark_prey.png",
+                "info_text": "<p>标 记 某 个 敌 人 作 为 你 的 捕 猎 目 标， 使 攻 击 该 类 及 该 亚 类 的 生 物 时 获 得 额 外 加 成， 加 成 量 受 你 杀 死 该 标 记 类 生 物 获 得 的 经 验 值 加 成（ +0.25 主 类， +1 亚 类）， 当 你 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">20, 19, 18, 17, 16</acronym> 经 验 值 时， 获 得 100% 效 果 加 成。 攻 击 标 记 目 标 类 生 物 将 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+6%, +9%, +11%, +13%, +14%</acronym> 伤 害， 攻 击 标 记 目 标 亚 类 生 物 将 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+15%, +21%, +25%, +30%, +33%</acronym> 伤 害。 </p><p> 每 增 加 一 个 技 能 点 减 少 达 到 100% 效 果 加 成 的 经 验 需 求。 </p><p></p>",
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Mark Prey",
+                "no_energy": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "等级 0",
+                    "等级 1",
+                    "等级 2",
+                    "等级 3",
+                    "等级 4"
+                ],
+                "short_name": "MARK_PREY",
+                "source_code": [
+                    "data/talents/cursed/predator.lua",
+                    20
+                ],
+                "type": [
+                    "cursed/predator",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "解剖学",
+                "id": "T_ANATOMY",
+                "image": "anatomy.png",
+                "info_text": "<p>你 对 捕 猎 目 标 的 了 解 使 你 的 攻 击 提 高 额 外 精 度， 对 标 记 类 目 标 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+2, +3, +4, +5, +6</acronym> 命 中， 对 标 记 亚 类 目 标 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+5, +8, +10, +13, +15</acronym> 命 中。 </p><p> 每 次 近 战 攻 击 对 标 记 亚 类 生 物 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">3.1%, 4.4%, 5.4%, 6.2%, 6.9%</acronym> 概 率 震 慑 目 标 3 回 合。 </p><p> 每 增 加 一 个 技 能 点 减 少 达 到 100% 效 果 加 成 的 经 验 需 求。</p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Anatomy",
+                "points": 5,
+                "require": [
+                    "等级 4",
+                    "等级 5",
+                    "等级 6",
+                    "等级 7",
+                    "等级 8"
+                ],
+                "short_name": "ANATOMY",
+                "source_code": [
+                    "data/talents/cursed/predator.lua",
+                    88
+                ],
+                "type": [
+                    "cursed/predator",
+                    2
+                ]
+            },
+            {
+                "chnname": "运筹帷幄",
+                "id": "T_OUTMANEUVER",
+                "image": "outmaneuver.png",
+                "info_text": "<p>你 的 每 次 近 战 攻 击 有 一 定 概 率 触 发 运 筹 帷 幄， 降 低 目 标 的 物 理 抵 抗 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">8%, 11%, 14%, 16%, 17%</acronym> 同 时 降 低 他 们 最 高 的 三 项 属 性 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">4, 6, 7, 8, 9</acronym> ， 对 标 记 类 生 物 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">4.0%, 5.7%, 7.0%, 8.1%, 9.0%</acronym> 概 率 触 发， 对 标 记 亚 类 生 物 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">10%, 15%, 18%, 20%, 22%</acronym> 概 率 触 发， 持 续 10 回 合， 该 效 果 可 叠 加。 </p><p> 每 增 加 一 个 技 能 点 减 少 达 到 100% 效 果 加 成 的 经 验 需 求。</p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Outmaneuver",
+                "points": 5,
+                "require": [
+                    "等级 8",
+                    "等级 9",
+                    "等级 10",
+                    "等级 11",
+                    "等级 12"
+                ],
+                "short_name": "OUTMANEUVER",
+                "source_code": [
+                    "data/talents/cursed/predator.lua",
+                    119
+                ],
+                "type": [
+                    "cursed/predator",
+                    3
+                ]
+            },
+            {
+                "chnname": "无相转生",
+                "id": "T_MIMIC",
+                "image": "mimic.png",
+                "info_text": "<p>你 学 习 汲 取 目 标 的 力 量， 杀 死 该 亚 类 生 物 可 以 提 升 你 的 属 性 值 以 接 近 该 生 物 的 能 力（ 最 多 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">7, 11, 14, 18, 21</acronym> 总 属 性 点 数， 由 你 的 当 前 效 能 决 定）， 效 果 持 续 时 间 并 不 确 定， 且 只 有 最 近 杀 死 的 敌 人 获 得 的 效 果 有 效。 </p><p> 每 增 加 一 个 技 能 点 减 少 达 到 100% 效 果 加 成 的 经 验 需 求。</p>",
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Mimic",
+                "points": 5,
+                "require": [
+                    "等级 12",
+                    "等级 13",
+                    "等级 14",
+                    "等级 15",
+                    "等级 16"
+                ],
+                "short_name": "MIMIC",
+                "source_code": [
+                    "data/talents/cursed/predator.lua",
+                    161
+                ],
+                "type": [
+                    "cursed/predator",
+                    4
+                ]
+            }
+        ],
+        "type": "cursed/predator"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 呼 唤 你 意 志 的 力 量。 ",
+        "chnname": "黑暗生存系",
+        "description": "Invoke the powerful force of your will.",
+        "generic": true,
+        "is_mind": true,
+        "name": "dark sustenance",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "吸食精华",
+                "cooldown": 6,
+                "cost": "仇恨值消耗：   0",
+                "direct_hit": true,
+                "generic": true,
+                "hate": 0,
+                "id": "T_FEED",
+                "image": "feed.png",
+                "info_text": "<p>吸 食 敌 人 的 精 华。 只 要 目 标 停 留 在 视 野 里， 你 每 回 合 会 从 其 身 上 吸 取 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">4.3, 5.2, 5.9, 6.6, 7.1</acronym> 仇 恨 值。 </p><p> 受 精 神 强 度 影 响， 怒 气 吸 取 量 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Feed",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "7.0",
+                "require": [
+                    "等级 0, 意志 12",
+                    "等级 1, 意志 14",
+                    "等级 2, 意志 16",
+                    "等级 3, 意志 18",
+                    "等级 4, 意志 20"
+                ],
+                "requires_target": true,
+                "short_name": "FEED",
+                "source_code": [
+                    "data/talents/cursed/dark-sustenance.lua",
+                    20
+                ],
+                "type": [
+                    "cursed/dark-sustenance",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "吞噬生命",
+                "cooldown": 6,
+                "direct_hit": true,
+                "generic": true,
+                "id": "T_DEVOUR_LIFE",
+                "image": "devour_life.png",
+                "info_text": "<p>吸 取 饲 主 的 生 命。 你 会 从 饲 主 身 上 吸 收 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">93, 126, 151, 173, 193</acronym> 点 生 命 值。 这 个 回 复 效 果 无 法 被 减 少。 </p><p> 在 等 级 5 时， 使 用 吞 噬 生 命 的 同 时 开 启 吸 食 精 华。 </p><p> 受 精 神 强 度 影 响， 效 果 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Devour Life",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "7.0",
+                "require": [
+                    "等级 4, 意志 20",
+                    "等级 5, 意志 22",
+                    "等级 6, 意志 24",
+                    "等级 7, 意志 26",
+                    "等级 8, 意志 28"
+                ],
+                "requires_target": true,
+                "short_name": "DEVOUR_LIFE",
+                "source_code": [
+                    "data/talents/cursed/dark-sustenance.lua",
+                    85
+                ],
+                "type": [
+                    "cursed/dark-sustenance",
+                    2
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "强化吸收",
+                "generic": true,
+                "id": "T_FEED_POWER",
+                "image": "feed_power.png",
+                "info_text": "<p>提 高 你 的 吸 收 能 力， 降 低 目 标 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">11%, 13%, 14%, 16%, 17%</acronym> 伤 害 并 增 加 你 自 己 同 样 数 值 的 伤 害。 </p><p> 受 精 神 强 度 影 响， 效 果 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Feed Power",
+                "points": 5,
+                "require": [
+                    "等级 8, 意志 28",
+                    "等级 9, 意志 30",
+                    "等级 10, 意志 32",
+                    "等级 11, 意志 34",
+                    "等级 12, 意志 36"
+                ],
+                "short_name": "FEED_POWER",
+                "source_code": [
+                    "data/talents/cursed/dark-sustenance.lua",
+                    164
+                ],
+                "type": [
+                    "cursed/dark-sustenance",
+                    3
+                ]
+            },
+            {
+                "chnname": "腐蚀吸收",
+                "generic": true,
+                "id": "T_FEED_STRENGTHS",
+                "image": "feed_strengths.png",
+                "info_text": "<p>提 高 你 的 吸 收 能 力， 降 低 目 标 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">34%, 38%, 41%, 43%, 45%</acronym> 负 面 状 态 抵 抗 并 增 加 你 同 样 数 值 的 状 态 抵 抗。 </p><p> 对 “ 所 有 ” 抵 抗 无 效。 </p><p> 受 精 神 强 度 影 响， 效 果 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Feed Strengths",
+                "points": 5,
+                "require": [
+                    "等级 12, 意志 36",
+                    "等级 13, 意志 38",
+                    "等级 14, 意志 40",
+                    "等级 15, 意志 42",
+                    "等级 16, 意志 44"
+                ],
+                "short_name": "FEED_STRENGTHS",
+                "source_code": [
+                    "data/talents/cursed/dark-sustenance.lua",
+                    180
+                ],
+                "type": [
+                    "cursed/dark-sustenance",
+                    4
+                ]
+            }
+        ],
+        "type": "cursed/dark-sustenance"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 呼 唤 你 意 志 的 力 量。 ",
+        "chnname": "意志之力系",
+        "description": "Invoke the powerful force of your will.",
+        "is_mind": true,
+        "name": "force of will",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "偏执打击",
+                "cooldown": 5,
+                "cost": "仇恨值消耗：   5",
+                "direct_hit": true,
+                "hate": 5,
+                "id": "T_WILLFUL_STRIKE",
+                "image": "willful_strike.png",
+                "info_text": "<p>专 注 你 的 仇 恨， 你 用 无 形 的 力 量 打 击 敌 人 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">191, 259, 312, 357, 396</acronym> 点 伤 害 和 2 码 击 退 效 果。 </p><p> 此 外， 你 灌 注 力 量 的 能 力 使 你 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5%, 9%, 12%, 15%, 17%</acronym> 所 有 暴 击 伤 害。（ 当 前： 0% ） </p><p> 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Willful Strike",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "3.0",
+                "require": [
+                    "等级 0, 意志 12",
+                    "等级 1, 意志 14",
+                    "等级 2, 意志 16",
+                    "等级 3, 意志 18",
+                    "等级 4, 意志 20"
+                ],
+                "requires_target": true,
+                "short_name": "WILLFUL_STRIKE",
+                "source_code": [
+                    "data/talents/cursed/force-of-will.lua",
+                    102
+                ],
+                "type": [
+                    "cursed/force-of-will",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "念力折射",
+                "cooldown": 12,
+                "id": "T_DEFLECTION",
+                "image": "deflection.png",
+                "info_text": "<p>用 你 的 意 志 力 折 射 50% 的 伤 害。 你 可 以 折 射 最 多 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">163, 221, 266, 304, 338</acronym> 点 伤 害， 护 盾 值 每 回 合 回 复 最 大 值 的 1/35 。（ 技 能 激 活 时 -0.2 仇 恨 值 回 复）。 </p><p> 你 灌 注 力 量 的 能 力 使 你 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5%, 9%, 12%, 15%, 17%</acronym> 所 有 暴 击 伤 害。（ 当 前： 0% ） </p><p> 受 精 神 强 度 影 响， 最 大 伤 害 折 射 值 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Deflection",
+                "no_energy": true,
+                "no_sustain_autoreset": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "等级 4, 意志 20",
+                    "等级 5, 意志 22",
+                    "等级 6, 意志 24",
+                    "等级 7, 意志 26",
+                    "等级 8, 意志 28"
+                ],
+                "short_name": "DEFLECTION",
+                "source_code": [
+                    "data/talents/cursed/force-of-will.lua",
+                    147
+                ],
+                "type": [
+                    "cursed/force-of-will",
+                    2
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "怒火爆炸",
+                "cooldown": 14,
+                "cost": "仇恨值消耗：   12",
+                "hate": 12,
+                "id": "T_BLAST",
+                "image": "blast.png",
+                "info_text": "<p>你 将 愤 怒 聚 集 在 一 点， 然 后 向 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 2, 3, 3, 4</acronym> 码 范 围 内 所 有 方 向 炸 开。 爆 炸 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">205, 279, 335, 383, 426</acronym> 点 伤 害， 在 中 心 点 处 造 成 2 码 击 退 效 果， 距 离 越 远 效 果 越 弱。 </p><p> 在 爆 炸 范 围 内 的 任 何 目 标 将 会 被 眩 晕 3 回 合。 </p><p> 你 灌 注 力 量 的 能 力 使 你 每 点 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5%, 9%, 12%, 15%, 17%</acronym> 所 有 暴 击 伤 害。（ 当 前： 0% ） </p><p> 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Blast",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "4.0",
+                "require": [
+                    "等级 8, 意志 28",
+                    "等级 9, 意志 30",
+                    "等级 10, 意志 32",
+                    "等级 11, 意志 34",
+                    "等级 12, 意志 36"
+                ],
+                "requires_target": true,
+                "short_name": "BLAST",
+                "source_code": [
+                    "data/talents/cursed/force-of-will.lua",
+                    222
+                ],
+                "type": [
+                    "cursed/force-of-will",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "怒意鞭笞",
+                "cooldown": 30,
+                "cost": "仇恨值消耗：   18",
+                "hate": 18,
+                "id": "T_UNSEEN_FORCE",
+                "image": "unseen_force.png",
+                "info_text": "<p>你 的 愤 怒 变 成 一 股 无 形 之 力， 猛 烈 鞭 笞 你 附 近 的 随 机 敌 人。在 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6, 7, 9, 10, 11</acronym> 回 合 内， 你 将 攻 击 1（ 0% 概 率 攻 击2） 个 半 径 5  以 内 的 敌 人， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">93, 126, 151, 173, 193</acronym> 点 伤 害 并 击 退 2 码。 额 外 攻 击 的 数 目 随 技 能 等 级 增 长。 </p><p> 你 灌 注 力 量 的 能 力 使 你 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5%, 9%, 12%, 15%, 17%</acronym> 所 有 暴 击 伤 害。（ 当 前： 0% ） </p><p> 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Unseen Force",
+                "points": 5,
+                "range": "4.0",
+                "require": [
+                    "等级 12, 意志 36",
+                    "等级 13, 意志 38",
+                    "等级 14, 意志 40",
+                    "等级 15, 意志 42",
+                    "等级 16, 意志 44"
+                ],
+                "short_name": "UNSEEN_FORCE",
+                "source_code": [
+                    "data/talents/cursed/force-of-will.lua",
+                    296
+                ],
+                "type": [
+                    "cursed/force-of-will",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "cursed/force-of-will"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 操 纵 黑 暗 之 力 包 围 你 的 敌 人。 ",
+        "chnname": "黑暗系",
+        "description": "Harness the power of darkness to envelop your foes.",
+        "is_mind": true,
+        "name": "darkness",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "黑暗之雾",
+                "cooldown": 20,
+                "cost": "仇恨值消耗：   8",
+                "hate": 8,
+                "id": "T_CREEPING_DARKNESS",
+                "image": "creeping_darkness.png",
+                "info_text": "<p>一 股 黑 暗 之 雾 在 目 标 点 范 围 内 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 4, 5, 6, 6</acronym> 个 方 向 蔓 延 半 径 3 码。 黑 暗 之 雾 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">38, 52, 62, 71, 79</acronym> 点 伤 害， 阻 挡 未 掌 握 黑 暗 视 觉 或 其 他 魔 法 视 觉 能 力 目 标 的 视 线。 </p><p> 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。 你 对 任 何 进 入 黑 暗 之 雾 的 人 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+5%, +9%, +12%, +15%, +17%</acronym> 点 伤 害。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Creeping Darkness",
+                "points": 5,
+                "radius": 3,
+                "random_ego": "attack",
+                "range": "5.0",
+                "require": [
+                    "等级 0, 意志 12",
+                    "等级 1, 意志 14",
+                    "等级 2, 意志 16",
+                    "等级 3, 意志 18",
+                    "等级 4, 意志 20"
+                ],
+                "requires_target": true,
+                "short_name": "CREEPING_DARKNESS",
+                "source_code": [
+                    "data/talents/cursed/darkness.lua",
+                    153
+                ],
+                "type": [
+                    "cursed/darkness",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "黑暗视觉",
+                "id": "T_DARK_VISION",
+                "image": "dark_vision.png",
+                "info_text": "<p>你 的 眼 睛 穿 过 黑 暗 并 发 现 隐 藏 在 黑 暗 里 的 敌 人。 </p><p> 你 的 视 线 同 样 可 以 穿 过 黑 暗 之 雾 看 到 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 5, 6, 7</acronym> 的 半 径 范 围。 同 时 黑 暗 之 雾 极 大 的 提 高 你 的 步 伐。 </p><p>（ 在 黑 暗 之 雾 中 增 加 你 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+91%, +153%, +207%, +257%, +304%</acronym> 移 动 速 度） </p><p> 你 对 任 何 进 入 黑 暗 之 雾 的 人 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+5%, +9%, +12%, +15%, +17%</acronym> 点 伤 害。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Dark Vision",
+                "points": 5,
+                "random_ego": "attack",
+                "require": [
+                    "等级 4, 意志 20",
+                    "等级 5, 意志 22",
+                    "等级 6, 意志 24",
+                    "等级 7, 意志 26",
+                    "等级 8, 意志 28"
+                ],
+                "short_name": "DARK_VISION",
+                "source_code": [
+                    "data/talents/cursed/darkness.lua",
+                    350
+                ],
+                "type": [
+                    "cursed/darkness",
+                    2
+                ]
+            },
+            {
+                "chnname": "黑暗迸发",
+                "cooldown": 6,
+                "cost": "仇恨值消耗：   8",
+                "direct_hit": true,
+                "hate": 8,
+                "id": "T_DARK_TORRENT",
+                "image": "dark_torrent.png",
+                "info_text": "<p>向 敌 人 发 射 一 股 灼 热 的 黑 暗 能 量， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">191, 259, 312, 357, 396</acronym> 点 伤 害。 黑 暗 能 量 有 25% 概 率 致 盲 目 标 3 回 合 并 使 它 们 丢 失 当 前 目 标。 </p><p> 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。 </p><p> 你 对 任 何 进 入 黑 暗 之 雾 的 人 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+5%, +9%, +12%, +15%, +17%</acronym> 点 伤 害。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Dark Torrent",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "5.0",
+                "reflectable": true,
+                "require": [
+                    "等级 8, 意志 28",
+                    "等级 9, 意志 30",
+                    "等级 10, 意志 32",
+                    "等级 11, 意志 34",
+                    "等级 12, 意志 36"
+                ],
+                "requires_target": true,
+                "short_name": "DARK_TORRENT",
+                "source_code": [
+                    "data/talents/cursed/darkness.lua",
+                    376
+                ],
+                "type": [
+                    "cursed/darkness",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "黑暗触手",
+                "cooldown": 12,
+                "cost": "仇恨值消耗：   10",
+                "direct_hit": true,
+                "hate": 10,
+                "id": "T_DARK_TENDRILS",
+                "image": "dark_tendrils.png",
+                "info_text": "<p>伸 出 黑 暗 触 手 攻 击 你 的 敌 人 并 使 它 们 在 黑 暗 里 定 身 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 4, 5</acronym> 回 合。 当 黑 暗 触 手 移 动 时， 黑 暗 之 雾 会 跟 随 蔓 延。 </p><p> 每 回 合 黑 暗 会 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">52, 70, 84, 97, 107</acronym> 点 伤 害。 </p><p> 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。 你 对 任 何 进 入 黑 暗 之 雾 的 人 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+5%, +9%, +12%, +15%, +17%</acronym> 点 伤 害。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Dark Tendrils",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "6.0",
+                "require": [
+                    "等级 12, 意志 36",
+                    "等级 13, 意志 38",
+                    "等级 14, 意志 40",
+                    "等级 15, 意志 42",
+                    "等级 16, 意志 44"
+                ],
+                "requires_target": true,
+                "short_name": "DARK_TENDRILS",
+                "source_code": [
+                    "data/talents/cursed/darkness.lua",
+                    435
+                ],
+                "type": [
+                    "cursed/darkness",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "cursed/darkness"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 从 黑 暗 中 召 唤 阴 影 来 协 助 你 战 斗。 ",
+        "chnname": "阴影系",
+        "description": "Summon shadows from the darkness to aid you.",
+        "is_mind": true,
+        "name": "shadows",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "召唤阴影",
+                "cooldown": 10,
+                "cost": "仇恨值消耗：   0",
+                "hate": 0,
+                "id": "T_CALL_SHADOWS",
+                "image": "call_shadows.png",
+                "info_text": "<p>当 此 技 能 激 活 时， 你 可 以 召 唤 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 2, 2, 3</acronym> 个 等 级 1 的 阴 影 帮 助 你 战 斗。 每 个 阴 影 需 消 耗 6 点 仇 恨 值 召 唤。 </p><p> 阴 影 是 脆 弱 的 战 士， 它 们 能 够： 使 用 奥 术 重 组 治 疗 自 己（ 等 级 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 4, 5</acronym> ）， 使 用 灵 异 打 击 突 袭 目 标（ 等 级 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 4, 5</acronym> ）， 使 用 相 位 之 门 进 行 传 送。</p>",
+                "is_mind": true,
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Call Shadows",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 0, 灵巧 12",
+                    "等级 1, 灵巧 14",
+                    "等级 2, 灵巧 16",
+                    "等级 3, 灵巧 18",
+                    "等级 4, 灵巧 20"
+                ],
+                "short_name": "CALL_SHADOWS",
+                "source_code": [
+                    "data/talents/cursed/shadows.lua",
+                    322
+                ],
+                "type": [
+                    "cursed/shadows",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "阴影战士",
+                "id": "T_SHADOW_WARRIORS",
+                "image": "shadow_warriors.png",
+                "info_text": "<p>将 仇 恨 注 入 你 的 阴 影， 强 化 他 们 的 攻 击。 他 们 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">14%, 25%, 33%, 40%, 47%</acronym> 额 外 命 中 和 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">22%, 38%, 51%, 62%, 71%</acronym> 额 外 伤 害 加 成。 </p><p> 他 们 疯 狂 的 攻 击 可 以 令 他 们 控 制 对 手， 提 高 控 制 目 标 的 所 有 伤 害 4 回 合（ 等 级 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1，, 2，, 3，, 4，, 5，</acronym> <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">8%, 11%, 13%, 15%, 17%</acronym> 几 率 1 码 范 围）。 </p><p> 它 们 同 时 拥 有 消 隐 的 能 力， 免 疫 所 有 伤 害 直 到 下 一 回 合 开 始（ <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">7, 6, 5, 4, 3</acronym> 回 合 冷 却 时 间）。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Shadow Warriors",
+                "points": 5,
+                "require": [
+                    "等级 4, 灵巧 20",
+                    "等级 5, 灵巧 22",
+                    "等级 6, 灵巧 24",
+                    "等级 7, 灵巧 26",
+                    "等级 8, 灵巧 28"
+                ],
+                "short_name": "SHADOW_WARRIORS",
+                "source_code": [
+                    "data/talents/cursed/shadows.lua",
+                    431
+                ],
+                "type": [
+                    "cursed/shadows",
+                    2
+                ]
+            },
+            {
+                "chnname": "阴影法师",
+                "id": "T_SHADOW_MAGES",
+                "image": "shadow_mages.png",
+                "info_text": "<p>灌 输 魔 力 给 你 的 阴 影 使 它 们 学 会 可 怕 的 法 术。 你 的 阴 影 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 8, 12, 15, 18</acronym> 点 法 术 强 度 加 成。 </p><p> 你 的 阴 影 可 以 用 闪 电 术 攻 击 附 近 的 目 标（ 等 级 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 4, 5</acronym> ， <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">8%, 11%, 13%, 15%, 17%</acronym> 几 率 1 码 范 围）。 </p><p> 等 级 3 时 你 的 阴 影 可 以 远 距 离 使 用 火 焰 术 灼 烧 你 的 敌 人（ 等 级 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">0, 0, 3, 4, 5</acronym> ， <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">0%, 0%, 13%, 15%, 17%</acronym> 几 率 2 到 6 码 范 围）。 </p><p> 等 级 5 时 你 的 阴 影 在 被 击 倒 时 有 一 定 几 率 重 组 并 重 新 加 入 战 斗（ 50% 几 率）。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Shadow Mages",
+                "points": 5,
+                "require": [
+                    "等级 8, 灵巧 28",
+                    "等级 9, 灵巧 30",
+                    "等级 10, 灵巧 32",
+                    "等级 11, 灵巧 34",
+                    "等级 12, 灵巧 36"
+                ],
+                "short_name": "SHADOW_MAGES",
+                "source_code": [
+                    "data/talents/cursed/shadows.lua",
+                    490
+                ],
+                "type": [
+                    "cursed/shadows",
+                    3
+                ]
+            },
+            {
+                "chnname": "聚集阴影",
+                "cooldown": 6,
+                "cost": "仇恨值消耗：   0",
+                "hate": 0,
+                "id": "T_FOCUS_SHADOWS",
+                "image": "focus_shadows.png",
+                "info_text": "<p>将 你 的 阴 影 聚 集 至 单 一 目 标。 如 果 目 标 为 友 善 则 保 护 目 标 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5, 7, 8, 10, 11</acronym> 回 合。 如 目 标 为 敌 对 则 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">47%, 66%, 75%, 80%, 84%</acronym> 几 率 使 用 灵 异 打 击 攻 击 目 标。 </p><p> 该 技 能 不 消 耗 任 何 能 量。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Focus Shadows",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "6.0",
+                "require": [
+                    "等级 12, 灵巧 36",
+                    "等级 13, 灵巧 38",
+                    "等级 14, 灵巧 40",
+                    "等级 15, 灵巧 42",
+                    "等级 16, 灵巧 44"
+                ],
+                "requires_target": true,
+                "short_name": "FOCUS_SHADOWS",
+                "source_code": [
+                    "data/talents/cursed/shadows.lua",
+                    566
+                ],
+                "type": [
+                    "cursed/shadows",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "cursed/shadows"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 你 的 仇 恨 转 变 为 对 你 敌 人 的 精 神 惩 罚。 ",
+        "chnname": "惩罚系",
+        "description": "Your hate becomes punishment in the minds of your foes.",
+        "is_mind": true,
+        "name": "punishments",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "意念惩罚",
+                "cooldown": 5,
+                "cost": "仇恨值消耗：   5",
+                "hate": 5,
+                "id": "T_REPROACH",
+                "image": "reproach.png",
+                "info_text": "<p>你 对 任 何 敢 于 靠 近 的 敌 人 释 放 意 念 惩 罚， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">191, 259, 312, 357, 396</acronym> 精 神 伤 害。 攻 击 可 能 会 指 向 多 个 目 标， 但 是 每 个 目 标 会 减 少 19% 伤 害。 </p><p>25% 概 率 附 加 思 维 封 锁 效 果。 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Reproach",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "2.0",
+                "require": [
+                    "等级 0, 灵巧 12",
+                    "等级 1, 灵巧 14",
+                    "等级 2, 灵巧 16",
+                    "等级 3, 灵巧 18",
+                    "等级 4, 灵巧 20"
+                ],
+                "short_name": "REPROACH",
+                "source_code": [
+                    "data/talents/cursed/punishments.lua",
+                    20
+                ],
+                "type": [
+                    "cursed/punishments",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "憎恨私语",
+                "cooldown": 10,
+                "cost": "仇恨值消耗：   12",
+                "direct_hit": true,
+                "hate": 12,
+                "id": "T_HATEFUL_WHISPER",
+                "image": "hateful_whisper.png",
+                "info_text": "<p>你 向 周 围 的 敌 人 发 出 充 满 憎 恨 的 私 语。 第 1 个 听 到 的 敌 人 会 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">205, 279, 335, 383, 426</acronym> 点 精 神 伤 害 并 提 供 你 2 仇 恨 值。 在 最 初 的 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 3, 3</acronym> 回 合 里 私 语 会 从 目 标 身 上 传 播 到 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1.6, 2.3, 2.8, 3.2, 3.6</acronym> 码 半 径 范 围 新 的 敌 人 身 上。 </p><p> 每 个 目 标 在 每 回 合 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">17%, 24%, 29%, 34%, 38%</acronym> 几 率 将 私 语 传 播 向 另 一 个 目 标。 </p><p>25% 概 率 附 加 思 维 封 锁 效 果。 </p><p> 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Hateful Whisper",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "5.0",
+                "require": [
+                    "等级 4, 灵巧 20",
+                    "等级 5, 灵巧 22",
+                    "等级 6, 灵巧 24",
+                    "等级 7, 灵巧 26",
+                    "等级 8, 灵巧 28"
+                ],
+                "requires_target": true,
+                "short_name": "HATEFUL_WHISPER",
+                "source_code": [
+                    "data/talents/cursed/punishments.lua",
+                    72
+                ],
+                "type": [
+                    "cursed/punishments",
+                    2
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "极度痛苦",
+                "cooldown": 3,
+                "cost": "仇恨值消耗：   5",
+                "direct_hit": true,
+                "hate": 5,
+                "id": "T_AGONY",
+                "image": "agony.png",
+                "info_text": "<p>对 你 的 目 标 释 放 极 大 的 痛 苦。 痛 苦 会 在 5 回 合 内 逐 渐 增 加。 第 一 回 合 会 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">21, 29, 34, 39, 44</acronym> 点 伤 害 并 在 最 后 1 回 合 增 加 至 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">107, 145, 174, 199, 221</acronym> 点 伤 害（ 总 计 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">321, 435, 523, 598, 665</acronym> ）。 </p><p>25% 概 率 附 加 思 维 封 锁 效 果。 </p><p> 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Agony",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "7.0",
+                "require": [
+                    "等级 8, 灵巧 28",
+                    "等级 9, 灵巧 30",
+                    "等级 10, 灵巧 32",
+                    "等级 11, 灵巧 34",
+                    "等级 12, 灵巧 36"
+                ],
+                "requires_target": true,
+                "short_name": "AGONY",
+                "source_code": [
+                    "data/talents/cursed/punishments.lua",
+                    265
+                ],
+                "type": [
+                    "cursed/punishments",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "精神崩溃",
+                "id": "T_MADNESS",
+                "image": "madness.png",
+                "info_text": "<p>每 次 你 造 成 精 神 伤 害 时， 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">9%, 13%, 16%, 18%, 20%</acronym> 概 率 你 的 敌 人 必 须 用 精 神 抵 抗 抵 消 你 的 精 神 强 度， 否 则 会 崩 溃。 精 神 崩 溃 会 使 它 们 在 短 时 间 内 被 混 乱、 减 速 或 震 慑 3 回 合， 并 且 降 低 它 们 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">18%, 27%, 32%, 35%, 37%</acronym> 对 精 神 伤 害 的 抵 抗。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Madness",
+                "points": 5,
+                "require": [
+                    "等级 12, 灵巧 36",
+                    "等级 13, 灵巧 38",
+                    "等级 14, 灵巧 40",
+                    "等级 15, 灵巧 42",
+                    "等级 16, 灵巧 44"
+                ],
+                "short_name": "MADNESS",
+                "source_code": [
+                    "data/talents/cursed/punishments.lua",
+                    311
+                ],
+                "type": [
+                    "cursed/punishments",
+                    4
+                ]
+            }
+        ],
+        "type": "cursed/punishments"
+    },
+    {
+        "allow_random": true,
+        "chndescription": "强 化 你 的 阴 影 。",
+        "chnname": "强化阴影系",
+        "description": "Harness your shadows to their full potential.",
+        "is_mind": true,
+        "min_lev": 10,
+        "name": "one with shadows",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "阴影感知",
+                "id": "T_SHADOW_SENSES",
+                "image": "shadow_senses.png",
+                "info_text": "<p> 你 的 意 识 延 伸 到 阴  影 上 。</p><p> 你 能 清 晰 的 感 知 到 阴 影 的 位 置 ， 同 时 还 能 感 知 到 阴 影 视 野 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 5, 6</acronym> 码 范 围 内 的 敌 人 。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Shadow Senses",
+                "points": 5,
+                "require": [
+                    "等级 10, 灵巧 22",
+                    "等级 11, 灵巧 24",
+                    "等级 12, 灵巧 26",
+                    "等级 13, 灵巧 28",
+                    "等级 14, 灵巧 30"
+                ],
+                "short_name": "SHADOW_SENSES",
+                "source_code": [
+                    "data/talents/cursed/one-with-shadows.lua",
+                    22
+                ],
+                "type": [
+                    "cursed/one-with-shadows",
+                    1
+                ]
+            },
+            {
+                "chnname": "阴影链接",
+                "cooldown": 25,
+                "cost": "仇恨值消耗：   10",
+                "hate": 10,
+                "id": "T_SHADOW_EMPATHY",
+                "image": "shadow_empathy.png",
+                "info_text": "<p> 你 连 接 到 你 的 阴 影  ， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 6, 8, 10, 11</acronym> 回 合 ，将 你 受 到 的 伤 害 的 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">30%, 39%, 46%, 52%, 58%</acronym> 转 移 至 随 机 某 个 阴 影 上。</p><p> 受 精 神 强 度 影 响， 效 果 有 额 外 加 成。 </p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Shadow Empathy",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 14, 灵巧 30",
+                    "等级 15, 灵巧 32",
+                    "等级 16, 灵巧 34",
+                    "等级 17, 灵巧 36",
+                    "等级 18, 灵巧 38"
+                ],
+                "short_name": "SHADOW_EMPATHY",
+                "source_code": [
+                    "data/talents/cursed/one-with-shadows.lua",
+                    37
+                ],
+                "type": [
+                    "cursed/one-with-shadows",
+                    2
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "阴影换位",
+                "cooldown": 10,
+                "cost": "仇恨值消耗：   6",
+                "hate": 6,
+                "id": "T_SHADOW_TRANSPOSITION",
+                "image": "shadow_transposition.png",
+                "info_text": "<p> 现 在 ， 其 他 人 很 难 分 清 你 和 阴 影 。 </p><p> \t \t 你 能 选 择 半 径 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 6, 11, 15, 20</acronym> 范 围 内 的 一 个 阴 影 并 和 它 交 换 位 置 。</p><p> 同 时 至 多 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 2, 3, 3</acronym> 个 随 机 负 面 物 理 或 魔 法 效 果 会 被 转 移 至 选 择 的 阴 影 身 上 。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Shadow Transposition",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 18, 灵巧 38",
+                    "等级 19, 灵巧 40",
+                    "等级 20, 灵巧 42",
+                    "等级 21, 灵巧 44",
+                    "等级 22, 灵巧 46"
+                ],
+                "short_name": "SHADOW_TRANSPOSITION",
+                "source_code": [
+                    "data/talents/cursed/one-with-shadows.lua",
+                    76
+                ],
+                "type": [
+                    "cursed/one-with-shadows",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "阴影诱饵",
+                "cooldown": 50,
+                "cost": "持续仇恨值消耗：   40",
+                "id": "T_SHADOW_DECOY",
+                "image": "shadow_decoy.png",
+                "info_text": "<p> 你 的 阴 影 用 生 命 来 守 护 你 。</p><p> 当 你 受 到 致 命 攻 击 时 ，你 将 立 刻 和 随 机 一个 阴 影 换 位 ， 让 它 代 替 承 受 攻 击，  并 将此 技 能 打 入 冷 却 。</p><p> 在 接 下 来 的 4 个 回 合 ， 除 非 你 的 生 命 降 至 - <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">215, 289, 345, 393, 436</acronym> 下 ， 否 则 你不 会 死 去 。 但 当 生 命 值 在 0 以 下 时，  你 不 能 看 到 确 切 值 。</p><p> 受 精 神 强 度 影 响， 效 果 有 额 外 加 成 。 </p>",
+                "is_mind": true,
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Shadow Decoy",
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 22, 灵巧 46",
+                    "等级 23, 灵巧 48",
+                    "等级 24, 灵巧 50",
+                    "等级 25, 灵巧 52",
+                    "等级 26, 灵巧 54"
+                ],
+                "short_name": "SHADOW_DECOY",
+                "source_code": [
+                    "data/talents/cursed/one-with-shadows.lua",
+                    112
+                ],
+                "sustain_hate": 40,
+                "type": [
+                    "cursed/one-with-shadows",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "cursed/one-with-shadows"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 用 手 势 暗 示 来 强 化 你 的 精 神 力 量。 ",
+        "chnname": "手势系",
+        "description": "Enhance the power of you mind with gestures.",
+        "generic": true,
+        "is_mind": true,
+        "name": "gestures",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "痛苦手势",
+                "generic": true,
+                "id": "T_GESTURE_OF_PAIN",
+                "image": "gesture_of_pain.png",
+                "info_text": "<p> 使 用 痛 苦 手 势 来 代 替 通 常 攻 击， 对 你 的 敌 人 的 精 神 进 行 打 击， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">43, 58, 70, 80, 89</acronym> 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>精神强度 100\">86, 117, 141, 161, 179</acronym> 点 精 神 伤 害。 如 果 攻 击 命 中， 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12%, 15%, 18%, 20%, 22%</acronym> 概 率 震 慑 你 的 目 标 3 个 回 合。 </p><p> 这 项 攻 击 采 用 你 的 精 神 强 度 而 非 物 理 强 度， 同 时 需 检 查 对 方 精 神 豁 免。 这 项 攻 击 不 受 你 的 命 中 或 对 方 闪 避 影 响， 也 不  会 触 发 任 何 当 你 的 武 器 命 中 对 方 时 触 发 的 效 果。 但 是， 你 的 灵 晶 提 供 的 基 础 伤 害 和 暴 击 率 会 被 计 算 入 攻 击 中。 </p><p> 这 项 技 能 需 要 你 空 手 或 双 持 灵 晶， 同 时 有 25% 概 率 触 发 可 暴 击 的 锁 脑 效 果。 受 精 神 强 度 影 响， 伤 害 有 额 外 加 成。 受 灵 晶 影 响， 增 加 0 伤 害 和 0% 暴 击 率。 </p>",
+                "is_mind": true,
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Gesture of Pain",
+                "no_energy": true,
+                "points": 5,
+                "random_ego": "attack",
+                "range": "1.0",
+                "require": [
+                    "等级 0, 灵巧 12",
+                    "等级 1, 灵巧 14",
+                    "等级 2, 灵巧 16",
+                    "等级 3, 灵巧 18",
+                    "等级 4, 灵巧 20"
+                ],
+                "short_name": "GESTURE_OF_PAIN",
+                "source_code": [
+                    "data/talents/cursed/gestures.lua",
+                    42
+                ],
+                "type": [
+                    "cursed/gestures",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "怨恨手势",
+                "generic": true,
+                "id": "T_GESTURE_OF_MALICE",
+                "image": "gesture_of_malice.png",
+                "info_text": "<p>使 你 的 痛 苦 手 势 充 满 怨 恨 的 诅 咒， 任 何 受 到 痛 苦 手 势 攻 击 的 目 标 会 降 低 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">7%, 13%, 17%, 21%, 24%</acronym> 所 有 抵 抗， 持 续 5 回 合。</p><p></p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Gesture of Malice",
+                "points": 5,
+                "require": [
+                    "等级 4, 灵巧 20",
+                    "等级 5, 灵巧 22",
+                    "等级 6, 灵巧 24",
+                    "等级 7, 灵巧 26",
+                    "等级 8, 灵巧 28"
+                ],
+                "short_name": "GESTURE_OF_MALICE",
+                "source_code": [
+                    "data/talents/cursed/gestures.lua",
+                    154
+                ],
+                "type": [
+                    "cursed/gestures",
+                    2
+                ]
+            },
+            {
+                "chnname": "力量手势",
+                "generic": true,
+                "id": "T_GESTURE_OF_POWER",
+                "image": "gesture_of_power.png",
+                "info_text": "<p>通 过 一 个 手 势 来 增 强 你 的 精 神 攻 击。 你 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+2, +5, +7, +10, +13</acronym> 精 神 强 度 和 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">+1%, +3%, +4%, +6%, +7%</acronym> 几 率 增 加 精 神 攻 击 的 暴 击 率（ 当 前 几 率 为 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>灵巧 10, 25, 50, 75, 100,<br>Luck 10, 25, 50, 75, 100,<br>力量 10, 25, 50, 75, 100,<br>物理强度 10, 25, 50, 75, 100\">0%, 0%, 13%, 28%, 43%</acronym> ）。 </p><p> 需 要 至 少 一 只 空 手 或 者 装 备 灵 晶。 不 需 要 痛 苦 手 势 持 续 激 活。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Gesture of Power",
+                "points": 5,
+                "require": [
+                    "等级 8, 灵巧 28",
+                    "等级 9, 灵巧 30",
+                    "等级 10, 灵巧 32",
+                    "等级 11, 灵巧 34",
+                    "等级 12, 灵巧 36"
+                ],
+                "short_name": "GESTURE_OF_POWER",
+                "source_code": [
+                    "data/talents/cursed/gestures.lua",
+                    174
+                ],
+                "type": [
+                    "cursed/gestures",
+                    3
+                ]
+            },
+            {
+                "chnname": "守护手势",
+                "cooldown": 10,
+                "generic": true,
+                "id": "T_GESTURE_OF_GUARDING",
+                "image": "gesture_of_guarding.png",
+                "info_text": "<p> 你 通 过 手 势 来 防 御 近 战 伤 害。 只 要 你 能 使 用 手 势 （ 要 求 空 手 或 双 持 灵 晶 ）， 你 最 多 偏 移 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>灵巧 100,<br>物理强度 100\">7, 9, 12, 14, 16</acronym> 点 伤 害（ 你 的 徒 手 最 大 伤 害 的 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">16%）, 22%）, 27%）, 32%）, 36%）</acronym> ， 每 回 合 最 多 触 发 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>力量 10, 25, 50, 75, 100,<br>灵巧 10, 25, 50, 75, 100,<br>物理强度 10, 25, 50, 75, 100\">0.0, 0.6, 1.3, 1.8, 2.2</acronym> 次 （ 基 于 你 的 灵 巧 ）。</p><p> 如 果 痛 苦 手 势 被 激 活， 你 将 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4.4%, 6.1%, 7.7%, 9.1%, 11%</acronym> 的 概 率 造 成 反 击 状 态。 </p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Gesture of Guarding",
+                "points": 5,
+                "require": [
+                    "等级 12, 灵巧 36",
+                    "等级 13, 灵巧 38",
+                    "等级 14, 灵巧 40",
+                    "等级 15, 灵巧 42",
+                    "等级 16, 灵巧 44"
+                ],
+                "short_name": "GESTURE_OF_GUARDING",
+                "source_code": [
+                    "data/talents/cursed/gestures.lua",
+                    198
+                ],
+                "type": [
+                    "cursed/gestures",
+                    4
+                ]
+            }
+        ],
+        "type": "cursed/gestures"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 黑 暗 能 量 诅 咒 侵 入 了 你 的 灵 魂 深 处。 ",
+        "chnname": "诅咒形态系",
+        "description": "You are wracked with the dark energies of the curse.",
+        "generic": true,
+        "is_mind": true,
+        "name": "cursed form",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "诅咒之体",
+                "generic": true,
+                "id": "T_UNNATURAL_BODY",
+                "image": "unnatural_body.png",
+                "info_text": "<p>你 的 力 量 来 源 于 心 底 的 憎 恨， 这 使 得 大 部 分 治 疗 效 果 减 至 原 来 的 50%（ 0 仇 恨） ～ 100%（ 100+ 仇 恨）。 </p><p> 另 外， 每 次 击 杀 敌 人 你 将 存 储 生 命 能 量 来 治 疗 自 己， 回 复 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>意志 100\">34, 45, 55, 62, 69</acronym> 点 生 命（ 受 敌 人 最 大 生 命 值 限 制， 任 何 时 候 不 能 超 过 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>意志 100\">69, 93, 112, 128, 142</acronym> 点 ）。 这 个 方 式 带 来 的 每 回 合 回 复 量 不 能 超 过 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>意志 100\">20, 25, 30, 34, 37</acronym> 点 生 命， 也 不 受 仇 恨 等 级 或 治 疗 加 成 等 因 素 影 响。 </p><p> 受 意 志 影 响， 通 过 杀 死 敌 人 获 得 的 治 疗 量 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Unnatural Body",
+                "no_unlearn_last": true,
+                "points": 5,
+                "require": [
+                    "等级 0, 意志 12",
+                    "等级 1, 意志 14",
+                    "等级 2, 意志 16",
+                    "等级 3, 意志 18",
+                    "等级 4, 意志 20"
+                ],
+                "short_name": "UNNATURAL_BODY",
+                "source_code": [
+                    "data/talents/cursed/cursed-form.lua",
+                    24
+                ],
+                "type": [
+                    "cursed/cursed-form",
+                    1
+                ]
+            },
+            {
+                "chnname": "鲜血渴望",
+                "generic": true,
+                "id": "T_RELENTLESS",
+                "image": "relentless.png",
+                "info_text": "<p>对 鲜 血 的 渴 望 控 制 了 你 的 行 为。 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+15%, +27%, +37%, +44%, +49%</acronym> 混 乱、 恐 惧、 击 退 和 震 慑 免 疫。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Relentless",
+                "points": 5,
+                "require": [
+                    "等级 4, 意志 20",
+                    "等级 5, 意志 22",
+                    "等级 6, 意志 24",
+                    "等级 7, 意志 26",
+                    "等级 8, 意志 28"
+                ],
+                "short_name": "RELENTLESS",
+                "source_code": [
+                    "data/talents/cursed/cursed-form.lua",
+                    79
+                ],
+                "type": [
+                    "cursed/cursed-form",
+                    2
+                ]
+            },
+            {
+                "chnname": "狂热沸腾",
+                "generic": true,
+                "id": "T_SEETHE",
+                "image": "seethe.png",
+                "info_text": "<p>你 学 会 控 制 憎 恨， 并 用 你 的 痛 苦 燃 烧 心 底 的 愤 怒。 </p><p> 每 当 你 受 到 伤 害 时， 你 的 伤 害 会 在 5 回 合 后 增 加 至 最 大 值 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+10%, +13%, +16%, +19%, +22%</acronym> 。 </p><p> 每 个 你 不 承 受 伤 害 的 回 合 会 降 低 该 增 益 效 果。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Seethe",
+                "points": 5,
+                "require": [
+                    "等级 8, 意志 28",
+                    "等级 9, 意志 30",
+                    "等级 10, 意志 32",
+                    "等级 11, 意志 34",
+                    "等级 12, 意志 36"
+                ],
+                "short_name": "SEETHE",
+                "source_code": [
+                    "data/talents/cursed/cursed-form.lua",
+                    97
+                ],
+                "type": [
+                    "cursed/cursed-form",
+                    3
+                ]
+            },
+            {
+                "chnname": "冷酷决心",
+                "generic": true,
+                "id": "T_GRIM_RESOLVE",
+                "image": "grim_resolve.png",
+                "info_text": "<p>你 勇 于 面 对 其 他 人 带 给 你 的 痛 苦。 每 回 合 当 你 承 受 伤 害 时， 你 将 会 增 加 你 的 力 量 和 意 志， 直 至 在 5 回 合 后 增 加 至 最 大 值 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">+5, +7, +8, +10, +11</acronym> 。 </p><p> 每 个 你 不 承 受 伤 害 的 回 合 会 降 低 该 增 益 效 果。 </p><p> 当 此 效 果 激 活 时， 每 回 合 你 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">10%, 14%, 17%, 20%, 23%</acronym> 的 概 率 抵 抗 毒 素 和 疾 病 效 果。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Grim Resolve",
+                "points": 5,
+                "require": [
+                    "等级 12, 意志 36",
+                    "等级 13, 意志 38",
+                    "等级 14, 意志 40",
+                    "等级 15, 意志 42",
+                    "等级 16, 意志 44"
+                ],
+                "short_name": "GRIM_RESOLVE",
+                "source_code": [
+                    "data/talents/cursed/cursed-form.lua",
+                    114
+                ],
+                "type": [
+                    "cursed/cursed-form",
+                    4
+                ]
+            }
+        ],
+        "type": "cursed/cursed-form"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 你 周 围 的 生 物 都 会 遭 受 诅 咒 而 迅 速 消 亡。 ",
+        "chnname": "诅咒光环系",
+        "description": "The things you surround yourself with soon wither away.",
+        "generic": true,
+        "is_mind": true,
+        "name": "cursed aura",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "诅咒之触",
+                "cooldown": 0,
+                "generic": true,
+                "id": "T_DEFILING_TOUCH",
+                "image": "defiling_touch.png",
+                "info_text": "<p>\t\t你 的 诅 咒 之 触 弥 漫 于 你 附 近 的 所 有 东 西， 给 予 找 到 的 每 个 物 品 1 个 随 机 诅 咒。 当 你 穿 戴 1 件 诅 咒 装 备 时， 你 增 加 那 种 诅 咒 的 效 果。 最 初 诅 咒 是 有 害 的， 但 是 当 装 备 多 件 物 品 并 且 学 到 黑 暗 礼 物 时， 诅 咒 会 变 的 非 常 有 益。 </p><p>等 级 1 —— 诅 咒 武 器</p><p>等 级 2 —— 诅 咒 盔 甲 和 斗 篷</p><p>等 级 3 —— 诅 咒 盾 牌 和 头 盔</p><p>等 级 4 —— 诅 咒 手 套 、 靴 子 和 腰 带</p><p>等 级 6 —— 诅 咒 戒 指</p><p>等 级 7 —— 诅 咒 项 链</p><p>等 级 8 —— 诅 咒 灯 具</p><p>等 级 9 —— 诅 咒 工 具 / 图 腾 / 项 圈 /魔 棒</p><p>等 级 10 ——诅 咒 弹 药</p><p>在 等 级 5 时， 你 可 以 激 活 此 技 能 形 成 1 个 光 环， 增 加 2 级 你 选 择 的 诅 咒 效 果( 当 前 None)。 </p><p>同 时 ， 技 能 等 级 在 5 以 上 时 会 减 轻 诅 咒 的 负 面 效 果（ 现 在 减 少 0% ） </p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Defiling Touch",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 0",
+                    "等级 1",
+                    "等级 2",
+                    "等级 3",
+                    "等级 4"
+                ],
+                "short_name": "DEFILING_TOUCH",
+                "source_code": [
+                    "data/talents/cursed/cursed-aura.lua",
+                    27
+                ],
+                "type": [
+                    "cursed/cursed-aura",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "黑暗礼物",
+                "generic": true,
+                "id": "T_DARK_GIFTS",
+                "image": "dark_gifts.png",
+                "info_text": "<p>你 的 诅 咒 带 来 黑 暗 的 礼 物。 解 锁 所 有 诅 咒 第 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">1, 2, 3, 4, 4</acronym> 层 效 果， 并 允 许 你 在 诅 咒 达 到 该 等 级 时 获 得 此 效 果。 </p><p> 在 等 级 5 时， 因 诅 咒 带 来 的 幸 运 惩 罚 降 到 1。</p><p> 等 级 5 以 上 时 增 加 诅 咒 效 果 （ 当 前 增 加 0.0 ）</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Dark Gifts",
+                "no_unlearn_last": true,
+                "points": 5,
+                "require": [
+                    "等级 4",
+                    "等级 5",
+                    "等级 6",
+                    "等级 7",
+                    "等级 8"
+                ],
+                "short_name": "DARK_GIFTS",
+                "source_code": [
+                    "data/talents/cursed/cursed-aura.lua",
+                    273
+                ],
+                "type": [
+                    "cursed/cursed-aura",
+                    2
+                ]
+            },
+            {
+                "chnname": "毁灭大地",
+                "cooldown": 30,
+                "generic": true,
+                "id": "T_RUINED_EARTH",
+                "image": "ruined_earth.png",
+                "info_text": "<p>诅 咒 你 周 围 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">3, 4, 5, 6, 7</acronym> 码 半 径 范 围 的 大 地， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">4, 5, 6, 7, 8</acronym> 回 合。 </p><p> 任 何 站 在 大 地 上 的 目 标 将 会 被 虚 弱， 减 少 它 们 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">22%, 31%, 38%, 45%, 50%</acronym> 的 伤 害。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Ruined Earth",
+                "points": 5,
+                "random_ego": "defensive",
+                "range": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">3.0, 4.0, 5.0, 6.0, 7.0</acronym>",
+                "require": [
+                    "等级 8",
+                    "等级 9",
+                    "等级 10",
+                    "等级 11",
+                    "等级 12"
+                ],
+                "short_name": "RUINED_EARTH",
+                "source_code": [
+                    "data/talents/cursed/cursed-aura.lua",
+                    301
+                ],
+                "type": [
+                    "cursed/cursed-aura",
+                    3
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "诅咒护卫",
+                "cooldown": 40,
+                "generic": true,
+                "id": "T_CURSED_SENTRY",
+                "image": "cursed_sentry.png",
+                "info_text": "<p>将 部 分 活 性 诅 咒 能 量 灌 输 到 你 背 包 里 的 1 把 武 器 上， 使 其 悬 浮 在 空 中。 这 个 类 似 于 诅 咒 护 卫 的 武 器 会 自 动 攻 击 附 近 的 敌 人， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">8, 10, 12, 14, 16</acronym> 回 合。 </p><p> 当 诅 咒 结 束 时， 武 器 会 化 为 灰 烬。 攻 击 速 度： <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">60%, 86%, 107%, 124%, 140%</acronym> </p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Cursed Sentry",
+                "points": 5,
+                "range": "5.0",
+                "require": [
+                    "等级 12",
+                    "等级 13",
+                    "等级 14",
+                    "等级 15",
+                    "等级 16"
+                ],
+                "short_name": "CURSED_SENTRY",
+                "source_code": [
+                    "data/talents/cursed/cursed-aura.lua",
+                    350
+                ],
+                "type": [
+                    "cursed/cursed-aura",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "cursed/cursed-aura"
+    },
+    {
+        "allow_random": true,
+        "chndescription": " 使 用 内 心 恐 惧 直 接 打 击 敌 人 的 心 智。 ",
+        "chnname": "恐惧系",
+        "description": "Use the fear that lies at the heart of your curse to attack the minds of your enemies.",
+        "is_mind": true,
+        "name": "fears",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "恐惧灌输",
+                "cooldown": 6,
+                "cost": "仇恨值消耗：   8",
+                "hate": 8,
+                "id": "T_INSTILL_FEAR",
+                "image": "instill_fear.png",
+                "info_text": "<p>将 恐 惧 注 入 你 的 目 标， 在 8 回 合 内 触 发 一 种 恐 惧 效 果。 同 时 有 25% 概 率 将 恐 惧 注 入 2 码 范 围 内 的 所 有 敌 人。 </p><p> 目 标 将 与 你 的 精 神 强 度 进 行 豁 免 鉴 定， 并 且 可 以 被 多 种 恐 惧 效 果 影 响。 </p><p> 你 习 得 2 种 新 的 恐 惧 效 果： 妄 想 症 使 目 标 有 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>精神强度 100\">28%, 38%, 46%, 52%, 58%</acronym> 概 率 以 物 理 攻 击 附 近 一 个 友 善 或 非 友 善 目 标， 被 击 中 者 也 会 被 传 染 妄 想 症。 绝 望 效 果 使 目 标 对 所 有 伤 害 抵 抗 减 少 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>精神强度 100\">22%, 30%, 36%, 41%, 46%</acronym> 。 </p><p> 受 精 神 强 度 影 响， 恐 惧 效 果 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Instill Fear",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "8.0",
+                "require": [
+                    "等级 0, 意志 12",
+                    "等级 1, 意志 14",
+                    "等级 2, 意志 16",
+                    "等级 3, 意志 18",
+                    "等级 4, 意志 20"
+                ],
+                "requires_target": true,
+                "short_name": "INSTILL_FEAR",
+                "source_code": [
+                    "data/talents/cursed/fears.lua",
+                    20
+                ],
+                "type": [
+                    "cursed/fears",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "恐惧深化",
+                "id": "T_HEIGHTEN_FEAR",
+                "image": "heighten_fear.png",
+                "info_text": "<p> 加 深 你 周 围 所 有 人 的 恐 惧 。 被 你 的 恐 惧 效 果 影 响 的 敌 人、 和 你 距 离 不 超 过 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">3, 4, 5, 6, 6</acronym> 且 在 你 视 野 内 不 少 于 5 回 合 的 敌 人 ， 将 会 得 到 一 种 新 的 恐 惧 效 果 ， 持 续 8 回 合。 目 标 的 精 神 豁 免 抵 抗 你 的 精 神 强 度 后 可 能 会 抵 抗 该 效 果， 且 每 个 已 有 的 恐 惧 效 果 会 减 少 10% 新 的 恐 惧 效 果 产 生 概 率。</p><p> 你 习 得 2 种 新 的 恐 惧 效 果： 惊 恐 效 果 使 其 技 能 或 攻 击 失 败 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>精神强度 100\">25%, 34%, 41%, 47%, 50%</acronym> 。 痛 苦 效 果 使 其 所 有 豁 免 值 降 低 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>精神强度 100\">16, 22, 27, 30, 34</acronym> 。 </p><p> 受 精 神 强 度 影 响， 恐 惧 效 果 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Heighten Fear",
+                "points": 5,
+                "require": [
+                    "等级 4, 意志 20",
+                    "等级 5, 意志 22",
+                    "等级 6, 意志 24",
+                    "等级 7, 意志 26",
+                    "等级 8, 意志 28"
+                ],
+                "short_name": "HEIGHTEN_FEAR",
+                "source_code": [
+                    "data/talents/cursed/fears.lua",
+                    155
+                ],
+                "type": [
+                    "cursed/fears",
+                    2
+                ]
+            },
+            {
+                "chnname": "精神专制",
+                "id": "T_TYRANT",
+                "image": "tyrant.png",
+                "info_text": "<p>提 高 对 恐 惧 的 目 标 的 精 神 专 制， 对 那 些 试 图 摆 脱 你 恐 惧 效 果 的 目 标 你 的 精 神 强 度 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">7, 9, 12, 14, 15</acronym> ， 你 习 得 2 种 新 的 恐 惧 效 果： 纠 缠 效 果 使 得 每 一 种 恐 惧 效 果 产 生 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>精神强度 100\">34, 46, 55, 63, 70</acronym> 精 神 伤 害， 痛 苦 折 磨 效 果 产 生 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">5, 5, 6, 6, 7</acronym> 个 幻 觉 攻 击 目 标， 产 生 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>精神强度 100\">34, 46, 55, 63, 70</acronym> 精 神 伤 害 直 至 幻 觉 消 失。 </p><p> 受 精 神 强 度 影 响， 恐 惧 效 果 有 额 外 加 成。</p>",
+                "is_mind": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Tyrant",
+                "points": 5,
+                "require": [
+                    "等级 8, 意志 28",
+                    "等级 9, 意志 30",
+                    "等级 10, 意志 32",
+                    "等级 11, 意志 34",
+                    "等级 12, 意志 36"
+                ],
+                "short_name": "TYRANT",
+                "source_code": [
+                    "data/talents/cursed/fears.lua",
+                    187
+                ],
+                "type": [
+                    "cursed/fears",
+                    3
+                ]
+            },
+            {
+                "chnname": "惊慌失措",
+                "cooldown": 20,
+                "cost": "仇恨值消耗：   1",
+                "hate": 1,
+                "id": "T_PANIC",
+                "image": "panic.png",
+                "info_text": "<p>使 4 范 围 内 的 敌 人 惊 慌 失 措， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">5, 6, 6, 7, 7</acronym> 回 合， 任 何 未 通 过 精 神 豁 免 的 敌 人 每 回 合 将 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">30%, 39%, 46%, 52%, 57%</acronym> 概 率 从 你 身 边 吓 走。</p>",
+                "is_mind": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Panic",
+                "points": 5,
+                "random_ego": "attack",
+                "range": "4.0",
+                "require": [
+                    "等级 12, 意志 36",
+                    "等级 13, 意志 38",
+                    "等级 14, 意志 40",
+                    "等级 15, 意志 42",
+                    "等级 16, 意志 44"
+                ],
+                "short_name": "PANIC",
+                "source_code": [
+                    "data/talents/cursed/fears.lua",
+                    217
+                ],
+                "type": [
+                    "cursed/fears",
+                    4
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "cursed/fears"
+    }
+]

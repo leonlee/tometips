@@ -1,10 +1,10 @@
 <ul id="nav-talents" class="nav">
-    <!--{{#if hasMinorChanges}}
-        <li><a href="#recent-changes/talents{{currentQuery}}"><span class="no-dropdown"></span>New in {{version}}</a></li>
+    {{#if hasMinorChanges}}
+        <li><a href="#recent-changes/talents{{currentQuery}}"><span class="no-dropdown"></span>{{version}}新特性</a></li>
     {{/if}}
     {{#if hasMajorChanges}}
-        <li><a href="#changes/talents{{currentQuery}}"><span class="no-dropdown"></span>New in {{majorVersion}}</a></li>
-    {{/if}}-->
+        <li><a href="#changes/talents{{currentQuery}}"><span class="no-dropdown"></span>{{majorVersion}}新特性</a></li>
+    {{/if}}
     {{#each talent_categories}}
         <li><a href="#talents/{{toHtmlId this}}{{currentQuery}}"><span data-toggle="collapse" data-target="#nav-{{toHtmlId this}}" class="dropdown collapsed"></span>{{to_chn_talent_categories this}}</a>
             <ul class="nav collapse" id="nav-{{toHtmlId this}}">

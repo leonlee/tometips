@@ -1,0 +1,748 @@
+[
+    {
+        "chndescription": " 纹 身 不 是 技 能， 你 必 须 找 到 它 们 或 从 其 他 人 那 获 得 它 们。 ",
+        "chnname": "infusions",
+        "description": "Infusions are not class abilities, you must find them or learn them from other people.",
+        "hide": true,
+        "is_nature": true,
+        "name": "infusions",
+        "points": 1,
+        "talents": [
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：回复",
+                "cooldown": "nil",
+                "id": "T_INFUSION:_REGENERATION_1",
+                "image": "infusion__regeneration.png",
+                "info_text": "<p>激 活 纹 身 治 疗 你 自 己 0 生 命 值， 持 续 0 回 合。 </p>",
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Regeneration",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "INFUSION:_REGENERATION_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    71
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：治疗",
+                "cooldown": "nil",
+                "id": "T_INFUSION:_HEALING_1",
+                "image": "infusion__healing.png",
+                "info_text": "<p>激 活 纹 身 立 即 治 疗 你 0 生 命 值, 同 时 去 除 一 个 流 血 或 毒 素 效 果 。</p>",
+                "is_heal": true,
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Healing",
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "INFUSION:_HEALING_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    92
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：狂暴",
+                "cooldown": "nil",
+                "id": "T_INFUSION:_WILD_1",
+                "image": "infusion__wild.png",
+                "info_text": "<p>激 活 纹 身 解 除 你  物 理 ,  精 神 , or  魔 法  效 果 并 减 少 所 有 伤 害 0% 持 续 0 回 合。 </p>",
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Wild",
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "INFUSION:_WILD_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    126
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：原初之力",
+                "cooldown": "nil",
+                "id": "T_INFUSION:_PRIMAL_1",
+                "image": "infusion__wild.png",
+                "info_text": "<p> 激 活 这 个 纹 身 ， 解 除  物 理 ,  精 神 , or  魔 法  效 果 并 将 你 受 到 的 0% 全 体 伤 害 转 化 为 治 疗 ， 持 续 0 回 合 。</p>",
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Primal",
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "INFUSION:_PRIMAL_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    200
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：移动加速",
+                "cooldown": "nil",
+                "id": "T_INFUSION:_MOVEMENT_1",
+                "image": "infusion__movement.png",
+                "info_text": "<p>激 活 这 个 纹 身 可 以 在 1 个 游 戏 回 合 内 提 升 移 动 速 度 0% 。 除 移 动 以 外 其 他 动 作 会 取 消 这 个 效 果。 </p><p> 同 时 免 疫 眩 晕、 震 慑 和 定 身 效 果 0 回 合。 </p><p> 注 意： 由 于 你 的 速 度 非 常 快， 游 戏 回 合 会 相 对 很 慢。 </p>",
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Movement",
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "INFUSION:_MOVEMENT_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    274
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：阳光",
+                "cooldown": "nil",
+                "id": "T_INFUSION:_SUN_1",
+                "image": "infusion__sun.png",
+                "info_text": "<p>激 活 这 个 纹 身 照 亮 0 区 域 和 潜 行 单 位， 可 能 使 潜 行 目 标 显 形（ 降 低 0 潜 行 强 度）。 </p><p> 同 时 区 域 内 目 标 也 有 几 率 被 致 盲（ 0 等 级）， 持 续 0 回 合。 </p>",
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Sun",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "0.0",
+                "short_name": "INFUSION:_SUN_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    301
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：英勇",
+                "cooldown": "nil",
+                "id": "T_INFUSION:_HEROISM_1",
+                "image": "infusion__heroism.png",
+                "info_text": "<p>激 活 这 个 纹 身 可 以 增 加 你 3 项 基 础 属 性 0 ， 持 续 0 回 合。</p><p>同 时， 当 英 雄 纹 身 激 活 时， 你 的 生 命 值 只 有 在 降 低 到 -0 生 命 时 才 会 死 亡。 然 而， 当 生 命 值 低 于 0 时， 你 无 法 看 到 你 还 剩 下 多 少 生 命。</p><p>属 性 提 高 以 你 最 高 的 三 个 属 性 为 准。</p><p>效 果 结 束 时， 如 果 你 的 生 命 值 在 0 以 下 ， 会 变 为 1 点。 </p>",
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Heroism",
+                "no_energy": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "INFUSION:_HEROISM_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    335
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：下毒",
+                "cooldown": "nil",
+                "id": "T_INFUSION:_INSIDIOUS_POISON_1",
+                "image": "infusion__insidious_poison.png",
+                "info_text": "<p>激 活 这 个 纹 身 会 发 射 一 个 毒 气 弹 造 成 每 回 合 0.00 自 然 伤 害 持 续 7 回 合， 并 降 低 目 标 治 疗 效 果 0% 。</p><p> 突 然 涌 动 的 自 然 力 量 会 除 去 你 受 到 的 一 个 负 面 魔 法 效 果 。 </p>",
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Insidious Poison",
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "0.0",
+                "requires_target": true,
+                "short_name": "INFUSION:_INSIDIOUS_POISON_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    359
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "纹身：野性生长",
+                "cooldown": "nil",
+                "direct_hit": true,
+                "id": "T_INFUSION:_WILD_GROWTH_1",
+                "image": "infusion__wild_growth.png",
+                "info_text": "<p>从 土 地 中 召 唤 坚 硬 的 藤 蔓， 缠 绕 5 码 范 围 内 所 有 生 物， 持 续 0 回 合。 将 其 定 身 并 造 成 每 回 合 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>精神强度 10, 25, 50, 75, 100\">15, 33, 63, 93, 123</acronym> 物 理 和 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>精神强度 10, 25, 50, 75, 100\">31, 67, 127, 187, 247</acronym> 自 然 伤 害。 </p><p> 藤 蔓 也 会 生 长 在 你 的 身 边 ， 增 加 50 护 甲 和 30% 护 甲 硬 度 。</p>",
+                "is_inscription": true,
+                "is_nature": true,
+                "mode": "主动",
+                "name": "Infusion: Wild Growth",
+                "no_unlearn_last": true,
+                "points": 1,
+                "radius": 5,
+                "range": "0.0",
+                "short_name": "INFUSION:_WILD_GROWTH_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    399
+                ],
+                "type": [
+                    "inscriptions/infusions",
+                    1
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "inscriptions/infusions"
+    },
+    {
+        "chndescription": " 符 文 不 是 技 能， 你 必 须 找 到 它 们 或 从 其 他 人 那 获 得 它 们。 ",
+        "chnname": "runes",
+        "description": "Runes are not class abilities, you must find them or learn them from other people.",
+        "hide": true,
+        "is_spell": true,
+        "name": "runes",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：相位之门",
+                "cooldown": "nil",
+                "id": "T_RUNE:_PHASE_DOOR_1",
+                "image": "rune__phase_door.png",
+                "info_text": "<p>激 活 这 个 符 文 会 使 你 在 0 码 范 围 内 随 机 传 送。 </p><p> 之 后 ， 你 会 出 入 现 实 空 间  0 回 合 ， 所 有 新 的 负 面 状 态 持 续 时 间 减 少 0% ， 闪 避 增 加 0 ， 全 体 伤 害 抗 性 增 加 0%。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "is_teleport": true,
+                "mode": "主动",
+                "name": "Rune: Phase Door",
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_PHASE_DOOR_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    438
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：可控性相位门",
+                "cooldown": "nil",
+                "id": "T_RUNE:_CONTROLLED_PHASE_DOOR_1",
+                "image": "rune__controlled_phase_door.png",
+                "info_text": "<p>激 活 这 个 符 文， 传 送 至 0 码 内 的 指 定 位 置。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "is_teleport": true,
+                "mode": "主动",
+                "name": "Rune: Controlled Phase Door",
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_CONTROLLED_PHASE_DOOR_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    471
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：传送",
+                "cooldown": "nil",
+                "id": "T_RUNE:_TELEPORTATION_1",
+                "image": "rune__teleportation.png",
+                "info_text": "<p>激 活 这 个 符 文 随 机 传 送 0 码 范 围 内 位 置， 至 少 传 送 15 码 以 外。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "is_teleport": true,
+                "mode": "主动",
+                "name": "Rune: Teleportation",
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_TELEPORTATION_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    510
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "allow_autocast": true,
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：护盾",
+                "cooldown": "nil",
+                "id": "T_RUNE:_SHIELDING_1",
+                "image": "rune__shielding.png",
+                "info_text": "<p>激 活 这 个 符 文 产 生 一 个 防 护 护 盾， 吸 收 最 多 0 伤 害 持 续 0 回 合。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Shielding",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_SHIELDING_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    534
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "allow_autocast": true,
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：反射护盾",
+                "cooldown": "nil",
+                "id": "T_RUNE:_REFLECTION_SHIELD_1",
+                "image": "rune__reflection_shield.png",
+                "info_text": "<p>激 活 这 个 符 文 产 生 一 个 防 御 护 盾， 吸 收 并 反 弹 最 多 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>魔法 10, 25, 50, 75, 100\">150, 225, 350, 475, 600</acronym> 伤 害 值， 持 续 5 回 合。 效 果 与 魔 法 成 比 例 增 长。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Reflection Shield",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_REFLECTION_SHIELD_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    560
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：隐形",
+                "cooldown": "nil",
+                "id": "T_RUNE:_INVISIBILITY_1",
+                "image": "rune__invisibility.png",
+                "info_text": "<p>激 活 这 个 符 文 使 你 变 得 隐 形（ 0 隐 形 等 级） 持 续 0 回 合。 </p><p> 由 于 你 的 隐 形 使 你 从 现 实 相 位 中 脱 离， 你 的 所 有 伤 害 降 低 40%。 </p><p></p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Invisibility",
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_INVISIBILITY_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    587
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：加速",
+                "cooldown": "nil",
+                "id": "T_RUNE:_SPEED_1",
+                "image": "rune__speed.png",
+                "info_text": "<p>激 活 这 个 符 文 提 高 整 体 速 度 0% 持 续 0 回 合。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Speed",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_SPEED_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    610
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：视界",
+                "cooldown": "nil",
+                "id": "T_RUNE:_VISION_1",
+                "image": "rune__vision.png",
+                "info_text": "<p>激 活 这 个 符 文 可 以 使 你 查 看 周 围 环 境（ 0 有 效 范 围） 使 你 你 查 看 隐 形 生 物（ 0 侦 测 隐 形 等 级） 持 续 0 回 合。 </p><p> 你 的 精 神 更 加 敏 锐 ， 能 感 知 到 周 围 的  人 形 怪   ， 持 续 0 回 合。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Vision",
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_VISION_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    633
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：热能射线",
+                "cooldown": "nil",
+                "direct_hit": true,
+                "id": "T_RUNE:_HEAT_BEAM_1",
+                "image": "rune__heat_beam.png",
+                "info_text": "<p>激 活 这 个 符 文 发 射 一 束 射 线， 造 成 0.00 火 焰 伤 害 持 续 5 回 合。 </p><p> 高 温 同 时 会 解 除 你 受 到 的 一 个 负 面 物 理 状 态。 </p>",
+                "is_attack_rune": true,
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Heat Beam",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "0.0",
+                "requires_target": true,
+                "short_name": "RUNE:_HEAT_BEAM_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    679
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：冰风吞噬",
+                "cooldown": "nil",
+                "id": "T_RUNE:_BITING_GALE_1",
+                "image": "rune__biting_gale.png",
+                "info_text": "<p>激 活 这 个 符 文 ， 形 成 一 股 锥 形 寒 风 ， 造 成 0.00 寒 冷 伤 害。</p><p>寒 风 会 减 半 敌 人 的  震 慑 抗 性  ， 并 试 图 冻 结 他 们 3 回合 ，强 度 0。</p><p>寒 冷 同 时 净 化 了 你 的 精 神， 解 除 一  项 随 机 负 面 精 神 效 果。 </p>",
+                "is_attack_rune": true,
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Biting Gale",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "0.0",
+                "requires_target": true,
+                "short_name": "RUNE:_BITING_GALE_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    728
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：酸性冲击波",
+                "cooldown": "nil",
+                "direct_hit": true,
+                "id": "T_RUNE:_ACID_WAVE_1",
+                "image": "rune__acid_wave.png",
+                "info_text": "<p>发 射 锥 形 酸 性 冲 击 波 造 成 0 码 0.00 酸 性 伤 害。</p><p> 酸 性 冲 击 波 会 腐 蚀 目 标， 缴 械 0 回 合 ，强 度 0。</p><p> 酸 性 能 量 同 时 会 除 去 你 的 一 项 负 面 魔 法 效 果。</p>",
+                "is_attack_rune": true,
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Acid Wave",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "0.0",
+                "requires_target": true,
+                "short_name": "RUNE:_ACID_WAVE_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    792
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：闪电冲击",
+                "cooldown": "nil",
+                "direct_hit": true,
+                "id": "T_RUNE:_LIGHTNING_1",
+                "image": "rune__lightning.png",
+                "info_text": "<p>激 活 这 个 符 文 发 射 一 束 闪 电 打 击 目 标， 造 成 0.00 至 0.00 闪 电 伤 害。 </p><p> 同 时 会 让 你 进 入 闪 电 形 态 2 回 合： 受 到 伤 害 时 你 会 瞬 移 到 附 近 的 一  格 并 防 止 此 伤 害 ， 一 回 合 只 能 触 发 一 次。 </p>",
+                "is_attack_rune": true,
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Lightning",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "0.0",
+                "requires_target": true,
+                "short_name": "RUNE:_LIGHTNING_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    867
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：法力回复",
+                "cooldown": "nil",
+                "id": "T_RUNE:_MANASURGE_1",
+                "image": "rune__manasurge.png",
+                "info_text": "<p>激 活 这 个 符 文 对 你 自 己 释 放 法 力 回 复， 增 加 0% 回 复 量 持 续 0 回 合， 并 立 即 回 复 0 法 力 值。 </p><p>同 时 ， 在 你 休 息 时 增 加 每 回 合 0.5 的 魔 力 回 复。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Manasurge",
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "1.0",
+                "short_name": "RUNE:_MANASURGE_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    911
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "Rune: Frozen Spear",
+                "cooldown": "nil",
+                "id": "T_RUNE:_FROZEN_SPEAR_1",
+                "image": "rune__frozen_spear.png",
+                "info_text": "<p>激 活 这 个 符 文 发 射 一 束 冰 枪， 造 成 0.00 冰 冻 伤 害 并 有 一 定 几 率 冻 结 你 的 目 标。 </p><p>               \t 寒 冰 同 时 会 解 除 你 受 到 的 一 个 负 面 精 神 状 态。 </p>",
+                "is_attack_rune": true,
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune: Frozen Spear",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "0.0",
+                "requires_target": true,
+                "short_name": "RUNE:_FROZEN_SPEAR_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    951
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "符文：时空裂隙",
+                "cooldown": "nil",
+                "direct_hit": true,
+                "id": "T_RUNE_OF_THE_RIFT_1",
+                "image": "rune_of_the_rift.png",
+                "info_text": "<p>造 成 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100\">190, 250, 350, 450, 550</acronym> 时 空 伤 害。 如 果 你 的 目 标 存 活， 则 它 会 被 传 送 4 回 合 至 未 来。 </p><p> 它 也 能 降 低 你 60 紊 乱 值 ( 如 果 你 拥 有 该 能 量 )。 </p><p> 注 意， 若 与 其 他 时 空 效 果 相 混 合 则 可 能 产 生 无 法 预 料 的 后 果。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Rune of the Rift",
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "4.0",
+                "reflectable": true,
+                "requires_target": true,
+                "short_name": "RUNE_OF_THE_RIFT_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    999
+                ],
+                "type": [
+                    "inscriptions/runes",
+                    1
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "inscriptions/runes"
+    },
+    {
+        "chndescription": " 印 记 不 是 技 能， 你 必 须 找 到 它 们 或 从 其 他 人 那 获 得 它 们。 ",
+        "chnname": "taints",
+        "description": "Taints are not class abilities, you must find them or learn them from other people.",
+        "hide": true,
+        "is_spell": true,
+        "name": "taints",
+        "no_silence": true,
+        "points": 1,
+        "talents": [
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "堕落印记：吞噬",
+                "cooldown": "nil",
+                "direct_hit": true,
+                "id": "T_TAINT:_DEVOURER_1",
+                "image": "taint__devourer.png",
+                "info_text": "<p>对 目 标 激 活 此 印 记， 移 除 其 0 个 效 果 并 将 其 转 化 为 治 疗 你 每 个 效 果 0 生 命 值。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Taint: Devourer",
+                "no_energy": true,
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "5.0",
+                "requires_target": true,
+                "short_name": "TAINT:_DEVOURER_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    1088
+                ],
+                "type": [
+                    "inscriptions/taints",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "auto_use_warning": "- will only auto use when no saturation effect exists",
+                "chnname": "堕落印记：感应",
+                "cooldown": "nil",
+                "id": "T_TAINT:_TELEPATHY_1",
+                "image": "taint__telepathy.png",
+                "info_text": "<p>解 除 你 的 精 神 束 缚 0 回 合， 感 应 10 码 范 围 内 的 所 有 生 物 ， 减 少 10 精 神 豁 免 持 续 10 回 合 并 增 加 35 点 精 神 强 度。 </p>",
+                "is_inscription": true,
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Taint: Telepathy",
+                "no_silence": true,
+                "no_unlearn_last": true,
+                "points": 1,
+                "range": "10.0",
+                "short_name": "TAINT:_TELEPATHY_1",
+                "source_code": [
+                    "data/talents/misc/inscriptions.lua",
+                    1159
+                ],
+                "type": [
+                    "inscriptions/taints",
+                    1
+                ],
+                "use_speed": "1 回合"
+            }
+        ],
+        "type": "inscriptions/taints"
+    }
+]
