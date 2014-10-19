@@ -271,7 +271,7 @@ Handlebars.registerHelper('opt', function(opt_name) {
 
 Handlebars.registerHelper('labelForChangeType', function(type) {
     var css_class = { "changed": "info", "added": "success", "removed": "danger" },
-        text = { "changed": "Changed", "added": "New", "removed": "Removed" };
+        text = { "changed": "修改了", "added": "新增了", "removed": "移除了" };
     return '<span class="label label-' + css_class[type] + '">' + text[type] + ':</span>';
 });
 
@@ -336,10 +336,10 @@ var versions = (function() {
     }
 
     var versions = {
-        DEFAULT: '1.2.3',
+        DEFAULT: '1.2.4',
         //ALL: [ '1.1.5', '1.2.0', '1.2.1', '1.2.2', '1.2.3', 'master' ],
-		ALL: ['1.2.3'],
-        DISPLAY: { '1.2.3': '1.2.3中文' },
+		ALL: ['1.2.3','1.2.4'],
+        DISPLAY: { '1.2.3': '1.2.3中文' , '1.2.4': '1.2.4中文'},
 
         name: function(ver) {
             return versions.DISPLAY[ver] || ver;
@@ -443,7 +443,7 @@ function initializeRoutes() {
 
             $("#content-container").scrollTop(0);
             loadDataIfNeeded('changes.talents', function() {
-                document.title += ' - New in ' + tome[versions.current].majorVersion;
+                document.title += tome[versions.current].majorVersion + '新特性';
                 $("#content").html(listChangesTalents(tome));
 
                 enableTalentTooltips();
@@ -458,7 +458,7 @@ function initializeRoutes() {
 
             $("#content-container").scrollTop(0);
             loadDataIfNeeded('recent-changes.talents', function() {
-                document.title += ' - New in ' + tome[versions.current].version;
+                document.title += tome[versions.current].version + '新特性';
                 $("#content").html(listRecentChangesTalents(tome));
 
                 enableTalentTooltips();

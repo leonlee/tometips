@@ -1,4 +1,5 @@
 require 'lib.json4lua.json.json'
+require 'tome-chn123-.data.talent_type_name'
 
 if #arg < 3 or #arg > 4 then
     print(("Usage: %s json_dir from_version to_version [prefix]"):format(arg[0]))
@@ -149,9 +150,10 @@ function talentsMatch(from, to)
     return true
 end
 
-function recordChange(changelist, key, change_type, from, to)
+function recordChange(changelist, chnname, key, change_type, from, to)
+	local category_type = from and from.type or to.type
     if #changelist == 0 or changelist[#changelist].name ~= key then
-        table.insert(changelist, { name = key, values = {} })
+        table.insert(changelist, { name = key, chnname=chnname, values = {} })
     end
 
     -- To simplify usage within JavaScript:
@@ -182,6 +184,7 @@ processDiffTable(tome[from_version].talent_categories, tome[to_version].talent_c
                 -- after the slash.
                 local category_type = from and from.type or to.type
                 local category_name = category_type:gsub('/.*', '') .. ' / ' .. (from and from.name or to.name)
+				local chnname = (t_talent_cat[category_type:gsub('/.*', '')] or category_type:gsub('/.*', '') )  .. ' / ' .. (t_talent_type_name[(from and from.name or to.name)] or (from and from.name or to.name) )
 
                 processDiffTable(from and from.talents or {}, to and to.talents or {},
                     function(talent) return talent.name end,
@@ -189,11 +192,11 @@ processDiffTable(tome[from_version].talent_categories, tome[to_version].talent_c
                     -- Iterate over individual talents
                     function(from, to)
                         if not from then
-                            recordChange(changes.talents, category_name, "added", from, to)
+                            recordChange(changes.talents, chnname, category_name, "added", from, to)
                         elseif not to then
-                            recordChange(changes.talents, category_name, "removed", from, to)
+                            recordChange(changes.talents, chnname, category_name, "removed", from, to)
                         elseif not talentsMatch(from, to) then
-                            recordChange(changes.talents, category_name, "changed", from, to)
+                            recordChange(changes.talents, chnname, category_name, "changed", from, to)
                         end
                     end)
             end)
