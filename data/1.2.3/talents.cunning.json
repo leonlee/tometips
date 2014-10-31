@@ -1037,7 +1037,7 @@
             {
                 "chnname": "影之格斗",
                 "cooldown": 5,
-                "cost": "法力消耗： 0",
+                "cost": "法力消耗： 0, 持续体力消耗：  20",
                 "id": "T_SHADOW_COMBAT",
                 "image": "shadow_combat.png",
                 "info_text": "<p>在 你 的 武 器 上 注 入 一 股 黑 暗 的 能 量， 每 次 攻 击 会 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">34, 45, 54, 62, 68</acronym> 暗 影 伤 害 并 消 耗 2.00 点 法 力。 </p><p> 受 法 术 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
@@ -1099,6 +1099,7 @@
             {
                 "chnname": "暗影充能",
                 "cooldown": 5,
+                "cost": "持续体力消耗：  40",
                 "id": "T_SHADOW_FEED",
                 "image": "shadow_feed.png",
                 "info_text": "<p>你 学 会 从 暗 影 中 汲 取 能 量。 </p><p> 当 此 技 能 激 活 时， 每 回 合 回 复 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">0.38, 0.65, 0.91, 1.16, 1.41</acronym> 法 力 值。 </p><p> 同 时， 你 的 攻 击 速 度 和 施 法 速 度 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3.0%, 6.1%, 8.9%, 11%, 14%</acronym> 的 提 升。</p>",
@@ -1540,6 +1541,7 @@
             {
                 "chnname": "弱点感知",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  30",
                 "id": "T_EXPLOIT_WEAKNESS",
                 "image": "exploit_weakness.png",
                 "info_text": "<p>感 知 对 手 的 物 理 弱 点， 代 价 是 你 减 少 10% 物 理 伤 害。 每 次 你 击 中 对 手 时， 你 会 减 少 它 们 5% 物 理 伤 害 抵 抗， 最 多 减 少 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5%, 20%, 25%, 35%, 40%</acronym> 。</p>",

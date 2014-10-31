@@ -1007,6 +1007,7 @@
             {
                 "chnname": "狂战之怒",
                 "cooldown": 10,
+                "cost": "持续体力消耗：  20",
                 "id": "T_BERSERKER_RAGE",
                 "image": "berserker.png",
                 "info_text": "<p>进 入 狂 暴 的 战 斗 状 态， 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>敏捷 100\">22, 30, 35, 40, 44</acronym> 点 命 中 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>敏捷 100\">22, 30, 35, 40, 44</acronym> 点 物 理 强 度， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">20%, 34%, 43%, 50%, 56%</acronym> 震 慑 和 定 身 抵 抗。</p><p>同 时 狂 暴 的 力 量 会 支 配 你 的 身 体 ， 每 回 合 损 失 2% 生 命 。 同 时 ， 你 每 失 去 1% 生 命 ， 增 加 0.5% 暴 击 率 。</p><p>该 技 能 只 在 视 野 内 有 敌 人 时 生 效 。</p><p>受 敏 捷 影 响， 命 中 有 额 外 加 成； </p><p>受 力 量 影 响， 物 理 强 度 有 额 外 加 成。</p>",
@@ -1147,6 +1148,7 @@
             {
                 "chnname": "狂暴",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  40",
                 "id": "T_BERSERKER",
                 "image": "berserker.png",
                 "info_text": "<p>进 入 狂 暴 的 战 斗 状 态， 以 减 少 10 点 防 御 和 10 点 护 甲 的 代 价 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>敏捷 100\">22, 30, 35, 40, 44</acronym> 点 命 中 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100,<br>敏捷 100\">22, 30, 35, 40, 44</acronym> 点 物 理 强 度。 </p><p>开 启 狂 暴 时 你 无 人 能 挡， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">20%, 34%, 43%, 50%, 56%</acronym> 震 慑 和 定 身 抵 抗。 </p><p>受 敏 捷 影 响， 命 中 有 额 外 加 成； </p><p>受 力 量 影 响， 物 理 强 度 有 额 外 加 成。</p>",
@@ -1353,6 +1355,7 @@
             {
                 "chnname": "血之狂暴",
                 "cooldown": 15,
+                "cost": "持续体力消耗：  70",
                 "id": "T_BLOOD_FRENZY",
                 "image": "blood_frenzy.png",
                 "info_text": "<p>进 入 血 之 狂 暴 状 态， 快 速 消 耗 体 力（ -4 体 力 / 回 合）。 每 次 你 在 血 之 狂 暴 状 态 下 杀 死 一 个 敌 人， 你 可 以 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 5, 8, 10, 12</acronym> 物 理 强 度 增 益。 </p><p>每 回 合 增 益 减 2。</p>",
@@ -1531,6 +1534,7 @@
             {
                 "chnname": "盾墙",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  30",
                 "id": "T_SHIELD_WALL",
                 "image": "shield_wall.png",
                 "info_text": "<p>进 入 防 御 姿 态， 提 高 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100\">14, 21, 26, 30, 34</acronym> 闪 避 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100\">20, 24, 27, 30, 32</acronym> 护 甲 值（ 但 会 减 少 你 20% 物 理 伤 害）。 </p><p>受 敏 捷 影 响， 闪 避 和 护 甲 值 增 益 有 额 外 加 成。 </p><p>另 外 它 同 时 也 会 提 供 震 慑 和 击 退 抗 性（ <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19%, 33%, 43%, 51%, 56%</acronym> ）。</p>",
@@ -1620,6 +1624,7 @@
             {
                 "chnname": "破釜沉舟",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  50",
                 "id": "T_LAST_STAND",
                 "image": "last_stand.png",
                 "info_text": "<p>在 走 投 无 路 的 局 面 下， 你 鼓 舞 自 己， 提 高 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100,<br>体质 100\">15, 19, 22, 25, 27</acronym> 点 闪 避 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100,<br>体质 100\">172, 226, 266, 300, 330</acronym> 点 当 前 及 最 大 生 命 值 ， 但 是 这 会 使 你 无 法 移 动。 </p><p>你 的 坚 守 让 你 集 中 精 力 于 对 手 的 每 一 次 进 攻， 让 你 能 承 受 原 本 致 命 的 伤 害。 你 只 有 在 生 命 值 下 降 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100,<br>体质 100\">-172, -226, -266, -300, -330</acronym> 时 才 会 死 亡。 但 是 当 你 生 命 值 降 到 0 时， 你 无 法 看 到 你 还 剩 多 少 生 命 值。 </p><p>受 敏 捷 影 响， 闪 避 增 益 有 额 外 加 成； </p><p>受 体 质 和 最 大 生 命 值 影 响， 生 命 值 增 益 有 额 外 加 成。</p>",
@@ -1713,6 +1718,7 @@
             {
                 "chnname": "弱点打击",
                 "cooldown": 10,
+                "cost": "持续体力消耗：  20",
                 "id": "T_PRECISION",
                 "image": "precision.png",
                 "info_text": "<p>你 已 经 学 会 打 击 弱 点 位 置， 双 持 时 增 加 你 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100\">11, 16, 21, 25, 29</acronym> 点 护 甲 穿 透。 </p><p>受 敏 捷 影 响， 护 甲 穿 透 有 额 外 加 成。 </p>",
@@ -1744,6 +1750,7 @@
             {
                 "chnname": "急速切割",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  50",
                 "id": "T_MOMENTUM",
                 "image": "momentum.png",
                 "info_text": "<p>当 你 双 持 武 器 时， 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">13%, 23%, 32%, 41%, 48%</acronym> 攻 击 速 度， 快 速 消 耗 体 力 （ -6 体 力 / 回 合）。  </p>",
@@ -2299,6 +2306,7 @@
             {
                 "chnname": "瞄准",
                 "cooldown": 8,
+                "cost": "持续体力消耗：  20",
                 "id": "T_AIM",
                 "image": "aim.png",
                 "info_text": "<p>你 进 入 心 如 止 水 的 状 态， 专 注 瞄 准， 增 加 你 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100\">29, 40, 48, 54, 61</acronym> 点 物 理 强 度， <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100\">29, 40, 48, 54, 61</acronym> 点 命 中， <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100\">28, 39, 47, 53, 60</acronym> 点 护 甲 穿 透， <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100\">32%, 43%, 51%, 57%, 64%</acronym> 暴 击 率， 但 是 减 少 你 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">7%, 15%, 21%, 25%, 28%</acronym> 射 速。 </p><p>受 敏 捷 影 响， 此 效 果 有 额 外 加 成。</p>",
@@ -2330,6 +2338,7 @@
             {
                 "chnname": "急速射击",
                 "cooldown": 8,
+                "cost": "持续体力消耗：  20",
                 "id": "T_RAPID_SHOT",
                 "image": "rapid_shot.png",
                 "info_text": "<p>你 转 换 成 一 种 流 畅 和 快 速 的 射 击 姿 势， 增 加 你 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">13%, 27%, 40%, 51%, 62%</acronym> 射 击 速 度 但 减 少 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">-11, -14, -17, -20, -22</acronym> 点 命 中， <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">-11, -14, -17, -20, -22</acronym> 物 理 强 度 和 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">-11%, -15%, -17%, -20%, -22%</acronym> 暴 击 率。</p>",
@@ -2618,6 +2627,7 @@
             {
                 "chnname": "直觉射击",
                 "cooldown": 10,
+                "cost": "持续体力消耗：  30",
                 "id": "T_INTUITIVE_SHOTS",
                 "image": "intuitive_shots.png",
                 "info_text": "<p> 激 活 该 技 能 会 大 幅 强 化 你 的 反 射 神 经。 每 次 你 受 到 近 战 攻 击， 你 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">14%, 31%, 37%, 40%, 42%</acronym> 的 几 率 进 行 一 次 防 御 性 射 击 来 中 止 对 方 这 次 攻 击， 并 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">65%, 76%, 84%, 90%, 97%</acronym> 伤 害， 同 时 击 退 对 方 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 2, 3, 3</acronym> 码。 激 活 这 项 技 能 不 会 中 断 装 填 弹 药。</p>",
@@ -2729,6 +2739,7 @@
             {
                 "chnname": "猛攻",
                 "cooldown": 10,
+                "cost": "持续体力消耗：  10",
                 "id": "T_ONSLAUGHT",
                 "image": "onslaught.png",
                 "info_text": "<p>采 取 一 个 猛 攻 姿 态， 当 你 经 过 你 的 敌 人 时， 你 会 将 前 方 弧 形 范 围 内 的 敌 人 全 部 击 退。（ 上 限 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 3, 4, 5, 5</acronym> 码）。 </p><p>这 个 姿 态 会 快 速 减 少 体 力 值（ -1 体 力 / 回 合）。</p>",
@@ -2792,6 +2803,7 @@
             {
                 "chnname": "震荡攻击",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  40",
                 "id": "T_SHATTERING_IMPACT",
                 "image": "shattering_impact.png",
                 "info_text": "<p>用 尽 全 身 的 力 量 挥 舞 武 器， 造 成 震 荡 波 冲 击 你 周 围 的 所 有 敌 人， 对 每 个 敌 人 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">40%, 49%, 55%, 60%, 64%</acronym> 基 础 武 器 伤 害。</p><p>一 回 合 至 多 产 生 一 次 冲 击 波 ， 第 一 个 目 标 不 会 受 到 额 外 伤 害。</p><p>每 次 震 荡 攻 击 消 耗 8 点 体 力。</p>",
@@ -2923,6 +2935,7 @@
             {
                 "chnname": "刚毅",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  70",
                 "id": "T_TRUE_GRIT",
                 "image": "true_grit.png",
                 "info_text": "<p>采 取 一 个 防 守 姿 态 并 抵 抗 敌 人 的 猛 攻.</p><p>当 你 受 伤 后 ， 你 获 得 相 当 于 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">27%, 34%, 40%, 45%, 50%</acronym> 损 失 生 命 值 百 分 比 的 全 体 伤 害 抗 性。</p><p>例 如：当你 损 失 70% 生 命 时 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19%, 24%, 28%, 32%, 35%</acronym> 抗 性。</p><p>同 时，你 的 全 体 伤 害 抗 性 上 限 相 比 于 100% 差 距 将 减 少 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19%。, 34%。, 44%。, 51%。, 57%。</acronym></p><p>每 回 合 体 力 值 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">-12, -9, -7, -5, -4</acronym> 。</p><p>效 果 在 每 回 合 开 始 时 刷 新。</p>",
@@ -3329,6 +3342,7 @@
             {
                 "chnname": "子弹时间",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  80",
                 "generic": true,
                 "id": "T_SLOW_MOTION",
                 "image": "slow_motion.png",
@@ -3404,6 +3418,7 @@
             {
                 "chnname": "精准打击",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  30",
                 "id": "T_PRECISE_STRIKES",
                 "image": "precise_strikes.png",
                 "info_text": "<p>你 集 中 精 神 攻 击， 减 少 你 10% 攻 击 速 度 并 增 加 你 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100,<br>敏捷 100\">20, 27, 33, 37, 41</acronym> 点 命 中 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>敏捷 100,<br>敏捷 100\">9%, 15%, 20%, 24%, 28%</acronym> 暴 击 率。 </p><p>受 敏 捷 影 响， 此 效 果 有 额 外 加 成。</p>",
@@ -3805,6 +3820,7 @@
             {
                 "chnname": "奥术武器",
                 "cooldown": 5,
+                "cost": "持续体力消耗：  20",
                 "id": "T_ARCANE_COMBAT",
                 "image": "arcane_combat.png",
                 "info_text": "<p>允 许 你 使 用 近 战 武 器 附 魔 法 术。 在 你 每 次 的 近 战 攻 击 中 都 有 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>灵巧 100\">44%, 57%, 65%, 70%, 74%</acronym> 概 率 附 加 一 次 火 球 术、 闪 电 术 或 岩 石 飞 弹 。 </p><p>当 双 持 或 持 有 盾 牌 时， 此 效 果 对 每 一 个 武 器 均 可 触 发， 但 触 发 概 率 减 少。 </p><p>通 过 这 种 方 式 触 发 的 法 术 不 会 造 成 对 应 技 能 进 入 CD 状 态， 但 是 只 有 在 对 应 技 能 未 冷 却 时 才 可 以 触 发。 </p><p>受 灵 巧 影 响， 触 发 概 率 有 额 外 加 成。 </p>",
@@ -3866,6 +3882,7 @@
             {
                 "chnname": "奥术充能",
                 "cooldown": 5,
+                "cost": "持续体力消耗：  20",
                 "id": "T_ARCANE_FEED",
                 "image": "arcane_feed.png",
                 "info_text": "<p>当 技 能 激 活 时， 每 回 合 恢 复 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">0.20, 0.40, 0.58, 0.74, 0.89</acronym> 法 力 值 并 提 高 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3%, 6%, 8%, 11%, 13%</acronym> 物 理 及 法 术 爆 击 几 率。</p>",
@@ -4151,6 +4168,7 @@
             {
                 "chnname": "不择手段",
                 "cooldown": 30,
+                "cost": "持续体力消耗：  40",
                 "generic": true,
                 "id": "T_TOTAL_THUGGERY",
                 "image": "total_thuggery.png",
@@ -4260,6 +4278,7 @@
             {
                 "chnname": "求生本能",
                 "cooldown": "10",
+                "cost": "持续体力消耗：  10",
                 "generic": true,
                 "id": "T_SKIRMISHER_TRAINED_REACTIONS",
                 "image": "skirmisher_trained_reactions.png",
@@ -4415,6 +4434,7 @@
             {
                 "chnname": "以牙还牙",
                 "cooldown": 10,
+                "cost": "持续体力消耗：  0",
                 "id": "T_SKIRMISHER_COUNTER_SHOT",
                 "image": "skirmisher_counter_shot.png",
                 "info_text": "<p>每 当 你 的 格 挡 专 家 或 者 格 挡 大 师 技 能 挡 住 攻 击 时， 你 立 刻 使 用 投 石 索 发 动 一 次 伤 害 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">24%, 39%, 51%, 61%, 70%</acronym> 的 反 击。 每 回 合 最 多 只 能 发 动 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 4, 4</acronym> 次 反 击。</p><p></p>",
@@ -4618,6 +4638,7 @@
             {
                 "chnname": "调整步伐",
                 "cooldown": 10,
+                "cost": "持续体力消耗：  0",
                 "id": "T_SKIRMISHER_PACE_YOURSELF",
                 "image": "skirmisher_pace_yourself.png",
                 "info_text": "<p>控 制 你 的 行 动 来 节 省 体 力。 当 这 个 技 能 激 活 时， 你 的 全 局 速 度 降 低 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">13%，, 8.3%，, 6.1%，, 4.8%，, 4.0%，</acronym> 你 的 疲 劳 值 降 低 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12%, 19%, 25%, 30%, 35%</acronym> （ 最 多 降 至 0%）。</p>",
@@ -5480,6 +5501,7 @@
             {
                 "chnname": "望而生畏",
                 "cooldown": 8,
+                "cost": "持续体力消耗：  20",
                 "generic": true,
                 "id": "T_DAUNTING_PRESENCE",
                 "image": "daunting_presence.png",

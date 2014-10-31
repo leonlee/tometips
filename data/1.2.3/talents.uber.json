@@ -501,6 +501,7 @@
             {
                 "chnname": "永不止步",
                 "cooldown": 20,
+                "cost": "持续体力消耗：  10",
                 "id": "T_NEVER_STOP_RUNNING",
                 "image": "never_stop_running.png",
                 "info_text": "<p>当 技 能 激 活 时， 你 可 以 挖 掘 出 体 能 的 极 限， 移 动 不 会 耗 费 回 合， 但 是 每 移 动 一 码 需 消 耗 12 点 体 力。  </p>",

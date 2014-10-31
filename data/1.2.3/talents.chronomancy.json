@@ -1055,7 +1055,7 @@
             {
                 "chnname": "意志之力",
                 "cooldown": 18,
-                "cost": "持续紊乱值消耗：  100",
+                "cost": "持续体力消耗：  50, 持续紊乱值消耗：  100",
                 "id": "T_STRENGTH_OF_PURPOSE",
                 "image": "strength_of_purpose.png",
                 "info_text": "<p>你 已 经 学 会 通 过 控 制 时 空 的 流 动 来 增 强 力 量。 </p><p> 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">12, 17, 20, 24, 27</acronym> 点 力 量 和 物 理 豁 免。 </p><p> 受 意 志 影 响， 效 果 按 比 例 加 成。</p>",
@@ -1122,7 +1122,7 @@
             {
                 "chnname": "量子充能",
                 "cooldown": 18,
-                "cost": "持续紊乱值消耗：  100",
+                "cost": "持续体力消耗：  50, 持续紊乱值消耗：  100",
                 "id": "T_QUANTUM_FEED",
                 "image": "quantum_feed.png",
                 "info_text": "<p>你 已 经 学 会 通 过 控 制 时 空 的 流 动 来 增 强 魔 力。 </p><p> 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>意志 100\">11, 16, 19, 23, 26</acronym> 点 魔 法 和 法 术 豁 免。 </p><p> 受 意 志 影 响， 效 果 按 比 例 加 成。</p>",
