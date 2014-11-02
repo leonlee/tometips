@@ -909,5 +909,143 @@
             }
         ],
         "type": "race/yeek"
+    },
+    {
+        "chndescription": " 多 种 多 样 的 种 族 天 赋。 ",
+        "chnname": "doomelf",
+        "description": "The various racial bonuses a character can have.",
+        "generic": true,
+        "is_spell": true,
+        "name": "doomelf",
+        "points": 1,
+        "talents": [
+            {
+                "chnname": "Haste of the Doomed",
+                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">45, 31, 25, 22, 20</acronym>",
+                "generic": true,
+                "id": "T_HASTE_OF_THE_DOOMED",
+                "image": "haste_of_the_doomed.png",
+                "info_text": "<p>Hasten yourself out of phase, teleporting you randomly in a range of 10.</p><p>Afterwards you stay out of phase for 5 turns. In this state your defense is increased by <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100\">7, 11, 17, 21, 25</acronym> and all your resistances by <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100\">7%, 11%, 17%, 21%, 25%.</acronym></p><p>The bonus will increase with your Willpower.</p>",
+                "is_spell": true,
+                "is_teleport": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Haste of the Doomed",
+                "no_energy": true,
+                "points": 5,
+                "range": "10.0",
+                "require": [
+                    "等级 0",
+                    "等级 1",
+                    "等级 2",
+                    "等级 3",
+                    "等级 4"
+                ],
+                "short_name": "HASTE_OF_THE_DOOMED",
+                "source_code": [
+                    "../tome-ashes-urhrok/data/talents/misc/races.lua",
+                    34
+                ],
+                "type": [
+                    "race/doomelf",
+                    1
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "Resilience of the Doomed",
+                "generic": true,
+                "id": "T_RESILIENCE_OF_THE_DOOMED",
+                "image": "resilience_of_the_doomed.png",
+                "info_text": "<p>The tortures you had to endure on the Fearscape have increased your resilience.</p><p>All detrimental status effects last <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6%, 12%, 16%, 20%, 23%</acronym> less on you and all direct critical hits (physical, mental, spells) against you have a <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12%, 19%, 26%, 32%, 38%</acronym> lower critical multiplier (but always do at least normal damage).</p>",
+                "is_spell": true,
+                "mode": "被动",
+                "multi_require": true,
+                "name": "Resilience of the Doomed",
+                "points": 5,
+                "require": [
+                    "等级 8",
+                    "等级 9",
+                    "等级 10",
+                    "等级 11",
+                    "等级 12"
+                ],
+                "short_name": "RESILIENCE_OF_THE_DOOMED",
+                "source_code": [
+                    "../tome-ashes-urhrok/data/talents/misc/races.lua",
+                    78
+                ],
+                "type": [
+                    "race/doomelf",
+                    2
+                ]
+            },
+            {
+                "chnname": "Corruption of the Doomed",
+                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">46, 42, 38, 35, 33</acronym>",
+                "generic": true,
+                "id": "T_CORRUPTION_OF_THE_DOOMED",
+                "image": "corruption_of_the_doomed.png",
+                "info_text": "<p>Your original invisibility talent was corrupted and twisted.</p><p>You have <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">23%, 32%, 39%, 45%, 50%</acronym> chance to turn into a dúathedlen for 5 turns, when hit by a blow doing at least 10% of your total life.</p><p>While in this form you gain the following effects:</p><ul><li> you have permanent stealth (power <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>魔法 10, 25, 50, 75, 100\">7, 11, 17, 21, 25</acronym>)</li><li> your darkness damage is increased by <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6%, 11%, 13%, 15%, 16%</acronym></li><li> any non mind and non physical damage you deal above 1 triggers a darkness explosion of radius 1 for half the damage (this can only happen once per turn)</li><li> when you transform the cooldowns of Haste of the Doomed and Pitiless are reset</li></ul><p></p>",
+                "is_spell": true,
+                "mode": "持续",
+                "multi_require": true,
+                "name": "Corruption of the Doomed",
+                "no_energy": true,
+                "points": 5,
+                "range": "1.0",
+                "require": [
+                    "等级 16",
+                    "等级 17",
+                    "等级 18",
+                    "等级 19",
+                    "等级 20"
+                ],
+                "short_name": "CORRUPTION_OF_THE_DOOMED",
+                "source_code": [
+                    "../tome-ashes-urhrok/data/talents/misc/races.lua",
+                    97
+                ],
+                "type": [
+                    "race/doomelf",
+                    3
+                ],
+                "use_speed": "瞬间"
+            },
+            {
+                "chnname": "Pitiless",
+                "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">44, 38, 33, 30, 28</acronym>",
+                "generic": true,
+                "id": "T_PITILESS",
+                "image": "pitiless.png",
+                "info_text": "<p>You launch a mental assault on the target.</p><p>If it fails a spell save you increase the cooldown of any already cooling down talents by <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 3, 4, 5, 5,</acronym> the duration of any magical, physical or mental detrimental effects by <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 4, 5, 6, 6</acronym> and decreases the duration of any magical, physical or mental beneficial effects by <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 3, 4, 5, 5.</acronym></p>",
+                "is_spell": true,
+                "mode": "主动",
+                "multi_require": true,
+                "name": "Pitiless",
+                "no_energy": true,
+                "points": 5,
+                "range": "7.0",
+                "require": [
+                    "等级 24",
+                    "等级 25",
+                    "等级 26",
+                    "等级 27",
+                    "等级 28"
+                ],
+                "requires_target": true,
+                "short_name": "PITILESS",
+                "source_code": [
+                    "../tome-ashes-urhrok/data/talents/misc/races.lua",
+                    139
+                ],
+                "type": [
+                    "race/doomelf",
+                    4
+                ],
+                "use_speed": "瞬间"
+            }
+        ],
+        "type": "race/doomelf"
     }
 ]

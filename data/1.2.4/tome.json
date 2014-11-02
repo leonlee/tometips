@@ -24,19 +24,19 @@
         "inscriptions",
         "misc",
         "other",
-        "race",
         "technique",
         "cunning",
         "golem",
         "spell",
         "wild-gift",
         "celestial",
-        "corruption",
         "undead",
         "cursed",
         "chronomancy",
         "psionic",
-        "uber"
+        "uber",
+        "race",
+        "corruption"
     ],
     "version": "1.2.4"
 }

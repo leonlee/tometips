@@ -62,7 +62,9 @@
             "short_name": "DEFILER",
             "subclass_list": [
                 "REAVER",
-                "CORRUPTOR"
+                "CORRUPTOR",
+                "DOOMBRINGER",
+                "DEMONOLOGIST"
             ]
         },
         "MAGE": {
@@ -1106,6 +1108,189 @@
                     true,
                     1,
                     "诅咒 / 诅咒形态系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗训练系"
+                ]
+            }
+        },
+        "DEMONOLOGIST": {
+            "copy_add": {
+                "life_rating": 2
+            },
+            "desc": "<p>Contrary to popular beliefs Demonologists are not the pawns of demons, they enact pacts with them but always very carefully.</p><p>They use those demonic powers for their own purpose, often evil but a few have been known to use demonic powers to fight demons.</p><p>Demonologists are melee fighters, bashing their foes skulls with their shields while calling down rains of fire and darkness.</p>",
+            "display_name": "Demonologist",
+            "images": [],
+            "locked_desc": "Most simply run, but I understand: a distant planet, ravaged and damned. Burnt creations seek righteous vengeance, Urh'Rok's ashes, now destruction's engines. Harness their power! Capture and tame! I call on you, demons - UNLEASH THE FLAMES!",
+            "name": "Demonologist",
+            "short_name": "DEMONOLOGIST",
+            "stats": {
+                "con": 2,
+                "mag": 4,
+                "str": 3
+            },
+            "talents": {
+                "T_ARMOUR_TRAINING": 2,
+                "T_BLEAK_OUTCOME": 1,
+                "T_DEMON_SEED": 1,
+                "T_FLAME_LEASH": 1,
+                "T_SHIELD_PUMMEL": 1,
+                "T_WEAPONS_MASTERY": 1,
+                "T_WEAPON_COMBAT": 1
+            },
+            "talents_types_class": {
+                "corruption/demonic-pact": [
+                    true,
+                    1.3,
+                    "堕落 / demonic pact"
+                ],
+                "corruption/doom-covenant": [
+                    false,
+                    1.3,
+                    "堕落 / doom covenant"
+                ],
+                "corruption/doom-shield": [
+                    true,
+                    1.3,
+                    "堕落 / doom shield"
+                ],
+                "corruption/infernal-combat": [
+                    true,
+                    1.3,
+                    "堕落 / infernal combat"
+                ],
+                "corruption/shadowflame": [
+                    true,
+                    1.3,
+                    "堕落 / 暗影烈焰系"
+                ],
+                "corruption/spellblaze": [
+                    false,
+                    1.3,
+                    "堕落 / spellblaze"
+                ],
+                "technique/combat-techniques-active": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/shield-offense": [
+                    true,
+                    1.3,
+                    "格斗 / 盾牌攻击系"
+                ]
+            },
+            "talents_types_generic": {
+                "corruption/black-magic": [
+                    true,
+                    1.3,
+                    "堕落 / black-magic"
+                ],
+                "corruption/torment": [
+                    true,
+                    1.3,
+                    "堕落 / 折磨系"
+                ],
+                "cunning/survival": [
+                    true,
+                    1,
+                    "灵巧 / 生存系"
+                ],
+                "technique/combat-training": [
+                    true,
+                    1,
+                    "格斗 / 战斗训练系"
+                ]
+            }
+        },
+        "DOOMBRINGER": {
+            "copy_add": {
+                "life_rating": 3
+            },
+            "desc": "<p>Weapon in hand and sheathed in flame, a Doombringer is a terrifying force in combat.</p><p>Doombringers are engines of war, cleaving and burning their way through entire armies.</p><p>The most powerful Doombringers can harness the full power of their demonic ties and transform themselves into a gigantic demon.</p><p>Their most important stats are: Strength and Magic</p>",
+            "display_name": "Doombringer",
+            "images": [],
+            "name": "Doombringer",
+            "short_name": "DOOMBRINGER",
+            "stats": {
+                "con": 2,
+                "cun": 1,
+                "mag": 2,
+                "str": 4
+            },
+            "talents": {
+                "T_ARMOUR_TRAINING": 1,
+                "T_DRAINING_ASSAULT": 1,
+                "T_INCINERATING_BLOWS": 1,
+                "T_STAMINA_POOL": 1,
+                "T_WEAPONS_MASTERY": 1,
+                "T_WEAPON_COMBAT": 1,
+                "T_WRAITHFORM": 1
+            },
+            "talents_types_class": {
+                "corruption/brutality": [
+                    true,
+                    1.3,
+                    "堕落 / brutality"
+                ],
+                "corruption/fearfire": [
+                    false,
+                    1.1,
+                    "堕落 / Fearfire"
+                ],
+                "corruption/heart-of-fire": [
+                    true,
+                    1.2,
+                    "堕落 / Heart of Fire"
+                ],
+                "corruption/shadowflame": [
+                    true,
+                    1.3,
+                    "堕落 / 暗影烈焰系"
+                ],
+                "corruption/torture": [
+                    true,
+                    1.3,
+                    "堕落 / torture"
+                ],
+                "corruption/wrath": [
+                    false,
+                    1.3,
+                    "堕落 / wrath"
+                ],
+                "technique/combat-techniques-active": [
+                    true,
+                    1.1,
+                    "格斗 / 战斗技巧系"
+                ],
+                "technique/combat-techniques-passive": [
+                    true,
+                    1.3,
+                    "格斗 / 战斗经验系"
+                ]
+            },
+            "talents_types_generic": {
+                "corruption/demonic-strength": [
+                    true,
+                    1.3,
+                    "堕落 / demonic strength"
+                ],
+                "corruption/hexes": [
+                    true,
+                    1.1,
+                    "堕落 / 邪术系"
+                ],
+                "corruption/oppression": [
+                    true,
+                    1.2,
+                    "堕落 / Oppression"
+                ],
+                "cunning/survival": [
+                    true,
+                    1.1,
+                    "灵巧 / 生存系"
                 ],
                 "technique/combat-training": [
                     true,
