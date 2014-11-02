@@ -11,8 +11,7 @@ all: t-engine4 img html/js/templates.js html/js/partials.js \
 	$(patsubst %,html/data/%/changes.talents.json,$(VERSIONS)) \
 	$(patsubst %,html/data/%/recent-changes.talents.json,$(VERSIONS))
 
-1.2.3-chn-release:1.2.3-chn pretty
-1.2.3-chn: html/data/1.2.3/tome.json html/data/1.2.3/classes.json html/js/partials.js html/js/templates.js
+1.2.4-chn: html/data/1.2.4/tome.json html/data/1.2.4/classes.json html/js/partials.js html/js/templates.js
 html/data/%/tome.json: % talent_spoilers.lua
 	lua talent_spoilers.lua $< $(dir $@)
 

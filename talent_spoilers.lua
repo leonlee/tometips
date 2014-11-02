@@ -5,6 +5,7 @@ require 'data.talent_name'
 require 'data.talent_type_description'
 require 'data.talent_type_name'
 require 'data.stat_name'
+talentInfoCHN = talentInfoCHN or {}
 printf = function(s,...)
 	return io.write(s:format(...))
  end
@@ -436,7 +437,7 @@ for tid, t in pairs(Actor.talents_def) do
     spoilers.used = {}
     for i, v in ipairs(spoilers.all_active) do
         table.merge(spoilers.active, v)
-        info_text[i] = t.info(player, t):escapeHtml():toTString():tokenize(" ()[]")
+        info_text[i] = (talentInfoCHN[tid] or t.info) (player, t):escapeHtml():toTString():tokenize(" ()[]")
     end
     table.merge(spoilers.active, spoilers.default_active)
 

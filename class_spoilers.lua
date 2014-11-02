@@ -94,7 +94,7 @@ for i, sub in ipairs(Birther.birth_descriptor_def.subclass) do
                     -- Make masteries 1-based
                     v[2] = v[2] + 1.0
                     -- Add talent type name
-                    v[3] =  t_talent_cat[k:split('/')[1] ] .. ' / ' .. t_talent_type_name[Actor.talents_types_def[k].name] or k
+                    v[3] =  (t_talent_cat[k:split('/')[1] ] or k:split('/')[1]) .. ' / ' .. (t_talent_type_name[Actor.talents_types_def[k].name] or Actor.talents_types_def[k].name)
                     -- Add whether or not it's unlockable
                     v[4] = unlockable
 

@@ -7,6 +7,7 @@ cd $(dirname $0)/..
 
 mkdir -p html/img/talents/{64,48,32}
 cp -v --update t-engine4/game/modules/tome/data/gfx/talents/*.png html/img/talents/64/
+cp -v --update tome-ashes-urhrok/overload/data/gfx/talents/*.png html/img/talents/64/
 for size in 32 48; do
     for img in html/img/talents/64/*.png; do
         newimg=${img/64/$size}

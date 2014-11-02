@@ -86,6 +86,7 @@ load = loadfile_and_execute
 
 require 'engine.dialogs.Chat'
 
+
 require 'engine.utils'
 local DamageType = require "engine.DamageType"
 local ActorStats = require "engine.interface.ActorStats"
@@ -93,7 +94,6 @@ local ActorResource = require "engine.interface.ActorResource"
 local ActorTalents = require 'engine.interface.ActorTalents'
 local ActorInventory = require "engine.interface.ActorInventory"
 local Birther = require 'engine.Birther'
-
 -- FIXME: Figure out where these should go and what they should do
 resolvers = {
     equip = function() end,
@@ -148,7 +148,22 @@ ActorInventory:defineInventory("QS_QUIVER", "Second weapon set: Quiver", false, 
 
 -- Copied from ToME's load.lua
 DamageType:loadDefinition("/data/damage_types.lua")
+
 ActorTalents:loadDefinition("/data/talents.lua")
+if tip.version ~= "1.2.3" then	
+	damDesc = function(self, type, dam)
+		-- Increases damage
+		if self.inc_damage then
+			local inc = self:combatGetDamageIncrease(type)
+			dam = dam + (dam * inc / 100)
+		end
+		return dam
+	end
+	ActorTalents:loadDefinition("/../tome-ashes-urhrok/data/talents/misc/races.lua")
+	ActorTalents:loadDefinition("/../tome-ashes-urhrok/data/talents/corruptions/corruptions.lua")
+	t_talent_name = t_talent_name or {}
+	dofile("tome-chn123-/data/talents/talents.lua")
+end
 
 -- Actor resources - copied from ToME's load.lua
 ActorResource:defineResource("Air", "air", nil, "air_regen", "Air capacity in your lungs. Entities that need not breath are not affected.")
@@ -212,6 +227,7 @@ local player = Actor.new{
 }
 game.player = player
 
+
 -- table.mapv was added in newer versions of T-Engine's utils.lua.
 -- Copy its implementation and add it to older versions if needed.
 if not table.mapv then
@@ -225,3 +241,9 @@ if not table.mapv then
     end
 end
 
+
+if tip.version ~= "1.2.3" then
+	Birther:loadDefinition("/../tome-ashes-urhrok/data/birth/doomelf.lua")
+	Birther:loadDefinition("/../tome-ashes-urhrok/data/birth/races_cosmetic.lua")
+	Birther:loadDefinition("/../tome-ashes-urhrok/data/birth/corrupted.lua")
+end
