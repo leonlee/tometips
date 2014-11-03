@@ -159,10 +159,11 @@ if tip.version ~= "1.2.3" then
 		end
 		return dam
 	end
-	ActorTalents:loadDefinition("/../tome-ashes-urhrok/data/talents/misc/races.lua")
-	ActorTalents:loadDefinition("/../tome-ashes-urhrok/data/talents/corruptions/corruptions.lua")
+	ActorTalents:loadDefinition("/../data-ashes-urhrok/talents/misc/races.lua")
+	ActorTalents:loadDefinition("/../data-ashes-urhrok/talents/corruptions/corruptions.lua")
 	t_talent_name = t_talent_name or {}
 	dofile("tome-chn123-/data/talents/talents.lua")
+	print (ActorTalents.T_MOONLIGHT_RAY.id)
 end
 
 -- Actor resources - copied from ToME's load.lua
