@@ -1144,22 +1144,22 @@
                 "corruption/demonic-pact": [
                     true,
                     1.3,
-                    "堕落 / demonic pact"
+                    "堕落 / 恶魔契约"
                 ],
                 "corruption/doom-covenant": [
                     false,
                     1.3,
-                    "堕落 / doom covenant"
+                    "堕落 / 末日降临"
                 ],
                 "corruption/doom-shield": [
                     true,
                     1.3,
-                    "堕落 / doom shield"
+                    "堕落 / 毁灭之盾"
                 ],
                 "corruption/infernal-combat": [
                     true,
                     1.3,
-                    "堕落 / infernal combat"
+                    "堕落 / 地狱格斗"
                 ],
                 "corruption/shadowflame": [
                     true,
@@ -1169,7 +1169,7 @@
                 "corruption/spellblaze": [
                     false,
                     1.3,
-                    "堕落 / spellblaze"
+                    "堕落 / 魔法大爆炸"
                 ],
                 "technique/combat-techniques-active": [
                     true,
@@ -1186,7 +1186,7 @@
                 "corruption/black-magic": [
                     true,
                     1.3,
-                    "堕落 / black-magic"
+                    "堕落 / 黑暗魔法"
                 ],
                 "corruption/torment": [
                     true,
@@ -1233,17 +1233,17 @@
                 "corruption/brutality": [
                     true,
                     1.3,
-                    "堕落 / brutality"
+                    "堕落 / 残暴"
                 ],
                 "corruption/fearfire": [
                     false,
                     1.1,
-                    "堕落 / Fearfire"
+                    "堕落 / 恐惧之炎"
                 ],
                 "corruption/heart-of-fire": [
                     true,
                     1.2,
-                    "堕落 / Heart of Fire"
+                    "堕落 / 狱火之核"
                 ],
                 "corruption/shadowflame": [
                     true,
@@ -1253,12 +1253,12 @@
                 "corruption/torture": [
                     true,
                     1.3,
-                    "堕落 / torture"
+                    "堕落 / 折磨"
                 ],
                 "corruption/wrath": [
                     false,
                     1.3,
-                    "堕落 / wrath"
+                    "堕落 / 愤怒"
                 ],
                 "technique/combat-techniques-active": [
                     true,
@@ -1275,7 +1275,7 @@
                 "corruption/demonic-strength": [
                     true,
                     1.3,
-                    "堕落 / demonic strength"
+                    "堕落 / 恶魔之力"
                 ],
                 "corruption/hexes": [
                     true,
@@ -1285,7 +1285,7 @@
                 "corruption/oppression": [
                     true,
                     1.2,
-                    "堕落 / Oppression"
+                    "堕落 / 压制"
                 ],
                 "cunning/survival": [
                     true,

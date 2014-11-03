@@ -912,7 +912,7 @@
     },
     {
         "chndescription": " 多 种 多 样 的 种 族 天 赋。 ",
-        "chnname": "doomelf",
+        "chnname": "Doom\tElf",
         "description": "The various racial bonuses a character can have.",
         "generic": true,
         "is_spell": true,
