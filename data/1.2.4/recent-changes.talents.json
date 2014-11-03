@@ -436,7 +436,7 @@
         ]
     },
     {
-        "chnname": "种族技能 / doomelf",
+        "chnname": "种族技能 / Doom\tElf",
         "name": "race / doomelf",
         "values": [
             {
@@ -1351,7 +1351,7 @@
         ]
     },
     {
-        "chnname": "堕落 / demonic pact",
+        "chnname": "堕落 / 恶魔契约",
         "name": "corruption / demonic pact",
         "values": [
             {
@@ -1500,7 +1500,7 @@
         ]
     },
     {
-        "chnname": "堕落 / infernal combat",
+        "chnname": "堕落 / 地狱格斗",
         "name": "corruption / infernal combat",
         "values": [
             {
@@ -1658,7 +1658,7 @@
         ]
     },
     {
-        "chnname": "堕落 / doom shield",
+        "chnname": "堕落 / 毁灭之盾",
         "name": "corruption / doom shield",
         "values": [
             {
@@ -1810,7 +1810,7 @@
         ]
     },
     {
-        "chnname": "堕落 / black-magic",
+        "chnname": "堕落 / 黑暗魔法",
         "name": "corruption / black-magic",
         "values": [
             {
@@ -1958,7 +1958,7 @@
         ]
     },
     {
-        "chnname": "堕落 / doom covenant",
+        "chnname": "堕落 / 末日降临",
         "name": "corruption / doom covenant",
         "values": [
             {
@@ -2103,7 +2103,7 @@
         ]
     },
     {
-        "chnname": "堕落 / spellblaze",
+        "chnname": "堕落 / 魔法大爆炸",
         "name": "corruption / spellblaze",
         "values": [
             {
@@ -2253,7 +2253,7 @@
         ]
     },
     {
-        "chnname": "堕落 / brutality",
+        "chnname": "堕落 / 残暴",
         "name": "corruption / brutality",
         "values": [
             {
@@ -2412,7 +2412,7 @@
         ]
     },
     {
-        "chnname": "堕落 / torture",
+        "chnname": "堕落 / 折磨",
         "name": "corruption / torture",
         "values": [
             {
@@ -2570,7 +2570,7 @@
         ]
     },
     {
-        "chnname": "堕落 / wrath",
+        "chnname": "堕落 / 愤怒",
         "name": "corruption / wrath",
         "values": [
             {
@@ -2722,7 +2722,7 @@
         ]
     },
     {
-        "chnname": "堕落 / Fearfire",
+        "chnname": "堕落 / 恐惧之炎",
         "name": "corruption / Fearfire",
         "values": [
             {
@@ -2877,7 +2877,7 @@
         ]
     },
     {
-        "chnname": "堕落 / Heart of Fire",
+        "chnname": "堕落 / 狱火之核",
         "name": "corruption / Heart of Fire",
         "values": [
             {
@@ -3017,7 +3017,7 @@
         ]
     },
     {
-        "chnname": "堕落 / demonic strength",
+        "chnname": "堕落 / 恶魔之力",
         "name": "corruption / demonic strength",
         "values": [
             {
@@ -3164,7 +3164,7 @@
         ]
     },
     {
-        "chnname": "堕落 / Oppression",
+        "chnname": "堕落 / 压制",
         "name": "corruption / Oppression",
         "values": [
             {
