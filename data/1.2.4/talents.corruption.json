@@ -52,7 +52,7 @@
                 "range": "1.0",
                 "short_name": "DEMON_SOUL_EATER",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/npcs.lua",
+                    "data-ashes-urhrok/talents/corruptions/npcs.lua",
                     22
                 ],
                 "type": [
@@ -1985,7 +1985,7 @@
                 "cost": "持续活力值消耗：  90",
                 "id": "T_FLAME_OF_URH_ROK",
                 "image": "flame_of_urh_rok.png",
-                "info_text": "<p>召 唤 伟 大 的 恶 魔 领 主 乌 鲁 洛 克 的 实 体， 转 化 为 恶 魔。 </p><p> 当 你 处 于 恶 魔 状 态 时， 你 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">18%, 25%, 30%, 35%, 38%</acronym> 火 焰 抵 抗， <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">22%, 29%, 35%, 41%, 45%</acronym> 暗 影 抵 抗 并 且 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4%, 8%, 12%, 15%, 18%</acronym> 整 体 速 度。 </p><p> 当 你 处 于 恶 魔 形 态 时， 死 亡 空 间 的 火 焰 会 治 疗 你。 </p><p> 受 法 术 强 度 影 响， 抵 抗 和 治 疗 量 有 额 外 加 成。</p>",
+                "info_text": "<p>召 唤 伟 大 的 恶 魔 领 主 乌 鲁 洛 克 的 实 体， 转 化 为 恶 魔。 </p><p> 当 你 处 于 恶 魔 形 态 时， 你 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">18%, 25%, 30%, 35%, 38%</acronym> 火 焰 抵 抗， <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">22%, 29%, 35%, 41%, 45%</acronym> 暗 影 抵 抗 并 且 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4%, 8%, 12%, 15%, 18%</acronym> 整 体 速 度。 </p><p> 当 你 处 于 恶 魔 形 态 时， 死 亡 空 间 的 火 焰 会 治 疗 你。 </p><p> 受 法 术 强 度 影 响， 抵 抗 和 治 疗 量 有 额 外 加 成。</p>",
                 "is_spell": true,
                 "mode": "持续",
                 "multi_require": true,
@@ -2019,7 +2019,7 @@
                 "drain_vim": 5,
                 "id": "T_DEMON_PLANE",
                 "image": "demon_plane.png",
-                "info_text": "<p>召 唤 一 部 分 死 亡 空 间 与 现 有 空 间 交 叉。 </p><p> 你 的 目 标 和 你 自 己 都 会 被 带 入 死 亡 空 间， 只 有 当 你 中 断 技 能 或 目 标 死 亡 时， 限 制 解 除。 </p><p> 在 死 亡 空 间 内， 永 恒 之 焰 会 燃 烧 你（ 治 疗 恶 魔） 和 目 标， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">93, 126, 152, 174, 193</acronym> 火 焰 伤 害。 </p><p> 当 技 能 中 断 时， 只 有 你 和 目 标（ 如 果 还 活 着） 会 被 带 回 原 来 空 间， 所 有 的 召 唤 物 会 停 留 在 死 亡 空 间。 </p><p> 当 你 已 处 于 死 亡 空 间 时， 此 技 能 施 放 无 效 果。 </p><p> 这 个 强 大 的 法 术 每 回 合 消 耗 5 点 活 力， 当 活 力 值 归 零 时 技 能 终 止 。</p><p> 受 法 术 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
+                "info_text": "<p>召 唤 一 部 分 恶 魔 空 间 与 现 有 空 间 交 叉。 </p><p> 你 的 目 标 和 你 自 己 都 会 被 带 入 恶 魔 空 间， 只 有 当 你 中 断 技 能 或 目 标 死 亡 时， 限 制 解 除。 </p><p> 在 恶 魔 空 间 内， 永 恒 之 焰 会 燃 烧 你（ 治 疗 恶 魔） 和 目 标， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">93, 126, 152, 174, 193</acronym> 火 焰 伤 害。 </p><p> 当 技 能 中 断 时， 只 有 你 和 目 标（ 如 果 还 活 着） 会 被 带 回 原 来 空 间， 所 有 的 召 唤 物 会 停 留 在 恶 魔 空 间。 </p><p> 当 你 已 处 于 恶 魔 空 间 时， 此 技 能 施 放 无 效 果。 </p><p> 这 个 强 大 的 法 术 每 回 合 消 耗 5 点 活 力， 当 活 力 值 归 零 时 技 能 终 止 。</p><p> 受 法 术 强 度 影 响， 伤 害 有 额 外 加 成。</p>",
                 "is_spell": true,
                 "mode": "持续",
                 "multi_require": true,
@@ -2063,10 +2063,10 @@
         "points": 1,
         "talents": [
             {
-                "chnname": "Flame Bolts",
+                "chnname": "反击火球",
                 "id": "T_DEMON_SEED_FIRE_BOLTS",
                 "image": "demon_seed_fire_bolts.png",
-                "info_text": "<p>Randomly (<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">26%, 33%, 39%, 46%, 52%</acronym> chances) hurls up to <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 3, 4, 5</acronym> flame bolts dealing <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">79, 108, 129, 148, 164</acronym> fire damage to foes in sight when you hit in melee.</p><p>The damage will increase with your Spellpower.</p>",
+                "info_text": "<p>当 你 被 近 战 攻 击 命 中 时 ， 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">26%, 33%, 39%, 46%, 52%</acronym> 几 率 释 放 至 多 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 3, 4, 5</acronym> 个 火 球 ， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">79, 108, 129, 148, 164</acronym> 点 火 焰 伤 害。</p><p>\t\t伤 害 受 法 术 强 度 加 成</p>",
                 "is_spell": true,
                 "mode": "被动",
                 "name": "Flame Bolts",
@@ -2077,7 +2077,7 @@
                 "range": 5,
                 "short_name": "DEMON_SEED_FIRE_BOLTS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     23
                 ],
                 "type": [
@@ -2086,12 +2086,12 @@
                 ]
             },
             {
-                "chnname": "Fiery Cleansing",
+                "chnname": "火焰净化",
                 "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">26.326530612245, 19.090909090909, 16.299212598425, 14.819277108434, 13.90243902439</acronym>",
                 "cost": "活力值消耗：  15",
                 "id": "T_DEMON_SEED_FIERY_CLEANSING",
                 "image": "demon_seed_fiery_cleansing.png",
-                "info_text": "<p>Deals 10% of your total life to cleanse your afflictions, removing up to <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5</acronym> physical, mental or magical detrimental effects.</p>",
+                "info_text": "<p>消 耗 10% 最 大 生 命 值，解 除 至 多 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5</acronym> 个 负 面 状 态。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Fiery Cleansing",
@@ -2101,7 +2101,7 @@
                 "range": "1.0",
                 "short_name": "DEMON_SEED_FIERY_CLEANSING",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     63
                 ],
                 "type": [
@@ -2112,12 +2112,12 @@
                 "vim": 15
             },
             {
-                "chnname": "Farstrike",
+                "chnname": "远程打击",
                 "cooldown": 2,
                 "cost": "活力值消耗：  2",
                 "id": "T_DEMON_SEED_FARSTRIKE",
                 "image": "demon_seed_farstrike.png",
-                "info_text": "<p>You send your weapon flying to the target, dealing <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">141%, 166%, 185%, 202%, 216%</acronym> weapon damage.</p>",
+                "info_text": "<p>扔 出 武 器 攻 击 远 处 敌 人，造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">141%, 166%, 185%, 202%, 216%</acronym> 武 器 伤 害 。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Farstrike",
@@ -2127,7 +2127,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_FARSTRIKE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     140
                 ],
                 "type": [
@@ -2138,12 +2138,12 @@
                 "vim": 2
             },
             {
-                "chnname": "Corrosive Slashes",
+                "chnname": "腐蚀鞭笞",
                 "cooldown": 10,
                 "cost": "持续活力值消耗：  5",
                 "id": "T_DEMON_SEED_CORROSIVE_SLASHES",
                 "image": "demon_seed_corrosive_slashes.png",
-                "info_text": "<p>You cover your weapon in acid, turning all melee damage into acid.</p><p>All melee attacks also fully ignore armor.</p>",
+                "info_text": "<p>用 酸 液 覆 盖 武 器，近 战 伤 害 转 变 为 酸 性。</p><p>\t\t近 战 攻 击 无 视 护 甲。</p>",
                 "is_spell": true,
                 "mode": "持续",
                 "name": "Corrosive Slashes",
@@ -2152,7 +2152,7 @@
                 "range": "1.0",
                 "short_name": "DEMON_SEED_CORROSIVE_SLASHES",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     169
                 ],
                 "sustain_vim": 5,
@@ -2163,12 +2163,12 @@
                 "use_speed": "1 回合"
             },
             {
-                "chnname": "Acidic Bath",
+                "chnname": "酸浴",
                 "cooldown": 15,
                 "cost": "活力值消耗：  12",
                 "id": "T_DEMON_SEED_ACIDIC_BATH",
                 "image": "demon_seed_acidic_bath.png",
-                "info_text": "<p>You spawn a pool of acid in radius 4 around you for <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 6, 8, 10, 11</acronym> turns, dealing <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">50, 67, 81, 93, 103</acronym> acid damage to all creatures, including you.</p><p>You also gain 40% acid resistance and <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">55%, 74%, 89%, 101%, 112%</acronym> acid affinity.</p><p>The damage scales with your Spellpower.</p>",
+                "info_text": "<p>在 半 径 4 的 范 围 内 制 造 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 6, 8, 10, 11</acronym> 回 合 的 酸 池 ， 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">50, 67, 81, 93, 103</acronym> 酸 性 伤 害 （ 包 括 自 己）。</p><p>\t\t你 获 得 40% 酸 性 抗 性 与 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">55%, 74%, 89%, 101%, 112%</acronym> 酸 性 伤 害 吸 收 。</p><p>\t\t伤 害 受 法 术 强 度 加 成。</p><p>\t\tThe damage scales with your Spellpower.</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Acidic Bath",
@@ -2178,7 +2178,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_ACIDIC_BATH",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     196
                 ],
                 "type": [
@@ -2189,11 +2189,11 @@
                 "vim": 12
             },
             {
-                "chnname": "Blighted Path",
+                "chnname": "枯萎之路",
                 "cooldown": 10,
                 "id": "T_DEMON_SEED_BLIGHTED_PATH",
                 "image": "demon_seed_blighted_path.png",
-                "info_text": "<p>Each time you walk or move you gain a blight charge. You can store up to <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6, 8, 10, 14, 16</acronym> charges.</p><p>When you de-activate the talent you can use the charges to restore <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3.79, 6.47, 8.52, 10, 12</acronym> vim per charges or deal <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">31, 42, 50, 58, 64</acronym> blight damage per charge to a target in melee range.</p><p>The damage scales with your Spellpower.</p>",
+                "info_text": "<p>每 次 你 行 走 、 移 动 时 ， 你 获 得 一 次 枯 萎 充 能 。 你 最 多 能 积 累 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6, 8, 10, 14, 16</acronym> 次 充 能。</p><p>\t\t当 你 取 消 该 技 能 时 ， 你 能 选 择 回 复 自 己 或 攻 击 近 身目 标 。 每 次 充 能 可 以 回 复 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3.79, 6.47, 8.52, 10, 12</acronym> 点 活 力 或 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">31, 42, 50, 58, 64</acronym> 枯 萎 伤 害。</p><p>\t\t伤 害 受 法 术 强 度 加 成。</p>",
                 "is_spell": true,
                 "mode": "持续",
                 "name": "Blighted Path",
@@ -2204,7 +2204,7 @@
                 "range": "1.0",
                 "short_name": "DEMON_SEED_BLIGHTED_PATH",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     232
                 ],
                 "type": [
@@ -2214,13 +2214,13 @@
                 "use_speed": "瞬间"
             },
             {
-                "chnname": "Corrupt Light",
+                "chnname": "腐化之光",
                 "cooldown": 15,
                 "cost": "活力值消耗：  5",
                 "direct_hit": true,
                 "id": "T_DEMON_SEED_CORRUPT_LIGHT",
                 "image": "demon_seed_corrupt_light.png",
-                "info_text": "<p>Weave darkness in a radius of <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5.</acronym> All lited grids extinguished contribute to your power by increasing all your damage done for <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 6, 8, 10, 11</acronym> turns.</p><p>Damage increase depends on the number of grids extinguished.</p>",
+                "info_text": "<p>在 半 径 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5</acronym> 范 围 内 扩 散 黑 暗 。 每 一 块 原 本 被 照 亮 的 地 形 ，都 在 接 下 来 的 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 6, 8, 10, 11</acronym> 回 合 里 增 加 你 的 伤 害。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Corrupt Light",
@@ -2230,7 +2230,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_CORRUPT_LIGHT",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     294
                 ],
                 "type": [
@@ -2241,12 +2241,12 @@
                 "vim": 5
             },
             {
-                "chnname": "Shadowmeld",
+                "chnname": "暗影融合",
                 "cooldown": 10,
                 "cost": "持续活力值消耗：  15",
                 "id": "T_DEMON_SEED_SHADOWMELD",
                 "image": "demon_seed_shadowmeld.png",
-                "info_text": "<p>Whenever you are on an unlit grid you can meld with the shadows, gaining <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">100, 135, 163, 186, 207</acronym> stealth power.</p><p>Your equiped lite does not count and will be turned off when activating.</p><p>Moving will cancel the effect.</p><p>Stealth power depends on Spellpower.</p>",
+                "info_text": "<p>每 当 你 站 在 黑 暗 地 形 时 ，你 能 与 黑 暗 融 合 ，获 得 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">100, 135, 163, 186, 207</acronym> 潜 行 强 度 。</p><p>\t\t 你 的 灯 具 不 会 计 算 在 内 ，同 时 效 果 激 活 时 灯 具 将 自 动 关 闭 。</p><p>\t\t 移 动 会 取 消 该 效 果 。</p><p>\t\t 潜 行 强 度 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "持续",
                 "name": "Shadowmeld",
@@ -2256,7 +2256,7 @@
                 "range": "1.0",
                 "short_name": "DEMON_SEED_SHADOWMELD",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     336
                 ],
                 "sustain_vim": 15,
@@ -2267,13 +2267,13 @@
                 "use_speed": "瞬间"
             },
             {
-                "chnname": "Blood Shield",
+                "chnname": "鲜血护盾",
                 "cooldown": 10,
                 "cost": "每回合活力值消耗:  2",
                 "drain_vim": 2,
                 "id": "T_DEMON_SEED_BLOOD_SHIELD",
                 "image": "demon_seed_blood_shield.png",
-                "info_text": "<p>By channeling doom forces in your shield you constantly apply 35% of its block value as a flat damage reduction against all damage.</p><p>Whenever you are hit in melee your shield retaliates automatically for <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">39%, 55%, 68%, 78%, 87%</acronym> of its block value as fire and darkness damage.</p>",
+                "info_text": "<p>在 盾 牌 中 引 导 毁 灭 之 力 ，使 你 受 到 的 全 体 伤 害 减 少 35% 格 挡 值 。</p><p>\t\t 每 次 你 被 近 战 攻 击 命 中 时 ，你 的 盾 牌 会 自 动 反 击 ，造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">39%, 55%, 68%, 78%, 87%</acronym> 格 挡 值 的 火 焰 暗 影 混 合 伤 害 。</p>",
                 "is_spell": true,
                 "mode": "持续",
                 "name": "Blood Shield",
@@ -2283,7 +2283,7 @@
                 "range": "1.0",
                 "short_name": "DEMON_SEED_BLOOD_SHIELD",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     370
                 ],
                 "type": [
@@ -2293,13 +2293,13 @@
                 "use_speed": "瞬间"
             },
             {
-                "chnname": "Silence",
+                "chnname": "沉默",
                 "cooldown": 20,
                 "cost": "活力值消耗：  10",
                 "direct_hit": true,
                 "id": "T_DEMON_SEED_SILENCE",
                 "image": "demon_seed_silence.png",
-                "info_text": "<p>Corrupt the target, silencing it for <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5, 6, 8, 9, 10</acronym> turns.</p>",
+                "info_text": "<p>腐 化 目 标 ， 使 之 沉 默 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5, 6, 8, 9, 10</acronym> 回 合。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Silence",
@@ -2309,7 +2309,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_SILENCE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     408
                 ],
                 "type": [
@@ -2320,13 +2320,13 @@
                 "vim": 10
             },
             {
-                "chnname": "Fiery Portal",
+                "chnname": "火焰传送门",
                 "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">28, 23, 21, 19, 19</acronym>",
                 "cost": "活力值消耗：  20",
                 "direct_hit": true,
                 "id": "T_DEMON_SEED_FIERY_PORTAL",
                 "image": "demon_seed_fiery_portal.png",
-                "info_text": "<p>Create two interlinked portals for <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 6, 7, 8</acronym> turns.</p>",
+                "info_text": "<p>制 造 两 个 连 接 在 一 起 的 传 送 门 ， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 6, 7, 8</acronym> 回 合。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Fiery Portal",
@@ -2336,7 +2336,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_FIERY_PORTAL",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     432
                 ],
                 "type": [
@@ -2347,12 +2347,12 @@
                 "vim": 20
             },
             {
-                "chnname": "Doom Tendrils",
+                "chnname": "末日触须",
                 "cooldown": 10,
                 "cost": "持续活力值消耗：  20",
                 "id": "T_DEMON_SEED_DOOM_TENDRILS",
                 "image": "demon_seed_doom_tendrils.png",
-                "info_text": "<p>You turn into a pillar of doom, sprouting flame tendrils in radius 2 around you.</p><p>All foes hit by the tendrils take <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">28, 39, 46, 53, 59</acronym> fire damage per turn.</p><p>If the creature suffers damage from the fire it is pinned to the ground.</p>",
+                "info_text": "<p>你 化 身 为 末 日 之 柱 ，在 周 围 2 码 的 范 围 内 产 生 火 焰 触 须 。</p><p>\t\t 被 火 焰 触 须 击 中 的 敌 人 每 回 合 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">28, 39, 46, 53, 59</acronym> 火 焰 伤 害 。</p><p>\t\t 受 到 伤 害 的 生 物 同 时 会 被 定 身 。</p>",
                 "is_spell": true,
                 "mode": "持续",
                 "name": "Doom Tendrils",
@@ -2361,7 +2361,7 @@
                 "range": "1.0",
                 "short_name": "DEMON_SEED_DOOM_TENDRILS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     531
                 ],
                 "sustain_vim": 20,
@@ -2372,13 +2372,13 @@
                 "use_speed": "1 回合"
             },
             {
-                "chnname": "Doomed Nature",
+                "chnname": "自然末日",
                 "cooldown": 15,
                 "cost": "活力值消耗：  10",
                 "direct_hit": true,
                 "id": "T_DEMON_SEED_DOOMED_NATURE",
                 "image": "demon_seed_doomed_nature.png",
-                "info_text": "<p>You curse a target for 5 turns to sever its connection to Nature.</p><p>Each time it tries to use a natural power it has <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">23%, 34%, 43%, 51%, 57%</acronym> chances to fail and instead trigger a fireball of radius 1 doing <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">135, 183, 220, 252, 280</acronym> fire damage.</p><p>The damage increases with you Spellpower stat.</p>",
+                "info_text": "<p>你 诅 咒 目 标 5 回 合 ，割 裂 其 与 自 然 的 联 系 。</p><p>\t\t 每 次 被 诅 咒 的 目 标 试 图 使 用 自 然 力 量 时 ，有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">23%几, 34%几, 43%几, 51%几, 57%几</acronym> 率 失 败 并 制 造 一 个 火 球 ，对 半 径 1 内 的 生 物 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">135, 183, 220, 252, 280</acronym> 火 焰 伤 害 。</p><p>\t\t 伤 害 受 你 的 意 志 加 成 。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Doomed Nature",
@@ -2388,7 +2388,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_DOOMED_NATURE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     568
                 ],
                 "type": [
@@ -2399,10 +2399,10 @@
                 "vim": 10
             },
             {
-                "chnname": "Acid Burst",
+                "chnname": "酸性爆发",
                 "id": "T_DEMON_SEED_ACID_BURST",
                 "image": "demon_seed_acid_burst.png",
-                "info_text": "<p>Whenever you block an attack with your shield, you release a cloud of acidic vapour, dealing <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">52, 70, 84, 97, 107</acronym> damage in an area of radius 3 over <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 6, 7, 8</acronym> turns.</p><p>The damage will increase with your spellpower.</p>",
+                "info_text": "<p>每 次 你 格 挡 攻 击 时 ，将 释 放 少 量 酸 性 气 体 ，在 半 径 3 的 范 围 内 造 成 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 6, 7, 8</acronym> 回 合 的 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">52, 70, 84, 97, 107</acronym> 伤 害 。</p><p>\t\t 伤 害 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "被动",
                 "name": "Acid Burst",
@@ -2410,7 +2410,7 @@
                 "points": 5,
                 "short_name": "DEMON_SEED_ACID_BURST",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     601
                 ],
                 "type": [
@@ -2419,10 +2419,10 @@
                 ]
             },
             {
-                "chnname": "Corrosive Cone",
+                "chnname": "锥形酸液",
                 "id": "T_DEMON_SEED_ACID_CONE",
                 "image": "demon_seed_acid_cone.png",
-                "info_text": "<p>When you deal a critical strike in melee, you send out a cone of acid, dealing damage to all enemies and melting walls you hit.</p><p>The damage will increase with your Spellpower.</p>",
+                "info_text": "<p>每 次 近 战 暴 击 时 ， 将 释 放 一 股 锥 形 酸 液 ，造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">170, 230, 277, 317, 352</acronym> 伤 害 并 融 化 墙 壁。</p><p>\t\t伤 害 受 法 术  强 度 加 成。</p>",
                 "is_spell": true,
                 "mode": "被动",
                 "name": "Corrosive Cone",
@@ -2431,7 +2431,7 @@
                 "radius": 5,
                 "short_name": "DEMON_SEED_ACID_CONE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     634
                 ],
                 "type": [
@@ -2440,13 +2440,13 @@
                 ]
             },
             {
-                "chnname": "Armoured Leviathan",
+                "chnname": "重装上阵",
                 "cooldown": 21,
                 "cost": "活力值消耗：  10",
                 "direct_hit": true,
                 "id": "T_DEMON_SEED_ARMOURED_LEVIATHAN",
                 "image": "demon_seed_armoured_leviathan.png",
-                "info_text": "<p>You enchant your shield to grant you power for <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 6, 7, 8</acronym> turns.</p><p>While the effect last your Strength and Magic stats are increased by 10% of your shield block value.</p>",
+                "info_text": "<p>你 利 用 盾 牌 来 强 化 自 身 ，力 量 和 魔 法 增 加 10%格 挡 值 ,持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 6, 7, 8</acronym> 回 合 。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Armoured Leviathan",
@@ -2456,7 +2456,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_ARMOURED_LEVIATHAN",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     662
                 ],
                 "type": [
@@ -2467,12 +2467,12 @@
                 "vim": 10
             },
             {
-                "chnname": "Flash Block",
+                "chnname": "瞬间格挡",
                 "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">10, 8, 7, 6, 6</acronym>",
                 "cost": "活力值消耗：  5",
                 "id": "T_DEMON_SEED_FLASH_BLOCK",
                 "image": "demon_seed_flash_block.png",
-                "info_text": "<p>In a fiery display of speed you raise your shield to block instantly.</p>",
+                "info_text": "<p>在 闪 电 般 的 速 度 中 ，你 瞬 间 举 起 盾 牌 格 挡 。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Flash Block",
@@ -2483,7 +2483,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_FLASH_BLOCK",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     688
                 ],
                 "type": [
@@ -2494,11 +2494,11 @@
                 "vim": 5
             },
             {
-                "chnname": "Blackice",
+                "chnname": "黑冰",
                 "cost": "活力值消耗：  6",
                 "id": "T_DEMON_SEED_BLACKICE",
                 "image": "demon_seed_blackice.png",
-                "info_text": "<p>Each time your kill a creature with non-fire damage in melee range you gain a blackice charge for 20 turns (stacking to <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 4, 5, 6</acronym>).</p><p>At any moment you can use a charge to infect a creature with blackice, reducing its fire resistance by <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">45%, 57%, 67%, 75%, 82%</acronym> for 7 turns.</p>",
+                "info_text": "<p>每 次 你 用 非 火 焰 伤 害 杀 死 生 物 时 ， 你 获 得 一 次 黑 冰 充 能 ， 持 续 20 回 合 ， 最 多 累 计 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 4, 5, 6</acronym> 次。</p><p>\t\t任 何 时 候 ， 你 能 消 耗 一 次 充 能 ， 降 低  一 个 生 物 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">45%, 57%, 67%, 75%, 82%</acronym> 火 焰 抗 性 7 回 合。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "name": "Blackice",
@@ -2509,7 +2509,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED_BLACKICE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua",
+                    "data-ashes-urhrok/talents/corruptions/demon-seeds.lua",
                     716
                 ],
                 "type": [
@@ -2556,7 +2556,7 @@
                 "requires_target": true,
                 "short_name": "DEMON_SEED",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua",
+                    "data-ashes-urhrok/talents/corruptions/demonic-pact.lua",
                     328
                 ],
                 "stamina": 8,
@@ -2576,14 +2576,22 @@
                 "info_text": "<p>你 能 通 过 恶 魔 种 子 来 临 时 召 唤 恶 魔 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5, 8, 11, 13, 15</acronym> 回 合 。</p><p>\t\t 召 唤 出 来 的 恶 魔 能 回 复 生 命 ，并 且 保 持 上 一 次 召 唤 结 束 时 的 生 命 值 。</p><p>\t\t 如 果 恶 魔 死 亡 ，将 不 能 再 使 用 同 一 个 种 子 进 行 召 唤 。</p><p></p><p>\t\t 随 着 你 对 恶 魔 力 量 的 了 解 更 加 深 入 ，你 能 将 更 多 的 种 子 与 你 的 装 备 结 合 。</p><p>\t\t 技 能 等 级 2 时 你 能 将 种 子 与 第 一 个 戒 指 结 合 。</p><p>\t\t 技 能 等 级 3 时 你 能 将 种 子 与 盾 牌 结 合 。</p><p>\t\t 技 能 等 级 4 时 你 能 将 种 子 与 第 二 个 戒 指 结 合 。</p><p>\t\t 技 能 等 级 5 时 你 能 将 种 子 与 护 甲 结 合 。</p><p>\t\t</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Bind Demon",
                 "no_silence": true,
                 "no_unlearn_last": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 4, 魔法 20",
+                    "等级 5, 魔法 22",
+                    "等级 6, 魔法 24",
+                    "等级 7, 魔法 26",
+                    "等级 8, 魔法 28"
+                ],
                 "short_name": "BIND_DEMON",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua",
+                    "data-ashes-urhrok/talents/corruptions/demonic-pact.lua",
                     443
                 ],
                 "type": [
@@ -2603,13 +2611,21 @@
                 "is_spell": true,
                 "is_teleport": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Twisted Portal",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 8, 魔法 28",
+                    "等级 9, 魔法 30",
+                    "等级 10, 魔法 32",
+                    "等级 11, 魔法 34",
+                    "等级 12, 魔法 36"
+                ],
                 "short_name": "TWISTED_PORTAL",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua",
+                    "data-ashes-urhrok/talents/corruptions/demonic-pact.lua",
                     547
                 ],
                 "type": [
@@ -2626,12 +2642,20 @@
                 "info_text": "<p>你 吸 取 敌 方 生 物 的 生 命 来 治 疗 恶 魔 种 子 和 你 。</p><p>\t\t 每 次 你 杀 死 生 物 时 ，一 个 随 机 的 生 命 不 足 100% 的 恶 魔 种 子 将 受 到 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2%, 5%, 8%, 10%, 12%</acronym> 生 命 值 的 治 疗 。</p><p>\t\t 如 果 该 生 物 是 精 英 或 者 更 高 级 别 ，你 有 100% 几 率 复 活 一 个 死 亡 的 恶 魔 种 子 。</p><p>\t\t 技 能 等 级 4 时 ，你 开 始 学 会 治 疗 自 身 ，每 次 造 成 伤 害 时 回 复 自 身 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3%, 5%, 6%, 8%, 9%</acronym> 伤 害 值 的 生 命 。</p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Suffuse Life",
                 "no_silence": true,
                 "points": 5,
+                "require": [
+                    "等级 12, 魔法 36",
+                    "等级 13, 魔法 38",
+                    "等级 14, 魔法 40",
+                    "等级 15, 魔法 42",
+                    "等级 16, 魔法 44"
+                ],
                 "short_name": "SUFFUSE_LIFE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua",
+                    "data-ashes-urhrok/talents/corruptions/demonic-pact.lua",
                     610
                 ],
                 "type": [
@@ -2661,14 +2685,22 @@
                 "info_text": "<p>火 焰 触 须 从 你 的 手 中 伸 出 ，在 锥 形 范 围 内 伸 展 。</p><p>\t\t 被 火 焰 触 须 抓 住 的 生 物 将 被 拉 过 来 ，同 时 移 动 速 度 减 少 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">23%, 33%, 37%, 40%, 41%</acronym> ，持 续 4 回 合 。</p><p>\t\t 每 个 触 须 会 留 下 火 焰 痕 迹 ，每 回 合 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">50, 67, 81, 93, 103</acronym> 火 焰 伤 害 ，持 续 4 回 合 。</p><p>\t\t 伤 害 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Flame Leash",
                 "no_silence": true,
                 "points": 5,
                 "range": "6.0",
+                "require": [
+                    "等级 0, 魔法 12",
+                    "等级 1, 魔法 14",
+                    "等级 2, 魔法 16",
+                    "等级 3, 魔法 18",
+                    "等级 4, 魔法 20"
+                ],
                 "requires_target": true,
                 "short_name": "FLAME_LEASH",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua",
+                    "data-ashes-urhrok/talents/corruptions/infernal-combat.lua",
                     20
                 ],
                 "stamina": 8,
@@ -2688,14 +2720,22 @@
                 "info_text": "<p>向 你 的 武 器 灌 输 火 焰 之 力 ，持 续 5 回 合 。</p><p>\t\t 每 次 近 战 攻 击 时 会 释 放 一 个 火 球 ，在 半 径 1 的 范 围 内 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">71, 94, 112, 127, 141</acronym> 火 焰 伤 害 。</p><p>\t\t 这 个 效 果 每 回 合 只 能 触 发 一 次 。</p><p>\t\t 伤 害 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Demon Blade",
                 "no_energy": true,
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 4, 魔法 20",
+                    "等级 5, 魔法 22",
+                    "等级 6, 魔法 24",
+                    "等级 7, 魔法 26",
+                    "等级 8, 魔法 28"
+                ],
                 "short_name": "DEMON_BLADE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua",
+                    "data-ashes-urhrok/talents/corruptions/infernal-combat.lua",
                     76
                 ],
                 "stamina": 15,
@@ -2715,14 +2755,22 @@
                 "info_text": "<p>使 用 恶 魔 之 力 ，你 在 源 生 物 与 牺 牲 生 物 间 构 造 痛 苦 链 接 ，持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 5, 7, 8, 9</acronym> 回 合 。</p><p>\t\t 每 次 源 生 物 受 到 伤 害 时 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">，47%, ，66%, ，75%, ，80%, ，84%</acronym> 伤 害 由 牺 牲 生 物 承 受 。</p><p>\t\t 当 牺 牲 生 物 因 此 效 果 死 亡 时 ，你 将 获 得 能 量 ，减 少 所 有 技 能 冷 却 时 间 1 回 合 。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Link of Pain",
                 "no_energy": true,
                 "no_silence": true,
                 "points": 5,
                 "range": "7.0",
+                "require": [
+                    "等级 8, 魔法 28",
+                    "等级 9, 魔法 30",
+                    "等级 10, 魔法 32",
+                    "等级 11, 魔法 34",
+                    "等级 12, 魔法 36"
+                ],
                 "short_name": "LINK_OF_PAIN",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua",
+                    "data-ashes-urhrok/talents/corruptions/infernal-combat.lua",
                     98
                 ],
                 "stamina": 10,
@@ -2742,14 +2790,22 @@
                 "info_text": "<p>你 的 盾 牌 上 长 出 临 时 的 恶 魔 之 角 。</p><p>\t\t 你 盾 击 敌 人 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">150%, 172%, 188%, 201%, 214%</acronym> 伤 害 。</p><p>\t\t 如 果 攻 击 命 中 ，目 标 将 被 恶 魔 角 刺 穿 ，流 血 5 回 合 ，合 计 受 到 额 外 50% 黑 暗 伤 害 。</p><p>\t\t 每 次 你 攻 击 被 恶 魔 角 刺 穿 的 目 标 时 ，你 回 复 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">101, 133, 158, 180, 198</acronym> 生 命 (每 回 合 至 多 1 次 )。</p><p>\t\t 治 疗 效 果 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Demon Horns",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 12, 魔法 36",
+                    "等级 13, 魔法 38",
+                    "等级 14, 魔法 40",
+                    "等级 15, 魔法 42",
+                    "等级 16, 魔法 44"
+                ],
                 "requires_target": true,
                 "short_name": "DEMON_HORNS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua",
+                    "data-ashes-urhrok/talents/corruptions/infernal-combat.lua",
                     140
                 ],
                 "stamina": 15,
@@ -2780,18 +2836,26 @@
                 "drain_vim": 3,
                 "id": "T_OSMOSIS_SHIELD",
                 "image": "osmosis_shield.png",
-                "info_text": "<p>你 的 盾 牌 充 满 了 恶 魔 能 量 ，带 来 一 层 魔 法 护 盾 ，每 回 合 受 到 第 一 次 伤 害 时 给 予 你 持 续 3 回 合 的 治 疗 （基 于 格 挡 值 ），治 疗 效 果 可 以 叠 加 。</p><p>\t\t 治 疗 量 等 于 5+ <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">20%, 32%, 37%, 40%, 42%</acronym> 格 挡 值 （当 前 0 点 ）。</p><p>\t\t 技 能 等 级 3 时 ，如 果 伤 害 在 治 疗 量 两 倍 以 上 ，有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">28%, 52%, 63%, 70%, 75%</acronym> 几 率 解 除 你 一 个 负 面 物 理 状 态 。</p><p>\t\t 在 休 息 和 跑 步 时 ，该 技 能 自 动 终 止 。</p><p>\t\t<span style=\"font-weight: bold\"><span style=\"tstr-font-bold\">开 启 护 盾 不 消 耗 时 间 ，关 闭 护 盾 消 耗 时 间 。</span></span></p>",
+                "info_text": "<p>你 的 盾 牌 充 满 了 恶 魔 能 量 ，带 来 一 层 魔 法 护 盾 ，每 回 合 受 到 第 一 次 伤 害 时 给 予 你 持 续 3 回 合 的 治 疗 （基 于 格 挡 值 ），治 疗 效 果 可 以 叠 加 。</p><p>\t\t 治 疗 量 等 于 5+ <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">20%, 32%, 37%, 40%, 42%</acronym> 格 挡 值 （当 前 0 点 ）。</p><p>\t\t 技 能 等 级 3 时 ，如 果 伤 害 在 治 疗 量 两 倍 以 上 ，有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">28%, 52%, 63%, 70%, 75%</acronym> 几 率 解 除 你 一 个 负 面 物 理 状 态 。</p><p>\t\t 在 休 息 和 跑 步 时 ，该 技 能 自 动 终 止 。</p><p>\t\t<span style=\"font-weight: bold\"><span style=\"tstr-font-bold\">开 启 护 盾 不 消 耗 时 间 ，关 闭 护 盾 消 耗 时 间 。</span></span></p>",
                 "is_spell": true,
                 "mode": "持续",
+                "multi_require": true,
                 "name": "Osmosis Shield",
                 "no_silence": true,
                 "points": 5,
                 "range": "10.0",
                 "remove_on_zero": true,
+                "require": [
+                    "等级 0, 魔法 12",
+                    "等级 1, 魔法 14",
+                    "等级 2, 魔法 16",
+                    "等级 3, 魔法 18",
+                    "等级 4, 魔法 20"
+                ],
                 "requires_target": true,
                 "short_name": "OSMOSIS_SHIELD",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua",
+                    "data-ashes-urhrok/talents/corruptions/doom-shield.lua",
                     20
                 ],
                 "sustain_stamina": 20,
@@ -2808,16 +2872,24 @@
                 "cost": "持续体力消耗：  18, 持续活力值消耗：  18",
                 "id": "T_HARDENED_CORE",
                 "image": "hardened_core.png",
-                "info_text": "<p>从 恶 魔 家 乡 中 学 习 ，强 化 自 身 。</p><p>\t\t 增 加 10 + <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">15%, 34%, 49%, 61%, 72%</acronym> 总 护 甲 值 ,每 点 力 量 提 供 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">21%法, 28%法, 35%法, 40%法, 46%法</acronym> 术 强 度 。</p>",
+                "info_text": "<p>从 恶 魔 家 乡 中 学 习 ，强 化 自 身 。</p><p>\t\t 增 加 10 + <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">15%, 34%, 49%, 61%, 72%</acronym> 总 护 甲 值 ,每 点 力 量 提 供 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">21%, 28%, 35%, 40%, 46%</acronym> 法 术 强 度 。</p>",
                 "is_spell": true,
                 "mode": "持续",
+                "multi_require": true,
                 "name": "Hardened Core",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 4, 魔法 20",
+                    "等级 5, 魔法 22",
+                    "等级 6, 魔法 24",
+                    "等级 7, 魔法 26",
+                    "等级 8, 魔法 28"
+                ],
                 "short_name": "HARDENED_CORE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua",
+                    "data-ashes-urhrok/talents/corruptions/doom-shield.lua",
                     90
                 ],
                 "sustain_stamina": 18,
@@ -2837,14 +2909,22 @@
                 "info_text": "<p>你 疯 狂 旋 转 你 的 盾 牌 ，攻 击 周 围 生 物 ，造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">170%, 192%, 208%, 221%, 234%</acronym> 暗 影 盾 牌 伤 害 并 使 其 混 乱 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5</acronym> 回 合 。</p><p>\t\t 技 能 等 级 4 时 ，你 自 动 进 入 格 挡 状 态 。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Demonic Madness",
                 "no_silence": true,
                 "points": 5,
                 "radius": 1,
                 "range": "0.0",
+                "require": [
+                    "等级 8, 魔法 28",
+                    "等级 9, 魔法 30",
+                    "等级 10, 魔法 32",
+                    "等级 11, 魔法 34",
+                    "等级 12, 魔法 36"
+                ],
                 "short_name": "DEMONIC_MADNESS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua",
+                    "data-ashes-urhrok/talents/corruptions/doom-shield.lua",
                     121
                 ],
                 "stamina": 15,
@@ -2862,12 +2942,20 @@
                 "info_text": "<p>你 的 盾 牌 充 满 强 大 的 枯 萎 能 量 。每 次 你 格 挡 并 附 加 反 击 状 态 时 ，目 标 将 被 虚 弱 诅 咒 感 染 ，5 回 合 内 降 低 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">18%, 23%, 27%, 30%, 32%</acronym> 伤 害。</p><p>\t\t 效 果 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Blighted Shield",
                 "no_silence": true,
                 "points": 5,
+                "require": [
+                    "等级 12, 魔法 36",
+                    "等级 13, 魔法 38",
+                    "等级 14, 魔法 40",
+                    "等级 15, 魔法 42",
+                    "等级 16, 魔法 44"
+                ],
                 "short_name": "BLIGHTED_SHIELD",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/doom-shield.lua",
+                    "data-ashes-urhrok/talents/corruptions/doom-shield.lua",
                     171
                 ],
                 "type": [
@@ -2899,13 +2987,21 @@
                 "info_text": "<p>你 的 一 举 一 动 都 是 敌 人 悲 惨 结 局 的 预 兆。</p><p>\t\t每 次 你 造 成 暗 影 、 火 焰 、 枯 萎 或 酸 性 伤 害 时 ， 你 诅 咒 你 的 目 标 ， 最 多 叠 加 至 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 6, 8, 10, 11</acronym> 次 （ 每 回 合 只 能 诅 咒 一 个 目 标 ）。</p><p>\t\t每 有 一 层 诅 咒 ， 你 杀 死 被 诅 咒 目 标 时 获 得 的 活 力 值 增 加 100% 。</p><p>\t\t获 得 活 力 值 基 础 值 取 决 于 意 志 。</p>",
                 "is_spell": true,
                 "mode": "持续",
+                "multi_require": true,
                 "name": "Bleak Outcome",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 0, 魔法 12",
+                    "等级 1, 魔法 14",
+                    "等级 2, 魔法 16",
+                    "等级 3, 魔法 18",
+                    "等级 4, 魔法 20"
+                ],
                 "short_name": "BLEAK_OUTCOME",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/black-magic.lua",
+                    "data-ashes-urhrok/talents/corruptions/black-magic.lua",
                     20
                 ],
                 "sustain_vim": 15,
@@ -2923,12 +3019,20 @@
                 "info_text": "<p>当 至 少 承 受 了 你 5 层 悲 惨 结 局 诅 咒 的 生 物 死 亡 时，你 尽 情 享 受 它 的 活 力，在 6 回 合 内 增 加 法 术 强 度 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">10, 21, 30, 39, 47</acronym> 点。</p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Stripped Life",
                 "no_silence": true,
                 "points": 5,
+                "require": [
+                    "等级 4, 魔法 20",
+                    "等级 5, 魔法 22",
+                    "等级 6, 魔法 24",
+                    "等级 7, 魔法 26",
+                    "等级 8, 魔法 28"
+                ],
                 "short_name": "STRIPPED_LIFE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/black-magic.lua",
+                    "data-ashes-urhrok/talents/corruptions/black-magic.lua",
                     52
                 ],
                 "type": [
@@ -2945,12 +3049,20 @@
                 "info_text": "<p>对 你 的 敌 人 来 说 ， 未 来 非 常 无 情。</p><p>\t\t每 次 你 杀 死 被 你 的 悲 惨 结 局 诅 咒 的 生 物 时 ， 该 生 物 半 径 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 6, 6, 7, 7</acronym> 范 围 内 的 生 物 将 被 眩 晕 2 回 合 。</p><p>\t\t这 个 效 果 每 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">23, 19, 16, 14, 13</acronym> 回 合 只 能 触 发 一 次( 只 计 算 眩 晕 成 功 的 回 合 )。</p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Grim Future",
                 "no_silence": true,
                 "points": 5,
+                "require": [
+                    "等级 8, 魔法 28",
+                    "等级 9, 魔法 30",
+                    "等级 10, 魔法 32",
+                    "等级 11, 魔法 34",
+                    "等级 12, 魔法 36"
+                ],
                 "short_name": "GRIM_FUTURE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/black-magic.lua",
+                    "data-ashes-urhrok/talents/corruptions/black-magic.lua",
                     65
                 ],
                 "type": [
@@ -2969,15 +3081,23 @@
                 "info_text": "<p>当 被 悲 惨 结 局 诅 咒 的 生 物 死 亡 时，你 获 得 一 个 不 祥 黑 影（至 多 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 4, 5, 7, 8</acronym> 个），保 存 12 回 合。</p><p>\t\t每 个 不 祥 黑 影  能 让 你 隐 身 2 回 合 ，隐 形 强 度 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">31。, 43。, 52。, 59。, 66。</acronym></p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Ominous Shadow",
                 "no_energy": true,
                 "no_silence": true,
                 "points": 5,
                 "range": "10.0",
+                "require": [
+                    "等级 12, 魔法 36",
+                    "等级 13, 魔法 38",
+                    "等级 14, 魔法 40",
+                    "等级 15, 魔法 42",
+                    "等级 16, 魔法 44"
+                ],
                 "requires_target": true,
                 "short_name": "OMINOUS_SHADOW",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/black-magic.lua",
+                    "data-ashes-urhrok/talents/corruptions/black-magic.lua",
                     99
                 ],
                 "type": [
@@ -3008,12 +3128,20 @@
                 "info_text": "<p>你 与 阴 影 的 联 系 更 加 紧 密 了 。</p><p>\t\t 每 次 你 用 暗 影 伤 害 杀 死 生 物 时 ，你 获 得 8% 全 体 伤 害 吸 收 ，持 续 10 回 合 。</p><p>\t\t 这 个 效 果 能 叠 加 至 最 多 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 3, 4, 5</acronym> 层 。</p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Dark Reign",
                 "no_silence": true,
                 "points": 5,
+                "require": [
+                    "等级 10, 魔法 22",
+                    "等级 11, 魔法 24",
+                    "等级 12, 魔法 26",
+                    "等级 13, 魔法 28",
+                    "等级 14, 魔法 30"
+                ],
                 "short_name": "DARK_REIGN",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua",
+                    "data-ashes-urhrok/talents/corruptions/doom-covenant.lua",
                     22
                 ],
                 "type": [
@@ -3028,13 +3156,21 @@
                 "info_text": "<p>你 学 会 利 用 死 亡 来 获 取 力 量 。</p><p>\t\t 当 黑 暗 支 配 开 启 ，每 次 你 使 用 非 暗 影 伤 害 杀 死 生 物 时 ，在 半 径 1 的 范 围 内 产 生 黑 暗 能 量 池 ，持 续 5 回 合 。</p><p>\t\t 任 何 站 在 里 面 的 敌 人 每 回 合 将 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">52, 71, 85, 97, 108</acronym> 点 暗 影 伤 害 。</p><p>\t\t 这 个 效 果 每 回 合 最 多 触 发 一 次 。</p><p>\t\t 伤 害 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Dread End",
                 "no_silence": true,
                 "points": 5,
                 "radius": 1,
+                "require": [
+                    "等级 14, 魔法 30",
+                    "等级 15, 魔法 32",
+                    "等级 16, 魔法 34",
+                    "等级 17, 魔法 36",
+                    "等级 18, 魔法 38"
+                ],
                 "short_name": "DREAD_END",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua",
+                    "data-ashes-urhrok/talents/corruptions/doom-covenant.lua",
                     41
                 ],
                 "type": [
@@ -3051,13 +3187,21 @@
                 "info_text": "<p>当 黑 暗 支 配 开 启 时 ，你 能 吸 取 自 己 的 体 力 ，转 化 为 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">27, 55, 80, 103, 124</acronym> 活 力 。</p><p>\t\t 技 能 等 级 5 时 ，5 回 合 内 你 造 成 的 所 有 伤 害 转 化 为 暗 影 伤 害 。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Blood Pact",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 18, 魔法 38",
+                    "等级 19, 魔法 40",
+                    "等级 20, 魔法 42",
+                    "等级 21, 魔法 44",
+                    "等级 22, 魔法 46"
+                ],
                 "short_name": "BLOOD_PACT",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua",
+                    "data-ashes-urhrok/talents/corruptions/doom-covenant.lua",
                     76
                 ],
                 "stamina": 100,
@@ -3077,16 +3221,24 @@
                 "info_text": "<p>当 黑 暗 终 结 制 造 出 黑 暗 能 量 池 时 ，你 能 将 愤 怒 集 中 在 内 ，将 其 转 变 为 火 山 。</p><p>\t\t 半 径 7 内 至 多 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 2, 3, 3</acronym> 个 能 量 池 将 会 喷 发 ，转 化 为 火 山 ，持 续 5 回 合 。</p><p>\t\t 每 回 合 火 山 将 喷 射 火 焰 巨 石 ，造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">26, 35, 42, 49, 54</acronym> 火 焰 与 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">26, 35, 42, 49, 54</acronym> 物 理 伤 害 。</p><p>\t\t 效 果 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Erupting Darkness",
                 "no_energy": true,
                 "no_silence": true,
                 "points": 5,
                 "radius": 7,
                 "range": "1.0",
+                "require": [
+                    "等级 22, 魔法 46",
+                    "等级 23, 魔法 48",
+                    "等级 24, 魔法 50",
+                    "等级 25, 魔法 52",
+                    "等级 26, 魔法 54"
+                ],
                 "requires_target": true,
                 "short_name": "ERUPTING_DARKNESS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua",
+                    "data-ashes-urhrok/talents/corruptions/doom-covenant.lua",
                     102
                 ],
                 "type": [
@@ -3120,15 +3272,23 @@
                 "info_text": "<p>你 释 放 魔 法 大 爆 炸 的 力 量 ，持 续 消 耗 活 力 。</p><p>\t\t 当 技 能 开 启 时 ，每 回 合 将 召 唤 2 个 陨 石 坠 落 在 你 身 边 ，在 半 径 2 的 范 围 内 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">72, 98, 117, 134, 149</acronym> 物 理 与 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">72, 98, 117, 134, 149</acronym> 火 焰 伤 害 。</p><p>\t\t 这 项 法 术 在 休 息 或 跑 步 时 自 动 关 闭 。</p><p>\t\t 效 果 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "持续",
+                "multi_require": true,
                 "name": "Rain of Fire",
                 "no_silence": true,
                 "points": 5,
                 "range": "4.0",
                 "remove_on_zero": true,
+                "require": [
+                    "等级 10, 魔法 22",
+                    "等级 11, 魔法 24",
+                    "等级 12, 魔法 26",
+                    "等级 13, 魔法 28",
+                    "等级 14, 魔法 30"
+                ],
                 "requires_target": true,
                 "short_name": "RAIN_OF_FIRE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua",
+                    "data-ashes-urhrok/talents/corruptions/spellblaze.lua",
                     20
                 ],
                 "sustain_vim": 8,
@@ -3142,15 +3302,23 @@
                 "chnname": "唯余灰烬",
                 "id": "T_ONLY_ASHES_LEFT",
                 "image": "only_ashes_left.png",
-                "info_text": "<p>通 过 引 发 魔 法 大 爆 炸 最 黑 暗 的 时 候 的 场 景 ，你 加 速 了 敌 人 的 死 亡 。</p><p>\t\t 每 次 你 对 半 径 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 5, 6, 7, 7</acronym> 内 的 生 物 造 成 伤 害 后 ，如 果 它 生 命 值 低 于 33%，将 会 承 受 魔 法 大 爆 炸 的 力 量 。</p><p>\t\t 受 影 响 的 敌 人 每 回 合 将 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">34, 43, 49, 55, 60</acronym> 暗 影 伤 害 ，直 到 死 亡 或 者 离 开 范 围 。</p><p>\t\t 伤 害 受 法 术 强 度 加 成 。</p>",
+                "info_text": "<p>通 过 引 发 魔 法 大 爆 炸 最 黑 暗 的 时 候 的 场 景 ，你 加 速 了 敌 人 的 死 亡 。</p><p>\t\t 每 次 你 对 半 径 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 5, 6, 7, 7</acronym> 内 的 生 物 造 成 伤 害 后 ，如 果 它 生 命 值 低 于 33% ，将 会 承 受 魔 法 大 爆 炸 的 力 量 。</p><p>\t\t 受 影 响 的 敌 人 每 回 合 将 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">34, 43, 49, 55, 60</acronym> 暗 影 伤 害 ，直 到 死 亡 或 者 离 开 范 围 。</p><p>\t\t 伤 害 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Only Ashes Left",
                 "no_silence": true,
                 "points": 5,
+                "require": [
+                    "等级 14, 魔法 30",
+                    "等级 15, 魔法 32",
+                    "等级 16, 魔法 34",
+                    "等级 17, 魔法 36",
+                    "等级 18, 魔法 38"
+                ],
                 "short_name": "ONLY_ASHES_LEFT",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua",
+                    "data-ashes-urhrok/talents/corruptions/spellblaze.lua",
                     82
                 ],
                 "type": [
@@ -3164,17 +3332,25 @@
                 "cost": "持续活力值消耗：  25",
                 "id": "T_SHATTERED_MIND",
                 "image": "shattered_mind.png",
-                "info_text": "<p>当 你 格 挡 攻 击 时 ，你 能 将 魔 法 大 爆 炸 的 力 量 传 导 至 攻 击 者 的 精 神 中 ，持 续 5 回 合 。</p><p>\t\t 受 影 响 的 生 物 每 次 使 用 技 能 时 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12%几, 19%几, 23%几, 25%几, 26%几</acronym> 率 失 败 ，同 时 全 体 豁 免 下 降 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">16, 39, 57, 72, 85</acronym> 点 。 </p>",
+                "info_text": "<p>当 你 格 挡 攻 击 时 ，你 能 将 魔 法 大 爆 炸 的 力 量 传 导 至 攻 击 者 的 精 神 中 ，持 续 5 回 合 。</p><p>\t\t 受 影 响 的 生 物 每 次 使 用 技 能 时 有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12%, 19%, 23%, 25%, 26%</acronym> 几 率 失 败 ，同 时 全 体 豁 免 下 降 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">16, 39, 57, 72, 85</acronym> 点 。 </p>",
                 "is_spell": true,
                 "mode": "持续",
+                "multi_require": true,
                 "name": "Shattered Mind",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
                 "remove_on_zero": true,
+                "require": [
+                    "等级 18, 魔法 38",
+                    "等级 19, 魔法 40",
+                    "等级 20, 魔法 42",
+                    "等级 21, 魔法 44",
+                    "等级 22, 魔法 46"
+                ],
                 "short_name": "SHATTERED_MIND",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua",
+                    "data-ashes-urhrok/talents/corruptions/spellblaze.lua",
                     105
                 ],
                 "sustain_vim": 25,
@@ -3193,14 +3369,22 @@
                 "info_text": "<p>你 赞 颂 恶 魔 家 乡 Mal'Rok 的 毁 灭 。</p><p>\t\t 每 次 你 杀 死 生 物 时 ，你 将 释 放 魔 法 波 动 ，在 半 径 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5</acronym> 范 围 内 的 生 物 将 承 受 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 4, 5, 6, 6</acronym> 回 合 的 混 乱 或 目 盲 毒 素 。</p><p>\t\t 中 毒 的 生 物 每 回 合 将 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">25, 34, 41, 47, 52</acronym> 暗 影 伤 害 。</p><p>\t\t 伤 害 受 法 术 强 度 加 成 。</p>",
                 "is_spell": true,
                 "mode": "持续",
+                "multi_require": true,
                 "name": "Tale of Destruction",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
                 "remove_on_zero": true,
+                "require": [
+                    "等级 22, 魔法 46",
+                    "等级 23, 魔法 48",
+                    "等级 24, 魔法 50",
+                    "等级 25, 魔法 52",
+                    "等级 26, 魔法 54"
+                ],
                 "short_name": "TALE_OF_DESTRUCTION",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua",
+                    "data-ashes-urhrok/talents/corruptions/spellblaze.lua",
                     135
                 ],
                 "sustain_vim": 30,
@@ -3247,7 +3431,7 @@
                 "requires_target": true,
                 "short_name": "DRAINING_ASSAULT",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/brutality.lua",
+                    "data-ashes-urhrok/talents/corruptions/brutality.lua",
                     22
                 ],
                 "stamina": 20,
@@ -3285,7 +3469,7 @@
                 "requires_target": true,
                 "short_name": "FIERY_GRASP",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/brutality.lua",
+                    "data-ashes-urhrok/talents/corruptions/brutality.lua",
                     63
                 ],
                 "stamina": 15,
@@ -3320,7 +3504,7 @@
                 "requires_target": true,
                 "short_name": "RECKLESS_STRIKE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/brutality.lua",
+                    "data-ashes-urhrok/talents/corruptions/brutality.lua",
                     119
                 ],
                 "stamina": 44,
@@ -3354,7 +3538,7 @@
                 ],
                 "short_name": "SHARE_THE_PAIN",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/brutality.lua",
+                    "data-ashes-urhrok/talents/corruptions/brutality.lua",
                     169
                 ],
                 "sustain_vim": 35,
@@ -3400,7 +3584,7 @@
                 ],
                 "short_name": "INCINERATING_BLOWS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/torture.lua",
+                    "data-ashes-urhrok/talents/corruptions/torture.lua",
                     22
                 ],
                 "sustain_vim": 0,
@@ -3435,7 +3619,7 @@
                 "requires_target": true,
                 "short_name": "ABDUCTION",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/torture.lua",
+                    "data-ashes-urhrok/talents/corruptions/torture.lua",
                     93
                 ],
                 "stamina": 25,
@@ -3452,7 +3636,7 @@
                 "cost": "体力消耗：  12, 活力值消耗：  20",
                 "id": "T_FIERY_TORMENT",
                 "image": "fiery_torment.png",
-                "info_text": "<p>用 武 器 攻 击 敌 人 ， 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">97%, 105%, 110%, 115%, 119%</acronym> 武 器 伤 害 。 如 果 命 中 ， 目 标 受 到 灼 魂 之 罚 的 影 响 ， 持 续 5 回 合 , 火 焰 抗 性 降 低 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">14%。, 26%。, 35%。, 43%。, 50%。</acronym></p><p>\t当 灼 魂 之 罚 结 束 ， 敌 人 会 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">52, 70, 84, 97, 107</acronym> 点 火 焰 伤 害 。 </p><p>\t在 灼 魂 之 罚 持 续 时 间 内 目 标 受 到 的 所 有 伤 害 ， 有 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">18%, 25%, 30%, 35%, 38%</acronym> 会 加 成 到 火 焰 伤 害 中。</p><p>\t被 灼 魂 之 罚 影 响 的 恶 魔 会 被 恶 魔 空 间 中 的 火 焰 焚 烧。</p>",
+                "info_text": "<p>用 武 器 攻 击 敌 人 ， 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">97%, 105%, 110%, 115%, 119%</acronym> 武 器 伤 害 。 如 果 命 中 ， 目 标 受 到 灼 魂 之 罚 的 影 响 ， 持 续 5 回 合 , 火 焰 抗 性 降 低 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">14%, 26%, 35%, 43%, 50%</acronym> 。</p><p>\t当 灼 魂 之 罚 结 束 ， 敌 人 会 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">52, 70, 84, 97, 107</acronym> 点 火 焰 伤 害 。 </p><p>\t在 灼 魂 之 罚 持 续 时 间 内 目 标 受 到 的 所 有 伤 害 ， 有 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">18%, 25%, 30%, 35%, 38%</acronym> 会 加 成 到 火 焰 伤 害 中。</p><p>\t被 灼 魂 之 罚 影 响 的 恶 魔 会 被 恶 魔 空 间 中 的 火 焰 焚 烧。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "multi_require": true,
@@ -3471,7 +3655,7 @@
                 "requires_target": true,
                 "short_name": "FIERY_TORMENT",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/torture.lua",
+                    "data-ashes-urhrok/talents/corruptions/torture.lua",
                     134
                 ],
                 "stamina": 12,
@@ -3507,7 +3691,7 @@
                 ],
                 "short_name": "ETERNAL_SUFFERING",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/torture.lua",
+                    "data-ashes-urhrok/talents/corruptions/torture.lua",
                     178
                 ],
                 "sustain_vim": 20,
@@ -3555,7 +3739,7 @@
                 "requires_target": true,
                 "short_name": "OBLITERATING_SMASH",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/wrath.lua",
+                    "data-ashes-urhrok/talents/corruptions/wrath.lua",
                     22
                 ],
                 "stamina": 24,
@@ -3591,7 +3775,7 @@
                 "requires_target": true,
                 "short_name": "DETONATING_CHARGE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/wrath.lua",
+                    "data-ashes-urhrok/talents/corruptions/wrath.lua",
                     64
                 ],
                 "stamina": 24,
@@ -3607,7 +3791,7 @@
                 "cooldown": 10,
                 "id": "T_VORACIOUS_BLADE",
                 "image": "voracious_blade.png",
-                "info_text": "<p>你 的 利 刃 充 满 着 对 杀 戮 的 渴 望。</p><p>\t在 技 能 冷 却 完 毕 后， 当 杀 死 敌 人 时，接 下 来 6 回 合 内 的 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 2, 3, 3, 4</acronym> 次 近 战 攻 击 必 定 暴 击 ， 在 持 续 时 间 内 ，暴 击 系 数 增 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">加17%。, 加22%。, 加27%。, 加31%。, 加35%。</acronym></p><p>\t另 外 ， 每 次 击 杀 时 额 外 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5</acronym> 点 活 力。</p>",
+                "info_text": "<p>你 的 利 刃 充 满 着 对 杀 戮 的 渴 望。</p><p>\t在 技 能 冷 却 完 毕 后， 当 杀 死 敌 人 时，接 下 来 6 回 合 内 的 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 2, 3, 3, 4</acronym> 次 近 战 攻 击 必 定 暴 击 ， 在 持 续 时 间 内 ，暴 击 系 数 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">17%, 22%, 27%, 31%, 35%</acronym> 。</p><p>\t另 外 ， 每 次 击 杀 时 额 外 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5</acronym> 点 活 力。</p>",
                 "is_spell": true,
                 "mode": "被动",
                 "multi_require": true,
@@ -3623,7 +3807,7 @@
                 ],
                 "short_name": "VORACIOUS_BLADE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/wrath.lua",
+                    "data-ashes-urhrok/talents/corruptions/wrath.lua",
                     137
                 ],
                 "type": [
@@ -3637,7 +3821,7 @@
                 "cost": "活力值消耗：  38",
                 "id": "T_DESTROYER",
                 "image": "destroyer.png",
-                "info_text": "<p>恶 魔 空 间 的 力 量 充 溢 了 你 的 身 体 ， 将 你 转 换 成 一 个 强 大 的 恶魔  ， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 5, 6, 7, 7</acronym> 回 合 。 </p><p>\t变 身 期 间 ， 体 力 恢 复 和 物 理 强 度 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">24，, 31，, 36，, 41，, 44，</acronym> 缴 械 和 震 慑 抗 性 增加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">60%。, 78%。, 90%。, 100%。, 100%。</acronym></p><p>\t物 理 强 度 ， 体 力 恢 复 ， 状 态 抗 性 加 值 受 法 力 强 度 加 成。</p><p>\t变 身 期 间 ， 其 他 技 能 也 受 到 强 化：</p><p>\t汲 魂 痛 击 ： 冷 却 时 间 减 少 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1。, 1。, 1。, 2。, 2。</acronym></p><p>\t舍 身 一 击 ： 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">10%, 20%, 30%, 40%, 50%</acronym> 全 体 抗 性 穿 透 ，持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 4, 5, 5, 6</acronym> 回 合。</p><p>\t锁 魂 之 链 ： 如 果 命 中 ， 额 外 附 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 1, 1, 2</acronym> 次 40% 武 器 伤 害 的 攻 击。</p><p>\t焚 尽 强 击 ： 增 加 额 外 伤 害 几 率 至 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1%。, 1%。, 2%。, 2%。, 3%。</acronym></p><p>\t恐 惧 盛 宴 ： 每 汲 取 一 层 叠 加 的 恐 惧 ， 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">35, 45, 55, 65, 75</acronym> 点 活 力。</p><p>\t地 狱 光 环 ： 范 围 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">0, 0, 1, 1, 2</acronym> 码。</p>",
+                "info_text": "<p>恶 魔 空 间 的 力 量 充 溢 了 你 的 身 体 ， 将 你 转 换 成 一 个 强 大 的 恶魔  ， 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 5, 6, 7, 7</acronym> 回 合 。 </p><p>\t变 身 期 间 ， 体 力 恢 复 和 物 理 强 度 增 加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">24, 31, 36, 41, 44</acronym> ， 缴 械 和 震 慑 抗 性 增加 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">60%, 78%, 90%, 100%, 100%</acronym> 。</p><p>\t物 理 强 度 ， 体 力 恢 复 ， 状 态 抗 性 加 值 受 法 力 强 度 加 成。</p><p>\t变 身 期 间 ， 其 他 技 能 也 受 到 强 化：</p><p>\t汲 魂 痛 击 ： 冷 却 时 间 减 少 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 1, 2, 2</acronym> 。</p><p>\t舍 身 一 击 ： 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">10%, 20%, 30%, 40%, 50%</acronym> 全 体 抗 性 穿 透 ，持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4, 4, 5, 5, 6</acronym> 回 合。</p><p>\t歼 灭 挥 斩 ： 增 加 半 径 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 1, 1, 2</acronym> 。</p><p>\t锁 魂 之 链 ： 如 果 命 中 ， 额 外 附 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 2, 2, 3</acronym> 次 40% 武 器 伤 害 的 攻 击。</p><p>\t焚 尽 强 击 ： 增 加 额 外 伤 害 几 率 至 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">35%, 45%, 55%, 65%, 75%</acronym> 。</p><p>\t恐 惧 盛 宴 ： 每 汲 取 一 层 叠 加 的 恐 惧 ， 获 得 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">0.4, 0.8, 1.2, 1.6, 2.0</acronym> 点 活 力。</p><p>\t地 狱 光 环 ： 范 围 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 1, 1, 1, 2</acronym> 码。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "multi_require": true,
@@ -3655,7 +3839,7 @@
                 ],
                 "short_name": "DESTROYER",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/wrath.lua",
+                    "data-ashes-urhrok/talents/corruptions/wrath.lua",
                     163
                 ],
                 "type": [
@@ -3686,19 +3870,27 @@
                 "direct_hit": true,
                 "id": "T_FEARSCAPE_SHIFT",
                 "image": "fearscape_shift.png",
-                "info_text": "<p>开 启 通 往 恶 魔 空 间 的 炼 狱 之 门 ， 踏 入 并 传 送 到 附 近 位 置 。 </p><p>\t当 你 踏 出 炼 狱 之 门 时 ， 炼 狱 之 火 随 之 喷 发 ，造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">156, 212, 255, 291, 323</acronym> 恶 魔 之 火 伤 害 ，伤 害 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">156, 211, 254, 291, 323</acronym> 码 内 所 有 生 物。地 上 的 余 烬 会 造 成 持 续 4 回 合 的 额 外 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2.00, 3.00, 4.00, 5.00, 6.00</acronym> 恶 魔 之 火 伤 害。</p><p></p><p>\t穿 越 空 间 增 强 了 你 的 直 觉 ， 让 你 能 够 在 3 回 合 内 觉 察 到 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">8, 8, 9, 9, 10</acronym> 码 内 的 所 有 敌 对 生 物 。 </p><p> </p><p>\t伤 害 受 法 术 强 度 加 成 ， 范 围 随 技 能 等 级 增 大。</p>",
+                "info_text": "<p>开 启 通 往 恶 魔 空 间 的 炼 狱 之 门 ， 踏 入 并 传 送 到 附 近 位 置 。 </p><p>\t当 你 踏 出 炼 狱 之 门 时 ， 炼 狱 之 火 随 之 喷 发 ，造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">156, 212, 255, 291, 323</acronym> 恶 魔 之 火 伤 害 ，伤 害 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 6</acronym> 码 内 所 有 生 物。地 上 的 余 烬 会 造 成 持 续 4 回 合 的 额 外 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">156, 212, 255, 291, 323</acronym> 恶 魔 之 火 伤 害。</p><p></p><p>\t穿 越 空 间 增 强 了 你 的 直 觉 ， 让 你 能 够 在 3 回 合 内 觉 察 到 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">8, 8, 9, 9, 10</acronym> 码 内 的 所 有 敌 对 生 物 。 </p><p> </p><p>\t伤 害 受 法 术 强 度 加 成 ， 范 围 随 技 能 等 级 增 大。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Fearscape Shift",
                 "no_silence": true,
                 "points": 5,
                 "random_ego": "attack",
                 "range": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">4.0, 6.0, 7.0, 8.0, 8.0</acronym>",
                 "reflectable": true,
+                "require": [
+                    "等级 10, 魔法 22",
+                    "等级 11, 魔法 24",
+                    "等级 12, 魔法 26",
+                    "等级 13, 魔法 28",
+                    "等级 14, 魔法 30"
+                ],
                 "requires_target": true,
                 "short_name": "FEARSCAPE_SHIFT",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/fearfire.lua",
+                    "data-ashes-urhrok/talents/corruptions/fearfire.lua",
                     22
                 ],
                 "type": [
@@ -3716,14 +3908,22 @@
                 "info_text": "<p>移 除 所 有 负 面 状 态 ， 但 每 移 除 一 个 状 态 ， 会 在 7 回 合 内 灼 烧 自 身 ，受 到 合 计 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">13%, 10%, 7%, 5%, 5%</acronym> 最 大 生 命 值 的 伤 害。</p><p>\t伤 害 无 视 一 切 抗 性 、防 御 效 果 和 伤 害 吸 收。</p><p>\t</p><p>此 技 能 瞬 发 。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Cauterize Spirit",
                 "no_energy": true,
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 14, 魔法 30",
+                    "等级 15, 魔法 32",
+                    "等级 16, 魔法 34",
+                    "等级 17, 魔法 36",
+                    "等级 18, 魔法 38"
+                ],
                 "short_name": "CAUTERIZE_SPIRIT",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/fearfire.lua",
+                    "data-ashes-urhrok/talents/corruptions/fearfire.lua",
                     22
                 ],
                 "type": [
@@ -3741,15 +3941,23 @@
                 "info_text": "<p>在 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6, 7, 9, 10, 11</acronym> 码 的 锥 形 范 围 内 ，喷 出 持 续 4 回 合 的 暗 黑 火 焰。</p><p>\t范 围 内 所 有 的 非 恶 魔 生 物 受 到 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100\">123, 160, 188, 211, 231</acronym> 火 焰 伤 害 ， 同 时 火 焰 会 造 成 每 回 合 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>力量 100\">29, 37, 44, 49, 54</acronym> 的 灼 烧 伤 害。</p><p>\t恶 魔 受 到 等 量 的 治 疗 。</p><p> </p><p>\t伤 害 受 力 量 加 成 ， 该 技 能 使 用 魔 法 暴 击 率。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Infernal Breath",
                 "no_silence": true,
                 "points": 5,
                 "random_ego": "attack",
                 "range": "0.0",
+                "require": [
+                    "等级 18, 魔法 38",
+                    "等级 19, 魔法 40",
+                    "等级 20, 魔法 42",
+                    "等级 21, 魔法 44",
+                    "等级 22, 魔法 46"
+                ],
                 "requires_target": true,
                 "short_name": "INFERNAL_BREATH_DOOM",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/fearfire.lua",
+                    "data-ashes-urhrok/talents/corruptions/fearfire.lua",
                     118
                 ],
                 "type": [
@@ -3768,13 +3976,21 @@
                 "info_text": "<p>你 的 身 体 成 为 恶 魔 空 间 与 现 实 的 纽 带 ，在 2 码 范 围 内 散 发 出 火 焰 光 环，每 回 合 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">45, 61, 74, 85, 94</acronym> 点 火 焰 伤 害。</p><p>\t</p><p>伤 害 受 法 术 强 度 加 成。</p>",
                 "is_spell": true,
                 "mode": "持续",
+                "multi_require": true,
                 "name": "Fearscape Aura",
                 "no_silence": true,
                 "points": 5,
                 "range": "0.0",
+                "require": [
+                    "等级 22, 魔法 46",
+                    "等级 23, 魔法 48",
+                    "等级 24, 魔法 50",
+                    "等级 25, 魔法 52",
+                    "等级 26, 魔法 54"
+                ],
                 "short_name": "FEARSCAPE_AURA",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/fearfire.lua",
+                    "data-ashes-urhrok/talents/corruptions/fearfire.lua",
                     161
                 ],
                 "sustain_vim": 40,
@@ -3804,12 +4020,20 @@
                 "info_text": "<p>每 次 你 击 杀 一 个 燃 烧 的 敌 对 生 物 时 ，会 立 刻 对 一 个 随 机 相 邻 敌 对 生 物 进 行 一 次 攻 击， 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">46%, 67%, 86%, 103%, 119%</acronym> 武 器 伤 害。</p><p>\t另 外 ， 焚 尽 强 击 必 定 被 此 效果 触 发 （ 或 者 下 一 次 攻 击 ） ，对 所 有 击 中 的 敌 对 生 物 造 成 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">121%, 142%, 161%, 178%, 194%</acronym> 倍 伤 害。</p><p>\t此 效 果 每 回 合 只 能 触 发 一 次。</p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Burning Sacrifice",
                 "no_silence": true,
                 "points": 5,
+                "require": [
+                    "等级 0, 魔法 12",
+                    "等级 1, 魔法 14",
+                    "等级 2, 魔法 16",
+                    "等级 3, 魔法 18",
+                    "等级 4, 魔法 20"
+                ],
                 "short_name": "BURNING_SACRIFICE",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua",
+                    "data-ashes-urhrok/talents/corruptions/heart-of-fire.lua",
                     22
                 ],
                 "type": [
@@ -3826,13 +4050,21 @@
                 "info_text": "<p>恶 魔 之 炎 抚 育 你 成 长 。 你 对 范 围 5 内 燃 烧 的 敌 对 生 物 施 加 诅 咒 。 </p><p>\t范 围 内 每 有 一 个 燃 烧 的 敌 对 生 物 ，每 回 合 你 获 得 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">14, 20, 24, 27, 30</acronym> 点 生 命 值 和 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">7, 9, 11, 13, 14</acronym> 点 活 力。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Devouring Flames",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 4, 魔法 20",
+                    "等级 5, 魔法 22",
+                    "等级 6, 魔法 24",
+                    "等级 7, 魔法 26",
+                    "等级 8, 魔法 28"
+                ],
                 "short_name": "DEVOURING_FLAMES",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua",
+                    "data-ashes-urhrok/talents/corruptions/heart-of-fire.lua",
                     61
                 ],
                 "type": [
@@ -3849,12 +4081,20 @@
                 "info_text": "<p>火 焰 在 你 四 周 怒 吼 激 荡 。 每 回 合 对 10 码 内 所 有 燃 烧 敌 对 生 物 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">73点, 98点, 118点, 135点, 150点</acronym> <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 2, 2, 3, 3</acronym> 码 范 围 的 AOE 伤 害 。</p><p>\t无 论 敌 对 生 物 周  围 有 多 少 个 燃 烧 敌 对 生 物 ， 每 个 敌 对 生 物 只 会 被 伤 害 一 次。 </p>",
                 "is_spell": true,
                 "mode": "被动",
+                "multi_require": true,
                 "name": "Inferno Nexus",
                 "no_silence": true,
                 "points": 5,
+                "require": [
+                    "等级 8, 魔法 28",
+                    "等级 9, 魔法 30",
+                    "等级 10, 魔法 32",
+                    "等级 11, 魔法 34",
+                    "等级 12, 魔法 36"
+                ],
                 "short_name": "INFERNO_NEXUS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua",
+                    "data-ashes-urhrok/talents/corruptions/heart-of-fire.lua",
                     95
                 ],
                 "type": [
@@ -3871,13 +4111,21 @@
                 "info_text": "<p>生 命 值 恢 复 为 满 值 ， 但 治 疗 值 转 化 为 持 续 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5, 6, 8, 9, 10</acronym> 回 合 的 伤 害 。 </p><p>\t伤 害 会 平 均 分 配 给 你 自 己 和 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 3, 4, 5, 5</acronym> 码 范 围 内 的 燃 烧 敌 对 生 物。</p><p>\t你 受 到 的 伤 害 无 法 减 免 ， 敌 对 生 物 受 到 火 焰 伤 害。</p>",
                 "is_spell": true,
                 "mode": "主动",
+                "multi_require": true,
                 "name": "Blazing Rebirth",
                 "no_silence": true,
                 "points": 5,
                 "range": "1.0",
+                "require": [
+                    "等级 12, 魔法 36",
+                    "等级 13, 魔法 38",
+                    "等级 14, 魔法 40",
+                    "等级 15, 魔法 42",
+                    "等级 16, 魔法 44"
+                ],
                 "short_name": "BLAZING_REBIRTH",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua",
+                    "data-ashes-urhrok/talents/corruptions/heart-of-fire.lua",
                     131
                 ],
                 "type": [
@@ -3922,7 +4170,7 @@
                 ],
                 "short_name": "DISMEMBER",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demonic-strength.lua",
+                    "data-ashes-urhrok/talents/corruptions/demonic-strength.lua",
                     22
                 ],
                 "type": [
@@ -3937,7 +4185,7 @@
                 "generic": true,
                 "id": "T_SURGE_OF_POWER",
                 "image": "surge_of_power.png",
-                "info_text": "<p>你 使 用 体 内 蕴 藏 的 活 力 强 化 自 己 的 身 体 ， 恢 复 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19%, 27%, 32%, 37%, 41%</acronym> 最 大 体 力 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">值（19, 值（27, 值（32, 值（37, 值（41</acronym> 点）和 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19%, 26%, 31%, 36%, 40%</acronym> 最 大 生 命 值 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">（19, （26, （31, （36, （40</acronym> 点）。</p><p>\t同 时 让 你 在 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">-171, -231, -278, -318, -353</acronym> 生 命 时 才 会 死 亡 ， 此 效 果 持 续 8 回 合。</p><p>\t此 技 能 瞬 发 ， 恢 复 值 受 法 术 强 度 加 成。</p>",
+                "info_text": "<p>你 使 用 体 内 蕴 藏 的 活 力 强 化 自 己 的 身 体 ， 恢 复 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19%, 27%, 32%, 37%, 41%</acronym> 最 大 体 力 值（ <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19, 27, 32, 37, 41</acronym> 点）和 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19%, 26%, 31%, 36%, 40%</acronym> 最 大 生 命 值 （ <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">19, 26, 31, 36, 40</acronym> 点）。</p><p>\t同 时 让 你 在 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30,<br>法术强度 100\">-171, -231, -278, -318, -353</acronym> 生 命 时 才 会 死 亡 ， 此 效 果 持 续 8 回 合。</p><p>\t此 技 能 瞬 发 ， 恢 复 值 受 法 术 强 度 加 成。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "multi_require": true,
@@ -3956,7 +4204,7 @@
                 ],
                 "short_name": "SURGE_OF_POWER",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demonic-strength.lua",
+                    "data-ashes-urhrok/talents/corruptions/demonic-strength.lua",
                     46
                 ],
                 "type": [
@@ -3971,7 +4219,7 @@
                 "generic": true,
                 "id": "T_DEMONIC_BLOOD",
                 "image": "demonic_blood.png",
-                "info_text": "<p>你 体 内 涌 动 着 恶 魔 之 血 ，增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">7, 12, 17, 21, 25</acronym> 点 法 术 强 度 和 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">8, 17, 25, 33, 40</acronym> 点 活 力 上 限。</p><p>\t同 时 获 得 相 当 于 当 前 活 力 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5%, 6%, 8%, 9%, 10%</acronym> 的 全 伤 害 加 成 （ 当 前 0%） 。</p>",
+                "info_text": "<p>你 体 内 涌 动 着 恶 魔 之 血 ，增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">7, 12, 17, 21, 25</acronym> 点 法 术 强 度 和 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">8, 17, 25, 33, 40</acronym> 点 活 力 上 限。</p><p>\t同 时 获 得 相 当 于 当 前 活 力 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">5%, 6%, 8%, 9%, 10%</acronym> 的 全 伤 害 加 成 （ 当 前 0% ） 。</p>",
                 "is_spell": true,
                 "mode": "被动",
                 "multi_require": true,
@@ -3987,7 +4235,7 @@
                 ],
                 "short_name": "DEMONIC_BLOOD",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demonic-strength.lua",
+                    "data-ashes-urhrok/talents/corruptions/demonic-strength.lua",
                     77
                 ],
                 "type": [
@@ -4020,7 +4268,7 @@
                 ],
                 "short_name": "ABYSSAL_SHIELD",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/demonic-strength.lua",
+                    "data-ashes-urhrok/talents/corruptions/demonic-strength.lua",
                     103
                 ],
                 "sustain_vim": 15,
@@ -4068,7 +4316,7 @@
                 ],
                 "short_name": "HORRIFYING_BLOWS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/oppression.lua",
+                    "data-ashes-urhrok/talents/corruptions/oppression.lua",
                     27
                 ],
                 "sustain_vim": 20,
@@ -4085,7 +4333,7 @@
                 "generic": true,
                 "id": "T_MASS_HYSTERIA",
                 "image": "mass_hysteria.png",
-                "info_text": "<p>增 强 目 标 的 恐 惧 ， 目 标 身 上 每 有 一 次 恐 惧 叠 加 ，效 果 增 强 1%， 持 续 时 间 增 大 到 10 回 合 。 增 强 后 的 恐 惧 效 果 影 响 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 5, 6, 8, 9</acronym> 码 内 所 有 敌 对 生 物。</p>",
+                "info_text": "<p>增 强 目 标 的 恐 惧 ， 目 标 身 上 每 有 一 次 恐 惧 叠 加 ，效 果 增 强 1% ， 持 续 时 间 增 大 到 10 回 合 。 增 强 后 的 恐 惧 效 果 影 响 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">3, 5, 6, 8, 9</acronym> 码 内 所 有 敌 对 生 物。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "multi_require": true,
@@ -4103,7 +4351,7 @@
                 "requires_target": true,
                 "short_name": "MASS_HYSTERIA",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/oppression.lua",
+                    "data-ashes-urhrok/talents/corruptions/oppression.lua",
                     101
                 ],
                 "type": [
@@ -4137,7 +4385,7 @@
                 ],
                 "short_name": "FEARFEAST",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/oppression.lua",
+                    "data-ashes-urhrok/talents/corruptions/oppression.lua",
                     152
                 ],
                 "type": [
@@ -4172,7 +4420,7 @@
                 "requires_target": true,
                 "short_name": "HOPE_WANES",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/corruptions/oppression.lua",
+                    "data-ashes-urhrok/talents/corruptions/oppression.lua",
                     212
                 ],
                 "type": [

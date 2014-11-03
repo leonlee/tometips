@@ -920,12 +920,12 @@
         "points": 1,
         "talents": [
             {
-                "chnname": "Haste of the Doomed",
+                "chnname": "加速",
                 "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">45, 31, 25, 22, 20</acronym>",
                 "generic": true,
                 "id": "T_HASTE_OF_THE_DOOMED",
                 "image": "haste_of_the_doomed.png",
-                "info_text": "<p>Hasten yourself out of phase, teleporting you randomly in a range of 10.</p><p>Afterwards you stay out of phase for 5 turns. In this state your defense is increased by <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100\">7, 11, 17, 21, 25</acronym> and all your resistances by <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100\">7%, 11%, 17%, 21%, 25%.</acronym></p><p>The bonus will increase with your Willpower.</p>",
+                "info_text": "<p>加 速 自 身 ， 以 至 于 脱 离 空 间 ， 在 半 径 10 范 围 内 随 机 传 送 。</p><p>\t\t之 后 ， 你 停 留 在 相 位 外 5 回 合 ， 闪 避 增 加 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100\">7, 11, 17, 21, 25</acronym> , 全 体 抗 性 增 加 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100\">7%, 11%, 17%, 21%, 25%</acronym> 。</p><p>\t\t效 果 受 意 志 加 成。</p>",
                 "is_spell": true,
                 "is_teleport": true,
                 "mode": "主动",
@@ -943,7 +943,7 @@
                 ],
                 "short_name": "HASTE_OF_THE_DOOMED",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/misc/races.lua",
+                    "../data-ashes-urhrok/talents/misc/races.lua",
                     34
                 ],
                 "type": [
@@ -953,11 +953,11 @@
                 "use_speed": "瞬间"
             },
             {
-                "chnname": "Resilience of the Doomed",
+                "chnname": "强韧",
                 "generic": true,
                 "id": "T_RESILIENCE_OF_THE_DOOMED",
                 "image": "resilience_of_the_doomed.png",
-                "info_text": "<p>The tortures you had to endure on the Fearscape have increased your resilience.</p><p>All detrimental status effects last <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6%, 12%, 16%, 20%, 23%</acronym> less on you and all direct critical hits (physical, mental, spells) against you have a <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12%, 19%, 26%, 32%, 38%</acronym> lower critical multiplier (but always do at least normal damage).</p>",
+                "info_text": "<p>你 在 恶 魔 空 间 忍受 的 折 磨 让 你 更 加 强 韧。</p><p>\t\t所 有 负 面 状 态 持 续 时 间 减 少 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6%, 12%, 16%, 20%, 23%</acronym> , 同 时 你 能 摆 脱 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">12%, 19%, 26%, 32%, 38%</acronym> 暴 击 伤 害 。</p>",
                 "is_spell": true,
                 "mode": "被动",
                 "multi_require": true,
@@ -972,7 +972,7 @@
                 ],
                 "short_name": "RESILIENCE_OF_THE_DOOMED",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/misc/races.lua",
+                    "../data-ashes-urhrok/talents/misc/races.lua",
                     78
                 ],
                 "type": [
@@ -981,12 +981,12 @@
                 ]
             },
             {
-                "chnname": "Corruption of the Doomed",
+                "chnname": "腐化",
                 "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">46, 42, 38, 35, 33</acronym>",
                 "generic": true,
                 "id": "T_CORRUPTION_OF_THE_DOOMED",
                 "image": "corruption_of_the_doomed.png",
-                "info_text": "<p>Your original invisibility talent was corrupted and twisted.</p><p>You have <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">23%, 32%, 39%, 45%, 50%</acronym> chance to turn into a dúathedlen for 5 turns, when hit by a blow doing at least 10% of your total life.</p><p>While in this form you gain the following effects:</p><ul><li> you have permanent stealth (power <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>魔法 10, 25, 50, 75, 100\">7, 11, 17, 21, 25</acronym>)</li><li> your darkness damage is increased by <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6%, 11%, 13%, 15%, 16%</acronym></li><li> any non mind and non physical damage you deal above 1 triggers a darkness explosion of radius 1 for half the damage (this can only happen once per turn)</li><li> when you transform the cooldowns of Haste of the Doomed and Pitiless are reset</li></ul><p></p>",
+                "info_text": "<p>你 原 本 的 隐 身 技 能 被 腐 化 扭 曲 了 。</p><p>\t\t 当 你 受 到 一 次 伤 害 超 过 10%总 生 命 值 时 ，有 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">23%, 32%, 39%, 45%, 50%</acronym> 几 率 转 变 成 多 瑟 顿 形 态 5 回 合 。</p><p>\t\t 在 多 瑟 顿 形 态 下 ：</p><p>\t\t-  你 获 得 永 久 潜 行 (强 度 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>魔法 10, 25, 50, 75, 100\">7, 11, 17, 21, 25</acronym> )</p><p>\t\t-  你 的 暗 影 伤 害 增 加 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">6%, 11%, 13%, 15%, 16%</acronym></p><p>\t\t-  每 当 你 造 成 超 过 1 点 的 非 物 理 非 精 神 伤 害 时 ，在 半 径 1 的 范 围 内 产 生 一 次 暗 影 爆 炸 ，造 成 额 外 50%伤 害 （每 回 合 至 多 1 次 ）。</p><p>\t\t-  变 形 时 重 置 种 族 技 能 “加 速 ”与 种 族 技 能 “无 情 ”</p><p>\t\t</p>",
                 "is_spell": true,
                 "mode": "持续",
                 "multi_require": true,
@@ -1003,7 +1003,7 @@
                 ],
                 "short_name": "CORRUPTION_OF_THE_DOOMED",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/misc/races.lua",
+                    "../data-ashes-urhrok/talents/misc/races.lua",
                     97
                 ],
                 "type": [
@@ -1013,12 +1013,12 @@
                 "use_speed": "瞬间"
             },
             {
-                "chnname": "Pitiless",
+                "chnname": "无情",
                 "cooldown": "<acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">44, 38, 33, 30, 28</acronym>",
                 "generic": true,
                 "id": "T_PITILESS",
                 "image": "pitiless.png",
-                "info_text": "<p>You launch a mental assault on the target.</p><p>If it fails a spell save you increase the cooldown of any already cooling down talents by <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 3, 4, 5, 5,</acronym> the duration of any magical, physical or mental detrimental effects by <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 4, 5, 6, 6</acronym> and decreases the duration of any magical, physical or mental beneficial effects by <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 3, 4, 5, 5.</acronym></p>",
+                "info_text": "<p>你 对 目 标 的 精 神 进 行 冲 击 。</p><p>\t\t 如 果 对 方 法 术 豁 免 失 败 ，他 所 有 正 在 冷 却 中 的 技 能 冷 却 时 间 延 长 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 3, 4, 5, 5</acronym> 回 合 ，所 有 负 面 魔 法 、物 理 、精 神 效 果 延 长 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">2, 4, 5, 6, 6</acronym> 回 合 ，所 有 正 面 魔 法 、物 理 、精 神 效 果 缩 短 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.30\">1, 3, 4, 5, 5</acronym> 回 合 。</p>",
                 "is_spell": true,
                 "mode": "主动",
                 "multi_require": true,
@@ -1036,7 +1036,7 @@
                 "requires_target": true,
                 "short_name": "PITILESS",
                 "source_code": [
-                    "../tome-ashes-urhrok/data/talents/misc/races.lua",
+                    "../data-ashes-urhrok/talents/misc/races.lua",
                     139
                 ],
                 "type": [
