@@ -1796,18 +1796,99 @@
         "type": "chronomancy/spacetime-weaving"
     },
     {
-        "chndescription": " 多 种 时 空 系 效 果。 ",
-        "chnname": "Other",
-        "description": "Miscellaneous Chronomancy effects.",
-        "generic": true,
+        "chndescription": "Talents of the various entities of the world.",
+        "chnname": "other",
+        "description": "Talents of the various entities of the world.",
+        "hide": true,
         "is_spell": true,
-        "name": "Other",
+        "name": "other",
         "no_silence": true,
         "points": 1,
         "talents": [
             {
+                "chnname": "减速",
+                "cooldown": 8,
+                "cost": "紊乱值消耗：  10",
+                "direct_hit": true,
+                "hide": true,
+                "id": "T_SPEED_SAP",
+                "image": "speed_sap.png",
+                "info_text": "<p>降 低 目 标 30% 速 度 并 在 3 回 合 内 造 成 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>法术强度 100,<br>紊乱值 300\">133, 179, 215, 246, 272</acronym> 时 空 伤 害。</p>",
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Speed Sap",
+                "no_silence": true,
+                "paradox": 10,
+                "points": 5,
+                "range": "3.0",
+                "reflectable": true,
+                "requires_target": true,
+                "short_name": "SPEED_SAP",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    1543
+                ],
+                "type": [
+                    "chronomancy/other",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "挖掘魔狂乱",
+                "cooldown": 12,
+                "direct_hit": true,
+                "hide": true,
+                "id": "T_DREDGE_FRENZY",
+                "image": "dredge_frenzy.png",
+                "info_text": "<p>使 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">2, 3, 4, 5, 6</acronym> 码 内 的 挖 掘 魔 陷 入 狂 乱 <acronym class=\"talent-variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00\">1, 2, 3, 4, 5</acronym> 回 合。</p><p>狂 乱 会 使 其 全 体 速 度 上 升 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>法术强度 100\">29%, 36%, 40%, 43%, 46%,</acronym> 物 理 暴 击 提 升 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>法术强度 100\">29%, 36%, 40%, 43%, 46%,</acronym> 生 命 值 直 至 <acronym class=\"variable\" title=\"以下状况下的数值<br>技能等级 1-5,<br>技能树等级 1.00,<br>法术强度 100\">-29%, -36%, -40%, -43%, -46%</acronym> 才 会 死 亡。</p>",
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Dredge Frenzy",
+                "no_silence": true,
+                "points": 5,
+                "range": "0.0",
+                "short_name": "DREDGE_FRENZY",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    1579
+                ],
+                "type": [
+                    "chronomancy/other",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
+                "chnname": "生命离断",
+                "cooldown": 20,
+                "cost": "紊乱值消耗：  1",
+                "direct_hit": true,
+                "hide": true,
+                "id": "T_SEVER_LIFELINE",
+                "image": "sever_lifeline.png",
+                "info_text": "<p>引 导 法 术 离 断 目 标 的 生 命 线， 如 果 4 回 合 之 后 目 标 仍 然 在 视 线 内 则 会 立 即 死 亡。</p>",
+                "is_spell": true,
+                "mode": "主动",
+                "name": "Sever Lifeline",
+                "no_silence": true,
+                "paradox": 1,
+                "points": 5,
+                "range": "10.0",
+                "requires_target": true,
+                "short_name": "SEVER_LIFELINE",
+                "source_code": [
+                    "data/talents/misc/npcs.lua",
+                    1632
+                ],
+                "type": [
+                    "chronomancy/other",
+                    1
+                ],
+                "use_speed": "1 回合"
+            },
+            {
                 "chnname": "时空调谐",
-                "generic": true,
                 "id": "T_SPACETIME_TUNING",
                 "image": "spacetime_tuning.png",
                 "info_text": "<p>设 置 一 个 紊 乱 值 ， 休 息 时 会 自 动 在 <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100,<br>法术强度 10, 25, 50, 75, 100,<br>紊乱值 300\">19, 18, 15, 13, 10</acronym> 回 合 内 （ 最 低 10 回 合 ） 调 整 至 该 值 ， 不 能 超 过 1000。</p><p>受 法 术 强 度 影 响 ， 时 间 会 缩 短 。</p><p></p><p>设 定 紊 乱 值: 0</p><p>紊 乱 值 加 成: 100%</p><p>意 志 修 正 值: <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100,<br>法术强度 10, 25, 50, 75, 100,<br>紊乱值 300\">10, 25, 50, 75, 100</acronym></p><p>修 正 紊 乱 值: <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100,<br>法术强度 10, 25, 50, 75, 100,<br>紊乱值 300\">290, 275, 250, 225, 200</acronym></p><p>当 前 失 败 率: <acronym class=\"stat-variable\" title=\"以下状况下的数值<br>意志 10, 25, 50, 75, 100,<br>法术强度 10, 25, 50, 75, 100,<br>紊乱值 300\">3%, 2%, 2%, 2%, 0%</acronym></p><p>当 前 变 异 率: 0%</p><p>当 前 走 火 率: 0%</p>",
